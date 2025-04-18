@@ -1,6 +1,6 @@
 body {
-	background: linear-gradient(#e3e3e3 1px, transparent 1px),
-				linear-gradient(to right, #e3e3e3 1px, transparent 1px);
+	background: linear-gradient(#e3e3e3 2px, transparent 2px),
+				linear-gradient(to right, #e3e3e3 2px, transparent 2px);
 	background-size: 40px 40px;
 	/* font-family: 'Helvetica Neue', sans-serif; */
 	color: #333;
