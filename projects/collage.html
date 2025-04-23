@@ -5,8 +5,8 @@ title: Gallery
 
 
 {% for file in site.static_files %}
-	{% if file.path contains '/assets/images/museum_guys' and file.extname == '.png' %}
-		<div class="col-4 g-0">
+	{% if file.path contains '/assets/images/collage_journal'%}
+		<div class="col-6 g-0">
 			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
 		</div>
 	{% endif %}
