@@ -1,0 +1,13 @@
+---
+layout: gallery
+title: Junk Journal
+---
+
+
+{% for file in site.static_files %}
+	{% if file.path contains '/assets/images/junkjournal'%}
+		<div class="col-6 p-2">
+			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+		</div>
+	{% endif %}
+{% endfor %}

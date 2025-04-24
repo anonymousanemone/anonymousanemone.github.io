@@ -1,0 +1,100 @@
+---
+layout: default
+title: Glass Octopus
+---
+
+<div class="container py-5">
+	<div class="section text-center mb-4 p-2">
+		<h1>{{ page.title }} </h1>
+	</div>
+
+    <!-- shape  -->
+    <div class="section text-center mb-4 p-2">
+		<h3>Shape</h3>
+	</div>
+	<div class="d-flex flex-wrap justify-content-center">
+		{% for file in site.static_files %}
+            {% if file.path contains '/assets/images/glass/octopus/shape'%}
+                <div class="col-2 p-2">
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                </div>
+            {% endif %}
+        {% endfor %}
+	</div>
+
+    <!-- line  -->
+    <div class="section text-center mb-4 p-2">
+		<h3>Lines</h3>
+	</div>
+	<div class="d-flex flex-wrap justify-content-center">
+		{% for file in site.static_files %}
+            {% if file.path contains '/assets/images/glass/octopus/line'%}
+                <div class="col-2 p-2">
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                </div>
+            {% endif %}
+        {% endfor %}
+	</div>
+
+    <!-- color section -->
+    <div class="section text-center mb-4 p-2">
+		<h3>Color</h3>
+	</div>
+	<div class="d-flex flex-wrap justify-content-center">
+		{% for file in site.static_files %}
+            {% if file.path contains '/assets/images/glass/octopus/color'%}
+                <div class="col-2 p-2">
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                </div>
+            {% endif %}
+        {% endfor %}
+	</div>
+
+    <!-- glass  -->
+    <div class="section text-center mb-4 p-2">
+		<h3>Glass</h3>
+	</div>
+	<div class="d-flex flex-wrap justify-content-center">
+		{% for file in site.static_files %}
+            {% if file.path contains '/assets/images/glass/octopus/glass'%}
+                <div class="col-2 p-2">
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                </div>
+            {% endif %}
+        {% endfor %}
+	</div>
+
+    <!-- process  -->
+    <div class="section text-center mb-4 p-2">
+		<h3>Process</h3>
+	</div>
+	<div class="d-flex flex-wrap justify-content-center">
+		{% for file in site.static_files %}
+            {% if file.path contains '/assets/images/glass/octopus/process'%}
+                <div class="col-2 p-2">
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                </div>
+            {% endif %}
+        {% endfor %}
+	</div>
+
+    <!-- final  -->
+    <div class="section text-center mb-4 p-2">
+		<h3>Summary</h3>
+	</div>
+	<div class="d-flex flex-wrap justify-content-center">
+		{% for file in site.static_files %}
+            {% if file.path contains '/assets/images/glass/octopus/final'%}
+                <div class="col-2 p-2">
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                </div>
+            {% endif %}
+        {% endfor %}
+        <div class="col-2 p-2">
+            <img src="/assets/images/glass/octopus/pattern.png" alt="Final pattern" class="img-fluid w-100">
+        </div>
+	</div>
+	
+</div>
+
+

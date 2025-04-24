@@ -1,0 +1,58 @@
+---
+layout: default
+title: Poppy Panel
+---
+
+<div class="container py-5">
+	<div class="section text-center mb-4 p-2">
+		<h1>{{ page.title }} </h1>
+	</div>
+
+    <!-- color section -->
+    <div class="section text-center mb-4 p-2">
+		<h3>Color</h3>
+	</div>
+	<div class="d-flex flex-wrap justify-content-center">
+		{% for file in site.static_files %}
+            {% if file.path contains '/assets/images/glass/poppy/color'%}
+                <div class="col-2 p-2">
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                </div>
+            {% endif %}
+        {% endfor %}
+	</div>
+
+    <!-- process  -->
+    <div class="section text-center mb-4 p-2">
+		<h3>Process</h3>
+	</div>
+	<div class="d-flex flex-wrap justify-content-center">
+		{% for file in site.static_files %}
+            {% if file.path contains '/assets/images/glass/poppy/process'%}
+                <div class="col-2 p-2">
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                </div>
+            {% endif %}
+        {% endfor %}
+	</div>
+
+    <!-- final  -->
+    <div class="section text-center mb-4 p-2">
+		<h3>Summary</h3>
+	</div>
+	<div class="d-flex flex-wrap justify-content-center">
+		{% for file in site.static_files %}
+            {% if file.path contains '/assets/images/glass/poppy/final'%}
+                <div class="col-2 p-2">
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                </div>
+            {% endif %}
+        {% endfor %}
+        <div class="col-2 p-2">
+            <img src="/assets/images/glass/poppy/pattern.png" alt="Final pattern" class="img-fluid w-100">
+        </div>
+	</div>
+	
+</div>
+
+
