@@ -3,11 +3,10 @@ layout: gallery
 title: Sketchbook Highlights
 ---
 
-
+<div class="gallery">
 {% for file in site.static_files %}
 	{% if file.path contains '/assets/images/sketchbook' %}
-		<div class="col-md-4 p-2">
 			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-		</div>
 	{% endif %}
 {% endfor %}
+</div>

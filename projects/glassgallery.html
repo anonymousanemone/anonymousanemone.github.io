@@ -1,0 +1,12 @@
+---
+layout: gallery
+title: Stained Glass Gallery
+---
+
+<div class="gallery">
+{% for file in site.static_files %}
+	{% if file.path contains '/assets/images/glass' and file.path contains 'final' %}
+			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+	{% endif %}
+{% endfor %}
+</div>

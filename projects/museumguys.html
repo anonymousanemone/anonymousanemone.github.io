@@ -3,11 +3,10 @@ layout: gallery
 title: Little Guys from Museums
 ---
 
-
+<div class="gallery">
 {% for file in site.static_files %}
 	{% if file.path contains '/assets/images/museum_guys' and file.extname == '.png' %}
-		<div class="col-4 g-0">
-			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-		</div>
+			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100 sticker">
 	{% endif %}
 {% endfor %}
+</div>
