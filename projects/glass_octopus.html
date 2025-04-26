@@ -16,7 +16,7 @@ title: Glass Octopus
         </div>
         <div class="section col-8">
             <div class="container d-flex ">
-                <diiv class="row text-center g-3">
+                <div class="row text-center g-3">
                     <div class="col-4 d-flex flex-column row-gap-3 justify-content-center">
                         <img src="/assets/images/glass/octopus/shape1.png" alt="Alt shape" class="img-fluid w-100">
                         <img src="/assets/images/glass/octopus/shape4.png" alt="Alt shape" class="img-fluid w-100">
@@ -47,29 +47,33 @@ title: Glass Octopus
     <div class="section text-center mb-4 p-2">
 		<h3>Lines</h3>
 	</div>
-	<div class="d-flex flex-wrap justify-content-center">
-		{% for file in site.static_files %}
-            {% if file.path contains '/assets/images/glass/octopus/line'%}
-                <div class="col-2 p-2">
-                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-                </div>
-            {% endif %}
-        {% endfor %}
-	</div>
+    <div class="section">
+        <div class="d-flex flex-wrap justify-content-center">
+            {% for file in site.static_files %}
+                {% if file.path contains '/assets/images/glass/octopus/line'%}
+                    <div class="col-2 p-2">
+                        <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
 
     <!-- color section -->
     <div class="section text-center mb-4 p-2">
 		<h3>Color</h3>
 	</div>
-	<div class="d-flex flex-wrap justify-content-center">
-		{% for file in site.static_files %}
-            {% if file.path contains '/assets/images/glass/octopus/color'%}
-                <div class="col-2 p-2">
-                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-                </div>
-            {% endif %}
-        {% endfor %}
-	</div>
+    <div class="section">
+        <div class="d-flex flex-wrap justify-content-center">
+            {% for file in site.static_files %}
+                {% if file.path contains '/assets/images/glass/octopus/color'%}
+                    <div class="col-2 p-2">
+                        <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
 
     <!-- glass  -->
     <div class="section text-center mb-4 p-2">

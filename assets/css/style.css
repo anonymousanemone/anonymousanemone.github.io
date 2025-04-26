@@ -8,6 +8,7 @@
 	--darkgray: #333;
 	--lightgray: #e3e3e3;
 	--cream: #fffcf5;
+	--lightbrown: #6b6452;
   }
 
 body {
@@ -18,18 +19,12 @@ body {
 	color: black;
 	font-family: "Courier New", monospace;
 }
+
 .section {
-	border: 8px double var(--darkgray);
+	border: 8px double var(--lightbrown);
 	padding: 20px;
 	margin-bottom: 20px;
 	background-color: var(--cream);
-}
-
-.box {
-	border: 8px double var(--darkgray);
-	padding: 20px;
-	margin-bottom: 20px;
-	background-color: white;
 }
 
 .box_404 {
@@ -42,10 +37,14 @@ body {
 	font-size: 4em;
 }
 
+h1 {
+	margin-bottom: 0px;
+}
+
 .sticky-sidebar {
 	position: -webkit-sticky; /* For Safari */
 	position: sticky;
-	padding: 2rem 1rem;
+	padding: 2rem 0.75rem;
 }
 .sticky-sidebar a {
 	display: block;
@@ -53,6 +52,7 @@ body {
 	font-weight: 500;
 	text-decoration: none;
 	border-radius: 4px;
+	padding: 5px;
 }
 
 hr {
@@ -113,16 +113,18 @@ a:hover {
 	background-color: var(--lightgray);
 }
   
-/* .navbar { */
+.navbar {
 	/* display: flex;
-	justify-content: center;
-	gap: 20px; */
-	/* background-color: white; */
-	/* padding: 15px 20px; */
+	justify-content: center;*/
+	gap: 20px;
+	background-color: #fff9ea;
+	padding: 20px;
+	border-bottom: 2px solid #d8ceb3;
+	
 	/* border: 3px solid var(--darkgray); */
 	/* box-shadow: 6px 6px 0 var(--darkgray); */
 	/* margin: 10px; */
-  /* } */
+}
 
 .navbar a {
 	padding: 10px 15px;
