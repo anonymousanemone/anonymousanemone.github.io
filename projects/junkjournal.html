@@ -3,11 +3,134 @@ layout: gallery
 title: Junk Journal
 ---
 
+{% assign img_dir = site.static_files | where: "path", "/assets/images/junkjournal" %}
+{% assign images = img_dir | where_exp: "file", "file.extname == '.jpg'" %}
+{% assign image_count = images | size %}
 
+<div class="d-sm-none d-md-block">
+  <div class="flex-row d-flex justify-content-center column-gap-4 mb-4">
+    <div class="col-md-1 text-center">
+      <button class="btn btn-warning w-50 h-100" onclick="prevImage()">⟨</button>
+    </div>
+    <div class="col-md-8 text-center flip-container">
+      <img id="flipImage" src="/assets/images/junkjournal/01.jpg" alt="Flipbook Page" class="img-fluid w-100">
+    </div>
+    <div class="col-md-1 text-center">
+      <button class="btn btn-warning w-50 h-100" onclick="nextImage()">⟩</button>
+    </div>
+  </div>
+  <div class="row mx-5 mb-5">
+    <div class="thumbnail-bar" id="thumbnailBar"></div>
+  </div>
+</div>
+
+{% assign gif_names = "02,03,31" | split: "," %}
+
+<div class="row">
+  {% for file in site.static_files %}
+    {% if file.path contains '/assets/images/junkjournal' and file.extname == '.jpg' %}
+      {% assign base_name = file.name | split: "." | first %}
+      {% if gif_names contains base_name %}
+        {% assign gif_path = file.path | replace: '.jpg', '.gif' %}
+        <div class="col-md-6 col-12 p-2">
+          <img src="{{ gif_path }}" alt="{{ base_name }}.gif" class="img-fluid w-100">
+        </div>
+      {% else %}
+        <div class="col-md-6 col-12 p-2">
+          <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- <div class="row">
 {% for file in site.static_files %}
 	{% if file.path contains '/assets/images/junkjournal'%}
-		<div class="col-6 p-2">
+		<div class="col-md-6 col-12 p-2">
 			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
 		</div>
 	{% endif %}
 {% endfor %}
+</div> -->
+
+<script>
+    // const totalImages = {{ image_count }};
+    const totalImages = 40;
+    let currentIndex = 1;
+
+    function padNumber(num) {
+      return num.toString().padStart(2, '0');
+    }
+
+    function updateImage(index) {
+      const image = document.getElementById("flipImage");
+      let path = `/assets/images/junkjournal/${padNumber(index)}.jpg`;
+      imageExists(path, exists => {
+        if (exists) {
+          currentIndex = index;
+          document.getElementById('flipImage').src = path;
+        } else {
+          // Try next index in the same direction
+          const nextIndex = index > currentIndex ? index + 1 : index - 1;
+          if (nextIndex >= 1 && nextIndex <= totalImages) {
+            updateImage(nextIndex);
+          }
+        }
+      });
+      // image.src = `/assets/images/junkjournal/${padNumber(currentIndex)}.jpg`;
+    }
+    function imageExists(src, callback) {
+      const img = new Image();
+      img.onload = () => callback(true);
+      img.onerror = () => callback(false);
+      img.src = src;
+    }
+
+    function nextImage() {
+      if (currentIndex < totalImages) {
+        // currentIndex++;
+        updateImage(currentIndex+1);
+      }
+    }
+
+    function prevImage() {
+      if (currentIndex > 1) {
+        // currentIndex--;
+        updateImage(currentIndex-1);
+      }
+    }
+    function highlightThumbnail(index) {
+      document.querySelectorAll('.thumbnail-bar img').forEach(img => {
+        img.classList.remove('active');
+      });
+      const activeThumb = document.querySelector(`.thumb-${index}`);
+      if (activeThumb) activeThumb.classList.add('active');
+    }
+
+    function loadThumbnails() {
+      const container = document.getElementById('thumbnailBar');
+      for (let i = 1; i <= totalImages; i++) {
+        const src = `/assets/images/junkjournal/${padNumber(i)}.jpg`;
+        imageExists(src, exists => {
+          if (exists) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'thumb-wrapper';
+
+            const img = document.createElement('img');
+            img.src = src;
+            img.classList.add(`thumb-${i}`);
+            img.addEventListener('click', () => updateImage(i));
+
+            wrapper.appendChild(img);
+            container.appendChild(wrapper);
+          }
+        });
+      }
+    }
+
+  // Initialize
+  document.addEventListener('DOMContentLoaded', () => {
+    loadThumbnails();
+  });
+</script>
