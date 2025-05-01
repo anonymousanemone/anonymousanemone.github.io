@@ -3,55 +3,122 @@ layout: default
 title: Poppy Panel
 ---
 
-<div class="container py-5">
-	<div class="section text-center mb-4 p-2">
+<div class="container py-3">
+	<div class="row section text-center mb-4">
 		<h1>{{ page.title }} </h1>
 	</div>
 
-    <!-- color section -->
-    <div class="section text-center mb-4 p-2">
-		<h3>Color</h3>
-	</div>
-	<div class="d-flex flex-wrap justify-content-center">
-		{% for file in site.static_files %}
-            {% if file.path contains '/assets/images/glass/poppy/color'%}
-                <div class="col-2 p-2">
-                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-                </div>
-            {% endif %}
-        {% endfor %}
-	</div>
-
-    <!-- process  -->
-    <div class="section text-center mb-4 p-2">
-		<h3>Process</h3>
-	</div>
-	<div class="d-flex flex-wrap justify-content-center">
-		{% for file in site.static_files %}
-            {% if file.path contains '/assets/images/glass/poppy/process'%}
-                <div class="col-2 p-2">
-                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-                </div>
-            {% endif %}
-        {% endfor %}
-	</div>
-
-    <!-- final  -->
-    <div class="section text-center mb-4 p-2">
-		<h3>Summary</h3>
-	</div>
-	<div class="d-flex flex-wrap justify-content-center">
-		{% for file in site.static_files %}
-            {% if file.path contains '/assets/images/glass/poppy/final'%}
-                <div class="col-2 p-2">
-                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-                </div>
-            {% endif %}
-        {% endfor %}
-        <div class="col-2 p-2">
+    <div class="row mb-4 justify-content-center">
+        <div class="col-12 col-md-4 p-2"><div class="section h-100">
+            <p>Inspired by Frank Lloyd Wright's art deco windows, this pattern was created by a good friend,
+                Robin. 
+            </p>
+        </div></div>
+        <div class="col-6 col-md-4 p-2">
+            <img src="/assets/images/glass/poppy/outdoor2-final.jpg" alt="Project image" class="img-fluid">
+        </div>
+        <div class="col col-md-4 p-2">
             <img src="/assets/images/glass/poppy/pattern.png" alt="Final pattern" class="img-fluid w-100">
         </div>
 	</div>
+
+    <div class="row section text-center mb-4">
+		<h2>Process</h2>
+	</div>
+    <div class="row g-4 align-items-center">
+        <!-- initial colors -->
+        <div class="col-12">
+            <div class="section"><div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <h4>1) Initial pattern and coloring</h4>
+                    <p>Due to glass color limitations and general uncertainties 
+                        (and immense indecision by both parties), the color draft continued
+                    to change as the piece was being made...</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="d-flex flex-wrap justify-content-center">
+                            {% for file in site.static_files %}
+                                {% if file.path contains '/assets/images/glass/poppy/color'%}
+                                    <div class="col-6 col-md-6 p-2">
+                                        <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+         <!-- cutting and more colors -->
+        <div class="col-12">
+            <div class="section"><div class="row align-items-center">
+                <div class="col-12 col-md-6 order-0 order-md-1">
+                    <h4>2) Cutting and more coloring</h4>
+                    <p>I used a diamond bandsaw for the first time! It definitely does what it needs to,
+                        but if you can make the cut without the saw, just use a scorer and pliers... 
+                        It was a mildly miserable misadventure. Also, the colors were slowly finalized.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-0">
+                    <div class="row">
+                        <div class="d-flex flex-wrap justify-content-center">
+                                <div class="col-6 col-md-6 p-2">
+                                    <img src="/assets/images/glass/poppy/process-c.png" alt="Final colors" class="img-fluid w-100">
+                                </div>
+                                <div class="col-6 col-md-6 p-2">
+                                    <img src="/assets/images/glass/poppy/process1.jpg" alt="Cutting glass" class="img-fluid w-100">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+
+        <!-- pinning -->
+        <div class="col-12">
+            <div class="section"><div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <h4>3) Pinning and soldering</h4>
+                    <p>Gotta love regular shapes! They (mostly) fit pretty painlessly! 
+                        Avoid making teeny tiny pieces when you create your pattern or they get
+                    buried in solder... A good copper-foil job also goes a long way. </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <div class="col-6 p-2">
+                                <img src="/assets/images/glass/poppy/process2.jpg" alt="Foiled pieces" class="img-fluid w-100">
+                            </div>
+                            <div class="col-6 p-2">
+                                <img src="/assets/images/glass/poppy/process3.jpg" alt="Foiled pieces" class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+
+        <!-- patina-->
+        <div class="col-12">
+            <div class="section"><div class="row align-items-center">
+                <div class="col-12 col-md-6 order-0 order-md-1">
+                    <h4>5) Patina</h4>
+                    <p>I thought I would get fancy and try the copper patina for the first time... 
+                        When it works properly, it does give the solder a brilliant shine and a nice copper color,
+                        but it is pinker than the color of copper-foil and  doesn't really work on lead came.
+                        Decide at your own risk! I tried my best to undo the copper patina with a wire brush and
+                        recoated the solder with the usual black patina.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 p-2 order-1 order-md-0">
+                    <img src="/assets/images/glass/poppy/process4.jpg" alt="Patina piece" class="img-fluid w-100">
+                </div>
+            </div></div>
+        </div>
+
+
+    </div>
 	
 </div>
 
