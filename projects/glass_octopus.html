@@ -15,10 +15,10 @@ title: Cephalopod and Cranium
                 50 hour endeavor.
             </p>
         </div></div>
-        <div class="col-6 col-md-4 p-2">
+        <div class="col-12 col-md-4 p-2">
             <img src="/assets/images/glass/octopus/final.jpg" alt="Project image" class="img-fluid h-100">
         </div>
-        <div class="col col-md-4 p-2">
+        <div class="col-12 col-md-4 p-2">
             <img src="/assets/images/glass/octopus/pattern.png" alt="Final pattern" class="img-fluid w-100 px-2">
         </div>
 	</div>
@@ -35,8 +35,27 @@ title: Cephalopod and Cranium
             <p>Testing out different border shapes for the octopus.</p>
         </div></div>
         <div class="col-md-8"><div class="section">
-            <div class="row text-center g-2">
-                <div class="col-4 d-flex flex-column row-gap-2 justify-content-center">
+            <div class="row d-flex text-center g-2 align-items-center justify-content-center" data-masonry='{"percentPosition": true }'>
+                <div class="col-6 col-md-4">
+                    <img src="/assets/images/glass/octopus/shape1.png" alt="Alt shape" class="img-fluid w-100">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/assets/images/glass/octopus/shape6.png" alt="Final shape" class="img-fluid w-100">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/assets/images/glass/octopus/shape4.png" alt="Alt shape" class="img-fluid w-100">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/assets/images/glass/octopus/shape2.png" alt="Alt shape" class="img-fluid w-100">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/assets/images/glass/octopus/shape3.png" alt="Alt shape" class="img-fluid w-100">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/assets/images/glass/octopus/shape5.png" alt="Alt shape" class="img-fluid w-100">
+                </div>
+
+                <!-- <div class="col-4 d-flex flex-column row-gap-2 justify-content-center">
                     <img src="/assets/images/glass/octopus/shape1.png" alt="Alt shape" class="img-fluid w-100">
                     <img src="/assets/images/glass/octopus/shape4.png" alt="Alt shape" class="img-fluid w-100">
                 </div>
@@ -47,7 +66,7 @@ title: Cephalopod and Cranium
                 <div class="col-4 d-flex flex-column row-gap-2 justify-content-center">
                     <img src="/assets/images/glass/octopus/shape3.png" alt="Alt shape" class="img-fluid w-100">
                     <img src="/assets/images/glass/octopus/shape5.png" alt="Alt shape" class="img-fluid w-100">
-                </div>
+                </div> -->
             </div>
         </div></div>
     </div>
@@ -59,10 +78,10 @@ title: Cephalopod and Cranium
             <p>Prototyping different ways of breaking up the background.</p>
         </div></div>
         <div class="col-md-8"><div class="section">
-            <div class="row g-2">
+            <div class="row g-2 justify-content-center">
                 {% for file in site.static_files %}
                     {% if file.path contains '/assets/images/glass/octopus/line'%}
-                        <div class="col-4 p-1">
+                        <div class="col-6 col-md-4 p-1 m-0">
                             <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
                         </div>
                     {% endif %}
@@ -81,7 +100,7 @@ title: Cephalopod and Cranium
             <div class="row text-center g-2">
             {% for file in site.static_files %}
                 {% if file.path contains '/assets/images/glass/octopus/color'%}
-                    <div class="col-4 p-1 m-0">
+                    <div class="col-6 col-md-4 p-1 m-0">
                         <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
                     </div>
                 {% endif %}
@@ -192,10 +211,10 @@ title: Cephalopod and Cranium
                 <div class="col-12 col-md-6">
                     <div class="row">
                         <div class="d-flex flex-wrap justify-content-center">
-                            <div class="col-6 p-2">
+                            <div class="col-12 col-md-6 p-2">
                                 <img src="/assets/images/glass/octopus/process5.jpg" alt="After soldering" class="img-fluid w-100">
                             </div>
-                            <div class="col-6 p-2">
+                            <div class="co-12 col-md-6 p-2">
                                 <img src="/assets/images/glass/octopus/process6.jpg" alt="After adding border" class= "img-fluid w-100">
                             </div>
                         </div>
