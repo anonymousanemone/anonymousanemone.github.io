@@ -57,6 +57,11 @@ img {
 	background-color: var(--yellow);
 	transform: translate(1px, 1px);
     box-shadow: 1px 1px 0 black;
+	border: 2px solid var(--darkbrown);
+}
+
+.bt:after {
+	background-color: var(--yellow);
 }
 
 .section {
@@ -90,6 +95,12 @@ img {
 	padding: 1rem;
 	border: 4px solid var(--darkbrown);
 	box-shadow: 6px 6px 0px 0px var(--darkbrown);
+}
+
+/* WIP page adjustments */
+.wip h5 {
+	background-color: var(--yellow);
+	font-weight: bold;
 }
 
 /* 404 PAGE SETTING */
