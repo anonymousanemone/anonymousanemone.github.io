@@ -235,3 +235,15 @@ img {
 	width: 20%;
 	max-width: 120px;
 }
+
+/* profile pic */
+.image-center-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: yellow;
+	padding: 2rem;
+	box-sizing: border-box;
+	text-align: center;
+  }
