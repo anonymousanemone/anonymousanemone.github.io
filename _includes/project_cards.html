@@ -1,0 +1,12 @@
+<div class="row justify-content-start mt-3 g-3">
+    {% for card in include.cards %}
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <a href="{{ card.url }}">{{ card.title }}</a>
+            </div>
+            <img src="{{ card.image }}" class="img-fluid">
+        </div>
+    </div>
+    {% endfor %}
+ </div>

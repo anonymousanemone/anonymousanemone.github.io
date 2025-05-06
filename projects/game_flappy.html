@@ -1,31 +1,20 @@
 ---
-layout: default
+layout: page
 title: Flappy Mo
 ---
 
-<div class="container py-3">
-	<div class="row section text-center mb-4">
-		<h1>{{ page.title }} </h1>
-	</div>
-
-	<div class="row mb-4 justify-content-center">
-        <div class="col-12 col-md-4 p-2"><div class="section h-100">
-            <p><strong>Mo the Hawk rip-off of Flappy Bird.</strong></p>
-            <p>Background art by me <br>
-                Mo-the-Hawk by my friend</p>
-            <p> Drawn on <a href="https://medibangpaint.com/en/">MediBang Paint Pro</a><br>
-                Made with <a href="https://processing.org/">Processing</a></p>
-            <p>A beginner Processing mini game inspired by <a href="https://www.youtube.com/watch?v=UIlzIwqmOYE">a tutorial</a> on Youtube by gaspar coding.</p>
-            <div class="btn w-100 py-2 my-2"><a href="https://github.com/anonymousanemone/flappy-mo">View on Github</a></div>
-        </div></div>
-        <div class="col-12 col-md-4 p-2">
-            <img src="/assets/images/game/flappymo.png" alt="Project image" class="img-fluid w-100">
-        </div>
-        <div class="col-12 col-md-4 p-2">
-            <img src="/assets/images/game/flappymo-play.png" alt="Project image" class="img-fluid w-100">
-        </div>
-	</div>
-
-</div>
+{% include project_summary.html 
+    description = '<p><strong>Mo the Hawk rip-off of Flappy Bird.</strong></p><p>
+        Background art by me <br>
+        Mo-the-Hawk by my friend</p><p> 
+        Drawn on <a href="https://medibangpaint.com/en/">MediBang Paint Pro</a><br>
+        Made with <a href="https://processing.org/">Processing</a></p><p>
+        A beginner Processing mini game inspired by <a href="https://www.youtube.com/watch?v=UIlzIwqmOYE">a tutorial</a> on Youtube by gaspar coding.</p>'
+    additional = '<div class="btn w-100 py-2 my-2"><a href="https://github.com/anonymousanemone/flappy-mo">View on Github</a></div>'
+    img1 = ' 
+    <img src="/assets/images/game/flappymo.png" alt="Project image" class="img-fluid w-100">'
+    img2 = '
+    <img src="/assets/images/game/flappymo-play.png" alt="Project image" class="img-fluid w-100">'
+%}
 
 

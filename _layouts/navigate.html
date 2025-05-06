@@ -1,45 +1,6 @@
 ---
 layout: default
-title: Projects
-projects:
-  - category: "Stained Glass"
-    title: "Cephalopod and Cranium"
-    url: "/projects/glass_octopus.html"
-    image: "/assets/images/glass/octopus/final.jpg"
-
-  - category: "Stained Glass"
-    title: "Poppy Panel"
-    url: "/projects/glass_poppy.html"
-    image: "/assets/images/glass/poppy/final.jpg"
-
-  - category: "Stained Glass"
-    title: "Little Lampshade"
-    url: "/projects/glass_lamp.html"
-    image: "/assets/images/glass/lamp/image.png"
-
-  - category: "Stained Glass"
-    title: "Cervical Vertebra #5"
-    url: "/projects/glass_vertebra.html"
-    image: "/assets/images/glass/vertebra/cv-final.png"
-
-  - category: "Stained Glass"
-    title: "Hippopotamus"
-    url: "/projects/glass_hippo.html"
-    image: "/assets/images/glass/hippo/hippo1-final.jpg"
-
-  - category: "Stained Glass"
-    title: "Leaf with Lead"
-    url: "/projects/glass_leaf.html"
-    image: "/assets/images/glass/leaf/process1.jpg"
-
-  - category: "Stained Glass"
-    title: "Hydra Hydria"
-    url: "/projects/glass_hydra.html"
-    image: "/assets/images/glass/hydra/hydra_color.png"
-
 ---
-
-{% assign stained_glass = page.projects | where: "category", "Stained Glass" %}
 
 <div class="container"><div class="row">
 	  
@@ -67,16 +28,44 @@ projects:
 			<div class="col-12"><section class="section py-4 mt-3">
 				<h4 class="mb-4">Quick links</h4>
 				<ul>
-					{% for project in page.projects %}
-					<li><a href="{{project.url}}">{{project.title}}</a></li>
-					{% endfor %}
+					<li><a href="/projects/glass_octopus.html">Cephalopod and Cranium</a></li>
+					<li><a href="/projects/glass_poppy.html">Poppy Panel</a></li>
+					<li><a href="/projects/glass_lamp.html">Little Lampshade</a></li>
 				</ul>
 			</section></div>
   
 		<!-- Stained Glass Section -->
 		<div class="col-12" id="stained-glass"><section class="section py-4 mt-3">
 			<h2>Stained Glass</h2>
-			{% include project_cards.html cards=stained_glass %}
+			{% include project_cards.html cards=page.projects%}
+			<div class="row justify-content-start mt-3 g-3">
+				<!-- octopus -->
+				<div class="col-md-6 col-lg-4">
+					<div class="card h-100">
+						<div class="card-body">
+							<h5><a href="/projects/glass_octopus.html">Cephalopod and Cranium</a></h5>
+						</div>
+						<img src="/assets/images/glass/octopus/final.jpg" class="img-fluid">
+					</div>
+				</div>
+				<!-- poppy -->
+				<div class="col-md-6 col-lg-4">
+					<div class="card h-100">
+						<div class="card-body">
+							<h5><a href="/projects/glass_poppy.html">Poppy Panel</a></h5>
+						</div>
+						<img src="/assets/images/glass/poppy/final.jpg" class="img-fluid">
+					</div>
+				</div>
+				<!-- lampshade -->
+				<div class="col-md-6 col-lg-4">
+					<div class="card h-100">
+						<div class="card-body">
+							<h5><a href="/projects/glass_lamp.html">Little Lampshade</a></h5>
+						</div>
+						<img src="/assets/images/glass/lamp/image.png" class="img-fluid">
+					</div>
+				</div>
 			</div>
 		</section> </div>
 
