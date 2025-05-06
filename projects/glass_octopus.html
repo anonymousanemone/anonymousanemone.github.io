@@ -1,247 +1,151 @@
 ---
-layout: default
+layout: page
 title: Cephalopod and Cranium
 ---
 
-<div class="container py-3">
-	<div class="row section text-center mb-4">
-		<h1>{{ page.title }} </h1>
-	</div>
+{% include project_summary.html 
+    description = "This was the first stained glass piece I've made after a four year break. 
+    A lot of lessons were (re)learned and many mistakes (re)made in this (approximately)
+    50 hour endeavor." 
 
-	<div class="row mb-4 justify-content-center">
-        <div class="col-12 col-md-4 p-2"><div class="section h-100">
-            <p>This was the first stained glass piece I've made after a four year break. 
-                A lot of lessons were (re)learned and many mistakes (re)made in this (approximately)
-                50 hour endeavor.
-            </p>
-        </div></div>
-        <div class="col-12 col-md-4 p-2">
-            <img src="/assets/images/glass/octopus/final.jpg" alt="Project image" class="img-fluid h-100">
+    img1 = ' 
+    <img src="/assets/images/glass/octopus/final.jpg" alt="Project image" class="img-fluid h-100">'
+    img2 = '
+    <img src="/assets/images/glass/octopus/pattern.png" alt="Final pattern" class="img-fluid w-100 px-2">'
+%}
+
+<!-- pattern prototyping -->
+{% include section_head.html title="Pattern Prototyping" %}
+
+<!-- shape -->
+{% include double_notes.html 
+    title = "Shape" 
+    text = "Testing out different border shapes for the octopus." 
+    images = '
+    <div class="row d-flex text-center g-2 align-items-center justify-content-center" data-masonry="{&quot;percentPosition&quot;: true}">
+        <div class="col-6 col-md-4">
+            <img src="/assets/images/glass/octopus/shape1.png" alt="Alt shape" class="img-fluid w-100">
         </div>
-        <div class="col-12 col-md-4 p-2">
-            <img src="/assets/images/glass/octopus/pattern.png" alt="Final pattern" class="img-fluid w-100 px-2">
+        <div class="col-6 col-md-4">
+            <img src="/assets/images/glass/octopus/shape6.png" alt="Final shape" class="img-fluid w-100">
         </div>
-	</div>
-    
+        <div class="col-6 col-md-4">
+            <img src="/assets/images/glass/octopus/shape4.png" alt="Alt shape" class="img-fluid w-100">
+        </div>
+        <div class="col-6 col-md-4">
+            <img src="/assets/images/glass/octopus/shape2.png" alt="Alt shape" class="img-fluid w-100">
+        </div>
+        <div class="col-6 col-md-4">
+            <img src="/assets/images/glass/octopus/shape3.png" alt="Alt shape" class="img-fluid w-100">
+        </div>
+        <div class="col-6 col-md-4">
+            <img src="/assets/images/glass/octopus/shape5.png" alt="Alt shape" class="img-fluid w-100">
+        </div>
+    </div>'
+%}
 
-    <div class="row section text-center mb-4">
-		<h2>Pattern Prototyping</h2>
-	</div>
+<!-- line  -->
+{% include double_notes.html 
+    title = "Lines" 
+    text = "Prototyping different ways of breaking up the background." 
+    images_path = "/assets/images/glass/octopus/line"
+%}
 
-    <!-- shape  -->
-    <div class="row mb-4 align-items-center g-3">
-        <div class="col-md-4"><div class="section">
-            <h3>Shape</h3>
-            <p>Testing out different border shapes for the octopus.</p>
-        </div></div>
-        <div class="col-md-8"><div class="section">
-            <div class="row d-flex text-center g-2 align-items-center justify-content-center" data-masonry='{"percentPosition": true }'>
-                <div class="col-6 col-md-4">
-                    <img src="/assets/images/glass/octopus/shape1.png" alt="Alt shape" class="img-fluid w-100">
-                </div>
-                <div class="col-6 col-md-4">
-                    <img src="/assets/images/glass/octopus/shape6.png" alt="Final shape" class="img-fluid w-100">
-                </div>
-                <div class="col-6 col-md-4">
-                    <img src="/assets/images/glass/octopus/shape4.png" alt="Alt shape" class="img-fluid w-100">
-                </div>
-                <div class="col-6 col-md-4">
-                    <img src="/assets/images/glass/octopus/shape2.png" alt="Alt shape" class="img-fluid w-100">
-                </div>
-                <div class="col-6 col-md-4">
-                    <img src="/assets/images/glass/octopus/shape3.png" alt="Alt shape" class="img-fluid w-100">
-                </div>
-                <div class="col-6 col-md-4">
-                    <img src="/assets/images/glass/octopus/shape5.png" alt="Alt shape" class="img-fluid w-100">
-                </div>
+<!-- color section -->
+{% include double_notes.html 
+    title = "Color" 
+    text = "Choosing glass colors with minor pattern modification." 
+    images_path = "/assets/images/glass/octopus/color"
+%}
 
-                <!-- <div class="col-4 d-flex flex-column row-gap-2 justify-content-center">
-                    <img src="/assets/images/glass/octopus/shape1.png" alt="Alt shape" class="img-fluid w-100">
-                    <img src="/assets/images/glass/octopus/shape4.png" alt="Alt shape" class="img-fluid w-100">
-                </div>
-                <div class="col-4 d-flex flex-column row-gap-2 justify-content-center">
-                    <img src="/assets/images/glass/octopus/shape6.png" alt="Final shape" class="img-fluid w-100">
-                    <img src="/assets/images/glass/octopus/shape2.png" alt="Alt shape" class="img-fluid w-100">
-                </div>
-                <div class="col-4 d-flex flex-column row-gap-2 justify-content-center">
-                    <img src="/assets/images/glass/octopus/shape3.png" alt="Alt shape" class="img-fluid w-100">
-                    <img src="/assets/images/glass/octopus/shape5.png" alt="Alt shape" class="img-fluid w-100">
-                </div> -->
+<!-- process -->
+{% include section_head.html title="Process" %}
+
+<div class="row g-4 align-items-center">
+
+    <!-- Cutting -->
+    {% include notecard.html 
+        label = "1) Choosing and cutting glass" 
+        text = "It's important to see the glass for yourself or photos of it under different light conditions! 
+        Catalogue photos may often be inaccurate or misleading comapared to the real thing."
+        images_path = "/assets/images/glass/octopus/glass"
+    %}
+
+    <!-- Copper foil -->
+    {% include notecard.html 
+        img_right = true
+        label = "2) Copper foiling and ensuring fit" 
+        text = "(Not in that order) Make sure the pieces of glass fit together accurately before copper foiling!"
+        images = '
+        <div class="col-12 p-2">
+            <img src="/assets/images/glass/octopus/process1.jpg" alt="Foiled pieces" class="img-fluid w-100">
+        </div>'
+    %}
+
+    <!-- 2.5 -->
+    {% include notecard.html 
+        label = "2.5) Ensuring fit and re-doing the copper foil :/" 
+        text = "See pile of foil for the consequences of being too hasty: 
+        You get the privilege of picking off the foil, re-grinding the glass, and re-foiling it; 
+        thereby wasting hours of your sleep and lifespan."
+        images = '
+        <div class="col-12 p-2">
+            <img src="/assets/images/glass/octopus/process2.jpg" alt="Crumbled foil" class="img-fluid w-100">
+        </div>'
+    %}
+
+    <!-- pinning -->
+    {% include notecard.html 
+        img_right = true
+        label = "3) Pinning (and taping, manuevering, and wrestling) the glass in place" 
+        text = "Make the pieces fit! Somehow! In an ideal situation, 
+        pins along the border of the piece should be enough,
+        but if there are some weird spots within, a couple pieces of tape can help the process along. 
+        (Just don't melt the tape while soldering)"
+        images = '
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="col-6 p-2">
+                <img src="/assets/images/glass/octopus/process3.jpg" alt="Foiled pieces" class="img-fluid w-100">
             </div>
-        </div></div>
-    </div>
-
-    <!-- line  -->
-    <div class="row mb-4 align-items-center g-3">
-        <div class="col-md-4"><div class="section">
-            <h3>Lines</h3>
-            <p>Prototyping different ways of breaking up the background.</p>
-        </div></div>
-        <div class="col-md-8"><div class="section">
-            <div class="row g-2 justify-content-center">
-                {% for file in site.static_files %}
-                    {% if file.path contains '/assets/images/glass/octopus/line'%}
-                        <div class="col-6 col-md-4 p-1 m-0">
-                            <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-                        </div>
-                    {% endif %}
-                {% endfor %}
+            <div class="col-6 p-2">
+                <img src="/assets/images/glass/octopus/process4.jpg" alt="Foiled pieces" class="img-fluid w-100">
             </div>
-        </div></div>
-    </div>
+        </div>'
+    %}
+    
 
-    <!-- color section -->
-    <div class="row mb-4 align-items-center g-3">
-        <div class="col-md-4"><div class="section">
-            <h3>Color</h3>
-            <p>Choosing glass colors with minor pattern modification.</p>
-        </div></div>
-        <div class="col-md-8"><div class="section">
-            <div class="row text-center g-2">
-            {% for file in site.static_files %}
-                {% if file.path contains '/assets/images/glass/octopus/color'%}
-                    <div class="col-6 col-md-4 p-1 m-0">
-                        <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-                    </div>
-                {% endif %}
-            {% endfor %}
+    <!-- soldering -->
+    {% include notecard.html 
+        label = "4) Soldering and bordering" 
+        text = "It's lead galore! Solder together all the pieces by tacking, tinning, and beading (in that order).
+        Leave some space near the edge of the piece to fit a lead came (border) around it.
+        It gives the work a cleaner finish and additional stability."
+        images = '
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="col-12 col-md-6 p-2">
+                <img src="/assets/images/glass/octopus/process5.jpg" alt="After soldering" class="img-fluid w-100">
             </div>
-        </div></div>
-    </div>
+            <div class="co-12 col-md-6 p-2">
+                <img src="/assets/images/glass/octopus/process6.jpg" alt="After adding border" class= "img-fluid w-100">
+            </div>
+        </div>'
+    %}
 
-    <!--   -->
-    <div class="row section text-center mb-4">
-		<h2>Process</h2>
-	</div>
-    <div class="row g-4 align-items-center">
-        <!-- Cutting -->
-        <div class="col-12">
-            <div class="section"><div class="row align-items-center">
-                <div class="col-12 col-md-6">
-                    <h4>1) Choosing and cutting glass</h4>
-                    <p>It's important to see the glass for yourself or photos of it under different light conditions! 
-                        Catalogue photos may often be inaccurate or misleading comapared to the real thing.</p>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="row">
-                        <div class="d-flex flex-wrap justify-content-center">
-                            {% for file in site.static_files %}
-                                {% if file.path contains '/assets/images/glass/octopus/glass'%}
-                                    <div class="col-6 col-md-6 p-2">
-                                        <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-                                    </div>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-            </div></div>
-        </div>
-    
-        <!-- Copper foil -->
-        <div class="col-12">
-            <div class="section"><div class="row align-items-center">
-                <div class="col-12 col-md-6 order-0 order-md-1">
-                    <h4>2) Copper foiling and ensuring fit</h4>
-                    <p>(Not in that order) Make sure the pieces of glass fit together accurately before copper foiling!</p>
-                </div>
-                <div class="col-12 col-md-6 order-1 order-md-0">
-                    <div class="row">
-                        <div class="col-12 p-2">
-                            <img src="/assets/images/glass/octopus/process1.jpg" alt="Foiled pieces" class="img-fluid w-100">
-                        </div>   
-                    </div>
-                </div>
-            </div></div>
-        </div>
-    
-        <!-- 2.5 -->
-        <div class="col-12">
-            <div class="section"><div class="row align-items-center">
-                <div class="col-12 col-md-6">
-                    <h4>2.5) Ensuring fit and re-doing the copper foil :/</h4>
-                    <p>See pile of foil for the consequences of being too hasty: 
-                        You get the privilege of picking off the foil, re-grinding the glass, and re-foiling it; 
-                        thereby wasting hours of your sleep and lifespan.</p>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="row">
-                        <div class="col-12 p-2">
-                            <img src="/assets/images/glass/octopus/process2.jpg" alt="Foiled pieces" class="img-fluid w-100">
-                        </div>   
-                    </div>
-                </div>
-            </div></div>
-        </div>
+    <!-- patina-->
+    {% include notecard.html 
+        img_right = true
+        label = "5) Patina" 
+        text = "Using a patina solution, you can turn the silver lead solder either black or copper colored. 
+        A black patina is most commonly used and is also helpful in hiding imperfections in soldering!
+        For best results, brush the solder lines and border with a wire brush first to remove surface oxidation."
+        images = '
+        <div class="col-12 p-2">
+            <img src="/assets/images/glass/octopus/final-table.jpg" alt="Lead with patina" class="img-fluid w-100">
+        </div>'
+    %}
 
-        <!-- pinning -->
-        <div class="col-12">
-            <div class="section"><div class="row align-items-center">
-                <div class="col-12 col-md-6 order-0 order-md-1">
-                    <h4>3) Pinning (and taping, manuevering, and wrestling) the glass in place</h4>
-                    <p>Make the pieces fit! Somehow! In an ideal situation, 
-                        pins along the border of the piece should be enough,
-                        but if there are some weird spots within, a couple pieces of tape can help the process along. 
-                        (Just don't melt the tape while soldering) </p>
-                </div>
-                <div class="col-12 col-md-6 order-1 order-md-0">
-                    <div class="row">
-                        <div class="d-flex flex-wrap justify-content-center">
-                            <div class="col-6 p-2">
-                                <img src="/assets/images/glass/octopus/process3.jpg" alt="Foiled pieces" class="img-fluid w-100">
-                            </div>
-                            <div class="col-6 p-2">
-                                <img src="/assets/images/glass/octopus/process4.jpg" alt="Foiled pieces" class="img-fluid w-100">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div></div>
-        </div>
-    
-        <!-- soldering -->
-        <div class="col-12">
-            <div class="section"><div class="row align-items-center">
-                <div class="col-12 col-md-6">
-                    <h4>4) Soldering and bordering</h4>
-                    <p>It's lead galore! Solder together all the pieces by tacking, tinning, and beading (in that order).
-                        Leave some space near the edge of the piece to fit a lead came (border) around it.
-                        It gives the work a cleaner finish and additional stability. </p>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="row">
-                        <div class="d-flex flex-wrap justify-content-center">
-                            <div class="col-12 col-md-6 p-2">
-                                <img src="/assets/images/glass/octopus/process5.jpg" alt="After soldering" class="img-fluid w-100">
-                            </div>
-                            <div class="co-12 col-md-6 p-2">
-                                <img src="/assets/images/glass/octopus/process6.jpg" alt="After adding border" class= "img-fluid w-100">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div></div>
-        </div>
-    
-        <!-- patina-->
-        <div class="col-12">
-            <div class="section"><div class="row align-items-center">
-                <div class="col-12 col-md-6 order-0 order-md-1">
-                    <h4>5) Patina</h4>
-                    <p>Using a patina solution, you can turn the silver lead solder either black or copper colored. 
-                        A black patina is most commonly used and is also helpful in hiding imperfections in soldering!
-                        For best results, brush the solder lines and border with a wire brush first to remove surface oxidation.
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 p-2 order-1 order-md-0">
-                    <img src="/assets/images/glass/octopus/final-table.jpg" alt="Foiled pieces" class="img-fluid w-100">
-                </div>
-            </div></div>
-        </div>
-    
-    </div>
-
-	
 </div>
+
+
 
 

@@ -1,0 +1,15 @@
+---
+layout: default 
+---
+
+<div class="container py-3">
+	{% if page.wip %}
+		{% include wip.html %}
+	{% endif %}
+	<div class="row section text-center mb-4">
+		<h1>{{ page.title }} </h1>
+	</div>
+
+	{{ content }}
+	
+</div>

@@ -1,0 +1,26 @@
+
+{% if include.notecard %}
+
+<div class="d-flex flex-wrap justify-content-center">
+    {% for file in site.static_files %}
+        {% if file.path contains include.path %}
+            <div class="col-6 col-md-6 p-2">
+                <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+{% else %}
+
+<div class="row g-2 justify-content-center">
+    {% for file in site.static_files %}
+        {% if file.path contains include.path %}
+            <div class="col-6 col-md-4 p-1 m-0">
+                <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+{% endif %}

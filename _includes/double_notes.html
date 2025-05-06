@@ -1,0 +1,18 @@
+<!-- shape  -->
+<div class="row mb-4 align-items-center g-3">
+    <div class="col-md-4">
+        <div class="section">
+        <h3>{{ include.title }}</h3>
+        <p>{{ include.text }}</p>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="section">
+            {% if include.images_path %}
+                {% include images_byname.html path=include.images_path %}
+            {% else %}
+                {{ include.images | raw }}
+            {% endif %}
+        </div>
+    </div>
+</div>
