@@ -1,0 +1,12 @@
+---
+layout: gallery
+title: Ceramics
+---
+
+<div class="gallery">
+{% for file in site.static_files %}
+	{% if file.path contains '/assets/images/' and file.path contains 'placeholder' %}
+			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+	{% endif %}
+{% endfor %}
+</div>

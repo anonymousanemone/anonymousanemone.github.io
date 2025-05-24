@@ -2,102 +2,40 @@
 layout: default
 title: Projects
 projects:
-  - category: "Stained Glass"
-    title: "Cephalopod and Cranium"
-    url: "/projects/glass_octopus.html"
-    image: "/assets/images/glass/octopus/final.jpg"
+  - title: "Blue Poppy Project"
+    url: "/projects/bluepoppy.html"
+    image: "/assets/images/placeholder.jpg"
+    text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
 
-  - category: "Stained Glass"
-    title: "Poppy Panel"
-    url: "/projects/glass_poppy.html"
-    image: "/assets/images/glass/poppy/final.jpg"
-
-  - category: "Stained Glass"
-    title: "Little Lampshade"
-    url: "/projects/glass_lamp.html"
-    image: "/assets/images/glass/lamp/image.png"
-
-  - category: "Stained Glass"
-    title: "Cervical Vertebra #5"
-    url: "/projects/glass_vertebra.html"
-    image: "/assets/images/glass/vertebra/cv-final.png"
-
-  - category: "Stained Glass"
-    title: "Hippopotamus"
-    url: "/projects/glass_hippo.html"
-    image: "/assets/images/glass/hippo/hippo1-final.jpg"
-
-  - category: "Stained Glass"
-    title: "Leaf with Lead"
-    url: "/projects/glass_leaf.html"
-    image: "/assets/images/glass/leaf/process1.jpg"
-
-  - category: "Stained Glass"
-    title: "Hydra Hydria"
-    url: "/projects/glass_hydra.html"
-    image: "/assets/images/glass/hydra/hydra_color.png"
+  - title: "Little Red Book Project"
+    url: "/projects/littleredbook.html"
+    image: "/assets/images/placeholder.jpg"
+    text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
 
 ---
 
-{% assign stained_glass = page.projects | where: "category", "Stained Glass" %}
-
-<div class="container"><div class="row">
-	  
-	<!-- Sidebar (Sticky) -->
-	<div class="col-lg-3 col-md-4 mt-3 d-none d-sm-none d-md-block">
-		<div class="sticky-sidebar section h-100">
-			<div class="m-0 p-0 sticky-top pt-4">
-				<h4 class="mb-3">Navigate</h4>
-				<hr>
-			<!-- <a href="#theatre">Theatre</a> -->
-				<a href="#stained-glass">Stained Glass</a>
-				<hr>
-				<!-- <a href="#web-design">Web Design</a> -->
-				<a href="#game-design">Game Design</a>
-				<hr>
-				<!-- <a href="#misc">Miscellaneous</a> -->
-			</div>
-		</div>
-	</div>
-  
-	<!-- Main Content -->
-	<div class="col-12 col-lg-9 col-md-8">
-		<div class="row d-flex flex-wrap">
-			<!-- General Section -->
-			<div class="col-12"><section class="section py-4 mt-3">
-				<h4 class="mb-4">Quick links</h4>
+<div class="container px-5 pb-4 justify-content-center">
+	<div class="row d-flex flex-wrap">
+		<!-- General Section -->
+		<div class="col-12"><section class="section py-4 mt-3">
+			<h2 class="mb-4">Themed Projects</h2>
+			<h4>Quick links</h4>
 				<ul>
 					{% for project in page.projects %}
 					<li><a href="{{project.url}}">{{project.title}}</a></li>
 					{% endfor %}
 				</ul>
-			</section></div>
+		</section></div>
   
-		<!-- Stained Glass Section -->
-		<div class="col-12" id="stained-glass"><section class="section py-4 mt-3">
-			<h2>Stained Glass</h2>
-			{% include project_cards.html cards=stained_glass %}
-			</div>
-		</section> </div>
-
-		<!-- game dev Section -->
-		<div class="col-12" id="game-design"><section class="section py-4 mt-3">
-			<h2>Game Design</h2>
-			<div class="row justify-content-start mt-3 g-3">
-				<!-- flappy mo -->
-				<div class="col-md-6 col-lg-4">
-					<div class="card h-100">
-						<div class="card-body">
-							<h5><a href="/projects/game_flappy.html">Flappy Mo</a></h5>
-						</div>
-						<img src="/assets/images/game/flappymo.png" class="img-fluid">
-					</div>
-				</div>
-				
-
-			</div>
-		</section> </div>
+		<!-- looping through all collections -->
+		{% for project in page.projects %}
+			{% include postcard.html 
+				title = project.title 
+				url = project.url
+				text = project.text
+				image_path = project.image
+    		%}
+		{% endfor %}
   
 	</div>
-</div>
 </div>

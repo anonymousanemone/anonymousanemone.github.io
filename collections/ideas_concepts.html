@@ -1,0 +1,19 @@
+---
+layout: gallery
+title: Ideas and Concepts
+---
+
+{% for file in site.static_files %}
+	{% if file.path contains '/assets/images/' and file.path contains 'placeholder' %}
+	<div class="col">
+		<div class="card">
+			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+			<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+				<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+		</div>
+	</div>
+	{% endif %}
+{% endfor %}
