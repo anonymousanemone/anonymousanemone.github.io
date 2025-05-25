@@ -97,6 +97,12 @@ img {
 	box-shadow: 6px 6px 0px 0px var(--darkbrown);
 }
 
+.card:hover{
+	transform: scale(1.02);
+	/* transform: translate(1px, 1px);
+	box-shadow: 1px 1px 0 black; */
+}
+
 /* WIP page adjustments */
 .wip h5 {
 	background-color: var(--yellow);
