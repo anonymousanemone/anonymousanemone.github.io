@@ -18,19 +18,42 @@ wip: true
 <!-- reference  -->
 {% include double_notes.html 
     title = "Reference!" 
-    text = "Caeretan Hydria, 520–510 BCE, from Caere, Etruria. Currently on view at the Getty Villa!" 
+    text = "Caeretan Hydria, 520–510 BCE, from Caere, Etruria. Currently on view at the [Getty Villa](https://www.getty.edu/art/collection/object/103VHE)!" 
     images = '
-    <div class="col-12 p-2">
-        <img src="/assets/images/glass/hydra/ref.jpg" alt="Reference object" class="img-fluid w-50">
-    </div>'
+    <div class="row justify-content-center">
+    <div class="col-12 col-lg-6 p-2">
+        <img src="/assets/images/glass/hydra/ref.jpg" alt="Reference object" class="img-fluid">
+    </div></div>'
 %}
 
 <!-- line  -->
 {% include double_notes.html 
     title = "Lines" 
     text = "Prototyping different ways of splitting up the background space." 
-    images_path = "/assets/images/glass/lamp/line"
+    images_path = "/assets/images/glass/hydra/line"
 %}
+
+<!-- Process! -->
+{% include section_head.html title="Process" %}
+
+<div class="row g-4 align-items-center">
+
+<!-- Copper foil -->
+    {% include notecard.html 
+        img_right = false
+        label = "Part 1: The Hydra" 
+        text = "Because this is a bigger project, I'm going register by register, starting from the main section: the hydra! 
+        The pattern here as guiding horizontal lines so I can match the horizontal swirls on the glass."
+        images = '
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="col-12 p-2">
+                <img src="/assets/images/glass/hydra/hydra-pattern.png" alt="Hydra pattern" class="img-fluid w-100">
+            </div>
+            <div class="col-12 p-2">
+                <img src="/assets/images/glass/hydra/process3.jpg" alt="Hydra register" class="img-fluid w-100">
+            </div>
+        </div>'
+    %}
 
 
 

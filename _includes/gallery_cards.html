@@ -1,0 +1,31 @@
+
+
+{% if include.img-left%}
+<div class="col-12" id="{{include.id}}"><section class="section py-4 mt-3">
+    <div class="row align-items-center">
+        <div class="col order-0 order-md-1">
+            <h4><a href="{{include.url}}">{{include.title}}</a></h4>
+            <p>{{include.text}}</p>
+        </div>
+        <div class="col-md-6 col-lg-5 col-12 order-1 order-lg-0">
+            <img src="{{include.image_path}}" class="img-fluid">
+        </div>
+    </div>
+</section></div>
+
+
+{% else %}
+
+<div class="col-12" id="{{include.id}}"><section class="section py-4 mt-3">
+    <div class="row align-items-center">
+        <div class="col">
+            <h4><a href="{{include.url}}">{{include.title}}</a></h4>
+            <p>{{include.text}}</p>
+        </div>
+        <div class="col-md-6 col-lg-5 col-12">
+            <img src="{{include.image_path}}" class="img-fluid">
+        </div>
+    </div>
+</section></div>
+
+{% endif %}

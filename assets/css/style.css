@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=VT323&display=swap');
 
 :root {
 	--yellow: #ffb703;
@@ -17,7 +18,8 @@ body {
 	background-size: 40px 40px;
 	background-color: var(--bg-color);
 	color: black;
-	font-family: "IBM Plex Mono", monospace;
+	/* font-family: "IBM Plex Mono", monospace; */
+	font-family: "Cascadia Code", sans-serif;
 }
 
 h1, h2 {
@@ -76,6 +78,13 @@ img {
 
 .section img {
 	border: 4px dashed var(--lightbrown);
+	background-color: white;
+	box-shadow: 0px 0px;
+	padding: 5px;
+}
+
+.proj-summary img{
+	border: 8px double var(--lightbrown);
 	background-color: white;
 	box-shadow: 0px 0px;
 	padding: 5px;
@@ -255,3 +264,4 @@ img {
 	box-sizing: border-box;
 	text-align: center;
   }
+

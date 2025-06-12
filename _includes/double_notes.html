@@ -3,7 +3,7 @@
     <div class="col-md-4">
         <div class="section">
         <h3>{{ include.title }}</h3>
-        <p>{{ include.text }}</p>
+        <p>{{ include.text | markdownify }}</p>
         </div>
     </div>
     <div class="col-md-8">

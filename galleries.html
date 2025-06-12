@@ -1,6 +1,49 @@
 ---
 layout: default
 title: Galleries
+
+gallery:
+  - title: "Stained Glass Gallery"
+    url: "/projects/glassgallery.html"
+    id: "glassgallery"
+    image: "/assets/images/glass/octopus/final.jpg"
+    text: "View my stained glass projects! Affectionately referred to as 'my precious children',
+						the pieces range from small sun catchers to large(ish) window panels. "
+    img-left: false
+
+  - title: "Junk Journal"
+    url: "/projects/junkjournal.html"
+    id: "junkjournal"
+    image: "/assets/images/junkjournal/23.jpg"
+    text: "Spawning from my refusal to thrown away pretty packaging, 
+			junk journaling has helped me deal with my hoarding problem in an artistic manner.
+			I now have an excuse to keep more stuff."
+    img-left: true
+
+  - title: "Little Guys from Museums"
+    url: "/projects/museumguys.html"
+    id: "museumguys"
+    image: "/assets/images/museum_guys/figures1.png"
+    text: "Why does European art have so many faces? I don't know, but here's a lot of them. 
+			Was it a phase? Perhaps. From various galleries of European paintings, 
+			enjoy dead-eyed caricatures of your favorite (and least favorite) people."
+    img-left: false
+
+  - title: "Sketchbook Highlights"
+    url: "/projects/sketchbook.html"
+    id: "sketchbook"
+    image: "/assets/images/sketchbook/colorblock.png"
+    text: "I draw sometimes! Not often, and not always well, but a few proud pieces have
+			made it out from my stubborn hands. Enjoy the best of me."
+    img-left: true
+
+  - title: "Miscellaneous"
+    url: "/projects/miscgallery.html"
+    id: "miscellaneous"
+    image: "/assets/images/misc/theatre1.png"
+    text: "Little pieces of random shit. "
+    img-left: false
+
 ---
 
 <div class="container pb-4"><div class="row justify-content-center">
@@ -9,14 +52,10 @@ title: Galleries
 			<div class="m-0 p-0 sticky-top pt-4">
 				<h4 class="mb-3">Navigate</h4>
 				<hr>
-				<a href="#glassgallery">Stained Glass Gallery</a>
-				<hr>
-				<a href="#junkjournal">Junk Journal</a>
-				<hr>
-				<a href="#sketchbook">Sketchbook Highlights</a>
-				<hr>
-				<a href="#museumguys">Little Guys from Museums</a>
-				<hr>
+				{% for g in page.gallery %}
+					<a href="#{{g.id}}">{{g.title}}</a>
+					<hr>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
@@ -31,73 +70,22 @@ title: Galleries
 			<p>See collections of my random hobbies. (And yes, this page has a lot of words.)</p>
 			<h5>Quick links</h5>
 			<ul>
-				<li><a href="/projects/glassgallery.html">Stained Glass Gallery</a></li>
-				<li><a href="/projects/junkjournal.html">Junk Journal</a></li>
-				<li><a href="/projects/museumguys.html">Little Guys from Museums</a></li>
-				<li><a href="/projects/sketchbook.html">Sketchbook Highlights</a></li>
+				{% for g in page.gallery %}
+					<li><a href="{{g.url}}">{{g.title}}</a></li>
+				{% endfor %}
 			</ul>
 		</section></div>
 
-		<!-- glass gallery -->
-		<div class="col-12" id="glassgallery"><section class="section py-4 mt-3">
-			<div class="row align-items-center">
-				<div class="col">
-					<h4><a href="/projects/glassgallery.html">Stained Glass Gallery</a></h4>
-					<p>View my stained glass projects! Affectionately referred to as "my precious children",
-						the pieces range from small sun catchers to large(ish) window panels. 
-					</p>
-				</div>
-				<div class="col-md-6 col-lg-5 col-12">
-					<img src="/assets/images/glass/octopus/final.jpg" class="img-fluid">
-				</div>
-			</div>
-		</section></div>
-			
-		<!-- junk journal -->
-		<div class="col-12" id="junkjournal"><section class="section py-4 mt-3">
-			<div class="row align-items-center">
-				<div class="col order-0 order-md-1">
-					<h4><a href="/projects/junkjournal.html">Junk Journal</a></h4>
-					<p>Spawning from my refusal to thrown away pretty packaging, 
-						junk journaling has helped me deal with my hoarding problem in an artistic manner.
-					I now have an excuse to keep more stuff.</p>
-				</div>
-				<div class="col-md-6 col-lg-5 col-12 order-1 order-lg-0">
-					<img src="/assets/images/junkjournal/23.jpg" class="img-fluid">
-				</div>
-			</div>
-		</section></div>
-
-		<!-- sktechbook -->
-		<div class="col-12" id="sketchbook"><section class="section py-4 mt-3">
-			<div class="row align-items-center">
-				<div class="col">
-					<h4><a href="/projects/sketchbook.html">Sketchbook Highlights</a></h4>
-					<p>I draw sometimes! Not often, and not always well, but a few proud pieces have
-						made it out from my stubborn hands. Enjoy the best of me...
-					</p>
-				</div>
-				<div class="col-md-6 col-lg-5 col-12">
-					<img src="/assets/images/sketchbook/colorblock.png" class="img-fluid">
-				</div>
-			</div>
-		</section></div>
-
-		<!-- museum guys -->
-		<div class="col-12" id="museumguys"><section class="section py-4 mt-3">
-			<div class="row align-items-center">
-				<div class="col order-0 order-md-1">
-					<h4><a href="/projects/museumguys.html">Little Guys from Museums</a></h4>
-					<p>Why does European art have so many faces? I don't know, but here's a lot of them. 
-						Was it a phase? Perhaps. From various galleries of European paintings, 
-						enjoy dead-eyed caricatures of your favorite (and least favorite) people.
-					</p>
-				</div>
-				<div class="col-md-6 col-lg-5 col-12">
-					<img src="/assets/images/museum_guys/figures1.png" class="img-fluid">
-				</div>
-			</div>
-		</section></div>
+		{% for g in page.gallery %}
+			{% include gallery_cards.html 
+				title = g.title 
+				url = g.url
+				id = g.id
+				text = g.text
+				image_path = g.image
+				img-left = g.img-left
+    		%}		
+		{% endfor %}
 
 	</div></div>
 
