@@ -6,9 +6,13 @@ layout: default
 	{% if page.wip %}
 		{% include wip.html %}
 	{% endif %}
-	<div class="row section text-center mb-4">
-		<h1>{{ page.title }} </h1>
-	</div>
+	<div class="row mb-4">
+    <div class="col-12">
+        <div class="section text-center">
+            <h2>{{ page.title }}</h2>
+        </div>
+    </div>
+</div>
 
 	{{ content }}
 	

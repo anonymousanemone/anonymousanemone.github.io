@@ -7,9 +7,9 @@ wip: true
 {% include project_summary.html 
     description = "This project was started on an impulse!" 
     img1 = ' 
-    <img src="/assets/images/glass/lamp/mockup.png" alt="Project image" class="img-fluid h-100">'
+    <img src="/assets/images/glass/lamp/lamp_half_final.jpg" alt="Project image" class="img-fluid">'
     img2 = '
-    <img src="/assets/images/glass/lamp/shape2.png" alt="Final pattern" class="img-fluid w-100 px-2">'
+    <img src="/assets/images/glass/lamp/shape2.png" alt="Final pattern" class="img-fluid h-100 py-2">'
 %}
 
 <!-- pattern prototyping -->
@@ -36,4 +36,14 @@ wip: true
     images_path = "/assets/images/glass/lamp/side"
 %}
 
-
+<!-- final mockup  -->
+{% include double_notes.html 
+    title = "Glass" 
+    text = "Mockup with CAD! Courtesy of Yolanda :)" 
+    images = '
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <img src="/assets/images/glass/lamp/mockup.png" alt="Mockup image" class="img-fluid w-100">
+            </div>
+        </div>'
+%}
