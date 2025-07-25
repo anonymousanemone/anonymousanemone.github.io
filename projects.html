@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+
 projects:
   - category: "Stained Glass"
     title: "Cephalopod and Cranium"
@@ -37,11 +38,20 @@ projects:
     url: "/projects/glass_hydra.html"
     image: "/assets/images/glass/hydra/hydra_color.png"
 
+  - category: "Game Design"
+    title: "Flappy Mo"
+    url: "/projects/game_flappy.html"
+    image: "/assets/images/game/flappymo.png"
+
+  - category: "Game Design"
+    title: "That Time I Got Out of Jail by Reassembling Osiris"
+    url: "/projects/game_reassemblingosiris.html"
+    image: "/assets/images/game/medea.png"
+
 ---
+{% assign categories = page.projects | map: "category" | uniq %}
 
-{% assign stained_glass = page.projects | where: "category", "Stained Glass" %}
-
-<div class="container pb-4"><div class="row">
+<div class="container pb-4"><div class="row justify-content-center">
 	  
 	<!-- Sidebar (Sticky) -->
 	<div class="col-lg-3 col-md-4 mt-3 d-none d-sm-none d-md-block">
@@ -49,19 +59,17 @@ projects:
 			<div class="m-0 p-0 sticky-top pt-4">
 				<h4 class="mb-3">Navigate</h4>
 				<hr>
-			<!-- <a href="#theatre">Theatre</a> -->
-				<a href="#stained-glass">Stained Glass</a>
-				<hr>
-				<!-- <a href="#web-design">Web Design</a> -->
-				<a href="#game-design">Game Design</a>
-				<hr>
-				<!-- <a href="#misc">Miscellaneous</a> -->
+				{% for category in categories %}
+					{% assign category_id = category | downcase | replace: ' ', '-' %}
+					<a href="#{{ category_id }}">{{ category }}</a>
+					<hr>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
   
 	<!-- Main Content -->
-	<div class="col-12 col-lg-9 col-md-8">
+	<div class="col-12 col-md-8">
 		<div class="row d-flex flex-wrap">
 			<!-- General Section -->
 			<div class="col-12"><section class="section py-4 mt-3">
@@ -73,31 +81,15 @@ projects:
 				</ul>
 			</section></div>
   
-		<!-- Stained Glass Section -->
-		<div class="col-12" id="stained-glass"><section class="section py-4 mt-3">
-			<h2>Stained Glass</h2>
-			{% include project_cards.html cards=stained_glass %}
+		{% for category in categories %}
+		{% assign category_id = category | downcase | replace: ' ', '-' %}
+		{% assign filtered_projects = page.projects | where: "category", category %}
+		<div class="col-12" id="{{category_id}}"><section class="section py-4 mt-3">
+			<h2>{{ category }}</h2>
+			{% include project_cards.html cards=filtered_projects %}
 			</div>
 		</section> </div>
-
-		<!-- game dev Section -->
-		<div class="col-12" id="game-design"><section class="section py-4 mt-3">
-			<h2>Game Design</h2>
-			<div class="row justify-content-start mt-3 g-3">
-				<!-- flappy mo -->
-				<div class="col-md-6 col-lg-4">
-					<div class="card h-100">
-						<div class="card-body">
-							<h5><a href="/projects/game_flappy.html">Flappy Mo</a></h5>
-						</div>
-						<img src="/assets/images/game/flappymo.png" class="img-fluid">
-					</div>
-				</div>
-				
-
-			</div>
-		</section> </div>
-  
+		{% endfor %}
 	</div>
 </div>
 </div>
