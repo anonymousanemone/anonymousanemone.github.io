@@ -1,11 +1,9 @@
 ---
 layout: gallery
-title: Junk Journal
 ---
 
-{% assign img_dir = site.static_files | where: "path", "/assets/images/junkjournal/" %}
-{% assign images = img_dir | where_exp: "file", "file.extname == '.jpg'" %}
-{% assign image_count = images | size %}
+{% assign img_dir = site.static_files | where: "path", page.img_dir %}
+{% assign images = img_dir | where_exp: "file", "file.extname == page.type" %}
 
 <div class="d-none d-sm-none d-md-block">
   <div class="flex-row d-flex justify-content-center column-gap-4 mb-4">
@@ -13,7 +11,7 @@ title: Junk Journal
       <button class="btn btn-warning w-50 h-100" onclick="prevImage()">⟨</button>
     </div>
     <div class="col-md-8 text-center flip-container">
-      <img id="flipImage" src="/assets/images/junkjournal/01.jpg" alt="Flipbook Page" class="img-fluid w-100">
+      <img id="flipImage" src="{{page.img_dir}}01{{page.type}}" alt="Flipbook Page" class="img-fluid w-100">
     </div>
     <div class="col-md-1 text-center">
       <button class="btn btn-warning w-50 h-100" onclick="nextImage()">⟩</button>
@@ -24,14 +22,14 @@ title: Junk Journal
   </div>
 </div>
 
-{% assign gif_names = "02,03,31,41" | split: "," %}
+{% assign gif_names = include.gif_names | split: "," %}
 
 <div class="row">
   {% for file in site.static_files %}
-    {% if file.path contains '/assets/images/junkjournal/' and file.extname == '.jpg' %}
+    {% if file.path contains page.img_dir and file.extname == page.type %}
       {% assign base_name = file.name | split: "." | first %}
       {% if gif_names contains base_name %}
-        {% assign gif_path = file.path | replace: '.jpg', '.gif' %}
+        {% assign gif_path = file.path | replace: page.type, '.gif' %}
         <div class="col-md-6 col-12 p-2">
           <img src="{{ gif_path }}" alt="{{ base_name }}.gif" class="img-fluid w-100">
         </div>
@@ -55,8 +53,8 @@ title: Junk Journal
 </div> -->
 
 <script>
-    // const totalImages = {{ image_count }};
-    const totalImages = 40;
+    const totalImages = {{ page.img_count }};
+    // const totalImages = 40;
     let currentIndex = 1;
 
     function padNumber(num) {
@@ -65,7 +63,7 @@ title: Junk Journal
 
     function updateImage(index) {
       const image = document.getElementById("flipImage");
-      let path = `/assets/images/junkjournal/${padNumber(index)}.jpg`;
+      let path = `{{page.img_dir}}${padNumber(index)}{{page.type}}`;
       imageExists(path, exists => {
         if (exists) {
           currentIndex = index;
@@ -78,7 +76,6 @@ title: Junk Journal
           }
         }
       });
-      // image.src = `/assets/images/junkjournal/${padNumber(currentIndex)}.jpg`;
     }
     function imageExists(src, callback) {
       const img = new Image();
@@ -111,7 +108,7 @@ title: Junk Journal
     function loadThumbnails() {
       const container = document.getElementById('thumbnailBar');
       for (let i = 1; i <= totalImages; i++) {
-        const src = `/assets/images/junkjournal/${padNumber(i)}.jpg`;
+        const src = `{{page.img_dir}}${padNumber(i)}{{page.type}}`;
         imageExists(src, exists => {
           if (exists) {
             const wrapper = document.createElement('div');

@@ -16,17 +16,18 @@ wip: true
 {% include section_head.html title="Pattern Prototyping" %}
 
 <!-- shape  -->
-{% include double_notes.html 
+<!-- {% include double_notes.html 
     title = "Shape" 
     text = "Testing out different lamp shade shapes." 
     images = ''
-%}
+%} -->
 
 <!-- line  -->
 {% include double_notes.html 
     title = "Lines" 
     text = "Prototyping different ways of decorating the panels." 
     images_path = "/assets/images/glass/lamp/line"
+    small = true
 %}
 
 <!-- glass side  -->
@@ -38,8 +39,8 @@ wip: true
 
 <!-- final mockup  -->
 {% include double_notes.html 
-    title = "Glass" 
-    text = "Mockup with CAD! Courtesy of Yolanda :)" 
+    title = "Mockup" 
+    text = "3D Mockup with CAD! Courtesy of Yolanda :)" 
     images = '
         <div class="row justify-content-center">
             <div class="col-6">
@@ -47,3 +48,65 @@ wip: true
             </div>
         </div>'
 %}
+
+
+<!-- process -->
+{% include section_head.html title="Process" %}
+
+<div class="row g-4 align-items-center">
+
+    <!-- lamp base -->
+    {% include notecard.html 
+        label = "Lamp Bases and Other Hardware" 
+        text = "Found at the Chelsea Flea Market! I cleaned and polished all the brass and gave the decorative vine new metal flowers.
+            The base I bought also didnt come with a lamp harp (the thing that holds up the lamp shade) so I had to buy one.
+            Thankfully, the lamp base I bought had working wiring, but lamp rewiring kits are widely available and easy to use!
+            Typically, a lamp shade should go an inch below the base of the harp. 
+            I also had to get a vented vase cap (which the top of the lamp shade is soldered to) and a finial (the decorative screw on top of a lamp)."
+        images = '
+        <div class="col-12 p-2">
+            <img src="/assets/images/glass/lamp/progress1.jpg" alt="Foiled pieces" class="img-fluid w-100">
+        </div>'
+    %}
+
+    <!-- pinning -->
+    {% include notecard.html 
+        img_right = true
+        label = "Taping and Tacking" 
+        text = "To prop up the lamp and hold the pieces together, masking tape was my best friend. 
+            I first taped together the 6 large upper panels together to form a hexagonal pyramid, and eyeballed the shape so it looked good. 
+            Then I used bits of solder to tack together the edges so the panels wouldn't shift around. 
+            After tacking the edges, I turned the ensemble upside down, and similarly taped the bottom border to where they should go, adjusting them to fit together.
+            Tack everything again, and you're ready for the painstaking process of soldering."
+        images = '
+            <div class="col-12 p-2">
+                <img src="/assets/images/glass/lamp/progress3.jpg" alt="Foiled pieces" class="img-fluid w-100">
+            </div>'
+    %}
+    
+
+    <!-- soldering -->
+    {% include notecard.html 
+        label = "Soldering (So Much Soldering)" 
+        text = "Soldering together this lamp shade took about an insane amount of lead (especially when you have big gaps due to ill-fitting pieces, oops).
+            I probably used up an entire coil of solder total for this"
+        images = '
+            <div class="col-12 p-2">
+                <img src="/assets/images/glass/lamp/soldering.jpg" alt="After soldering" class="img-fluid w-100">
+            </div>'
+    %}
+
+    <!-- patina-->
+    {% include notecard.html 
+        img_right = true
+        label = "Patina and Polishing (again)" 
+        text = "Using a patina solution, you can turn the silver lead solder either black or copper colored. 
+        A black patina is most commonly used and is also helpful in hiding imperfections in soldering!
+        For best results, brush the solder lines and border with a wire brush first to remove surface oxidation."
+        images = '
+        <div class="col-12 p-2">
+            <img src="/assets/images/glass/lamp/lamp_half_final.jpg" alt="Lead with patina" class="img-fluid w-100">
+        </div>'
+    %}
+
+</div>
