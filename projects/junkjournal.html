@@ -3,7 +3,7 @@ layout: gallery
 title: Junk Journal
 ---
 
-{% assign img_dir = site.static_files | where: "path", "/assets/images/junkjournal" %}
+{% assign img_dir = site.static_files | where: "path", "/assets/images/junkjournal/" %}
 {% assign images = img_dir | where_exp: "file", "file.extname == '.jpg'" %}
 {% assign image_count = images | size %}
 
@@ -24,11 +24,11 @@ title: Junk Journal
   </div>
 </div>
 
-{% assign gif_names = "02,03,31" | split: "," %}
+{% assign gif_names = "02,03,31,41" | split: "," %}
 
 <div class="row">
   {% for file in site.static_files %}
-    {% if file.path contains '/assets/images/junkjournal' and file.extname == '.jpg' %}
+    {% if file.path contains '/assets/images/junkjournal/' and file.extname == '.jpg' %}
       {% assign base_name = file.name | split: "." | first %}
       {% if gif_names contains base_name %}
         {% assign gif_path = file.path | replace: '.jpg', '.gif' %}
