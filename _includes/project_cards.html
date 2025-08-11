@@ -5,7 +5,7 @@
             <div class="card-body p-2">
                 <a href="{{ card.url }}">{{ card.title }}</a>
             </div>
-            <img src="{{ card.image }}" class="img-fluid">
+            <a href="{{ card.url }}"><img src="{{ card.image }}" class="img-fluid"></a>
         </div>
     </div>
     {% endfor %}
