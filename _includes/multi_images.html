@@ -1,0 +1,35 @@
+
+{% if include.notecard %}
+    {% assign default_col = "col-6 col-md-6" %}
+    {% assign default_padding = "p-1 m-0" %}
+{% else %}
+    {% assign default_col = "col-6 col-md-4" %}
+    {% assign default_padding = "p-1 m-0" %}
+{% endif %}
+
+{% assign col_class = include.col-size | default: default_col %}
+{% assign padding_class = include.padding | default: default_padding %}
+
+{% assign files_to_show = "" | split: "" %} <!-- empty array -->
+
+{% if include.img_list %}
+  {% assign files_to_show = include.img_list | split: "," %}
+{% elsif include.img_filter %}
+  {% for file in site.static_files %}
+    {% if file.path contains include.img_filter %}
+      {% assign files_to_show = files_to_show | push: file.path %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+
+<div class="row d-flex flex-wrap justify-content-center">
+  {% for file in files_to_show %}
+    <div class="{{ col_class }} {{ padding_class }}">
+      <img src="{{ file }}" alt="{{ file.name }}" class="img-fluid w-100">
+    </div>
+  {% endfor %}
+</div>
+
+
+

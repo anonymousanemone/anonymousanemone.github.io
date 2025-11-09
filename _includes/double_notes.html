@@ -8,11 +8,9 @@
     <div class="col-md-8">
         <div class="section">
             {% if include.images_path %}
-                {% if include.small %}
-                    {% include images_byname_small.html path=include.images_path %}
-                {% else %}
-                    {% include images_byname.html path=include.images_path %}
-                {% endif %}
+                {% include multi_images.html img_filter=include.images_path col-size=include.col-size%}
+             {% elsif include.images_list %}
+                {% include multi_images.html img_list=include.images_list col-size=include.col-size%}
             {% else %}
                 {{ include.images | raw }}
             {% endif %}
