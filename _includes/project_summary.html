@@ -1,12 +1,66 @@
+<!-- 
+ ACCEPTED INPUTS
+    description
+    additional
+    img1
+    img2 
+-->
+
+<!-- <div class="row mb-4 justify-content-center proj-summary g-3">
+    <div class="col-12 col-md-4">
+        <div class="section h-100">
+            <p>{{ include.description | markdownify}}</p>
+            {{ include.additional | raw}}
+        </div>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="{{ include.img1 }}" class="img-fluid" />
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="{{ include.img2 }}" class="img-fluid" />
+    </div>
+</div> -->
 <div class="row mb-4 justify-content-center proj-summary g-3">
-    <div class="col-12 col-md-4"><div class="section h-100">
-        <p>{{ include.description | markdownify}}</p>
-        {{ include.additional | raw}}
-    </div></div>
-    <div class="col-12 col-md-4">
-        {{ include.img1 | raw }}
+  <div class="col-12 col-lg-4 d-flex">
+    <div class="section d-flex flex-column h-100 w-100">
+      <p>{{ include.description | markdownify}}</p>
+      {{ include.additional | raw}}
     </div>
-    <div class="col-12 col-md-4">
-        {{ include.img2 | raw }}
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 d-flex">
+    <div class="d-flex align-items-center justify-content-center overflow-hidden">
+      <div class="img-wrapper {{ include.img1_mode }}">
+        <img src="{{ include.img1 }}" class="img-fluid" />
+      </div>
     </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 d-flex">
+    <div class="d-flex align-items-center justify-content-center overflow-hidden">
+      <div class="img-wrapper {{ include.img1_mode }}">
+        <img src="{{ include.img2 }}" class="img-fluid"/>
+      </div>
+    </div>
+  </div>
 </div>
+
+<style>
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.img-wrapper.crop img {
+  object-fit: cover;
+}
+
+/* main image determines natural height */
+.img-wrapper.main {
+  height: auto;
+}
+
+/* expand-and-crop option */
+.img-wrapper.crop img {
+  object-fit: cover;
+}
+</style>

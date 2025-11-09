@@ -1,3 +1,12 @@
+<!-- 
+ ACCEPTED INPUTS
+    title
+    text
+    images_path / images_list / images
+    col-size
+    padding
+-->
+
 <div class="row mb-4 align-items-center g-3">
     <div class="col-md-4">
         <div class="section">
@@ -9,7 +18,7 @@
         <div class="section">
             {% if include.images_path %}
                 {% include multi_images.html img_filter=include.images_path col-size=include.col-size%}
-             {% elsif include.images_list %}
+            {% elsif include.images_list %}
                 {% include multi_images.html img_list=include.images_list col-size=include.col-size%}
             {% else %}
                 {{ include.images | raw }}

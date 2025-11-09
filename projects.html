@@ -3,6 +3,16 @@ layout: default
 title: Projects
 
 projects:
+  - category: "Game Design"
+    title: "Flappy Mo"
+    url: "/projects/game_flappy.html"
+    image: "/assets/images/game/flappymo.png"
+
+  - category: "Game Design"
+    title: "That Time I Got Out of Jail by Reassembling Osiris"
+    url: "/projects/game_reassemblingosiris.html"
+    image: "/assets/images/game/reassemblingosiris/medea.png"
+
   - category: "Stained Glass"
     title: "Cephalopod and Cranium"
     url: "/projects/glass_octopus.html"
@@ -38,15 +48,25 @@ projects:
     url: "/projects/glass_hydra.html"
     image: "/assets/images/glass/hydra/hydra_color.png"
 
-  - category: "Game Design"
-    title: "Flappy Mo"
-    url: "/projects/game_flappy.html"
-    image: "/assets/images/game/flappymo.png"
+  - category: "Arts on Paper"
+    title: "Junk Journal Vol 1"
+    url: "/projects/junkjournal_v1.html"
+    image: "/assets/images/junkjournal_v1/23.jpg"
 
-  - category: "Game Design"
-    title: "That Time I Got Out of Jail by Reassembling Osiris"
-    url: "/projects/game_reassemblingosiris.html"
-    image: "/assets/images/game/reassemblingosiris/medea.png"
+  - category: "Arts on Paper"
+    title: "Junk Journal Vol 2"
+    url: "/projects/junkjournal_v2.html"
+    image: "/assets/images/junkjournal_v2/02.png"
+
+  - category: "Arts on Paper"
+    title: "Little Guys from Museums"
+    url: "/projects/museumguys.html"
+    image: "/assets/images/museum_guys/figures1.png"
+    
+  - category: "Arts on Paper"
+    title: "Sketchbook Highlights"
+    url: "/projects/sketchbook.html"
+    image: "/assets/images/sketchbook/colorblock.png"
 
 ---
 {% assign categories = page.projects | map: "category" | uniq %}
@@ -71,25 +91,27 @@ projects:
 	<!-- Main Content -->
 	<div class="col-12 col-md-8">
 		<div class="row d-flex flex-wrap">
+
 			<!-- General Section -->
-			<div class="col-12"><section class="section py-4 mt-3">
+			<!-- <div class="col-12"><section class="section py-4 mt-3">
 				<h4 class="mb-4">Quick links</h4>
 				<ul>
 					{% for project in page.projects %}
 					<li><a href="{{project.url}}">{{project.title}}</a></li>
 					{% endfor %}
 				</ul>
-			</section></div>
+			</section></div> -->
   
-		{% for category in categories %}
-		{% assign category_id = category | downcase | replace: ' ', '-' %}
-		{% assign filtered_projects = page.projects | where: "category", category %}
-		<div class="col-12" id="{{category_id}}"><section class="section py-4 mt-3">
-			<h2>{{ category }}</h2>
-			{% include project_cards.html cards=filtered_projects %}
-			</div>
-		</section> </div>
-		{% endfor %}
+      <!-- other sections -->
+      {% for category in categories %}
+      {% assign category_id = category | downcase | replace: ' ', '-' %}
+      {% assign filtered_projects = page.projects | where: "category", category %}
+      <div class="col-12" id="{{category_id}}"><section class="section py-4 mt-3">
+        <h2>{{ category }}</h2>
+        {% include project_cards.html cards=filtered_projects %}
+      </section> </div>
+      {% endfor %}
+
 	</div>
 </div>
 </div>
