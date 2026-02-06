@@ -10,4 +10,6 @@ gem "webrick", "~> 1.9"
 
 gem 'jekyll-feed', '~> 0.17.0'
 
+gem 'logger'
+
 # gem "minima", github: "jekyll/minima", ref: "1e8a445"

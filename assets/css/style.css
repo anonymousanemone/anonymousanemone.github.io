@@ -265,3 +265,14 @@ img {
 	text-align: center;
   }
 
+.glyph-link a:hover {
+	background-color: none;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: rgba(0, 0, 0, 0.75);
+}
+
+html {
+  scroll-behavior: auto !important;
+}

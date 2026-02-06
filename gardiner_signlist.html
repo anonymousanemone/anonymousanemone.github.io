@@ -1,0 +1,68 @@
+---
+layout: page
+title: Gardiner Sign List
+---
+<!-- data_source:
+https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&xsl=https://ochre.lib.uchicago.edu/xsl/Gardiner_signlist.xsl -->
+
+
+
+<div class="section mb-4" id="sign-index">
+
+	{% assign index = site.data.gardiner_signlist.index %}
+	{% for category in index %}
+	{% assign category_name = category[0] %}
+	{% assign signs = category[1] %}
+	<h5 class="mt-3 mb-3">{{ category_name }}</h5>
+	<div class="d-flex flex-row flex-wrap">
+		{% for sign in signs %}
+		{% assign glyph = sign[0] %}
+		{% assign number = sign[1] %}
+		<div class="col-1 text-center mb-3">
+			<a href="#{{ number }}" class="glyph-link d-block text-decoration-none">
+				<div class="small text-muted">{{ number }}</div>
+				<div class="display-6">{{ glyph }}</div>
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+	<hr>
+	{% endfor %}
+</div>
+
+<!-- DETAILED SIGN LIST -->
+<div id="sign-details">
+	{% assign sign_list = site.data.gardiner_signlist["sign list"] %}
+	{% for sign in sign_list %}
+	<div class="section mb-3" id="{{ sign.gardiner_number }}">
+		<div class="row align-items-start">
+			<!-- Number + Glyph) -->
+			<div class="col-1 text-center">
+				<span class="small text-muted d-block" data-bs-toggle="tooltip"
+					data-bs-title="{{ sign.category_group }}">
+					{{ sign.gardiner_number }}
+				</span>
+				<span class="display-5" data-bs-toggle="tooltip" data-bs-title="{{ sign.unicode }}">
+					{{ sign.glyph }}
+				</span>
+			</div>
+			<!-- Description -->
+			<div class="col-3">
+				<strong>{{ sign.description }}</strong>
+			</div>
+
+			<!-- Notes -->
+			<div class="col text-muted">
+				{{ sign.notes }}
+			</div>
+
+		</div>
+
+	</div>
+	{% endfor %}
+</div>
+
+<script>
+	const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+	tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el))
+</script>
