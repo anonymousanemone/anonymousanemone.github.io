@@ -18,7 +18,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 		{% for sign in signs %}
 		{% assign glyph = sign[0] %}
 		{% assign number = sign[1] %}
-		<div class="col-1 text-center mb-3">
+		<div class="col-md-1 col-2 text-center mb-3">
 			<a href="#{{ number }}" class="glyph-link d-block text-decoration-none">
 				<div class="small text-muted">{{ number }}</div>
 				<div class="display-6">{{ glyph }}</div>
@@ -37,7 +37,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 	<div class="section mb-3" id="{{ sign.gardiner_number }}">
 		<div class="row align-items-start">
 			<!-- Number + Glyph) -->
-			<div class="col-1 text-center">
+			<div class="col-md-1 col-2 text-center">
 				<span class="small text-muted d-block" data-bs-toggle="tooltip"
 					data-bs-title="{{ sign.category_group }}">
 					{{ sign.gardiner_number }}
@@ -47,7 +47,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 				</span>
 			</div>
 			<!-- Description -->
-			<div class="col-3">
+			<div class="col-md-3 col-10">
 				<strong>{{ sign.description }}</strong>
 			</div>
 
