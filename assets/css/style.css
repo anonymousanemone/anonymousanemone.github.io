@@ -286,6 +286,6 @@ html {
 
 /* Kilani Marwan, 2019, Djehuty - Font EgyptianHiero 4.02 (4.3.2019), https://github.com/MKilani/Djehuty */
 .hiero{
-    font-family: "EgyptianHiero", "Cascadia Code", sans-serif;
+    font-family:  "Cascadia Code", "EgyptianHiero", sans-serif;
     direction: ltr;
 }
