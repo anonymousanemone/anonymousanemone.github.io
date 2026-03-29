@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sophia Ling and Ruya Tazebay - That Time I Got Out of Jail by Reassembling Osiris — Play</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta name="author" content="Sophia Ling and Ruya Tazebay">
+  
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="interpreter/roboto.css">
+<link rel="stylesheet" type="text/css" href="interpreter/jquery.powertip.css">
+<link rel="stylesheet" type="text/css" href="interpreter/toastr.css">
+<link rel="stylesheet" type="text/css" href="interpreter/vex.css">
+<link rel="stylesheet" type="text/css" href="interpreter/vex-theme-plain.css">
+
+<link rel="stylesheet" type="text/css" href="interpreter/haven.css">
+<link rel="stylesheet" type="text/css" href="interpreter/vorple.css">
+  
+  <link rel="stylesheet" href="customStyle.css"/>
+
+  <script>
+    window.addEventListener('beforeunload', function (e) {
+      // Standard message (modern browsers ignore custom messages)
+      e.preventDefault();
+      e.returnValue = '';
+      // For older browsers:
+      return 'Are you sure you want to leave? Your current progress will be lost.';
+    });
+  </script>
+  
+ </head>
+<body>
+<div class="layout">
+	<!-- LEFT SIDEBAR -->
+
+		<aside class="sidebar left-sidebar">
+			<button class="sidebar-button sidebar-item" onclick="location.href='index.html'">< Home</button>
+			<!-- <hr> -->
+			<button class="sidebar-button sidebar-item" onclick="toggleHelp(true)">? Help</button>
+			<hr>
+			<div class="quick-menu">
+				<div class="quick-menu-header sidebar-item">Quick Commands</div>
+				<div class="quick-menu-body">
+					<a class="vorple-commandlink command-link" data-command="look" onclick="vorple.prompt.queueCommand('look')">Look (L)</a>
+					<a class="vorple-commandlink command-link" data-command="inventory" onclick="vorple.prompt.queueCommand('inventory')">Inventory (I)</a>
+					<a class="vorple-commandlink command-link click-fill-command" data-command="go " onclick="vorple.prompt.setValue('go')">Go</a>
+					<a class="vorple-commandlink command-link click-fill-command" data-command="examine " onclick="vorple.prompt.setValue('examine')">Examine (X)</a>
+					<a class="vorple-commandlink command-link click-fill-command" data-command="take " onclick="vorple.prompt.setValue('take')">Take</a>
+				</div>
+			</div>
+			<hr>
+			<button class="sidebar-button sidebar-item" onclick="saveGame()">Save Game</button>
+			<button class="sidebar-button sidebar-item" onclick="restoreGame()">Restore Game</button>
+			<button class="sidebar-button sidebar-item" id="save-transcript" onclick="saveTranscript()">Save Transcript</button>
+			<button class="sidebar-button sidebar-item" onclick="toggleFiles(true); showFileExplorer();">Files</button>
+		</aside>
+
+
+  <div id="game-container">
+	 <!-- move game port here after release -->
+  </div>
+  <!-- RIGHT SIDEBAR -->
+	<aside class="sidebar right-sidebar">
+		<div class="window-block">
+			<h4>Current Scene</h4>
+			<img src="Cover.png" alt="Scene graphic" id="scene-graphic">
+		</div>
+		<div class="window-block">
+			<h4>Map Progress</h4>
+			<img src="map.png" alt="Map">
+		</div>
+	</aside>
+
+
+  <!-- where the game generates -->
+	<div class="container">  
+		<div class="play">
+			<div id="gameport">
+				<main id="vorple">
+<div id="loader">
+<h2 id="loader-message">Loading scripts</h2>
+<div id="spinner">V</div>
+</div>
+</main>
+
+<script src="interpreter/vorple.min.js"></script>
+<script src="interpreter/That Time I Got Out of Jail by .gblorb.js"></script>
+
+<script>
+if( location.protocol === "file:" ) {
+$( 'body' )
+.empty()
+.html( "<div><p>You are currently viewing the page from the filesystem. " +
+"Unfortunately Vorple requires that the page is viewed through " +
+"the HTTP protocol, that is, you'll need to either upload it " +
+"to the Internet or install a local server.</p>" +
+'<p>See <a href="https://vorple-if.com/docs/localhost" style="color:#dde">vorple-if.com/docs/localhost</a> ' +
+"for more information.</p>" +
+"</div>" )
+.find( 'div' )
+.css({
+margin: "2em",
+padding: "1em",
+color: "#fff",
+backgroundColor: "rgb(137, 50, 58)",
+border: "3px solid gray"
+});
+
+throw new Error( "Vorple can't be run from the filesystem" );
+}
+
+$( function() {
+$( '.container, .interpretercredit' ).remove();
+});
+
+vorple.options = {
+autosave: false,
+engineColors: false,
+story: ""
+};
+
+vorple.debug.off();
+vorple.init();
+</script>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Overlay for popups -->
+<div class="overlay" id="overlay" onclick="removeOverlay()"></div>
+
+<!-- HELP POPUP -->
+<div class="custom-popup side-tabs" id="helpPopup" style="display: none;">
+  <div class="tab-sidebar">
+	<button class="tab-button active" onclick="switchTab('about')">About</button>
+    <button class="tab-button" onclick="switchTab('command')">What to do with ></button>
+    <button class="tab-button" onclick="switchTab('started')">Getting Started</button>
+    <button class="tab-button" onclick="switchTab('travel')">Rooms and Travel</button>
+    <button class="tab-button" onclick="switchTab('objects')">Objects</button>
+    <button class="tab-button" onclick="switchTab('control')">Controlling the Game</button>
+    <button class="tab-button" onclick="switchTab('world')">How the World is Assembled</button>
+    <button class="tab-button" onclick="switchTab('stuck')">If You Get Stuck</button>
+  </div>
+
+
+  <div class="help-scroll">
+	<div class="help-content active" id="tab-about">
+      <h3>About Interactive Fiction</h3>
+      <p>The game you are playing is a work of Interactive Fiction. In interactive fiction you play the main character of a story.  You type commands which determine the actions of the character and the flow of the plot.  Some IF games include graphics, but most do not: the imagery is provided courtesy of your imagination.  On the other hand, there's a wide range of action available: whereas in other games you may be restricted to shooting, movement, or searching items you can click on with a mouse, IF allows you a wide range of verbs.</p>
+	  <p><b>This help menu is adapted from Basic Help Menu by Emily Short.</b></p>
+	</div>
+    <div class="help-content" id="tab-command">
+      <h3>What to do with ></h3>
+	  <p>The > sign is where the game says, "Okay, what do you want to do now?"  You may respond by typing an instruction -- usually an imperative verb, possibly followed by prepositions and objects.  So, for instance, LOOK, LOOK AT FISH, TAKE FISH.</p>
+    </div>
+    <div class="help-content" id="tab-started">
+      <h3>Getting Started</h3>
+      <p>The first thing you want to do when starting a game is acquaint yourself with your surroundings and get a sense of your goal. To this end, you should read the introductory text carefully. Sometimes it contains clues. You will also want to look at the room you are in. Notice where the exits from the room are, and what objects are described here. If any of these seem interesting, you may want to EXAMINE them. </p>
+		<p>You might also want to examine yourself (EXAMINE ME) to see whether the author has left you any clues about your character. TAKE INVENTORY will tell you what you're carrying, as well.</p>
+		<p>Once you've gotten your bearings, you may want to explore. Move from room to room, and check out every location available.</p>
+    </div>
+    <div class="help-content" id="tab-travel">
+      <h3>Rooms and Travel</h3>
+      <p>At any given time, you are in a specific location, or room. When you go into a room, the game will print a description of what you can see there. This description will contain two vital kinds of information: things in the room you can interact with or take, and a list of exits, or ways out. If you want to see the description again, you may just type LOOK. </p>
+	  <p>When you want to leave a location and go to another one, you may communicate this to the game using compass directions: eg, GO NORTH. For simplicity's sake, you are allowed to omit the word GO, and to abbreviate the compass directions. So you may use NORTH, SOUTH, EAST, WEST, NORTHEAST, SOUTHEAST, NORTHWEST, SOUTHWEST, UP, and DOWN, or in short form N, S, E, W, NE, SE, NW, SW, U, and D. </p>
+	  <p>In some locations, IN and OUT will also be useful</p>
+    </div>
+    <div class="help-content" id="tab-objects">
+      <h3>Objects</h3>
+      <p>Throughout the game there will be assorted objects that you can do things with. Most importantly, you may TAKE or GET items, and (when you are tired of them) DROP them again. INVENTORY (abbreviated I) will list the items you are currently holding. </p>
+	  <p>There are usually assorted things you may do with these objects. OPEN, CLOSE, WEAR, EAT, LOCK, and UNLOCK are especially common. </p>
+	  <p>Occasionally, you will find that the game does not recognize the name of an object even though it has been described as being in the room with you. If this is the case, the object is just there for scenery, and you may assume that you do not need to interact with it.</p>
+    </div>
+    <div class="help-content" id="tab-control">
+      <h3>Controlling the Game</h3>
+      <p>There are a few simple commands for controlling the game itself. These are:</p>
+	  <p>SAVE saves a snapshot of the game as it is now. </br>
+		RESTORE puts the game back to a previous saved state. You may keep as many saved games as you like. </br>
+		RESTART puts the game back to the way it was at the beginning. </br>
+		QUIT ends the game. </p>
+    </div>
+    <div class="help-content" id="tab-world">
+      <h3>How the World is Assembled</h3>
+      <div class="accordion">
+		<div class="accordion-item">
+			<button class="accordion-header" onclick="toggleAccordion(this)">Space</button>
+			<div class="accordion-content">
+				<p>Most IF games are set in a world made up of rooms without internal division. Movement between rooms is possible; movement within a room does not always amount to anything. >WALK OVER TO THE DESK is rarely a useful sort of command. On the other hand, if something is described as being high or out of reach, it is sometimes relevant to stand on an object to increase your height. This kind of activity tends to be important only if prompted by the game text.</p>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<button class="accordion-header" onclick="toggleAccordion(this)">Containment</button>
+			<div class="accordion-content">
+				<p>One thing that IF does tend to model thoroughly is containment. Is something in or on something else? The game keeps track of this, and many puzzles have to do with where things are -- in the player's possession, lying on the floor of the room, on a table, in a box, etc.</p>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<button class="accordion-header" onclick="toggleAccordion(this)">Types of Action</button>
+			<div class="accordion-content">
+				<p>Most of the actions you can perform in the world of IF are brief and specific. >WALK WEST or >OPEN DOOR are likely to be provided. >TAKE A JOURNEY or >BUILD A TABLE are not. Things like >GO TO THE HOTEL are on the borderline: some games allow them, but most do not. In general, abstract, multi-stage behavior usually has to be broken down in order for the game to understand it.</p>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<button class="accordion-header" onclick="toggleAccordion(this)">Other Characters</button>
+			<div class="accordion-content">
+				<p>Other characters in IF games are sometimes rather limited. On the other hand, there are also games in which character interaction is the main point of the game. You should be able to get a feel early on for the characters -- if they seem to respond to a lot of questions, remember what they're told, move around on their own, etc., then they may be fairly important. If they have a lot of stock responses and don't seem to have been the game designer's main concern, then they are most likely present either as local color or to provide the solution to a specific puzzle or set of puzzles. Characters in very puzzle-oriented games often have to be bribed, threatened, or cajoled into doing something that the player cannot do -- giving up a piece of information or an object, reaching something high, allowing the player into a restricted area, and so on.</p>
+			</div>
+		</div>
+	  </div>
+    </div>
+    <div class="help-content" id="tab-stuck">
+      <h3>If You Get Stuck</h3>
+     <div class="accordion">
+		<div class="accordion-item">
+			<button class="accordion-header" onclick="toggleAccordion(this)"> Explore</button>
+			<div class="accordion-content">
+				<p>Examine every object and look at everything in your inventory. Open all the doors you can find, and go through them. Look inside all closed containers. Make sure you've exhausted all the options in your environment. </p>
+				<p>Try out all your senses. If the game mentions texture, odor, or sound, try touching, smelling, listening to, or tasting objects.</p>
+				<p>Be thorough. If you still can't figure out what to do, try opening windows, looking under beds, etc. Sometimes objects are well-hidden.</p>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<button class="accordion-header" onclick="toggleAccordion(this)">Read carefully</button>
+			<div class="accordion-content">
+				<p>Reread. Look back at things you've already looked at. Sometimes this will trigger an idea you hadn't thought of. </p>
+				<p>Take hints from the prose of the game. Things that are described in great detail are probably more important than things that are given one-liners. Play with those objects. If a machine is described as having component parts, look at the parts, and try manipulating them.  Likewise, notice the verbs that the game itself uses. Try using those yourself. Games often include special verbs -- the names of magic spells, or other special commands. There's no harm in attempting something if the game mentions it. </p>
+				<p>Check the whole screen. Are there extra windows besides the main window?  What's going on in those?  Check out the status bar, if there is one -- it may contain the name of the room you're in, your score, the time of day, your character's state of health, or some other important information.  If there's something up there, it's worth paying attention to that, too.  When and where does it change?  Why is it significant?  If the bar is describing your character's health, you can bet there is probably a point at which that will be important.</p>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<button class="accordion-header" onclick="toggleAccordion(this)">Be creative</button>
+			<div class="accordion-content">
+				<p>Rephrase. If there's something you want to do, but the game doesn't seem to understand you, try alternative wordings. </p>
+				<p>Try variations. Sometimes an action doesn't work, but does produce some kind of unusual result. These are often indications that you're on the right track, even if you haven't figured out quite the right approach yet. Pressing the red button alone may only cause a grinding noise from inside the wall, so perhaps pressing the blue and then the red will open the secret door.</p>
+				<p>Consider the genre of the game. Mysteries, romances, and thrillers all have their own types of action and motivation. What are you trying to do, and how do conventional characters go about doing that? What's the right sort of behavior for a detective/romance heroine/spy?</p>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<button class="accordion-header" onclick="toggleAccordion(this)">Cooperate</button>
+			<div class="accordion-content">
+				<p>Play with someone else. Two heads are often better than one. If that doesn't work, try emailing the author or (better yet) posting a request for hints on the newsgroup rec.games.int-fiction.  For best results, put the name of the game you want help with in the subject line; then leave a page or so of blank spoiler space (so that no one will read about where you got to in the game unless they've already played it), and describe your problem as clearly as possible.  Someone will probably be able to tell you how to get around it.</p>
+			</div>
+		</div>
+	  </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Files popup -->
+<div class="custom-popup file-explorer file-scroll" id="file-explorer" style="display: none;">
+	<div class="file-section">
+		<h2>Save Files</h2>
+	</div>
+	<div class="file-section">
+		<h2>Transcripts</h2>
+	</div>
+</div>
+
+</div>
+
+<script> const gameid = "898C0670-C5C4-47A2-99BB-FBE5F18E52C2"; console.log("Game ID:", gameid);</script>
+<script language="javascript" type="text/javascript" src="hoverfilllink.js"></script>
+<script language="javascript" type="text/javascript" src="scenegraphic.js"></script>
+<script language="javascript" type="text/javascript" src="sidebars.js"></script>
+<script language="javascript" type="text/javascript" src="savegame.js"></script>
+<script language="javascript" type="text/javascript" src="slowscroll.js"></script>
+  
+
+</body>
+</html>
+

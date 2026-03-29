@@ -1,0 +1,85 @@
+{
+  "root-path": "/SceneImages/",
+  "transport-home": {
+    "Avaris": "Avaris-Marketplace",
+    "Heliopolis": "Heliopolis-Marketplace",
+    "Memphis": "Memphis-Marketplace",
+    "Oxyrhynchos": "Oxyrhynchos-Marketplace",
+    "Amarna": "Outside the Walled Village",
+    "Abydos": "Entrance to the Osireion",
+    "Thebes": "Temple of Tawosret",
+    "Elephantine": "Elephantine-Marketplace"
+  },
+  "Avaris": {
+    "Avaris-Marketplace": ""
+  },
+  "Busiris": {
+    "Central Court": "busiris_icons/centralcourt.png",
+    "Pillar Hall": "busiris_icons/pillarhall.png",
+    "Hallway": "busiris_icons/hallway.png",
+    "Temple Repository": "busiris_icons/templerepos.png",
+    "Crypt of Osiris": "busiris_icons/osiriscrypt.png",
+    "Pillar Crypt": "busiris_icons/pillarcrypt.png",
+    "Corridor of Procession East": "busiris_icons/corr_proc_east.png",
+    "Shrine Room": "busiris_icons/shrineroom.png",
+    "Double Axe Hall": "busiris_icons/doubleaxehall.png",
+    "Corridor of Procession West": "busiris_icons/corr_proc_west.png",
+    "West Magazines": "busiris_icons/westmag.png",
+    "South Propylaeum": "busiris_icons/southprop.png",
+    "North Corridor": "busiris_icons/northcorridor.png",
+    "Corridor of the Draught Board": "busiris_icons/draughtboard.png",
+    "Workshops": "busiris_icons/workshops.png",
+    "Jail Cell": "busiris_icons/jailcell.png",
+    "Court of the Stone Spout": "busiris_icons/stonespout.png",
+    "Lobby": "busiris_icons/lobby.png",
+    "Tricolumnar Hall": "busiris_icons/tricolumnhall.png",
+    "Upper Hallway": "busiris_icons/upperhallway.png",
+    "Treasury": "busiris_icons/treasury.png",
+    "Great Hall-Busiris": "busiris_icons/greathall.png",
+    "Porch": "busiris_icons/westporch.png"
+  },
+  "Heliopolis": {
+    "Heliopolis-Marketplace": ""
+  },
+  "Memphis": {
+    "Memphis-Marketplace": ""
+  },
+  "Oxyrhynchos": {
+    "Oxyrhynchos-Marketplace": "",
+    "Nile Riverbank": ""
+  },
+  "Amarna": {
+    "Outside the Walled Village": "",
+    "Workmen's Village": "",
+    "Ruined City": "",
+    "Small Aten Temple": "",
+    "Sanctuary": "",
+    "Underground chapel": ""
+  },
+  "Abydos": {
+    "Entrance to the Osireion": "entrance_osirieion.png",
+    "North Passage": "",
+    "Great Hall": "",
+    "South Chamber": "",
+    "Sloped Passage": "",
+    "First Transverse Chamber": "",
+    "Central Nave": "",
+    "Tomb of Osiris": ""
+  },
+  "Thebes": {
+    "Temple of Thutmoses III": "",
+    "Ramesseum": "",
+    "Temple of Thutmoses IV": "",
+    "Temple of Tawosret": "temple_tausret.png",
+    "Temple of Merenptah": "",
+    "Collection of Three Temples": "",
+    "Temple of Amenhotep III": "",
+    "Memnon Colossi": "",
+    "Temple of Horemheb": "",
+    "Temple of Ramesses III": "",
+    "House of Life": ""
+  },
+  "Elephantine": {
+    "Elephantine-Marketplace": ""
+  }
+}

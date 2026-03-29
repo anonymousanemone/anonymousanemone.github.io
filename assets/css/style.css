@@ -9,6 +9,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "EgyptianHiero2";
+    src: url("EgyptianHiero2.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
 	--yellow: #ffb703;
 	--orange: #e97700;
@@ -286,6 +293,6 @@ html {
 
 /* Kilani Marwan, 2019, Djehuty - Font EgyptianHiero 4.02 (4.3.2019), https://github.com/MKilani/Djehuty */
 .hiero{
-    font-family:  "Cascadia Code", "EgyptianHiero", sans-serif;
+    font-family:  "Cascadia Code", "EgyptianHiero2", sans-serif;
     direction: ltr;
 }
