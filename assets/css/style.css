@@ -16,6 +16,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "HGNTransliteration";
+    src: url("HGNTransliteration-Unicode.ttf") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
 :root {
 	--yellow: #ffb703;
 	--orange: #e97700;
@@ -295,4 +302,11 @@ html {
 .hiero{
     font-family:  "Cascadia Code", "EgyptianHiero2", sans-serif;
     direction: ltr;
+}
+
+.translit {
+  /* font-family: "HGNTransliteration"; */
+  font-family: "Cascadia Code", sans-serif;
+  color: var(--red);
+  font-style: italic;
 }
