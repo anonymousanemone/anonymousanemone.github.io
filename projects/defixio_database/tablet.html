@@ -1,0 +1,146 @@
+---
+layout: defixio_base
+title: Tablet
+---
+
+<div class="container my-5">
+
+  <a href="/projects/defixio_database/" class="back-link">← Back to Catalogue</a>
+
+  <!-- TOP CARD -->
+  <div class="record-card mb-5">
+    <div class="row g-4">
+
+      <!-- IMAGES -->
+      <div class="col-md-5">
+        <div class="image-panel">
+          <img id="mainImage" class="main-image">
+          <div id="thumbs" class="thumbs"></div>
+        </div>
+      </div>
+
+      <!-- TEXT -->
+      <div class="col-md-7">
+        <div class="record-header">
+          <h2 id="title"></h2>
+          <div id="altNames" class="alt-names"></div>
+        </div>
+
+        <div id="description" class="description"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TABS ABOVE CARD -->
+<div class="tab-bar">
+
+  <div class="tab active" data-tab="overview">Overview</div>
+  <div class="tab" data-tab="text">Text</div>
+  <div class="tab" data-tab="biblio">Bibliography</div>
+
+</div>
+
+<!-- CARD CONTENT -->
+<div class="record-card">
+
+  <div id="overview" class="panel active"></div>
+  <div id="text" class="panel"></div>
+  <div id="biblio" class="panel"></div>
+
+</div>
+
+</div>
+
+<script>
+/* -----------------------------
+   LOAD DATA FROM JEKYLL
+----------------------------- */
+
+const data = {{ site.data.defixio_database | jsonify }};
+
+/* -----------------------------
+   GET ID FROM URL
+----------------------------- */
+
+const params = new URLSearchParams(window.location.search);
+const index = parseInt(params.get('id'), 10);
+
+/* -----------------------------
+   SAFETY CHECK
+----------------------------- */
+
+if (isNaN(index) || index < 0 || index >= data.length) {
+  document.querySelector('.container').innerHTML = "<p>Object not found.</p>";
+} else {
+  const obj = data[index];
+
+  /* -----------------------------
+     FILL CONTENT
+  ----------------------------- */
+
+  document.getElementById('title').innerText = obj.name || '';
+  document.getElementById('altNames').innerText = obj.alternate_names || '';
+
+  document.getElementById('description').innerHTML = `
+    <p>${obj.key_features || ''}</p>
+    <p>${obj.iconography || ''}</p>
+  `;
+
+  document.getElementById('overview').innerHTML = `
+    <div class="overview-grid">
+      <div class="label">Location</div><div>${obj.location || ''}</div>
+      <div class="label">Date</div><div>${obj.date || ''}</div>
+      <div class="label">Language</div><div>${obj.language || ''}</div>
+      <div class="label">Type</div><div>${obj.type || ''}</div>
+      <div class="label">Size</div><div>${obj.size || ''}</div>
+      <div class="label">Deity</div><div>${obj.deity || ''}</div>
+    </div>
+  `;
+
+  document.getElementById('text').innerHTML = `
+    <div class="text-block">
+      <h3>Transliteration</h3>
+      <pre>${obj.text || ''}</pre>
+    </div>
+    <div class="text-block">
+      <h3>Translation</h3>
+      <p>${obj.translation || ''}</p>
+    </div>
+  `;
+
+  document.getElementById('biblio').innerHTML = `
+    <p>${obj.related_objects || 'No bibliography available.'}</p>
+  `;
+
+  /* -----------------------------
+     IMAGES
+  ----------------------------- */
+
+  const images = obj.images || [];
+
+  if (images.length > 0) {
+    document.getElementById('mainImage').src = images[0];
+
+    document.getElementById('thumbs').innerHTML = images.map(img =>
+      `<img src="${img}" onclick="document.getElementById('mainImage').src='${img}'">`
+    ).join('');
+  } else {
+    document.getElementById('mainImage').style.display = "none";
+  }
+}
+
+/* -----------------------------
+   TABS
+----------------------------- */
+
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+
+    tab.classList.add('active');
+    document.getElementById(tab.dataset.tab).classList.add('active');
+  });
+});
+</script>

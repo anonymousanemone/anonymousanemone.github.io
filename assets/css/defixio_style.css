@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&family=New+Tegomin&family=Special+Elite&display=swap');
+
+/* -----------------------------
+   GLOBAL (ARCHIVE DRAWER)
+----------------------------- */
+
+body {
+  background: #e9e4d8; /* desk surface */
+  font-family: "Special Elite", system-ui;
+  color: #222;
+}
+
+/* -----------------------------
+   HEADER
+----------------------------- */
+
+.header h1 {
+  font-family: "IM Fell English SC", serif;
+  font-size: 2rem;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 5px;
+}
+
+/* -----------------------------
+   SEARCH
+----------------------------- */
+
+.search-box {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #888;
+  background: transparent;
+  padding: 8px;
+  font-family: inherit;
+}
+
+.search-box:focus {
+  outline: none;
+  border-bottom: 1px solid #b58900;
+}
+
+/* -----------------------------
+   INDEX CARD
+----------------------------- */
+
+.index-card {
+  background: #fdfcf8; /* card paper */
+  border: 1px solid #cfc8b8;
+  padding: 15px;
+  position: relative;
+
+  /* subtle paper depth */
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.08);
+  transition: 0.15s;
+}
+
+/* slight randomness like physical cards */
+.index-card {
+  transform: rotate(-0.3deg);
+}
+
+/* hover lifts card */
+.index-card:hover {
+  transform: translateY(-3px) rotate(0deg);
+  box-shadow: 4px 6px 0 rgba(0,0,0,0.12);
+}
+
+/* -----------------------------
+   CARD TAB (FOLDER STYLE)
+----------------------------- */
+
+.card-tab {
+  position: absolute;
+  top: -10px;
+  left: 15px;
+
+  background: #e1d7b8;
+  border: 1px solid #cfc8b8;
+  padding: 3px 8px;
+
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* -----------------------------
+   IMAGE
+----------------------------- */
+
+.index-card img {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  filter: grayscale(20%);
+}
+
+/* -----------------------------
+   TEXT
+----------------------------- */
+
+.card-title {
+  font-size: 1.05rem;
+  margin-bottom: 5px;
+}
+
+.card-meta {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+/* -----------------------------
+   LINKS
+----------------------------- */
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* -----------------------------
+   RESPONSIVE (bootstrap still works)
+----------------------------- */
+
+@media (max-width: 768px) {
+  .index-card {
+    transform: none;
+  }
+}
+
+/* -----------------------------
+   RECORD CARD (FULL SHEET)
+----------------------------- */
+
+.record-card {
+  background: #fdfcf8;
+  border: 1px solid #cfc8b8;
+  padding: 20px;
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.08);
+}
+
+/* -----------------------------
+   IMAGE PANEL
+----------------------------- */
+
+.image-panel {
+  background-color: #fff;
+  padding: 5px;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.thumbs {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.thumbs img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.thumbs img:hover {
+  opacity: 1;
+}
+
+/* -----------------------------
+   HEADER
+----------------------------- */
+
+.record-header h2 {
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.alt-names {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* -----------------------------
+   DESCRIPTION
+----------------------------- */
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* -----------------------------
+   TABS (ARCHIVAL STYLE)
+----------------------------- */
+
+.tabs {
+  display: flex;
+  /* margin-top: 10px; */
+}
+
+/* content area */
+.tab-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.panel {
+  display: none;
+}
+
+.panel.active {
+  display: block;
+}
+/* -----------------------------
+   TAB BAR (ARCHIVE STYLE)
+----------------------------- */
+
+.tab-bar {
+  display: flex;
+  gap: 6px;
+  margin-bottom: -1px; /* connects tabs to card */
+}
+
+/* -----------------------------
+   TRAPEZOID TAB
+----------------------------- */
+
+.tab {
+  padding: 8px 16px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  background: #e6dfcf;
+  border-top: 1px solid #cfc8b8;
+  border-bottom: none;
+
+  /* trapezoid shape */
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+
+  position: relative;
+  top: 1px;
+  z-index: 0;
+
+  transition: 0.15s;
+}
+
+/* active tab merges with card */
+
+.tab.active {
+  background: #fdfcf8;
+  z-index: 2;
+}
+.tab:hover {
+  background: #f4f1ea;
+}
+
+/* -----------------------------
+   OVERVIEW GRID
+----------------------------- */
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 6px 15px;
+  font-size: 0.9rem;
+}
+
+.overview-grid div {
+  padding: 2px 0;
+}
+
+/* labels */
+.label {
+  color: #555;
+}
+
+/* -----------------------------
+   TEXT BLOCKS
+----------------------------- */
+
+.text-block {
+  margin-bottom: 20px;
+}
+
+.text-block h3 {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+pre {
+  background: #f3f1eb;
+  padding: 10px;
+  border-left: 2px solid #ccc;
+  font-size: 0.9rem;
+}
+
+/* -----------------------------
+   BACK LINK
+----------------------------- */
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 0.85rem;
+  color: #b58900;
+}

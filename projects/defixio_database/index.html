@@ -1,0 +1,51 @@
+---
+layout: defixio_base
+title: Tablet Catalogue
+---
+
+<div class="container my-5">
+
+  <div class="header mb-4">
+    <h1>Tablet Catalogue</h1>
+  </div>
+
+  <input id="search" class="search-box mb-5" placeholder="Search tablets...">
+
+  <div class="row g-5" id="results">
+    {% for obj in site.data.defixio_database %}
+      <div class="col-md-4">
+
+        <a href="/projects/defixio_database/tablet.html?id={{ forloop.index0 }}" class="card-link">
+
+          <div class="index-card">
+
+            <!-- tab label -->
+            <div class="card-tab">
+              {{ obj.type }}
+            </div>
+
+            <!-- image -->
+            <img src="{{ obj.images[0] }}" alt="{{ obj.name }}">
+
+            <!-- content -->
+            <div class="card-body">
+
+              <div class="card-title">
+                {{ obj.name }}
+              </div>
+
+              <div class="card-meta">
+                {{ obj.date }}<br>
+                {{ obj.location }}
+              </div>
+
+            </div>
+
+          </div>
+
+        </a>
+
+      </div>
+    {% endfor %}
+  </div>
+</div>

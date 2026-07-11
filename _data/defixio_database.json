@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Administrative Tablet of Grain Rations",
+    "alternate_names": "Ur III Ration List",
+    "location": "Ur, Mesopotamia",
+    "date": "c. 2100 BCE",
+    "language": "Sumerian",
+    "type": "Clay Tablet",
+    "size": "11 × 9 cm",
+    "deity": "Nanna",
+    "key_features": "Lists allocations of grain to workers; clear column formatting; seal impression on reverse.",
+    "related_objects": "Similar ration tablets from the Ur III period",
+    "iconography": "Cylinder seal impression depicting a seated deity receiving offerings",
+    "text": "1. 10 sila še gurush\n2. 5 sila še geme\n3. 2 sila še dumu",
+    "translation": "10 sila of barley for the male worker; 5 sila of barley for the female worker; 2 sila of barley for the child.",
+    "images": [
+      "/assets/images/webs/defixio/thumbnail.png"
+    ]
+  },
+  {
+    "name": "Hymn to Inanna Tablet",
+    "alternate_names": "Temple Hymn Tablet",
+    "location": "Uruk, Mesopotamia",
+    "date": "c. 1800 BCE",
+    "language": "Akkadian",
+    "type": "Clay Tablet",
+    "size": "14 × 10 cm",
+    "deity": "Inanna",
+    "key_features": "Literary text praising Inanna; finely incised signs; partial damage on lower edge.",
+    "related_objects": "Old Babylonian literary tablets",
+    "iconography": "No seal; clean obverse with dense text",
+    "text": "1. nin-me-sar-ra\n2. dnin-anna za-e\n3. me-lam2-zu gal-gal",
+    "translation": "Lady of all the divine powers, Inanna, you alone are exalted; your radiance is great indeed.",
+    "images": [
+      "/assets/images/webs/defixio/thumbnail.png"
+    ]
+  },
+  {
+    "name": "Mathematical Problem Tablet",
+    "alternate_names": "Old Babylonian School Tablet",
+    "location": "Nippur, Mesopotamia",
+    "date": "c. 1700 BCE",
+    "language": "Akkadian",
+    "type": "Clay Tablet",
+    "size": "8 × 6 cm",
+    "deity": "",
+    "key_features": "Contains a geometry problem; student exercise; reverse includes teacher correction.",
+    "related_objects": "Cuneiform mathematical texts",
+    "iconography": "No imagery; purely textual",
+    "text": "1. 30 uš sag\n2. 10 uš šu\n3. a-na 3 ta-mar",
+    "translation": "A rectangle of length 30 and width 10; what is its area? (Answer: 300).",
+    "images": [
+      "/assets/images/webs/defixio/thumbnail.png"
+    ]
+  },
+  {
+    "name": "Letter from a Merchant",
+    "alternate_names": "Old Assyrian Trade Letter",
+    "location": "Kültepe (Kanesh), Anatolia",
+    "date": "c. 1900 BCE",
+    "language": "Akkadian",
+    "type": "Clay Tablet",
+    "size": "9 × 7 cm",
+    "deity": "Ashur",
+    "key_features": "Private correspondence regarding shipment of tin; envelope fragments preserved.",
+    "related_objects": "Old Assyrian trade archives",
+    "iconography": "Envelope impressions with seal marks",
+    "text": "umma Aššur-iddin ana Ilīya\nṭuppam ša kaspim ušēbilakkum",
+    "translation": "Thus says Ashur-iddin to Iliya: I have sent you the tablet concerning the silver.",
+    "images": [
+      "/assets/images/webs/defixio/thumbnail.png"
+    ]
+  },
+  {
+    "name": "Lexical List Tablet",
+    "alternate_names": "Sign List Tablet",
+    "location": "Sippar, Mesopotamia",
+    "date": "c. 1600 BCE",
+    "language": "Sumerian / Akkadian",
+    "type": "Clay Tablet",
+    "size": "12 × 8 cm",
+    "deity": "",
+    "key_features": "Bilingual lexical list; used in scribal training; neat column divisions.",
+    "related_objects": "Educational tablets",
+    "iconography": "No imagery; structured columns of signs",
+    "text": "1. e2 = bītu\n2. lugal = šarrum\n3. dumu = mārum",
+    "translation": "House = bītu; King = šarrum; Son = mārum.",
+    "images": [
+      "/assets/images/webs/defixio/thumbnail.png"
+    ]
+  }
+]
