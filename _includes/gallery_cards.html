@@ -1,4 +1,21 @@
+<!--
+  gallery_cards.html — one large row on the galleries index page: title + blurb
+  on one side, a preview image on the other. Called once per gallery, not looped
+  internally (the caller loops over its own list and includes this each time).
 
+  Required:
+    title           gallery title, also used as the link text
+    url             link target for the title
+    image_path      preview image path
+
+  Optional:
+    id              anchor id for the section (for #jump links from a sidebar)
+    text            blurb text shown under the title
+    img-left        true to put the image on the left instead of the right (default)
+    alt             alt text for the preview image (falls back to title)
+-->
+
+{% assign alt_text = include.alt | default: include.title %}
 
 {% if include.img-left%}
 <div class="col-12" id="{{include.id}}"><section class="section py-4 mt-3">
@@ -8,7 +25,7 @@
             <p>{{include.text}}</p>
         </div>
         <div class="col-md-6 col-lg-5 col-12 order-1 order-lg-0">
-            <img src="{{include.image_path}}" class="img-fluid">
+            <img src="{{include.image_path}}" alt="{{ alt_text }}" loading="lazy" decoding="async" class="img-fluid">
         </div>
     </div>
 </section></div>
@@ -23,7 +40,7 @@
             <p>{{include.text}}</p>
         </div>
         <div class="col-md-6 col-lg-5 col-12">
-            <img src="{{include.image_path}}" class="img-fluid">
+            <img src="{{include.image_path}}" alt="{{ alt_text }}" loading="lazy" decoding="async" class="img-fluid">
         </div>
     </div>
 </section></div>

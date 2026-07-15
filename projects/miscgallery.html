@@ -6,7 +6,7 @@ title: Miscellaneous Gallery
 <div class="gallery">
 {% for file in site.static_files %}
 	{% if file.path contains '/assets/images/misc'%}
-			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+			<img src="{{ file.path }}" alt="{{ file.name | split: "." | first | replace: "_", " " | replace: "-", " " }}" loading="lazy" decoding="async" class="img-fluid w-100">
 	{% endif %}
 {% endfor %}
 </div>

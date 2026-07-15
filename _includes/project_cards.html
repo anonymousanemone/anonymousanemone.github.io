@@ -1,11 +1,25 @@
+<!--
+  project_cards.html — a grid of link cards (thumbnail + title), one per project.
+  Used on projects.html (per category) and reused wherever a project list needs
+  a card grid.
+
+  Required:
+    cards           array of objects, each with:
+                      url     link target
+                      title   card title / link text
+                      image   thumbnail image path
+                      alt     (optional) alt text for the thumbnail, falls back to title
+-->
+
 <div class="row justify-content-start mt-3 g-3">
     {% for card in include.cards %}
+    {% assign alt_text = card.alt | default: card.title %}
     <div class="col-md-6 col-lg-4">
         <div class="card h-100 p-2">
             <div class="card-body p-2">
                 <a href="{{ card.url }}">{{ card.title }}</a>
             </div>
-            <a href="{{ card.url }}"><img src="{{ card.image }}" class="img-fluid"></a>
+            <a href="{{ card.url }}"><img src="{{ card.image }}" alt="{{ alt_text }}" loading="lazy" decoding="async" class="img-fluid"></a>
         </div>
     </div>
     {% endfor %}

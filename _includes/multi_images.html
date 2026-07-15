@@ -1,9 +1,23 @@
-<!-- 
- ACCEPTED INPUTS
-    notecard (bool)
-    img_list / img_filter
-    col-size
-    padding
+<!--
+  multi_images.html — renders a responsive grid of images. Not usually included
+  directly; double_notes.html and notecard.html call this internally for their
+  images_path / images_list options.
+
+  Image source (pick exactly one):
+    img_list        comma-separated string of explicit image paths
+    img_filter      substring matched against site.static_files paths; every
+                     matching file is rendered (e.g. "/assets/images/glass/octopus/color")
+
+  Optional:
+    notecard        bool; true tightens the default column size for use inside
+                     notecard.html's two-column layout (default false)
+    col-size        Bootstrap column classes per image, e.g. "col-6 col-md-4"
+                     (overrides the notecard-dependent default)
+    padding         Bootstrap padding classes per image (default "p-1 m-0")
+    alt_prefix      text prepended to the auto-generated alt (derived from each
+                     filename, underscores/hyphens turned into spaces)
+
+  All images render with loading="lazy" decoding="async".
 -->
 
 {% if include.notecard %}
@@ -32,8 +46,10 @@
 
 <div class="row d-flex flex-wrap justify-content-center">
   {% for file in files_to_show %}
+    {% assign file_name = file | split: "/" | last | split: "." | first | replace: "_", " " | replace: "-", " " %}
+    {% assign alt_text = include.alt_prefix | append: " " | append: file_name %}
     <div class="{{ col_class }} {{ padding_class }}">
-      <img src="{{ file }}" alt="{{ file.name }}" class="img-fluid w-100">
+      <img src="{{ file }}" alt="{{ alt_text | strip }}" loading="lazy" decoding="async" class="img-fluid w-100">
     </div>
   {% endfor %}
 </div>

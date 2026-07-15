@@ -11,7 +11,7 @@ layout: gallery
       <button class="btn btn-warning w-50 h-100" onclick="prevImage()">⟨</button>
     </div>
     <div class="col-md-8 text-center flip-container">
-      <img id="flipImage" src="{{page.img_dir}}01{{page.type}}" alt="Flipbook Page" class="img-fluid w-100">
+      <img id="flipImage" src="{{page.img_dir}}01{{page.type}}" alt="Flipbook page 1" decoding="async" class="img-fluid w-100">
     </div>
     <div class="col-md-1 text-center">
       <button class="btn btn-warning w-50 h-100" onclick="nextImage()">⟩</button>
@@ -31,26 +31,16 @@ layout: gallery
       {% if gif_names contains base_name %}
         {% assign gif_path = file.path | replace: page.type, '.gif' %}
         <div class="col-md-6 col-12 p-2">
-          <img src="{{ gif_path }}" alt="{{ base_name }}.gif" class="img-fluid w-100">
+          <img src="{{ gif_path }}" alt="Flipbook page {{ base_name }} (animated)" loading="lazy" decoding="async" class="img-fluid w-100">
         </div>
       {% else %}
         <div class="col-md-6 col-12 p-2">
-          <img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
+          <img src="{{ file.path }}" alt="Flipbook page {{ base_name }}" loading="lazy" decoding="async" class="img-fluid w-100">
         </div>
       {% endif %}
     {% endif %}
   {% endfor %}
 </div>
-
-<!-- <div class="row">
-{% for file in site.static_files %}
-	{% if file.path contains '/assets/images/junkjournal'%}
-		<div class="col-md-6 col-12 p-2">
-			<img src="{{ file.path }}" alt="{{ file.name }}" class="img-fluid w-100">
-		</div>
-	{% endif %}
-{% endfor %}
-</div> -->
 
 <script>
     const totalImages = {{ page.img_count }};
@@ -116,6 +106,9 @@ layout: gallery
 
             const img = document.createElement('img');
             img.src = src;
+            img.alt = `Flipbook thumbnail ${i}`;
+            img.loading = 'lazy';
+            img.decoding = 'async';
             img.classList.add(`thumb-${i}`);
             img.addEventListener('click', () => updateImage(i));
 

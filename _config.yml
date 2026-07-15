@@ -25,7 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   (And other pickings beginning with the letter P). My collection of side quests, main quests, 
   journeys, wanderings, and dilly dallyings. I'm Sophia.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "anonymousanemone.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://anonymousanemone.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+social_image: "/assets/images/yellowme.png" # default image used for social/Open Graph previews when a page doesn't set its own
 # twitter_username: jekyllrb
 github_username:  anonymousanemone
 

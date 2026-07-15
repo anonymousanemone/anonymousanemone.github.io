@@ -1,25 +1,20 @@
-<!-- 
- ACCEPTED INPUTS
-    description
-    additional
-    img1
-    img2 
+<!--
+  project_summary.html — the intro block at the top of a project page: a text
+  column plus two side-by-side images. Intended to be included once per page,
+  right after the front matter.
+
+  Required:
+    img1, img2      image paths for the two side images
+
+  Optional:
+    description     markdownified summary text for the left column
+    additional      raw HTML appended after the description (e.g. a list, a link)
+    img1_mode / img2_mode  "crop" to object-fit: cover instead of the default
+                     object-fit: contain (useful for images with mismatched aspect ratios)
+    img1_alt        alt text for img1 (falls back to include.title, then page.title)
+    img2_alt        alt text for img2 (falls back to include.title, then page.title)
 -->
 
-<!-- <div class="row mb-4 justify-content-center proj-summary g-3">
-    <div class="col-12 col-md-4">
-        <div class="section h-100">
-            <p>{{ include.description | markdownify}}</p>
-            {{ include.additional | raw}}
-        </div>
-    </div>
-    <div class="col-12 col-md-4">
-        <img src="{{ include.img1 }}" class="img-fluid" />
-    </div>
-    <div class="col-12 col-md-4">
-        <img src="{{ include.img2 }}" class="img-fluid" />
-    </div>
-</div> -->
 <div class="row mb-4 justify-content-center proj-summary g-3">
   <div class="col-12 col-lg-4 d-flex">
     <div class="section d-flex flex-column h-100 w-100">
@@ -30,14 +25,14 @@
   <div class="col-12 col-md-6 col-lg-4 d-flex">
     <div class="d-flex align-items-center justify-content-center overflow-hidden">
       <div class="img-wrapper {{ include.img1_mode }}">
-        <img src="{{ include.img1 }}" class="img-fluid" />
+        <img src="{{ include.img1 }}" alt="{{ include.img1_alt | default: include.title | default: page.title }}" loading="lazy" decoding="async" class="img-fluid" />
       </div>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-4 d-flex">
     <div class="d-flex align-items-center justify-content-center overflow-hidden">
-      <div class="img-wrapper {{ include.img1_mode }}">
-        <img src="{{ include.img2 }}" class="img-fluid"/>
+      <div class="img-wrapper {{ include.img2_mode }}">
+        <img src="{{ include.img2 }}" alt="{{ include.img2_alt | default: include.title | default: page.title }}" loading="lazy" decoding="async" class="img-fluid"/>
       </div>
     </div>
   </div>

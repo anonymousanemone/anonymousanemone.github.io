@@ -1,12 +1,25 @@
-<!-- 
- ACCEPTED INPUTS
-    label
-    text
-    images_path / images_list / images
-    col-size
-    padding
+<!--
+  notecard.html — a single full-width row: label + text on one side, an image
+  (or grid of images) on the other. Used for step-by-step process write-ups.
+
+  Required:
+    label           heading text for this step/note
+    text            body text (plain text, not markdownified)
+
+  Image source (pick exactly one):
+    images_path     substring matched against site.static_files paths; every matching
+                     file is rendered in a grid (e.g. "/assets/images/glass/octopus/glass")
+    images_list     comma-separated string of explicit image paths, rendered in a grid
+    images          raw HTML string, rendered as-is — prefer images_path/images_list
+                     instead where possible, since those auto-add alt text + lazy-loading
+
+  Optional:
+    img_right       true to place the image on the right instead of the left (default)
+    col-size        Bootstrap column classes for each image in the grid, e.g. "col-6 col-md-4"
+                     (only applies to images_path / images_list; ignored for images)
+    padding         Bootstrap padding classes for each grid image (default "p-1 m-0")
 -->
-    
+
 <div class="col-12">
     <div class="section"><div class="row align-items-center">
         <div class="col-12 col-md-6 {% if include.img_right %}order-0 order-md-1{%endif%}">
@@ -15,11 +28,11 @@
         </div>
         <div class="col-12 col-md-6 {% if include.img_right %}order-1 order-md-0{%endif%}">
             {% if include.images_path %}
-                {% include multi_images.html img_filter=include.images_path notecard=true col-size=include.col-size%}
+                {% include multi_images.html img_filter=include.images_path notecard=true col-size=include.col-size alt_prefix=include.label %}
             {% elsif include.images_list %}
-                {% include multi_images.html img_list=include.images_list notecard=true col-size=include.col-size%}
+                {% include multi_images.html img_list=include.images_list notecard=true col-size=include.col-size alt_prefix=include.label %}
             {% else %}
-                {{ include.images | raw }}  <!-- Avoid using -->
+                {{ include.images | raw }}
             {% endif %}
         </div>
     </div></div>
