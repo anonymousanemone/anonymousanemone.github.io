@@ -4412,7 +4412,8 @@
       "glyph": "𓀑",
       "unicode": "U+13011",
       "description": "as A 14 but blood interpreted as an axe",
-      "notes": "Use as A 14."
+      "notes": "Use as A 14.",
+      "page_number": 443
     },
     {
       "category_group": "A, Man and his occupations",
@@ -4447,7 +4448,8 @@
       "glyph": "𓀕",
       "unicode": "U+13015",
       "description": "child in sitting posture, arms hanging down",
-      "notes": "Adapted from hieratic, where it replaces 𓀂 A 3, ex. 𓈞𓊃𓀔 [t]ḥmsi[/t] ‘sit’, or 𓀔 A 17, ex. 𓄟𓅱𓀔𓏥 [t]msw[/t] ‘children’."
+      "notes": "Adapted from hieratic, where it replaces 𓀂 A 3, ex. 𓈞𓊃𓀔 [t]ḥmsi[/t] ‘sit’, or 𓀔 A 17, ex. 𓄟𓅱𓀔𓏥 [t]msw[/t] ‘children’.",
+      "page_number": 443
     },
     {
       "category_group": "A, Man and his occupations",
@@ -4797,7 +4799,8 @@
       "glyph": "𓁄",
       "unicode": "U+13044",
       "description": "man threatening with stick",
-      "notes": "Det. 'drive away' in 𓋴𓁷𓂋𓁄 [t]sḥr[/t] 'drive away'."
+      "notes": "Det. 'drive away' in 𓋴𓁷𓂋𓁄 [t]sḥr[/t] 'drive away'.",
+      "page_number": 445
     },
     {
       "category_group": "B, Woman and her occupations",
@@ -4967,7 +4970,8 @@
       "glyph": "𓁩",
       "unicode": "U+13069",
       "description": "Amun",
-      "notes": "Ideo. or det. for Amun. (Dyn XIX and later)."
+      "notes": "Ideo. or det. for Amun. (Dyn XIX and later).",
+      "page_number": 449
     },
     {
       "category_group": "C, Anthropomorphic deities",
@@ -4975,7 +4979,8 @@
       "glyph": "𓁮",
       "unicode": "U+1306E",
       "description": "Montu",
-      "notes": "Ideo. or det. for Montu (Dyn. XIX and later)"
+      "notes": "Ideo. or det. for Montu (Dyn. XIX and later)",
+      "page_number": 449
     },
     {
       "category_group": "C, Anthropomorphic deities",
@@ -4983,7 +4988,8 @@
       "glyph": "𓁯",
       "unicode": "U+1306F",
       "description": "Tjanen",
-      "notes": "Ideo. or det. for Tjanen (Dyn XIX and later)."
+      "notes": "Ideo. or det. for Tjanen (Dyn XIX and later).",
+      "page_number": 449
     },
     {
       "category_group": "C, Anthropomorphic deities",
@@ -4991,7 +4997,8 @@
       "glyph": "𓁰",
       "unicode": "U+13070",
       "description": "Ptah",
-      "notes": "Ideo. or det. in [t]Ptaḥ[/t] (Dyn. XIX and later)."
+      "notes": "Ideo. or det. in [t]Ptaḥ[/t] (Dyn. XIX and later).",
+      "page_number": 449
     },
     {
       "category_group": "C, Anthropomorphic deities",
@@ -4999,7 +5006,8 @@
       "glyph": "𓁱",
       "unicode": "U+13071",
       "description": "Ptah",
-      "notes": "Ideo. or det. for [t]Ptaḥ[/t] (Dyn. XIX and later)."
+      "notes": "Ideo. or det. for [t]Ptaḥ[/t] (Dyn. XIX and later).",
+      "page_number": 449
     },
     {
       "category_group": "D, Parts of the human body",
@@ -5250,7 +5258,8 @@
       "glyph": "𓂒",
       "unicode": "U+13092",
       "description": "breast (rather commoner shape)",
-      "notes": "Use as last"
+      "notes": "Use as last",
+      "page_number": 453
     },
     {
       "category_group": "D, Parts of the human body",
@@ -5321,7 +5330,8 @@
       "glyph": "𓂛",
       "unicode": "U+1309B",
       "description": "O.K. form of last",
-      "notes": "Use as last."
+      "notes": "Use as last.",
+      "page_number": 453
     },
     {
       "category_group": "D, Parts of the human body",
@@ -5437,7 +5447,8 @@
       "glyph": "𓂨",
       "unicode": "U+130A8",
       "description": "hand letting fall drops",
-      "notes": "Ideo. in idt 'fragrance'."
+      "notes": "Ideo. in idt 'fragrance'.",
+      "page_number": 455
     },
     {
       "category_group": "D, Parts of the human body",
@@ -5670,7 +5681,8 @@
       "glyph": "𓃚",
       "unicode": "U+130DA",
       "description": "kid jumping, form not found before Dyn. XIX",
-      "notes": "Later type of D8, wrongly substituted for above in many old publications. See above."
+      "notes": "Later type of D8, wrongly substituted for above in many old publications. See above.",
+      "page_number": 459
     },
     {
       "category_group": "E, Mammals",
@@ -6443,7 +6455,8 @@
       "glyph": "𓅇",
       "unicode": "U+13147",
       "description": "falcon in boat",
-      "notes": "Ideo. for the god of the XIIth nome of Upper Egypt, whose name has been inferred from somewhat complicated data to read [t]ꜥnty[/t] '[t]ꜥAnty[/t]', meaning perhaps literally 'he with the claw(s)'. This god occurs also in other parts of Upper Egypt, particularly in the XVIIIth nome, where his name was possibly read differently. Closely connected was also a biune god [t]ꜥntywy[/t] '[t]ꜥAntywey[/t]' worshipped in the Xth nome and elsewhere, whom the Greeks equated with their mythical giant Antaeus."
+      "notes": "Ideo. for the god of the XIIth nome of Upper Egypt, whose name has been inferred from somewhat complicated data to read [t]ꜥnty[/t] '[t]ꜥAnty[/t]', meaning perhaps literally 'he with the claw(s)'. This god occurs also in other parts of Upper Egypt, particularly in the XVIIIth nome, where his name was possibly read differently. Closely connected was also a biune god [t]ꜥntywy[/t] '[t]ꜥAntywey[/t]' worshipped in the Xth nome and elsewhere, whom the Greeks equated with their mythical giant Antaeus.",
+      "page_number": 468
     },
     {
       "category_group": "G, Birds",
@@ -6451,7 +6464,8 @@
       "glyph": "𓅈",
       "unicode": "U+13148",
       "description": "variant form of  7*",
-      "notes": "Use as last.\nFor as old symbol of the West, see R 13. For see O 10."
+      "notes": "Use as last.\nFor as old symbol of the West, see R 13. For see O 10.",
+      "page_number": 468
     },
     {
       "category_group": "G, Birds",
@@ -6630,7 +6644,8 @@
       "glyph": "𓅞",
       "unicode": "U+1315E",
       "description": "sacred ibis",
-      "notes": "Use as last, but very rarely without the standard."
+      "notes": "Use as last, but very rarely without the standard.",
+      "page_number": 470
     },
     {
       "category_group": "G, Birds",
@@ -6944,7 +6959,8 @@
       "glyph": "𓆅",
       "unicode": "U+13185",
       "description": "feather as found in hieratic",
-      "notes": "With one or two strokes at side in M.E. hieratic for words from the stem [t]šw[/t]."
+      "notes": "With one or two strokes at side in M.E. hieratic for words from the stem [t]šw[/t].",
+      "page_number": 474
     },
     {
       "category_group": "H, Parts of birds",
@@ -7015,7 +7031,8 @@
       "glyph": "𓆍",
       "unicode": "U+1318D",
       "description": "archaic stone (?) image of a crocodile",
-      "notes": "Ideo. or det. in Sbk (Śbk) '(the crocodile-god) Sobek'."
+      "notes": "Ideo. or det. in Sbk (Śbk) '(the crocodile-god) Sobek'.",
+      "page_number": 475
     },
     {
       "category_group": "I, Amphibious animals",
@@ -7167,7 +7184,8 @@
       "glyph": "𓆡",
       "unicode": "U+131A1",
       "description": "a fish",
-      "notes": "Det. of [t]špt[/t] 'be discontented'."
+      "notes": "Det. of [t]špt[/t] 'be discontented'.",
+      "page_number": 477
     },
     {
       "category_group": "L, Invertebrata and lesser animals",
@@ -7634,7 +7652,8 @@
       "glyph": "𓈗",
       "unicode": "U+13217",
       "description": "three riples",
-      "notes": ""
+      "notes": "",
+      "page_number": 490
     },
     {
       "category_group": "N, Sky",
@@ -8488,7 +8507,8 @@
       "glyph": "𓊜",
       "unicode": "U+1329C",
       "description": "boat upside down",
-      "notes": "Det. in 𓊪𓈖𓂝𓊜 [t]pnꜥ[/t] 'upset', 'overturn'."
+      "notes": "Det. in 𓊪𓈖𓂝𓊜 [t]pnꜥ[/t] 'upset', 'overturn'.",
+      "page_number": 498
     },
     {
       "category_group": "P, Ships and parts of ships",
@@ -8874,7 +8894,8 @@
       "glyph": "𓈀",
       "unicode": "U+13200",
       "description": "a garment",
-      "notes": "Ideo. of det. in [t]dꜢiw[/t] 'loin-cloth'."
+      "notes": "Ideo. of det. in [t]dꜢiw[/t] 'loin-cloth'.",
+      "page_number": 507
     },
     {
       "category_group": "S, Crowns",
@@ -8882,7 +8903,8 @@
       "glyph": "𓎬",
       "unicode": "U+133AC",
       "description": "tie or straps with a different arrangement of the same elements as S34",
-      "notes": ""
+      "notes": "",
+      "page_number": 508
     },
     {
       "category_group": "S, Crowns",
@@ -9016,7 +9038,8 @@
       "glyph": "𓋡",
       "unicode": "U+132E1",
       "description": "combination of S 12 and T 3",
-      "notes": "In [t]ḏꜥm[/t] 'fine gold', see under S 40, 41."
+      "notes": "In [t]ḏꜥm[/t] 'fine gold', see under S 40, 41.",
+      "page_number": 505
     },
     {
       "category_group": "S, Crowns",
@@ -9051,7 +9074,8 @@
       "glyph": "𓋦",
       "unicode": "U+132E6",
       "description": "girdle as worn by various gods (Pyr.)",
-      "notes": "Ideo. in the name of the goddess Šsmtt (Šzmtt) 'Shesmetet'. Phon. [t]šsm[/t] in [t]šsmt[/t] 'malachite'; also in [t]TꜢ-šsmt[/t] 'To-shemet', a region E. of Egypt."
+      "notes": "Ideo. in the name of the goddess Šsmtt (Šzmtt) 'Shesmetet'. Phon. [t]šsm[/t] in [t]šsmt[/t] 'malachite'; also in [t]TꜢ-šsmt[/t] 'To-shemet', a region E. of Egypt.",
+      "page_number": 506
     },
     {
       "category_group": "S, Crowns",
@@ -9311,7 +9335,8 @@
       "glyph": "𓐮",
       "unicode": "U+1342E",
       "description": "archaic type of bow",
-      "notes": ""
+      "notes": "",
+      "page_number": 512
     },
     {
       "category_group": "T, Warfare",
@@ -9382,7 +9407,8 @@
       "glyph": "𓌏",
       "unicode": "U+1330F",
       "description": "axe of more recent type",
-      "notes": "Det. in [t]Ꜣqḥw[/t] 'axe'."
+      "notes": "Det. in [t]Ꜣqḥw[/t] 'axe'.",
+      "page_number": 511
     },
     {
       "category_group": "T, Warfare",
@@ -9399,7 +9425,8 @@
       "glyph": "𓌑",
       "unicode": "U+13311",
       "description": "dagger of M.K. and later type",
-      "notes": "Det. in b([t]Ꜣ[/t])gsw 'dagger'."
+      "notes": "Det. in b([t]Ꜣ[/t])gsw 'dagger'.",
+      "page_number": 511
     },
     {
       "category_group": "T, Warfare",
@@ -9416,7 +9443,8 @@
       "glyph": "𓌓",
       "unicode": "U+13313",
       "description": "better O.K. form of T 9",
-      "notes": "Use as last."
+      "notes": "Use as last.",
+      "page_number": 511
     },
     {
       "category_group": "T, Warfare",
@@ -9658,7 +9686,8 @@
       "glyph": "𓐥",
       "unicode": "U+13425",
       "description": "warp stretched between two uprights",
-      "notes": ""
+      "notes": "",
+      "page_number": 520
     },
     {
       "category_group": "U, Agriculture",
@@ -9666,7 +9695,8 @@
       "glyph": "𓐦",
       "unicode": "U+13426",
       "description": "O.K. form of last",
-      "notes": ""
+      "notes": "",
+      "page_number": 520
     },
     {
       "category_group": "U, Agriculture",
@@ -9674,7 +9704,8 @@
       "glyph": "𓉽",
       "unicode": "U+1327D",
       "description": "pitchfork (should be inverted)",
-      "notes": ""
+      "notes": "",
+      "page_number": 517
     },
     {
       "category_group": "U, Agriculture",
@@ -10330,7 +10361,8 @@
       "glyph": "𓎢",
       "unicode": "U+133A2",
       "description": "the last, but with handle on opposite side",
-      "notes": "Regularly in hieratic except in rare O.K. examples."
+      "notes": "Regularly in hieratic except in rare O.K. examples.",
+      "page_number": 525
     },
     {
       "category_group": "V, Rope",
@@ -10491,7 +10523,8 @@
       "glyph": "𓎻",
       "unicode": "U+133BB",
       "description": "pot perhaps used also as lamp (O.K.)",
-      "notes": "Phon. [t]bꜢ[/t] in conjunction with G 29, ex. [t]bꜢ[/t] 'soul', or with E 10, ex. [t]BꜢ[/t]-pf(i) 'Bapfi', a god. Later superseded in these uses by R 7."
+      "notes": "Phon. [t]bꜢ[/t] in conjunction with G 29, ex. [t]bꜢ[/t] 'soul', or with E 10, ex. [t]BꜢ[/t]-pf(i) 'Bapfi', a god. Later superseded in these uses by R 7.",
+      "page_number": 528
     },
     {
       "category_group": "W, Vessels of stone and earthenware",
@@ -10634,7 +10667,8 @@
       "glyph": "𓈀",
       "unicode": "U+13200",
       "description": "alternative form of last",
-      "notes": "Use as last."
+      "notes": "Use as last.",
+      "page_number": 532
     },
     {
       "category_group": "X, Loaves and cakes",
@@ -10786,7 +10820,8 @@
       "glyph": "𓇮",
       "unicode": "U+131EE",
       "description": "triangle?",
-      "notes": ""
+      "notes": "",
+      "page_number": 538
     },
     {
       "category_group": "Z, Strokes",
@@ -10794,7 +10829,8 @@
       "glyph": "𓈒",
       "unicode": "U+13212",
       "description": "circle",
-      "notes": ""
+      "notes": "",
+      "page_number": 538
     },
     {
       "category_group": "Z, Strokes",
@@ -10928,7 +10964,8 @@
       "glyph": "𓐐",
       "unicode": "U+13410",
       "description": "See after 𓎺 W10*",
-      "notes": ""
+      "notes": "",
+      "page_number": 528
     },
     {
       "category_group": "Aa, Unclassified",

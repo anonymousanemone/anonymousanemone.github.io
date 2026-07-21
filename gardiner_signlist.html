@@ -56,9 +56,10 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 				{{ sign.notes
 				| replace: "[t]", "<span class='translit'>"
 				| replace: "[/t]", "</span>"
-				| replace: "_", "​" 
+				| replace: "_", "​"
 				}}
-				<b>[pg. {{ sign.page_number }}]</b>
+				{% assign pdf_page = sign.page_number | minus: 437 %}
+				<b><a href="{{ '/assets/pdf/gardiner_signlist.pdf' | relative_url }}#page={{ pdf_page }}" target="_blank" rel="noopener">[pg. {{ sign.page_number }}]</a></b>
 			</div>
 
 		</div>
@@ -74,7 +75,9 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 </div>
 
 <script>
-	const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-	tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el))
+	document.addEventListener('DOMContentLoaded', function () {
+		const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+		tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el))
+	})
 </script>
 
