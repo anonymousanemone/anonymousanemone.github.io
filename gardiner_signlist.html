@@ -59,7 +59,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 				| replace: "_", "​"
 				}}
 				{% assign pdf_page = sign.page_number | minus: 437 %}
-				<b><a href="{{ '/assets/pdf/gardiner_signlist.pdf' | relative_url }}#page={{ pdf_page }}" target="_blank" rel="noopener">[pg. {{ sign.page_number }}]</a></b>
+				<b><a href="{{ '/assets/pdf/gardiner_signlist.pdf' | relative_url }}#page={{ pdf_page }}" target="_blank" rel="noopener" class="page-number-link">[pg. {{ sign.page_number }}]</a></b>
 			</div>
 
 		</div>

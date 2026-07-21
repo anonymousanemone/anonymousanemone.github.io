@@ -310,3 +310,14 @@ html {
   color: var(--red);
   font-style: italic;
 }
+
+/* Gardiner sign list: in-text cross-reference links should read as plain text */
+#sign-details a:not(.page-number-link) {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* page number link keeps its underline but matches the muted text color */
+#sign-details .page-number-link {
+	color: inherit;
+}
