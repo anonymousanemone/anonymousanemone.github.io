@@ -4525,6 +4525,15 @@
     },
     {
       "category_group": "A, Man and his occupations",
+      "gardiner_number": "A59",
+      "glyph": "𓁄",
+      "unicode": "U+13044",
+      "description": "man threatening with stick",
+      "notes": "Det. 'drive away' in 𓋴𓁷𓂋𓁄 [t]sḥr[/t] 'drive away'.",
+      "page_number": 445
+    },
+    {
+      "category_group": "A, Man and his occupations",
       "gardiner_number": "A26",
       "glyph": "𓀞",
       "unicode": "U+1301E",
@@ -4792,15 +4801,6 @@
       "description": "mummy lying on bed (replacing O.K. form with man on bed).",
       "notes": "Det., lie, ex. [t]sḏr[/t] 'lie', 'spend all night'; death, exx. [t]ḫpt[/t] 'deceased'; [t]ẖꜢt[/t] 'corpse'.",
       "page_number": 447
-    },
-    {
-      "category_group": "A, Man and his occupations",
-      "gardiner_number": "A59",
-      "glyph": "𓁄",
-      "unicode": "U+13044",
-      "description": "man threatening with stick",
-      "notes": "Det. 'drive away' in 𓋴𓁷𓂋𓁄 [t]sḥr[/t] 'drive away'.",
-      "page_number": 445
     },
     {
       "category_group": "B, Woman and her occupations",
@@ -7009,6 +7009,15 @@
     },
     {
       "category_group": "I, Amphibious animals",
+      "gardiner_number": "I5*",
+      "glyph": "𓆍",
+      "unicode": "U+1318D",
+      "description": "archaic stone (?) image of a crocodile",
+      "notes": "Ideo. or det. in Sbk (Śbk) '(the crocodile-god) Sobek'.",
+      "page_number": 475
+    },
+    {
+      "category_group": "I, Amphibious animals",
       "gardiner_number": "I4",
       "glyph": "𓆋",
       "unicode": "U+1318B",
@@ -7023,15 +7032,6 @@
       "unicode": "U+1318C",
       "description": "crocodile with inward curved tail",
       "notes": "Det. in [t]sꜢq[/t] (śꜢq) 'collect', 'gather together'.",
-      "page_number": 475
-    },
-    {
-      "category_group": "I, Amphibious animals",
-      "gardiner_number": "I5*",
-      "glyph": "𓆍",
-      "unicode": "U+1318D",
-      "description": "archaic stone (?) image of a crocodile",
-      "notes": "Ideo. or det. in Sbk (Śbk) '(the crocodile-god) Sobek'.",
       "page_number": 475
     },
     {
@@ -7171,20 +7171,20 @@
     },
     {
       "category_group": "K, Fishes and parts of fishes",
-      "gardiner_number": "K6",
-      "glyph": "𓆠",
-      "unicode": "U+131A0",
-      "description": "fish-scale (also written vertically)",
-      "notes": "Ideo. or det. in [t]nšmt[/t] 'fish-scale'.",
-      "page_number": 477
-    },
-    {
-      "category_group": "K, Fishes and parts of fishes",
       "gardiner_number": "K7",
       "glyph": "𓆡",
       "unicode": "U+131A1",
       "description": "a fish",
       "notes": "Det. of [t]špt[/t] 'be discontented'.",
+      "page_number": 477
+    },
+    {
+      "category_group": "K, Fishes and parts of fishes",
+      "gardiner_number": "K6",
+      "glyph": "𓆠",
+      "unicode": "U+131A0",
+      "description": "fish-scale (also written vertically)",
+      "notes": "Ideo. or det. in [t]nšmt[/t] 'fish-scale'.",
       "page_number": 477
     },
     {
@@ -7648,15 +7648,6 @@
     },
     {
       "category_group": "N, Sky",
-      "gardiner_number": "(N35)",
-      "glyph": "𓈗",
-      "unicode": "U+13217",
-      "description": "three riples",
-      "notes": "",
-      "page_number": 490
-    },
-    {
-      "category_group": "N, Sky",
       "gardiner_number": "N1",
       "glyph": "𓇯",
       "unicode": "U+131EF",
@@ -7968,6 +7959,15 @@
       "unicode": "U+13216",
       "description": "ripple of water (rarely vertically)",
       "notes": "Cf. nt 'water'. Hence (?) phon. n. Perhaps phon. n too when used as a substitute for D 35 both in n 'not' and nn 'not'. In [t]ḏt[/t] 'serf' replaces the sign of land N 17, a curious substitution (or error of transcription?) found also in Pyr.",
+      "page_number": 490
+    },
+    {
+      "category_group": "N, Sky",
+      "gardiner_number": "(N35)",
+      "glyph": "𓈗",
+      "unicode": "U+13217",
+      "description": "three riples",
+      "notes": "",
       "page_number": 490
     },
     {
@@ -8890,24 +8890,6 @@
     },
     {
       "category_group": "S, Crowns",
-      "gardiner_number": "(N18)S",
-      "glyph": "𓈀",
-      "unicode": "U+13200",
-      "description": "a garment",
-      "notes": "Ideo. of det. in [t]dꜢiw[/t] 'loin-cloth'.",
-      "page_number": 507
-    },
-    {
-      "category_group": "S, Crowns",
-      "gardiner_number": "(V39)",
-      "glyph": "𓎬",
-      "unicode": "U+133AC",
-      "description": "tie or straps with a different arrangement of the same elements as S34",
-      "notes": "",
-      "page_number": 508
-    },
-    {
-      "category_group": "S, Crowns",
       "gardiner_number": "S1",
       "glyph": "𓋑",
       "unicode": "U+132D1",
@@ -9070,15 +9052,6 @@
     },
     {
       "category_group": "S, Crowns",
-      "gardiner_number": "S17*",
-      "glyph": "𓋦",
-      "unicode": "U+132E6",
-      "description": "girdle as worn by various gods (Pyr.)",
-      "notes": "Ideo. in the name of the goddess Šsmtt (Šzmtt) 'Shesmetet'. Phon. [t]šsm[/t] in [t]šsmt[/t] 'malachite'; also in [t]TꜢ-šsmt[/t] 'To-shemet', a region E. of Egypt.",
-      "page_number": 506
-    },
-    {
-      "category_group": "S, Crowns",
       "gardiner_number": "S18",
       "glyph": "𓋧",
       "unicode": "U+132E7",
@@ -9124,6 +9097,15 @@
     },
     {
       "category_group": "S, Crowns",
+      "gardiner_number": "S17*",
+      "glyph": "𓋦",
+      "unicode": "U+132E6",
+      "description": "girdle as worn by various gods (Pyr.)",
+      "notes": "Ideo. in the name of the goddess Šsmtt (Šzmtt) 'Shesmetet'. Phon. [t]šsm[/t] in [t]šsmt[/t] 'malachite'; also in [t]TꜢ-šsmt[/t] 'To-shemet', a region E. of Egypt.",
+      "page_number": 506
+    },
+    {
+      "category_group": "S, Crowns",
       "gardiner_number": "S23",
       "glyph": "𓋬",
       "unicode": "U+132EC",
@@ -9156,6 +9138,15 @@
       "unicode": "U+132EF",
       "description": "apron",
       "notes": "Ideo. or det. in [t]šndyt[/t], var. Pyr. [t]šnḏwt[/t], 'apron'.",
+      "page_number": 507
+    },
+    {
+      "category_group": "S, Crowns",
+      "gardiner_number": "(N18)S",
+      "glyph": "𓈀",
+      "unicode": "U+13200",
+      "description": "a garment",
+      "notes": "Ideo. of det. in [t]dꜢiw[/t] 'loin-cloth'.",
       "page_number": 507
     },
     {
@@ -9228,6 +9219,15 @@
       "unicode": "U+132F9",
       "description": "sandal",
       "notes": "Ideo. or det. in [t]ṯbt[/t], var. Dyn. XVIII tbt, 'sandal'. Hence semi-phon. or phon. det. [t]ṯb[/t], later tb, in [t]ṯb[/t] 'be shod'; [t]ṯbw[/t] 'sandal-maker'.",
+      "page_number": 508
+    },
+    {
+      "category_group": "S, Crowns",
+      "gardiner_number": "(V39)",
+      "glyph": "𓎬",
+      "unicode": "U+133AC",
+      "description": "tie or straps with a different arrangement of the same elements as S34",
+      "notes": "",
       "page_number": 508
     },
     {
@@ -9328,15 +9328,6 @@
       "description": "flagellum; perhaps originally used by goat-herds for collecting ladanum",
       "notes": "Ideo. or det. in [t]nḫḫw[/t], var. [t]nḫꜢḫꜢ[/t], 'flagellum'.",
       "page_number": 510
-    },
-    {
-      "category_group": "T, Warfare",
-      "gardiner_number": "(Aa32)",
-      "glyph": "𓐮",
-      "unicode": "U+1342E",
-      "description": "archaic type of bow",
-      "notes": "",
-      "page_number": 512
     },
     {
       "category_group": "T, Warfare",
@@ -9454,6 +9445,15 @@
       "description": "composite bow with middle tied to bow-string when out of use",
       "notes": "Det. in Pyr. iwnt 'bow'. From dyn. XII on preferred to T 9 in the hieroglyphic writing of [t]pḏt[/t] 'bow', 'foreign people', 'troop'; [t]pḏty[/t] 'bowman', while is preferred for phon. [t]pḏ[/t], pd.",
       "page_number": 511
+    },
+    {
+      "category_group": "T, Warfare",
+      "gardiner_number": "(Aa32)",
+      "glyph": "𓐮",
+      "unicode": "U+1342E",
+      "description": "archaic type of bow",
+      "notes": "",
+      "page_number": 512
     },
     {
       "category_group": "T, Warfare",
@@ -9682,33 +9682,6 @@
     },
     {
       "category_group": "U, Agriculture",
-      "gardiner_number": "(Aa23)",
-      "glyph": "𓐥",
-      "unicode": "U+13425",
-      "description": "warp stretched between two uprights",
-      "notes": "",
-      "page_number": 520
-    },
-    {
-      "category_group": "U, Agriculture",
-      "gardiner_number": "(Aa24)",
-      "glyph": "𓐦",
-      "unicode": "U+13426",
-      "description": "O.K. form of last",
-      "notes": "",
-      "page_number": 520
-    },
-    {
-      "category_group": "U, Agriculture",
-      "gardiner_number": "(O30)",
-      "glyph": "𓉽",
-      "unicode": "U+1327D",
-      "description": "pitchfork (should be inverted)",
-      "notes": "",
-      "page_number": 517
-    },
-    {
-      "category_group": "U, Agriculture",
       "gardiner_number": "U1",
       "glyph": "𓌳",
       "unicode": "U+13333",
@@ -9813,6 +9786,15 @@
       "unicode": "U+13340",
       "description": "combination of d 50 and U 9",
       "notes": "In [t]ḥqꜢt[/t] 'hekat-measure'.",
+      "page_number": 517
+    },
+    {
+      "category_group": "U, Agriculture",
+      "gardiner_number": "(O30)",
+      "glyph": "𓉽",
+      "unicode": "U+1327D",
+      "description": "pitchfork (should be inverted)",
+      "notes": "",
       "page_number": 517
     },
     {
@@ -10020,6 +10002,24 @@
       "unicode": "U+1335A",
       "description": "combination of U 34 and I 9",
       "notes": "Use as last.",
+      "page_number": 520
+    },
+    {
+      "category_group": "U, Agriculture",
+      "gardiner_number": "(Aa23)",
+      "glyph": "𓐥",
+      "unicode": "U+13425",
+      "description": "warp stretched between two uprights",
+      "notes": "",
+      "page_number": 520
+    },
+    {
+      "category_group": "U, Agriculture",
+      "gardiner_number": "(Aa24)",
+      "glyph": "𓐦",
+      "unicode": "U+13426",
+      "description": "O.K. form of last",
+      "notes": "",
       "page_number": 520
     },
     {
@@ -10528,6 +10528,15 @@
     },
     {
       "category_group": "W, Vessels of stone and earthenware",
+      "gardiner_number": "(Aa4)",
+      "glyph": "𓐐",
+      "unicode": "U+13410",
+      "description": "See after 𓎺 W10*",
+      "notes": "",
+      "page_number": 528
+    },
+    {
+      "category_group": "W, Vessels of stone and earthenware",
       "gardiner_number": "W11",
       "glyph": "𓎼",
       "unicode": "U+133BC",
@@ -10663,15 +10672,6 @@
     },
     {
       "category_group": "X, Loaves and cakes",
-      "gardiner_number": "(N18)X",
-      "glyph": "𓈀",
-      "unicode": "U+13200",
-      "description": "alternative form of last",
-      "notes": "Use as last.",
-      "page_number": 532
-    },
-    {
-      "category_group": "X, Loaves and cakes",
       "gardiner_number": "X1",
       "glyph": "𓏏",
       "unicode": "U+133CF",
@@ -10704,6 +10704,15 @@
       "unicode": "U+133D2",
       "description": "roll of bread",
       "notes": "Det. bread, food. exx. t 'bread'; [t]prt-ḫrw[/t] 'invocation offerings'; [t]snw[/t] 'food-offerings'. From this last, phon. det. sn (zn), exx. sni 'pass by'; Sni 'Senet', a fem. personal name; cf. also Pyr. iznii 'are opened'. In sni 'pass by' and snt 'likeness' X 4 is subsequently replaced by X 5, while Pyr. in zn 'open' later takes the form N 37, see on that sign. Also from [t]fqꜢ[/t] 'cake', phon. det. [t]fqꜢ[/t] in [t]fqꜢ[/t] 'reward'. As det. sometimes takes the place of W 3 (Dyns. XI. XII), ex. [t]ḥbw[/t] 'festivals'.",
+      "page_number": 532
+    },
+    {
+      "category_group": "X, Loaves and cakes",
+      "gardiner_number": "(N18)X",
+      "glyph": "𓈀",
+      "unicode": "U+13200",
+      "description": "alternative form of last",
+      "notes": "Use as last.",
       "page_number": 532
     },
     {
@@ -10816,24 +10825,6 @@
     },
     {
       "category_group": "Z, Strokes",
-      "gardiner_number": "(M44)",
-      "glyph": "𓇮",
-      "unicode": "U+131EE",
-      "description": "triangle?",
-      "notes": "",
-      "page_number": 538
-    },
-    {
-      "category_group": "Z, Strokes",
-      "gardiner_number": "(N33)",
-      "glyph": "𓈒",
-      "unicode": "U+13212",
-      "description": "circle",
-      "notes": "",
-      "page_number": 538
-    },
-    {
-      "category_group": "Z, Strokes",
       "gardiner_number": "Z1",
       "glyph": "𓏤",
       "unicode": "U+133E4",
@@ -10906,6 +10897,24 @@
     },
     {
       "category_group": "Z, Strokes",
+      "gardiner_number": "(N33)",
+      "glyph": "𓈒",
+      "unicode": "U+13212",
+      "description": "circle",
+      "notes": "",
+      "page_number": 538
+    },
+    {
+      "category_group": "Z, Strokes",
+      "gardiner_number": "(M44)",
+      "glyph": "𓇮",
+      "unicode": "U+131EE",
+      "description": "triangle?",
+      "notes": "",
+      "page_number": 538
+    },
+    {
+      "category_group": "Z, Strokes",
       "gardiner_number": "Z9",
       "glyph": "𓏴",
       "unicode": "U+133F4",
@@ -10957,15 +10966,6 @@
       "description": "pustule or gland (?) Aa 2 with liquid issuing from it",
       "notes": "Rarer alternative of in its medical or anatomical use, as det. when soft matter or a liquid is meant, exx. [t]wsšt[/t] 'urine'; [t]Ꜣs[/t] 'soft inner parts (?)'. Also det. in [t]sṯ[/t] 'odor'.",
       "page_number": 540
-    },
-    {
-      "category_group": "W, Vessels of stone and earthenware",
-      "gardiner_number": "(Aa4)",
-      "glyph": "𓐐",
-      "unicode": "U+13410",
-      "description": "See after 𓎺 W10*",
-      "notes": "",
-      "page_number": 528
     },
     {
       "category_group": "Aa, Unclassified",
