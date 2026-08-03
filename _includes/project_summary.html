@@ -4,7 +4,9 @@
   right after the front matter.
 
   Required:
-    img1, img2      image paths for the two side images
+    img1            image path for the side image
+    img2            image path for a second side image (optional — omit for a
+                     single wider image instead of two side by side)
 
   Optional:
     description     markdownified summary text for the left column
@@ -13,29 +15,37 @@
                      object-fit: contain (useful for images with mismatched aspect ratios)
     img1_alt        alt text for img1 (falls back to include.title, then page.title)
     img2_alt        alt text for img2 (falls back to include.title, then page.title)
+    img1_link       wraps img1 in a link to this URL (e.g. a "click to play" link)
+    img2_link       wraps img2 in a link to this URL
 -->
 
 <div class="row mb-4 justify-content-center proj-summary g-3">
   <div class="col-12 col-lg-4 d-flex">
     <div class="section d-flex flex-column h-100 w-100">
-      <p>{{ include.description | markdownify}}</p>
+      {{ include.description | markdownify}}
       {{ include.additional | raw}}
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 d-flex">
+  <div class="col-12 {% if include.img2 %}col-md-6 col-lg-4{% else %}col-lg-8{% endif %} d-flex">
     <div class="d-flex align-items-center justify-content-center overflow-hidden">
+      {% if include.img1_link %}<a href="{{ include.img1_link }}">{% endif %}
       <div class="img-wrapper {{ include.img1_mode }}">
         <img src="{{ include.img1 }}" alt="{{ include.img1_alt | default: include.title | default: page.title }}" loading="lazy" decoding="async" class="img-fluid" />
       </div>
+      {% if include.img1_link %}</a>{% endif %}
     </div>
   </div>
+  {% if include.img2 %}
   <div class="col-12 col-md-6 col-lg-4 d-flex">
     <div class="d-flex align-items-center justify-content-center overflow-hidden">
+      {% if include.img2_link %}<a href="{{ include.img2_link }}">{% endif %}
       <div class="img-wrapper {{ include.img2_mode }}">
         <img src="{{ include.img2 }}" alt="{{ include.img2_alt | default: include.title | default: page.title }}" loading="lazy" decoding="async" class="img-fluid"/>
       </div>
+      {% if include.img2_link %}</a>{% endif %}
     </div>
   </div>
+  {% endif %}
 </div>
 
 <style>

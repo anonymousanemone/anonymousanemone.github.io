@@ -1,0 +1,104 @@
+---
+layout: page
+title: BadReads
+---
+
+{% include project_summary.html
+    description = "A fanfiction cataloging and recommendation engine, built for Columbia's COMS W4111 (Introduction to Databases) with Helena He. Fandom metadata — fandoms, ships, characters, tags — is modeled as a proper relational schema and exposed through a search-first Flask app wired straight to hand-written PostgreSQL, no ORM. The original database has since gone offline; this page reconstructs it from screenshots."
+    img1 = "/assets/images/webs/badreads/screenshots/01-home-search.png"
+    img2 = "/assets/images/webs/badreads/screenshots/03-fanfic-detail.png"
+%}
+
+{% include section_head.html title="Features" %}
+
+<div class="row g-3 mb-4">
+    <div class="col-12 col-md-6 col-lg-4"><div class="section h-100">
+        <h4>Multi-filter query builder</h4>
+        <p>Title, author, fandom, tags, word-count range, update-date range, and completion status combine into one dynamically built SQL query with bound parameters.</p>
+    </div></div>
+    <div class="col-12 col-md-6 col-lg-4"><div class="section h-100">
+        <h4>Generated fic pages</h4>
+        <p>No hardcoded pages — one template pulls fandoms, ships, characters, tags, ratings, and comments for any fanfic via a shared join.</p>
+    </div></div>
+    <div class="col-12 col-md-6 col-lg-4"><div class="section h-100">
+        <h4>Recommendation engine</h4>
+        <p>Suggests five other works sharing the same author, fandom, tag, or ship pairing — computed live with a correlated subquery, not cached.</p>
+    </div></div>
+    <div class="col-12 col-md-6 col-lg-4"><div class="section h-100">
+        <h4>Ratings &amp; comments</h4>
+        <p>One rating per user per fic (1–10), unlimited comments. New usernames are created on first interaction rather than requiring signup.</p>
+    </div></div>
+    <div class="col-12 col-md-6 col-lg-4"><div class="section h-100">
+        <h4>Author pages</h4>
+        <p>Every username is a live page listing everything that author has written, generated the same way as the fic detail view.</p>
+    </div></div>
+    <div class="col-12 col-md-6 col-lg-4"><div class="section h-100">
+        <h4>Full-text summary search</h4>
+        <p>A <code>tsvector</code> column over title + summary lets queries match on plot content, not just structured metadata (added in a v2 pass).</p>
+    </div></div>
+</div>
+
+{% include section_head.html title="Screenshots" %}
+
+<div class="row g-4 align-items-center">
+
+{% include notecard.html tag = "Overview"
+        label = "Home / Search"
+        text = "Unfiltered view of the multi-filter query builder."
+        images_path = "/assets/images/webs/badreads/screenshots/01-home-search"
+        col-size = "col-12"
+%}
+
+{% include notecard.html tag = "Filtering"
+        label = "Filtered Results"
+        text = "Filtered to the Harry Potter fandom and the Slow Burn tag."
+        images_path = "/assets/images/webs/badreads/screenshots/02-home-filtered"
+        col-size = "col-12"
+        img_right = true
+%}
+
+{% include notecard.html tag = "Detail View"
+        label = "Fic Detail"
+        text = "Ratings, comments, and recommendations for a single work."
+        images_path = "/assets/images/webs/badreads/screenshots/03-fanfic-detail"
+        col-size = "col-12"
+%}
+
+{% include notecard.html tag = "Profiles"
+        label = "Author Page"
+        text = "Every work by a given author, generated the same way as a fic detail page."
+        images_path = "/assets/images/webs/badreads/screenshots/04-author-page"
+        col-size = "col-12"
+        img_right = true
+%}
+
+</div>
+
+{% include section_head.html title="Stack" %}
+
+<div class="row g-3 mb-4">
+    <div class="col-12 col-md-6"><div class="section h-100">
+        <h4>Product layer</h4>
+        <ul>
+            <li>Python 3 / Flask — routing, request handling</li>
+            <li>Jinja2 — server-rendered templates</li>
+            <li>SQLAlchemy Core — connection + parameterized <code>text()</code> queries, no ORM</li>
+            <li>Vanilla HTML/CSS — no client framework, no build step</li>
+            <li>GCP Compute VM — hosted the live instance (now decommissioned)</li>
+        </ul>
+    </div></div>
+    <div class="col-12 col-md-6"><div class="section h-100">
+        <h4>Data layer</h4>
+        <ul>
+            <li>PostgreSQL — 9 base tables, 3NF-normalized</li>
+            <li>Dynamic SQL — filters appended conditionally, bound params throughout</li>
+            <li>tsvector — full-text search over title + summary</li>
+            <li>Array columns — free-form tags, replacing a fixed Tag table</li>
+            <li>PL/pgSQL trigger — rejects case-insensitive duplicate tags on write</li>
+        </ul>
+    </div></div>
+</div>
+
+<div class="row mb-4"><div class="col-12"><div class="section">
+    <p class="mb-0"><strong>AI tools used:</strong> seed data (fics, users, comments) was generated with ChatGPT in place of scraping AO3; ChatGPT also assisted with parts of the query-builder UI and Flask debugging.</p>
+</div></div></div>

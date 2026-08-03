@@ -14,6 +14,7 @@
                      instead where possible, since those auto-add alt text + lazy-loading
 
   Optional:
+    tag             small red label rendered above the heading (e.g. "Overview", "Features")
     img_right       true to place the image on the right instead of the left (default)
     col-size        Bootstrap column classes for each image in the grid, e.g. "col-6 col-md-4"
                      (only applies to images_path / images_list; ignored for images)
@@ -23,6 +24,7 @@
 <div class="col-12">
     <div class="section"><div class="row align-items-center">
         <div class="col-12 col-md-6 {% if include.img_right %}order-0 order-md-1{%endif%}">
+            {% if include.tag %}<span class="card-tag">{{include.tag}}</span>{% endif %}
             <h4>{{include.label}}</h4>
             <p>{{include.text}}</p>
         </div>

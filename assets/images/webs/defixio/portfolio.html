@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Defixiones — Project Portfolio</title>
+<style>
+  :root{
+    --base:#860c08;
+    --accent:#d81c24;
+    --ink:#241111;
+    --paper:#faf6f1;
+    --card:#ffffff;
+    --line:#e4dcd2;
+    --muted:#7a716a;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  .display{font-family:"Times New Roman",Georgia,serif;}
+
+  a{color:var(--base);}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;
+    background:
+      linear-gradient(160deg, rgba(134,12,8,.94), rgba(60,6,6,.94)),
+      repeating-linear-gradient(45deg, rgba(255,255,255,.03) 0 2px, transparent 2px 14px);
+    color:#fff;
+    padding:88px 24px 72px;
+    text-align:center;
+    overflow:hidden;
+  }
+  .hero .eyebrow{
+    font-variant:small-caps;
+    letter-spacing:.14em;
+    font-size:.85rem;
+    color:#f3c9c8;
+    margin-bottom:18px;
+  }
+  .hero h1{
+    font-family:"Times New Roman",Georgia,serif;
+    font-size:clamp(2.4rem,6vw,4rem);
+    margin:0 0 14px;
+    letter-spacing:.02em;
+  }
+  .hero p.tagline{
+    max-width:640px;
+    margin:0 auto 30px;
+    font-size:1.15rem;
+    color:#f1dede;
+  }
+  .badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:center;
+    margin-bottom:34px;
+  }
+  .badge{
+    border:1px solid rgba(255,255,255,.35);
+    color:#fff;
+    background:rgba(255,255,255,.08);
+    padding:6px 14px;
+    border-radius:999px;
+    font-size:.82rem;
+    letter-spacing:.02em;
+  }
+  .hero-links{
+    display:flex;
+    gap:14px;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  .btn{
+    display:inline-block;
+    padding:11px 22px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    font-size:.95rem;
+    border:2px solid transparent;
+    transition:transform .15s ease, background .15s ease;
+  }
+  .btn:hover{transform:translateY(-1px);}
+  .btn-solid{background:#fff;color:var(--base);}
+  .btn-solid:hover{background:#f3e9e9;}
+  .btn-outline{border-color:rgba(255,255,255,.6);color:#fff;}
+  .btn-outline:hover{background:rgba(255,255,255,.12);}
+
+  /* ---------- Layout ---------- */
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+  section{padding:64px 0;}
+  section.alt{background:#f2ece3;}
+  h2.section-title{
+    font-family:"Times New Roman",Georgia,serif;
+    font-size:2rem;
+    margin:0 0 8px;
+    color:var(--base);
+  }
+  .section-sub{color:var(--muted);margin:0 0 40px;max-width:680px;}
+
+  /* ---------- About ---------- */
+  .about-grid{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:40px;
+    align-items:start;
+  }
+  .about-grid p{margin:0 0 16px;}
+  .citation{
+    font-style:italic;
+    color:var(--muted);
+    border-left:3px solid var(--accent);
+    padding-left:14px;
+    margin:20px 0;
+  }
+  .stat-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:22px;
+    margin-bottom:14px;
+  }
+  .stat-card .num{
+    font-family:"Times New Roman",Georgia,serif;
+    font-size:2.1rem;
+    color:var(--base);
+    display:block;
+  }
+  .stat-card .label{color:var(--muted);font-size:.9rem;}
+  .stats-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+
+  /* ---------- Features / Screenshots ---------- */
+  .feature{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:44px;
+    align-items:center;
+    padding:44px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .feature:last-child{border-bottom:none;}
+  .feature.reverse .shot{order:2;}
+  .feature.reverse .copy{order:1;}
+  .copy h3{
+    font-family:"Times New Roman",Georgia,serif;
+    font-size:1.5rem;
+    margin:0 0 12px;
+    color:var(--ink);
+  }
+  .copy p{color:#4a4441;margin:0 0 10px;}
+  .copy ul{margin:12px 0 0;padding-left:20px;color:#4a4441;}
+  .copy ul li{margin-bottom:6px;}
+  .tag{
+    display:inline-block;
+    font-size:.72rem;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    color:var(--base);
+    background:#f6dcdb;
+    border-radius:5px;
+    padding:3px 9px;
+    margin-bottom:12px;
+    font-weight:700;
+  }
+  .shot{
+    border-radius:12px;
+    overflow:hidden;
+    border:1px solid var(--line);
+    box-shadow:0 12px 30px -14px rgba(60,10,10,.35);
+    background:#fff;
+  }
+  .shot a{display:block;}
+  .shot img{
+    display:block;
+    width:100%;
+    height:auto;
+    max-height:420px;
+    object-fit:cover;
+    object-position:top;
+  }
+  .shot .caption{
+    padding:10px 14px;
+    font-size:.82rem;
+    color:var(--muted);
+    border-top:1px solid var(--line);
+    display:flex;
+    justify-content:space-between;
+    gap:8px;
+  }
+
+  /* ---------- Stack ---------- */
+  .stack-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:18px;
+  }
+  .stack-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:22px;
+  }
+  .stack-card h4{margin:0 0 8px;font-size:1rem;color:var(--base);}
+  .stack-card p{margin:0;font-size:.88rem;color:var(--muted);}
+
+  /* ---------- Footer ---------- */
+  footer{
+    background:var(--ink);
+    color:#d9cfc9;
+    text-align:center;
+    padding:40px 24px;
+    font-size:.9rem;
+  }
+  footer a{color:#f3c9c8;}
+
+  @media (max-width:820px){
+    .about-grid,.feature,.feature.reverse{grid-template-columns:1fr;}
+    .feature.reverse .shot,.feature.reverse .copy{order:initial;}
+    .stats-row{grid-template-columns:1fr 1fr;}
+  }
+
+  @media (prefers-color-scheme: dark){
+    body{--paper:#171011;--ink:#f1e8e4;--card:#231a1a;--line:#3a2c2c;--muted:#b8aaa4;}
+    section.alt{background:#1e1516;}
+    .stack-card,.stat-card{background:var(--card);}
+    .shot{background:#231a1a;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="eyebrow">Full-Stack Web Application &nbsp;·&nbsp; Flask + Python</div>
+  <h1>Defixiones</h1>
+  <p class="tagline">A digital catalogue of ancient Roman &amp; Greek curse tablets — browse, search, filter, and contribute entries from a scholarly corpus spanning the 4th century BCE to the 5th century CE.</p>
+  <div class="badges">
+    <span class="badge">Python</span>
+    <span class="badge">Flask</span>
+    <span class="badge">Jinja2</span>
+    <span class="badge">JavaScript</span>
+    <span class="badge">HTML / CSS</span>
+  </div>
+  <div class="hero-links">
+    <a class="btn btn-solid" href="https://github.com/anonymousanemone/DefixioDatabase" target="_blank" rel="noopener">View Source on GitHub</a>
+    <a class="btn btn-outline" href="#features">See the App</a>
+  </div>
+</header>
+
+<section>
+  <div class="wrap about-grid">
+    <div>
+      <h2 class="section-title">About the Project</h2>
+      <p>Defixiones (Latin for "curse tablets") were inscribed sheets of lead used across the Greek and Roman world to bind rivals in love, sport, law, and business to a curse. This project turns a scholarly catalogue of 31 published tablets into a browsable, searchable web database — built end-to-end with a Flask backend, Jinja2-rendered templates, and vanilla JS for dynamic filtering and search-term highlighting.</p>
+      <p class="citation">Data sourced from Sánchez Natalías, Celia. <em>Sylloge of Defixiones from the Roman West.</em> Oxford: BAR Publishing, 2022.</p>
+      <p>The app supports full CRUD-style interaction: visitors can browse tablets by era, material, language, or curse type; search full translations with live highlighting; and add or edit catalogue entries through validated forms.</p>
+    </div>
+    <div>
+      <div class="stats-row">
+        <div class="stat-card"><span class="num">31</span><span class="label">catalogued tablets</span></div>
+        <div class="stat-card"><span class="num">9</span><span class="label">centuries covered</span></div>
+        <div class="stat-card"><span class="num">4</span><span class="label">curse categories</span></div>
+        <div class="stat-card"><span class="num">7</span><span class="label">Flask routes</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="features">
+  <div class="wrap">
+    <h2 class="section-title">Walkthrough</h2>
+    <p class="section-sub">Screenshots captured from the running application.</p>
+
+    <div class="feature">
+      <div class="shot">
+        <a href="screenshots/01_home.png" target="_blank" rel="noopener">
+          <img src="screenshots/01_home.png" alt="Defixiones home page with hero banner and featured curse tablets">
+        </a>
+        <div class="caption"><span>Home — featured tablets</span><span>/</span></div>
+      </div>
+      <div class="copy">
+        <span class="tag">Landing Page</span>
+        <h3>A themed home page</h3>
+        <p>A custom red-and-parchment theme (matching the "inscribed lead" motif) greets visitors with a rotating set of featured tablets, each linking through to its full record.</p>
+      </div>
+    </div>
+
+    <div class="feature reverse">
+      <div class="shot">
+        <a href="screenshots/02_detail.png" target="_blank" rel="noopener">
+          <img src="screenshots/02_detail.png" alt="Detail page for tablet 2, Roma, with translation and hand-drawn image">
+        </a>
+        <div class="caption"><span>Detail view — Tablet #2, Roma</span><span>/defix/&lt;id&gt;</span></div>
+      </div>
+      <div class="copy">
+        <span class="tag">Dynamic Route</span>
+        <h3>Per-tablet detail pages</h3>
+        <p>Every tablet gets its own route rendering provenance, location, date, material, language, and grouping — each value itself a clickable filter — alongside the full translation and a drawn facsimile of the inscription.</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="shot">
+        <a href="screenshots/03_search.png" target="_blank" rel="noopener">
+          <img src="screenshots/03_search.png" alt="Search results for the query love, with matched terms highlighted in yellow">
+        </a>
+        <div class="caption"><span>Full-text search — "love"</span><span>/search</span></div>
+      </div>
+      <div class="copy">
+        <span class="tag">Search</span>
+        <h3>Highlighted full-text search</h3>
+        <p>Search runs across provenance, location, date, grouping, and translation text. Matches are highlighted in place, and long translations are intelligently truncated around the first match rather than just at the start.</p>
+      </div>
+    </div>
+
+    <div class="feature reverse">
+      <div class="shot">
+        <a href="screenshots/06_filtered.png" target="_blank" rel="noopener">
+          <img src="screenshots/06_filtered_top.png" alt="Filtered results page showing all erotic defixiones">
+        </a>
+        <div class="caption"><span>Filtered by grouping — "erotic defixiones"</span><span>/grouping/&lt;value&gt;</span></div>
+      </div>
+      <div class="copy">
+        <span class="tag">Faceted Filtering</span>
+        <h3>Filter by any attribute</h3>
+        <p>A single generic <code>/&lt;key&gt;/&lt;value&gt;</code> route powers filtering by material, language, area, curse category, or date range — including compound date-range queries resolved against each entry's date span.</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="shot">
+        <a href="screenshots/05_browse_all.png" target="_blank" rel="noopener">
+          <img src="screenshots/05_browse_all_top.png" alt="Browse all page listing every catalogued tablet">
+        </a>
+        <div class="caption"><span>Browse all 31 entries</span><span>/browse_all</span></div>
+      </div>
+      <div class="copy">
+        <span class="tag">Catalogue</span>
+        <h3>Browse the full corpus</h3>
+        <p>The complete catalogue in one scrollable list — provenance, era, curse type, translation excerpt, and facsimile for every tablet, letting researchers scan the whole collection at a glance.</p>
+      </div>
+    </div>
+
+    <div class="feature reverse">
+      <div class="shot">
+        <a href="screenshots/04_add_form.png" target="_blank" rel="noopener">
+          <img src="screenshots/04_add_form.png" alt="Add new defixio form with fields for provenance, location, date, and translation">
+        </a>
+        <div class="caption"><span>Add / edit form</span><span>/add</span></div>
+      </div>
+      <div class="copy">
+        <span class="tag">Data Entry</span>
+        <h3>Validated contribution form</h3>
+        <p>New entries are added through a form with server-side validation — unique ID enforcement, numeric date-range checks, and comma-separated material parsing — backed by an identical edit flow for existing records.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Under the Hood</h2>
+    <p class="section-sub">A lightweight, dependency-free stack — no database engine, no frontend framework.</p>
+    <div class="stack-grid">
+      <div class="stack-card">
+        <h4>Flask + Jinja2</h4>
+        <p>Server-side routing and templating for every page, including a shared layout and reusable filtered/results partials.</p>
+      </div>
+      <div class="stack-card">
+        <h4>In-memory data store</h4>
+        <p>Catalogue entries live in a Python dict (<code>data.py</code>), keyed by tablet ID — swappable for a real database later.</p>
+      </div>
+      <div class="stack-card">
+        <h4>Generic filter routing</h4>
+        <p>One <code>/&lt;key&gt;/&lt;value&gt;</code> endpoint handles every facet (material, language, date range, grouping) via introspection over entry keys.</p>
+      </div>
+      <div class="stack-card">
+        <h4>Vanilla JS forms</h4>
+        <p><code>add.js</code> / <code>edit.js</code> handle client-side interactions and POST JSON to Flask endpoints for validation.</p>
+      </div>
+      <div class="stack-card">
+        <h4>Regex-based highlighting</h4>
+        <p>Search matches are wrapped server-side with <code>re.sub</code>, including a custom truncation routine that centers excerpts on the match.</p>
+      </div>
+      <div class="stack-card">
+        <h4>Custom CSS theme</h4>
+        <p>A hand-built red/parchment palette and dashed "inscribed tablet" card style tie the visual design to the subject matter.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Defixiones — a mock database project by Sophia Ling.</p>
+  <p><a href="https://github.com/anonymousanemone/DefixioDatabase" target="_blank" rel="noopener">github.com/anonymousanemone/DefixioDatabase</a></p>
+</footer>
+
+</body>
+</html>

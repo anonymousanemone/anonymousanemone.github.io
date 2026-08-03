@@ -97,6 +97,16 @@ img {
 	background-color: var(--cream);
 }
 
+.card-tag {
+	display: block;
+	color: var(--red);
+	font-size: 0.7rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-bottom: 0.15em;
+}
+
 .section img {
 	border: 4px dashed var(--lightbrown);
 	background-color: white;

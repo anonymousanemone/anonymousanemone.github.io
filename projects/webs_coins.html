@@ -1,0 +1,113 @@
+---
+layout: page
+title: Early Chinese Coin Finds Database
+---
+
+{% include project_summary.html
+    description = "A searchable, mapped record of pre-Qin to early Han coin discoveries across China — sites, contexts, typology, mint towns, and museum specimens, presented bilingually in English and Chinese."
+    additional = '<div class="btn w-100 py-2 my-2"><a href="https://early-china-coinage.vercel.app/">View Site</a></div><div class="btn w-100 py-2 my-2"><a href="https://github.com/guyunong1998/early_china_coinage">View on Github</a></div>'
+    img1 = "/assets/images/webs/coins/screenshots/01_home.jpg"
+    img1_alt = "Homepage of the Early Chinese Coin Finds Database"
+%}
+
+{% include section_head.html title="A research tool, not just a dataset" %}
+
+<div class="row mb-4"><div class="col-12"><div class="section">
+    <p class="mb-0">Every record links a find site to its geographic location, archaeological context, coin typology, and bibliographic sources — queryable directly from Supabase, with a handful of stable reference datasets (mint-town dossiers, typology hierarchy) kept local for anything that rarely changes.</p>
+</div></div></div>
+
+{% include double_notes.html
+    tag = "Search"
+    title = "Full-text and faceted search"
+    text = "Every find site is searchable by name, province, coin type, inscription, or site code, with facet filters for region, period, site type, coin type, state, mint, and quantity — plus a live results map and a per-site coin-type pie chart. Sortable by name, quantity, region, find count, coin-type diversity, or state diversity, with a location-precision filter (site / county / city / all) that deliberately surfaces real gaps in geolocation precision rather than hiding them."
+    images_path = "/assets/images/webs/coins/screenshots/02_search"
+    col-size = "col-12"
+%}
+
+{% include double_notes.html
+    tag = "Detail View"
+    title = "One page per archaeological find"
+    text = "Location, coin types found, excavation contexts, individual finds, a mint-origins map connecting the site to every mint it received coins from, and full bibliographic sources — all in one record."
+    images_path = "/assets/images/webs/coins/screenshots/03_site_detail"
+    col-size = "col-12"
+%}
+
+{% include double_notes.html
+    tag = "Directory"
+    title = "Every documented coin-producing town"
+    text = "A searchable, sortable directory of mint towns — merging live database rows with hand-transcribed dossiers (location, description, images, citations) wherever the database doesn't carry a field yet, sortable by number of finds, coins, catalogued issues, or record completeness. Static reference data is visually distinguished (dashed border) from live, bilingual database data — never silently mixed."
+    images_path = "/assets/images/webs/coins/screenshots/04_mint_directory"
+    col-size = "col-12"
+%}
+
+{% include double_notes.html
+    tag = "Detail View"
+    title = "Location, coin output, and primary sources"
+    text = "Each mint's own page: coordinates on a detail map, an issued-coin distribution map (filterable by coin type), an image gallery for historical city plans, and full bilingual citations back to the original excavation reports."
+    images_path = "/assets/images/webs/coins/screenshots/05_mint_detail"
+    col-size = "col-12"
+%}
+
+{% include double_notes.html
+    tag = "Browse"
+    title = "The full typology, browsable end to end"
+    text = "Every documented coin type as a searchable card grid and a full expandable hierarchy tree (钱币/Coin and 钱范/Mould branches), each card showing obverse/reverse photography where available, sortable by hierarchy level, find count, coin count, or catalogued issues."
+    images_path = "/assets/images/webs/coins/screenshots/06_coin_types"
+    col-size = "col-12"
+%}
+
+{% include double_notes.html
+    tag = "Detail View"
+    title = "One typology node, fully cross-referenced"
+    text = "Obverse/reverse images, parent types, every issuing state and mint, every attested inscription, a collapsible coin-issue catalogue, related find sites, and this node's place in the overall hierarchy tree."
+    images_path = "/assets/images/webs/coins/screenshots/07_coin_type_detail"
+    col-size = "col-12"
+%}
+
+{% include section_head.html title="Three Ways to See the Same Geography" %}
+
+<div class="row mb-4"><div class="col-12"><div class="section">
+    <p>Find Site, Mint Town, and Museum Collections all share one full-bleed map engine with Points / Density / Compare display modes — click-to-reveal explanations on every non-obvious control (View by, Filter by, Display) so the interface teaches itself.</p>
+    {% include multi_images.html
+        img_list = "/assets/images/webs/coins/screenshots/08_map_findsite.jpg,/assets/images/webs/coins/screenshots/09_map_minttown.jpg,/assets/images/webs/coins/screenshots/10_map_museum.jpg"
+        col-size = "col-12 col-md-4"
+        alt_prefix = "Map visualization —"
+    %}
+</div></div></div>
+
+{% include double_notes.html
+    tag = "Architecture"
+    title = "Server components, one remote datastore"
+    text = "No separate backend or API layer: React Server Components query Supabase directly at render time. A small set of local, rarely-changing reference files (mint dossiers, river overlays, specimen photography) supplements the database wherever it doesn't carry a field yet — and the UI always makes clear which is which. Every string in the UI is a translation-table lookup, never a hardcoded literal, so the entire site re-renders in Chinese with one toggle."
+    images_path = "/assets/images/webs/coins/screenshots/11_about"
+    col-size = "col-12"
+%}
+
+{% include section_head.html title="Stack" %}
+
+<div class="row g-3 mb-4">
+    <div class="col-6 col-md-3"><div class="section h-100 text-center">
+        <p class="mb-0"><strong>Next.js 16</strong><br>Framework</p>
+    </div></div>
+    <div class="col-6 col-md-3"><div class="section h-100 text-center">
+        <p class="mb-0"><strong>React 19</strong><br>UI</p>
+    </div></div>
+    <div class="col-6 col-md-3"><div class="section h-100 text-center">
+        <p class="mb-0"><strong>TypeScript</strong><br>Language</p>
+    </div></div>
+    <div class="col-6 col-md-3"><div class="section h-100 text-center">
+        <p class="mb-0"><strong>Tailwind CSS 4</strong><br>Styling</p>
+    </div></div>
+    <div class="col-6 col-md-3"><div class="section h-100 text-center">
+        <p class="mb-0"><strong>Supabase (Postgres)</strong><br>Database</p>
+    </div></div>
+    <div class="col-6 col-md-3"><div class="section h-100 text-center">
+        <p class="mb-0"><strong>Leaflet</strong><br>Maps</p>
+    </div></div>
+    <div class="col-6 col-md-3"><div class="section h-100 text-center">
+        <p class="mb-0"><strong>Vercel</strong><br>Hosting</p>
+    </div></div>
+    <div class="col-6 col-md-3"><div class="section h-100 text-center">
+        <p class="mb-0"><strong>Custom EN/ZH dictionary</strong><br>i18n</p>
+    </div></div>
+</div>
