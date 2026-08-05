@@ -1,92 +1,480 @@
 [
   {
-    "name": "Administrative Tablet of Grain Rations",
-    "alternate_names": "Ur III Ration List",
-    "location": "Ur, Mesopotamia",
-    "date": "c. 2100 BCE",
-    "language": "Sumerian",
-    "type": "Clay Tablet",
-    "size": "11 × 9 cm",
-    "deity": "Nanna",
-    "key_features": "Lists allocations of grain to workers; clear column formatting; seal impression on reverse.",
-    "related_objects": "Similar ration tablets from the Ur III period",
-    "iconography": "Cylinder seal impression depicting a seated deity receiving offerings",
-    "text": "1. 10 sila še gurush\n2. 5 sila še geme\n3. 2 sila še dumu",
-    "translation": "10 sila of barley for the male worker; 5 sila of barley for the female worker; 2 sila of barley for the child.",
-    "images": [
-      "/assets/images/webs/defixio/thumbnail.png"
-    ]
-  },
-  {
-    "name": "Hymn to Inanna Tablet",
-    "alternate_names": "Temple Hymn Tablet",
-    "location": "Uruk, Mesopotamia",
-    "date": "c. 1800 BCE",
-    "language": "Akkadian",
-    "type": "Clay Tablet",
-    "size": "14 × 10 cm",
-    "deity": "Inanna",
-    "key_features": "Literary text praising Inanna; finely incised signs; partial damage on lower edge.",
-    "related_objects": "Old Babylonian literary tablets",
-    "iconography": "No seal; clean obverse with dense text",
-    "text": "1. nin-me-sar-ra\n2. dnin-anna za-e\n3. me-lam2-zu gal-gal",
-    "translation": "Lady of all the divine powers, Inanna, you alone are exalted; your radiance is great indeed.",
-    "images": [
-      "/assets/images/webs/defixio/thumbnail.png"
-    ]
-  },
-  {
-    "name": "Mathematical Problem Tablet",
-    "alternate_names": "Old Babylonian School Tablet",
-    "location": "Nippur, Mesopotamia",
-    "date": "c. 1700 BCE",
-    "language": "Akkadian",
-    "type": "Clay Tablet",
-    "size": "8 × 6 cm",
+    "id": "dt-285",
+    "nodegoat_id": "ngDa6b980DUV3DqtqE07nsaIeFR",
+    "object_id": "21877169",
+    "name": "DT 285",
+    "alternate_names": "Sichet 64",
+    "location": "Necropolis of Hadrumetum",
+    "location_notes": "Necropolis 200m south of racetrack, either deposited into inhumation burials or rolled up and inserted into libation tubes. (Heintz 1998)\nNecropolis along the road connecting Sousse and Kairouan on the southern side of the road, some 500 meters away from the “Camp des Tirailleurs” and 300 meters away from the Punic necropolis.(Sánchez 2023)\n\nAudollent: His research focused primarily on the region\nlocated south of the road [Kairouan versus], approximately 500 meters from the Tirailleurs Camp, and 300 meters from the boundary of the Punic necropolis; and there, in cremation tombs, he collected a number of magical tablets; only one of them is of the type of love spells; the\nothers relate to racing horses.... They all come from two tombs: the first contained six (only five could be unrolled), the second five, rolled up according to custom.\n\nWe possess fourteen lead plates; two of them\nwere open, the other twelve rolled up. The\nlead is generally so oxidized that, despite all precautions, it is impossible to open them without breaking them. The two plates found open had a hole made by a large nail, still attached to the plate, as if someone had tried to hold them pressed against one of the faces of the tomb.\n\nI had eleven, not fourteen, leaden volumes at hand, which I mentioned above, and I saw no love ones.\n\nWe have no precise data on the age of these tombs. “They contained,” wrote General Goetschy to me, “no funerary furnishings. According to the lamps found in the tombs immediately adjacent to the lead-lined tombs, I suppose that those containing the first seven were from the beginning of the 1st century, and those containing the last five from the end of that same century or the beginning of the 11th.” \"Since we cannot, for various reasons, attribute the five imprecations cited above (276-280) to the end of the 2nd century or rather to the 3rd century, we must conclude that the tombs in question, if they truly date from the 1st century, had already existed for a long time when the idea arose to use them for magical operations.\"\n\nLes vestiges antiques de la ville d’Hadrumetum, d’après L. Maurin, « L’épitaphe de Claudius Chrestus », Africa 23, 2013.\n\nFigure 2 : Les vestiges portuaires selon le plan de A. Daux, d’après G. Haanezo, «Observations sur le plan d’Hadrumète par Daux », RA 1897, p. 21.",
+    "date": "",
+    "language": "Greek",
+    "type": "circus",
+    "size": "",
     "deity": "",
-    "key_features": "Contains a geometry problem; student exercise; reverse includes teacher correction.",
-    "related_objects": "Cuneiform mathematical texts",
-    "iconography": "No imagery; purely textual",
-    "text": "1. 30 uš sag\n2. 10 uš šu\n3. a-na 3 ta-mar",
-    "translation": "A rectangle of length 30 and width 10; what is its area? (Answer: 300).",
+    "key_features": [
+      "charakteres",
+      "drawings",
+      "voces magicae"
+    ],
     "images": [
-      "/assets/images/webs/defixio/thumbnail.png"
+      "/assets/images/webs/hadrumetum/f5a931a49fe13bd4a042e6db9227c7fb.png"
+    ],
+    "notes_on_image": "unpublished :((((",
+    "text": "Αλιμβεου-κολουμβευ-\nπεταλλιμβευ λέγει σοι Αδωναι\nΣαβαωθ Σεμεσιλαμ, ἵνα\nβαρύνῃς τὸν ἵππον\nΛαυρεᾶτον\n[row of charakteres]\n[Drawing of a horse, within it Λαυρεᾶτος]\nμηδὲ τρέχῃ μηδὲ τοὺς πόδας\nκινήσῃ, μὴ σταθῇ. κατά-\nβαλε αὐτὸν καὶ κάτε-\nχε αὐτοῦ πόδας.",
+    "translation": "Alimbeu, Colimbeu, Petalimbeu... Adonal, Sabaoth, Semesilam, may the horses be weighed down, that they may neither run swiftly nor move their feet, just as they may be thrown down and fall\n\nAlimbeou-kolumbeupetallimbeu,\nAdonai Sabaoth\nSemesilam speaks to you,\nso that you weigh down the horse\nLaureatus\n[row of charakteres]\n[Drawing of a horse, within it “Laureatus”]\nso that he neither run nor move\nhis feet, nor stand firm. Throw\nhim down and\nrestrain his feet.",
+    "notes": "The most colourful world of iconography is found among chariot curses. Some\nitems contain only one motif, e.g. DTAud 285, the drawing of which, unfortunately,\nhas never been published, yet it depicted a horse with its name inscribed\n(Laureatus).20 (JORDAN 2005. The erroneous reading of Audollent was corrected by D. Jordan.)\n\nLegit et descripsit Cagnat; una contulimus.\nA tablet measuring 0.035 m high and 0.045 m wide was found rolled up and preserved with 276-284.\n\nsee more images on phone from sichet\n\nIn Hadrumetum, in the cemetery next to the hippodrome, a 2nd century curse\ntablet was found, on which a drawing of a horse could be seen.7 The horse’s\nname (Laureatus) was also written into the drawing. According to Faraone, the\nmaker of the tablet may have drawn only the head of the horse, or perhaps the\nwhole animal, but the layout of the tablet did not allow space larger than 25\nGreek letters wide. The tablet was published by A. Audollent, but he did not attach\na drawing, and unfortunately we cannot find the drawing of this tablet\namong the documents in his bequest. This complex curse inscription included\nvoces magicae, names of demons and divinities, charaktēres and a drawing, too (nemeth cursed horses)",
+    "related_objects": [],
+    "sources": [
+      {
+        "source_id": "21948499",
+        "value": "129"
+      },
+      {
+        "source_id": "21877057",
+        "value": "360-361"
+      },
+      {
+        "source_id": "21877072",
+        "value": ""
+      },
+      {
+        "source_id": "21877079",
+        "value": ""
+      }
     ]
   },
   {
-    "name": "Letter from a Merchant",
-    "alternate_names": "Old Assyrian Trade Letter",
-    "location": "Kültepe (Kanesh), Anatolia",
-    "date": "c. 1900 BCE",
-    "language": "Akkadian",
-    "type": "Clay Tablet",
-    "size": "9 × 7 cm",
-    "deity": "Ashur",
-    "key_features": "Private correspondence regarding shipment of tin; envelope fragments preserved.",
-    "related_objects": "Old Assyrian trade archives",
-    "iconography": "Envelope impressions with seal marks",
-    "text": "umma Aššur-iddin ana Ilīya\nṭuppam ša kaspim ušēbilakkum",
-    "translation": "Thus says Ashur-iddin to Iliya: I have sent you the tablet concerning the silver.",
+    "id": "dt-286",
+    "nodegoat_id": "ngEb7c081ELW5ErQrEN8otbFfFy",
+    "object_id": "21877170",
+    "name": "DT 286",
+    "alternate_names": "Sichet 65",
+    "location": "Roman Cemetery of Hadrumetum",
+    "location_notes": "which one unknown, but def shared by arbitto tablets",
+    "date": "3rd c. CE",
+    "language": "Latin",
+    "type": "circus",
+    "size": "11cm H x 8-9cm W",
+    "deity": "Baitmo Arbitto",
+    "key_features": [
+      "drawings",
+      "Daemons",
+      "voces magicae",
+      "author: baitmo guy"
+    ],
     "images": [
-      "/assets/images/webs/defixio/thumbnail.png"
+      "/assets/images/webs/hadrumetum/b3c7d405193bddf3e183c06ef938d6d7.png"
+    ],
+    "notes_on_image": "Sichet: Notes\n\nA/ As for Villefosse, Choppard, Hannezo, and Wuensch, it is a rooster-headed genie Audollent disagrees and believes it to be a human head with a beard surmounted by a rooster's comb. Having been unable to see for myself what it was, I am only reporting two hypotheses here. But this demon is still the subject of several controversies: regarding its identification, Maspéro thinks this demon belongs to the astronomical decans (cf. Audollent, DT. no. 15, 8, p. 25), Gauckler calls it a set (Cat. Alaoui, H, 31-33). As for its attributes, a flaming torch occupies its left hand, and a vase, its right, but Villefosse sees it as a lit incense burner supported by a long stem, Choppard and Hannezo see it as a torch; Wuensch sees it as a torch, and Audollent does not offer an opinion. The difficulty of reaching a consensus on a single representation is clear. The one thing we are certain of is that he is standing on a boat. The names inscribed in the boat do not refer to the demon; they are those of the bewitched horses. We have already seen Oceanum in tablet nos. 54, 58, 63 (DT. 275, 16/279, 14/284, 12). On the demon's chest, Audollent thought it should read Daitmo Arditto, but later studies have shown that it is Baitmo Arbitto, a transcription of the Hebrew.",
+    "text": "[b]Side A:[/b]\nCuigeu\ncenseu\ncinbeu\nperfleu\ndiarunco\ndeasta\nbescu\nberebescu\narurara\nbaζagra\n\n[i]On the demon’s chest:[/i]\nantmo\nạrait\nto\n[i]On the boat: [/i]\nNoctivagus \nTiberis Oceanus\n\n[b]Side B: [/b]\nAdiuro te demon qui-\ncunque es et demando ti-\nbi ex anc ora ex anc di-\ne ex oc momento ut equos \nprasini et albi crucies \nocidas, et agitatore(s), Cla-\nrum et Felice(m) et Primu-\nlum et Romanum ocidas \ncollida(s) neque spiritum \nillis lerinquas; adiuro te\nper eum qui te resolvit (vite)\ntemporibus deum pela[g]i-\ncum aerium [greek] Ιαω Ιαsdaω oorio aeia \noorio aeia\n\nlerinquas - corrected to relinquas",
+    "translation": "I entreat you, demon, whoever you are, and I entrust to you from this hour, from this day, from this moment, so that you torment and kill the horses of the green and of the white faction, and that you crush and kill the charioteers Clarus and Felix and Primulus and Romanus and that you do not neglect their spirit; I entreat you, by him who took (your) life, the god of the sea and of the air.\n\nFrom part B I conjure you, demon, whoever you are, and I entrust to you at this hour, on this day, at this moment, the horses of the green faction and the white faction, that you strike their legs hard, and that you beat the charioteers Clarus, Felix, Primulus, and Romanus, that you strike them, and that you do not neglect their spirits, I conjure you, by him who took your life, the god of the sea, of the air, the most high god (sichet 2000)\n\n(B/Line 2: It should be restored as quicumque. Lines 6, 8: It should be corrected to oc(c)idas. Line 10: For Audollent, it is <r>e<l>inquas.)",
+    "notes": "DT 286 and 289, where the\nvox magica basagra is written as baζagra (sanchez 2022) - this is not an example of using a different alphabet to augment a tablet's magical potency, but rather piont to the idenitty of the magical practitioner from whom the tablet was commissioned. these professionals were probably native greek speakers who had not achieved mastery of the latin alphabet and had not found a way to render certain greek characters in a different alphabet (pg 21), \n\nThe iconographic model of a figure standing on a ship without a mast can be traced back to Isis Pelagia, who was also depicted in Roman coinage.33 According to R. Gordon, the ship stands for the unstoppable power of fate but we can also think of it as a means of transport between our world and the otherworld, similar to the vessel of Charon. If the object in its left hand is really an urn, then Baitmo is probably the nekydaimon from the grave where the lamella was buried, who was addressed with the following words in DTAud 286: Adiuro te demon quicunque es et demando tibi… (nemeth 2013)\n\n286. Heron de Villefosse et Breal, Comptes rendus de TAcademie\ndes Inscriptions et Belles-Lettres, 1892, p. 226, 231;\nWuensch, Flucht., p. 246, n. 14; Villefosse, Tabellae p. 326-\n330; Cagnat, XXI, 1893, p. 258, n. 27; XLI, 1902, p. 346 sq.,\nn. 54-55; cf. Choppardet Hannezo, Bulletin archeologique, 1893, p. 199; contuli.\n\nOpisthograph tablet, high m. 0.11, wide m. 0.08 — 0.09, third p. Chr. n. century written, found in the tomb of a certain \"untimely dead\" (the greek word) (cf. Cagnat, Sav., p. 264)\n\nSichet Commentary\nThe charioteers Clarus, Felix, Primulus, and Romanus are bewitched; they belong to the green and white factions, as do their horses.\nThis tablet consists, on one side, of the adjuration against the elements mentioned above and is accompanied, as seen in Figure 4, by the representation of a rooster-headed genie (?) standing on a boat and holding a torch.\nIn addition to the demons that we will later encounter in Cuigeu... We find a first mention of the deus pelagicus, which we will also see again.\nBetween the fifth and sixth lines of the first face (that of the invocation), there is, according to observers, a hole probably made by the nail that was used to fix the lead sheet inside the tomb.\n\nin 1893 bulletin archaeologique BCTH - pg 194\nThe description of the principal hypogea has already been given in previous reports; the only ones not mentioned are either of no interest, having been violated long ago, or collapsed, or in such a poor state of preservation that it did not seem prudent to conduct any research there.\n\nThe grouped tombs generally take the form of square cippi and sometimes of tombs, called coffin tombs, of a semi-cylindrical shape.\n\nWe found in the same place sixteen square cippi, very closely spaced, which provided the lead tablets (tabellae devotionis) described later. These cippi closely resemble those discovered in 1888 in the Roman cemetery of Carthage; their average dimensions are 1.50 meters high and 0.95 meters wide; they are made of masonry, and their exterior, outside the original natural ground level, is smooth, stuccoed, and sometimes ornamented. Inside the cippus, embedded in the masonry, is a bone container. This container may be either a two-handled amphora, often pierced with a hole in the lower part, or a spherical vessel similar to the Arabic keskess, pierced with holes\n\nThese two types of containers hold calcined bones; in the spherical vessel, one sometimes finds, lying flat on the bones or rolled on a bone, a lead tabella devotionis.\n\nfound at the same time as the demonic looking snake figure\n-",
+    "related_objects": [],
+    "sources": [
+      {
+        "source_id": "21877057",
+        "value": "396-9"
+      },
+      {
+        "source_id": "21877064",
+        "value": "21"
+      },
+      {
+        "source_id": "21948499",
+        "value": ""
+      }
     ]
   },
   {
-    "name": "Lexical List Tablet",
-    "alternate_names": "Sign List Tablet",
-    "location": "Sippar, Mesopotamia",
-    "date": "c. 1600 BCE",
-    "language": "Sumerian / Akkadian",
-    "type": "Clay Tablet",
-    "size": "12 × 8 cm",
+    "id": "dt-287",
+    "nodegoat_id": "ngFc7z182GWX3FsFsHO95ucwgFz",
+    "object_id": "21877171",
+    "name": "DT 287",
+    "alternate_names": "Sichet 66",
+    "location": "Roman Cemetery of Hadrumetum",
+    "location_notes": "which one unknown, but def shared by arbitto tablets",
+    "date": "3rd c. CE",
+    "language": "Latin",
+    "type": "circus",
+    "size": "7.5cm H x 8.3cm W",
+    "deity": "Baitmo Arbitto",
+    "key_features": [
+      "drawings",
+      "author: baitmo guy"
+    ],
+    "images": [
+      "/assets/images/webs/hadrumetum/b3c02e1d540ffcc7a1e8188e52926a05.jpg",
+      "/assets/images/webs/hadrumetum/a5b036fc548f4f3e76687acaf28bf0c6.png",
+      "/assets/images/webs/hadrumetum/3a815ce29152b378e7ba55b936d630ef.png"
+    ],
+    "notes_on_image": "found in same cemetery as 286, but in a different tomb",
+    "text": "Right of demon:\n[b]Villefosse[/b]:\n.ua\n..om\nm ve\na itar\npotu\n...us\n[b]Audollent[/b]:\n..omn\nmilue\na sit n\n....u\n\nOn the barque:\n...alus gum lugo e ve\n...as oc(c)idas ex ac die ner-\n[v]<os> illis concidas ne[que]\n...asetame p[oss]int\n\nSide B: (Villefosse took this from part B, but these few lines are, according to Audollent, more than doubtful)\n.......\numloscissimos\na. lla.. c...\n........",
+    "translation": "Unknown: (...alus gum lugo e ve\n...as)\nmay you kill [them], from this day, may you destroy their strength, and so that they cannot (????)\n\nSichet (from French)\nOn the boat, it is written: you strike their muscles hard from this day forward, that they fall dead and that they cannot... Of course, nothing can be deduced from part B.",
+    "notes": "Sichet 2000:\nLine 1: In relation to tablet no. 67 (DT no. 288) which follows, one might wonder if it is not [Bub/alus], at least that is what Audollent thinks, and on this point, I agree with him.\n\nVillefosse, Tabellae, p. 330-332; Cagnat, XLI, 1902, p. 348, n. 56; contuli.\n\nA fragment of the opisthograph tablet, 0.075 m high and 0.083 m wide, was found with the previous one in another tomb and brought to the Paris Museum by a private individual in 1893, where it now exists (MNC. 1781); cf. p. 360, 396.\nhttps://collections.louvre.fr/en/ark:/53355/cl010292052\n\n\nNo one will deny that the same demon is depicted here as in tablet 286, only that he is dressed in a girdle.",
+    "related_objects": [],
+    "sources": [
+      {
+        "source_id": "21877057",
+        "value": "399-400"
+      },
+      {
+        "source_id": "21948499",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "dt-288",
+    "nodegoat_id": "ngGd7a283HNY2GtatHf02vdDhIU",
+    "object_id": "21877172",
+    "name": "DT 288",
+    "alternate_names": "",
+    "location": "Hadrumetum (general)",
+    "location_notes": "Among the tombs of the Roman cemetery along the road leading to Kairouan, excavated at various times, all the Hadrumetine tablets were unearthed (268-298). We are only taught about most of them; the invention of some is also narrated below on p. 361 and 378.\n\n“His research focused primarily on the region south of the road [Kairouan versus], approximately 500 meters from the Tirailleurs Camp, and 300 meters from the edge of the Punic necropolis. There, in cremation tombs, he collected a number of magical tablets; only one of them is of the type used for love spells; the others relate to racing horses… They all come from two tombs: the first contained six (only five could be unrolled), the second five, rolled up according to custom.”\n\nPauca addidit Goetschy (Archaeological Bulletin, 1903, p. 166):\n\n“We possess fourteen lead tablets; two of them were open, the other twelve rolled up.” The lead is generally so oxidized that, despite all precautions, it is impossible to open them without breaking them. The two plates found open were pierced by a large nail, still adhered to the plate, as if someone had wanted to hold them against one of the faces of the tomb. »\n\nHaec tandem e Cagnati commentatione (Sav., p. 264) excer\npere iuvat: “We have no precise data on the age of these tombs. “They contained,” writes General Goetschy to me, “no funerary furnishings. According to the lamps found in the tombs immediately adjacent to the lead-slab tombs, I suppose that those containing the first seven were from the beginning of the 1st century, and those containing the last five were from the end of that same century or the beginning of the 11th.” “Since we cannot, for various reasons, attribute the five imprecations cited above (276-280) to anything other than the end of the 2nd century or rather to the 3rd century, we must conclude that the tombs in question, if they truly date from the 1st century, had already existed for a long time when the idea arose to use them for magical operations.”",
+    "date": "",
+    "language": "",
+    "type": "circus",
+    "size": "10cm H x 10cm W",
+    "deity": "Baitmo Arbitto",
+    "key_features": [
+      "drawings",
+      "voces magicae",
+      "author: baitmo guy"
+    ],
+    "images": [
+      "/assets/images/webs/hadrumetum/14f142903fec55147b310b8d8cb2f53c.png",
+      "/assets/images/webs/hadrumetum/8083d469417108a037a131c98512f78d.png"
+    ],
+    "notes_on_image": "",
+    "text": "[b]Side A[/b]\n[Cu]igeu\nc[e]nseu\ncinbeu\nperfleu\ndiarunco\ndeasta\n[be]scu\n[bere]besecu\n[aru]rara\n[baza]gra\n\n.a..\nd..\ncu....\num....\nram.. \nEt te.. \nre...t[e-]\nnebraru(m)\net vos.... \ncuro.... \neatis.... \nuam... [?p-]\neto....\ne ut me..\n.t ba . as\n\n\nOn the barque.\nBubalus Nilus Liber \nPretiosus Argutus \nAlumnus\n\n[b]Side B[/b]\n.............re.......\n......................\n...........s ad m.....\n..rogate...........m..\no. contra.......auferas ab\neis nervia vires medullas impetos vic-\ntorias; noli meas spernere voces se<d> \nmoveant te h(a)ec nomina supposi[ta]\n.llas mau\nCuigeu censeu cimbeu per-\n[fleu] diarunco deasta bescu \n[berebe]scu. [a]rurara baa[ζ]agr[a]\n[....n]oli mea[s] spe[r]nere voces se<d>\n.....................illius . ec\n...................hoc equos.......\n...............currere.......\n..a..o te......per h(a)ec sancta\nnomi[na]................necessit[a]tis\n(Sichet 2000)",
+    "translation": "A/ Tenebrarum (darkness) is mentioned\n\nB/ ......to..... ask..... against.... may you steal away the strength, marrow, impulses, victories, from them their muscle; Do not spurn my words but these names having been placed under let them move you.... Cuigeu, censu, cinbeu, perfleu, diarunco, deasta, bescu, berebescu, arurara baaζagra... do not spurn my words but..... of that.... this... horses... to run..... through these sacred names..... of compulsion.\n\nTranslation: (Sichet 2000)\nA/ In line 8, darkness is mentioned. That is all that can be understood in this part.\nB/ May you take away the strength from their muscles and the victorious impulses from their marrow; do not disdain my words but ensure that through you they can no longer move by these added names. Cuigeu, censu, cinbeu, perfleu, diarunco, deasta, bescu, berebescu, arurara baaζagra... do not disdain my words but... from this one... these horses... to run... by these holy names... out of necessity.",
+    "notes": "(Sichet 2000) \nNotes:\nA/ We notice that many letters are missing at the end left of this part.\nB/ Lines 7, 12: 11 must correct set to se<d>\nLines 8, 16: H(a)ec must be restored.\n\nSix horses whose names are written in the boat are bewitched by means of numerous demons who are invoked by their names\n\nLegi et descripsi; cf. Cat. Alaoui, H, 33.\n\nAn opisthograph tablet, 0.097 m. on each side, was found and preserved where it was said above (p. 360). On the other side the lead has been so corroded that the lines of the letters are now barely discernible.\n\nSix horses are brought, whose names are inscribed on the boat.\n\nThe same figure as in 286; it is surrounded by a subligature decorated with four oval plates.\n\n33.— ANOTHER, depicting the god Set standing in a barque;\nwith his right arm, he holds a long staff surmounted by a cup of fire. He is clad in a loincloth adorned at the upper part with four oval plaques, and at the lower part with vertical stripes; upon his head are flames. Both faces of the monument bear a Latin inscription.\n0.10 m × 0.10 m. (musee aloui)\n\n33.- AUTRE, avec représentation du dieu Set debout sur une barque ;\ndu bras droit, il tient une longue hampe surmontée par une coupe de feu . Il est vêtu d'un pagne orné à la partie supérieure de quatre plaques ovales, à la partie inférieure de raies verticales; sur la tête, des flammes. Les deux faces du monument portent une inscription latine.\n0 m. 10 × 0.10.",
+    "related_objects": [],
+    "sources": [
+      {
+        "source_id": "21877057",
+        "value": "400-402"
+      },
+      {
+        "source_id": "21948499",
+        "value": ""
+      },
+      {
+        "source_id": "21877057",
+        "value": "360-1"
+      }
+    ]
+  },
+  {
+    "id": "dt-289",
+    "nodegoat_id": "ngHe7b384IeZ4HuxuHA1tweciHV",
+    "object_id": "21877173",
+    "name": "DT 289",
+    "alternate_names": "",
+    "location": "Hadrumetum (general)",
+    "location_notes": "Among the tombs of the Roman cemetery along the road leading to Kairouan, excavated at various times, all the Hadrumetine tablets were unearthed (268-298). We are only taught about most of them; the invention of some is also narrated below on p. 361 and 378.\n\n“His research focused primarily on the region south of the road [Kairouan versus], approximately 500 meters from the Tirailleurs Camp, and 300 meters from the edge of the Punic necropolis. There, in cremation tombs, he collected a number of magical tablets; only one of them is of the type used for love spells; the others relate to racing horses… They all come from two tombs: the first contained six (only five could be unrolled), the second five, rolled up according to custom.”\n\nPauca addidit Goetschy (Archaeological Bulletin, 1903, p. 166):\n\n“We possess fourteen lead tablets; two of them were open, the other twelve rolled up.” The lead is generally so oxidized that, despite all precautions, it is impossible to open them without breaking them. The two plates found open were pierced by a large nail, still adhered to the plate, as if someone had wanted to hold them against one of the faces of the tomb. »\n\nHaec tandem e Cagnati commentatione (Sav., p. 264) excer\npere iuvat: “We have no precise data on the age of these tombs. “They contained,” writes General Goetschy to me, “no funerary furnishings. According to the lamps found in the tombs immediately adjacent to the lead-slab tombs, I suppose that those containing the first seven were from the beginning of the 1st century, and those containing the last five were from the end of that same century or the beginning of the 11th.” “Since we cannot, for various reasons, attribute the five imprecations cited above (276-280) to anything other than the end of the 2nd century or rather to the 3rd century, we must conclude that the tombs in question, if they truly date from the 1st century, had already existed for a long time when the idea arose to use them for magical operations.”",
+    "date": "",
+    "language": "",
+    "type": "circus",
+    "size": "11.8cm H x 10.2cm W",
+    "deity": "Baitmo Arbitto",
+    "key_features": [
+      "drawings",
+      "voces magicae",
+      "author: baitmo guy"
+    ],
+    "images": [
+      "/assets/images/webs/hadrumetum/8bf8a05d2534a80d0cfb1525961ed44b.png",
+      "/assets/images/webs/hadrumetum/23e66893bb547f04f1a3db2ead917afe.png"
+    ],
+    "notes_on_image": "",
+    "text": "Cuig[e]u\ncenseu\n[c]inbeu\n[pe]rfleu\n[dia]runco\n[de?]asta\n[besc]u\n[berebe]scu\n[ar]urara\nbaζagra\n\nrogo..\ncui...e.\nne sum-\nmas exi-\nsti s[i-]\ncut mi-\nhi bapa\netes.\n\nIn boat:\nLynceus Margarita\nProfugus Oceanus\n\nUnder boat:\no.i..ginae [tene]brarum\n\nSide B:\n.......ive sancte a .........\n.....eret a in te p ...... et te .. ta\n..eas ... cus op[se]cro te venias ad\n......e ... t... e et (h)os equos . . . .\n...tiante contra[h?]as tuis .e ....\naufer[as] ab eis nervia vires med[ul-]\nlas im[pe]tos victorias; noli meas [sper-\nn]ere v[oc]es s[e,d. mov]ean(t) te h(a)ec\n[su]ppos[i]t[a] ........ mate.ter\nsi cuis tali.. ta .. neces finia\nultima nomina Cuigeu cense[u]\ncimbeu perfleu [d]iarunco [d]easta\nbescu berebescu [a]rurara ba[ζa]gr[a];\nnoli meas spernere voce(s) se<d> equos\nprasini et albi e ....cia..[cr]ucia[s?]\nauferas illis dulce somnum, fac eos ne\ncurrere possint, (h)oc te peto aure ... om\nnervitatem tenqoxis et necessita[tis?]\ntu(a)e depr<i>mas e[quo]s eg]uos tecum n..\nsup(p)ositos tue b.mmate.ste",
+    "translation": "A/ I ask... the highest... just like me BAPAETES.\nB/ .....I beseech you that you come to... and these corses.... against ..... ask..... against.... may you steal away the strength,marrow,andvictorious impulses from them their muscle; Do not spurn my words but let them move you, let these names having been placed under.... Cuigeu, censu, cinbeu, perfleu, diarunco, deasta, bescu, berebescu, arurara baaζagra... do not spurn my words but..... of them.... these horses... to run..... through these sacred names..... of compulsion.\n\n\nSichet 2000\nA/ I ask you... as well as me.\n\nB/... That you come to... and these horses... that you gather... that you take away the strength from their muscles, the victorious impulses from their marrow, I do not want you to disdain my words and I want that, thanks to you, they cannot move... by these distant names Cuigeu censeu cimbeu perfleu diarunco ​​deasta bescu berebescu arurarai, bağagra, I do not want you to disdain my words but that the horses of the green and white factions... their legs?, that you take away their pleasant sleep, make them unable to run,... that you humble these horses, the horses.\n\nNotes:\n\nA/ Line 13: tenebrarum is found as in inscription DT 288\n\nB/ Audollent completed the left end of this part with the similar inscription no. 67 (DT no. 288).",
+    "notes": "DT 286 and 289, where the\nvox magica basagra is written as baζagra\npoint to the identity of the magical practitioner\nfrom whom the tablet was commissioned. These\nprofessionals were probably native Greek speakers who\nhad not achieved mastery of the Latin alphabet and had not found a way to render certain Greek characters in a different alphabet.(Sanchez, Sylloge)\n\nAudollent 1904:\nLegi et descripsi; cf. Cat. Alaoui. H, 39 (?).\nA mutilated opisthograph tablet, 0.118 m high and 0.102 m wide, was found there and is preserved where the previous one was.\n\nDirae pronuntiantur in quattuor prasinorum et alborum, equos Lynceum Margaritam Profugum Oceanum.\n\nMusee Aloui:\n39.— ANOTHER, heavily damaged, especially at the top. The god Set in a boat, as in Nos. 31 and 33. On the boat, a very faded inscription. On the reverse, Latin letters and a magical formula in Greek.\n0.08 m × 0.065 m\n\nSichet 2000:\nLines 4 and 17: It should be corrected to (h)os.\n\nLine 12: Contrary to Audollent, who reads neither deasta nor masta here, I think that deasta should still be restored if we refer to tablets no. 65 and 67 (D7 no. 286 a and 288 a).\n\nLine 19: Audollent corrects by tu(a)e and depr[i]mas.\nThe execration is pronounced against four horses, Lynceus, Margarita, Profugus, and Oceanus, which belong to the green and white factions.",
+    "related_objects": [],
+    "sources": [
+      {
+        "source_id": "21877057",
+        "value": "402-3"
+      },
+      {
+        "source_id": "21877064",
+        "value": "21"
+      },
+      {
+        "source_id": "21948499",
+        "value": ""
+      },
+      {
+        "source_id": "21877057",
+        "value": "360-1"
+      }
+    ]
+  },
+  {
+    "id": "dt-290",
+    "nodegoat_id": "ngIf7c485JvA6IvMvJh2txfdjIW",
+    "object_id": "21877174",
+    "name": "DT 290",
+    "alternate_names": "",
+    "location": "Hadrumetum (general)",
+    "location_notes": "Among the tombs of the Roman cemetery along the road leading to Kairouan, excavated at various times, all the Hadrumetine tablets were unearthed (268-298). We are only taught about most of them; the invention of some is also narrated below on p. 361 and 378.\n\n“His research focused primarily on the region south of the road [Kairouan versus], approximately 500 meters from the Tirailleurs Camp, and 300 meters from the edge of the Punic necropolis. There, in cremation tombs, he collected a number of magical tablets; only one of them is of the type used for love spells; the others relate to racing horses… They all come from two tombs: the first contained six (only five could be unrolled), the second five, rolled up according to custom.”\n\nPauca addidit Goetschy (Archaeological Bulletin, 1903, p. 166):\n\n“We possess fourteen lead tablets; two of them were open, the other twelve rolled up.” The lead is generally so oxidized that, despite all precautions, it is impossible to open them without breaking them. The two plates found open were pierced by a large nail, still adhered to the plate, as if someone had wanted to hold them against one of the faces of the tomb. »\n\nHaec tandem e Cagnati commentatione (Sav., p. 264) excer\npere iuvat: “We have no precise data on the age of these tombs. “They contained,” writes General Goetschy to me, “no funerary furnishings. According to the lamps found in the tombs immediately adjacent to the lead-slab tombs, I suppose that those containing the first seven were from the beginning of the 1st century, and those containing the last five were from the end of that same century or the beginning of the 11th.” “Since we cannot, for various reasons, attribute the five imprecations cited above (276-280) to anything other than the end of the 2nd century or rather to the 3rd century, we must conclude that the tombs in question, if they truly date from the 1st century, had already existed for a long time when the idea arose to use them for magical operations.”",
+    "date": "3rd c. CE",
+    "language": "",
+    "type": "circus",
+    "size": "6.5cm H x 7.5cm W",
+    "deity": "Baitmo Arbitto",
+    "key_features": [
+      "drawings",
+      "author: baitmo guy"
+    ],
+    "images": [
+      "/assets/images/webs/hadrumetum/d6aa9d9dc44ce25a0b21342a06b77c43.png",
+      "/assets/images/webs/hadrumetum/43769c5ef30bdfb1a4905edb87045bc6.png",
+      "/assets/images/webs/hadrumetum/b0e8d3a167a967a87059809b750c443e.png"
+    ],
+    "notes_on_image": "",
+    "text": "Side A\n.....\n....bu\n......\n..pie..\n....\n\nIn the barque\nmare aruta fra\ngati..ei.b tru\n\nSide B\n[Adiu]ro te demon..be et dem[an-\ndo tibi] ex (h)anc die ex (h)oc mo-\n[mento].............\n.............\n.............\n.............\n........m adiu-\n[ro] te per eum qui te re-\n[solvi]t vit(a)e temporibus de-\n[um pelagicum] aerium altis-\n[simum].........at.....",
+    "translation": "I conjure you, demon... and I ask you on this day, at this moment... I conjure you by him who took your life, god of the sea, of the air, the most high god... (sichet)",
+    "notes": "Demon standing on ship\n\nLegi et descripsi, Cat. Alaoui, H, n. 36.\n\nOpisthograph tablet above mutilated, high m. 0.065, wide m. 0.075; for the invention see p. 360.\n\nThis title, in keeping with the preceding ones, is very clear that horses were devoted to them.\n\nDemon similar to that which is given in 288 from the middle of the lower part of the body\n\n36.—Another, with a magical figure. Greek and Latin letters on both faces. 0.10 m × 0.10 m.\n\nSichet 2000\nThis inscription, like 289, brings together horses that are to be beweitched. However, heree, only one god is invoked, whose characteristics are given to us.",
+    "related_objects": [],
+    "sources": [
+      {
+        "source_id": "21877057",
+        "value": "403-4"
+      },
+      {
+        "source_id": "21948499",
+        "value": ""
+      },
+      {
+        "source_id": "21877057",
+        "value": "360-1"
+      }
+    ]
+  },
+  {
+    "id": "dt-291",
+    "nodegoat_id": "ngJg7h586KwBwJwhwK63uygWkLX",
+    "object_id": "21877175",
+    "name": "DT 291",
+    "alternate_names": "",
+    "location": "Hadrumetum (general)",
+    "location_notes": "Among the tombs of the Roman cemetery along the road leading to Kairouan, excavated at various times, all the Hadrumetine tablets were unearthed (268-298). We are only taught about most of them; the invention of some is also narrated below on p. 361 and 378.\n\n“His research focused primarily on the region south of the road [Kairouan versus], approximately 500 meters from the Tirailleurs Camp, and 300 meters from the edge of the Punic necropolis. There, in cremation tombs, he collected a number of magical tablets; only one of them is of the type used for love spells; the others relate to racing horses… They all come from two tombs: the first contained six (only five could be unrolled), the second five, rolled up according to custom.”\n\nPauca addidit Goetschy (Archaeological Bulletin, 1903, p. 166):\n\n“We possess fourteen lead tablets; two of them were open, the other twelve rolled up.” The lead is generally so oxidized that, despite all precautions, it is impossible to open them without breaking them. The two plates found open were pierced by a large nail, still adhered to the plate, as if someone had wanted to hold them against one of the faces of the tomb. »\n\nHaec tandem e Cagnati commentatione (Sav., p. 264) excer\npere iuvat: “We have no precise data on the age of these tombs. “They contained,” writes General Goetschy to me, “no funerary furnishings. According to the lamps found in the tombs immediately adjacent to the lead-slab tombs, I suppose that those containing the first seven were from the beginning of the 1st century, and those containing the last five were from the end of that same century or the beginning of the 11th.” “Since we cannot, for various reasons, attribute the five imprecations cited above (276-280) to anything other than the end of the 2nd century or rather to the 3rd century, we must conclude that the tombs in question, if they truly date from the 1st century, had already existed for a long time when the idea arose to use them for magical operations.”",
+    "date": "3rd c. CE",
+    "language": "",
+    "type": "circus",
+    "size": "12.2cm H, 9.3cm W",
+    "deity": "Baitmo Arbitto",
+    "key_features": [
+      "drawings",
+      "voces magicae",
+      "author: baitmo guy"
+    ],
+    "images": [
+      "/assets/images/webs/hadrumetum/86967c9c7d95d086cf6850bd888a530b.png",
+      "/assets/images/webs/hadrumetum/3600c1e1dcf09d8403e57a2c88139194.png",
+      "/assets/images/webs/hadrumetum/ffe2b2dca5a2ddc0c129082d5624525f.png",
+      "/assets/images/webs/hadrumetum/f84f06a2d70fc008b55b26c8bc73e2cd.png"
+    ],
+    "notes_on_image": "",
+    "text": ".....\n[... qui te] re-\ns olvit ex vi-\nte temporib-\nus deum\npela[gicum]\n........\n\nIn the barque\n........\nme. iat.... dit..\n...............\n..aini.........\n\nadiu[ro]\nte dae[mon]\nquicu[nque]\net de[man-]\ndo [tibi]\nex (h)anc d[ie]\nex anc ora \nex oc m[oment-]\nto ut cru[ci-]\netur ad..\nu u.....\n\n\nB\n[Adiu]ro te demon cuiqun-\n[que es] et demando tibi\n................\n......ut crucietur\n................\n................\n.........n q[ui] te \n...............vit\n......deum pelagi-\n[cu]m aerium altissimum\nIaw οι ου ιaaawwww\n.......ια...",
+    "translation": "A/\nLeft side: ...who took your life, god of the sea.\nRight side: I conjure you, demon, whoever you are, and I ask you, this day this hour, this moment, that be tortured...\n\nB/\nI conjure you demon, whoever you are, and I ask you.... that be tortured....whoever... the god of the sea, of the air, the most high god.",
+    "notes": "Demon standing on ship\n\nLegi et descripsi; cf. Cat. Alaoui, H, 31, cum imagine zincotypica in tab. XXVIII.\n\nOpisthograph tablet, 0.122 m high, 0.093 m wide, mutilated on the upper and right margins; many letters have also disappeared.\nIt was torn up along with the previous ones.\n\nA demon riding in a boat in the same attire as in plate 288.\n\nSiceht 2000\nNotes:\n\nA/ Line 5: There is an error, anc is put in place of (h)<oc>, cf.\n\ntablet no. 69 (DT. no. 290, b2).\n\nLine 6: Here too, anc is put in place of (h)ac\n\nLine 10: It must be corrected to (h)oc.\n\nCommentary\n\nThis defixio belongs to the same series as the previous one and should therefore be considered as referring to the circus games. We will see in the second part of our study that the Greek <<< words >> that follow lao (lines 11 and 12 in B) are, in fact, a transcription of the Hebrew",
+    "related_objects": [],
+    "sources": [
+      {
+        "source_id": "21877057",
+        "value": "404-5"
+      },
+      {
+        "source_id": "21948499",
+        "value": ""
+      },
+      {
+        "source_id": "21877057",
+        "value": "360-1"
+      }
+    ]
+  },
+  {
+    "id": "dt-292",
+    "nodegoat_id": "ngKh7i687MBC6KxexKD4vzhLlKe",
+    "object_id": "21877176",
+    "name": "DT 292",
+    "alternate_names": "",
+    "location": "Hadrumetum (general)",
+    "location_notes": "Among the tombs of the Roman cemetery along the road leading to Kairouan, excavated at various times, all the Hadrumetine tablets were unearthed (268-298). We are only taught about most of them; the invention of some is also narrated below on p. 361 and 378.\n\n“His research focused primarily on the region south of the road [Kairouan versus], approximately 500 meters from the Tirailleurs Camp, and 300 meters from the edge of the Punic necropolis. There, in cremation tombs, he collected a number of magical tablets; only one of them is of the type used for love spells; the others relate to racing horses… They all come from two tombs: the first contained six (only five could be unrolled), the second five, rolled up according to custom.”\n\nPauca addidit Goetschy (Archaeological Bulletin, 1903, p. 166):\n\n“We possess fourteen lead tablets; two of them were open, the other twelve rolled up.” The lead is generally so oxidized that, despite all precautions, it is impossible to open them without breaking them. The two plates found open were pierced by a large nail, still adhered to the plate, as if someone had wanted to hold them against one of the faces of the tomb. »\n\nHaec tandem e Cagnati commentatione (Sav., p. 264) excer\npere iuvat: “We have no precise data on the age of these tombs. “They contained,” writes General Goetschy to me, “no funerary furnishings. According to the lamps found in the tombs immediately adjacent to the lead-slab tombs, I suppose that those containing the first seven were from the beginning of the 1st century, and those containing the last five were from the end of that same century or the beginning of the 11th.” “Since we cannot, for various reasons, attribute the five imprecations cited above (276-280) to anything other than the end of the 2nd century or rather to the 3rd century, we must conclude that the tombs in question, if they truly date from the 1st century, had already existed for a long time when the idea arose to use them for magical operations.”",
+    "date": "",
+    "language": "",
+    "type": "circus",
+    "size": "11cm x 8.8cm",
     "deity": "",
-    "key_features": "Bilingual lexical list; used in scribal training; neat column divisions.",
-    "related_objects": "Educational tablets",
-    "iconography": "No imagery; structured columns of signs",
-    "text": "1. e2 = bītu\n2. lugal = šarrum\n3. dumu = mārum",
-    "translation": "House = bītu; King = šarrum; Son = mārum.",
+    "key_features": [
+      "drawings",
+      "Daemons",
+      "voces magicae",
+      "author: baitmo guy"
+    ],
     "images": [
-      "/assets/images/webs/defixio/thumbnail.png"
+      "/assets/images/webs/hadrumetum/07058beb54c3c8e6091e760b29a9962b.png",
+      "/assets/images/webs/hadrumetum/06279aa86f41ea2ec9f953b8c1499740.png",
+      "/assets/images/webs/hadrumetum/19b733b33ede8e7e8acbaf4f831b77fb.png",
+      "/assets/images/webs/hadrumetum/af2425a0c23a58e5c68fd4c184a8c70b.png",
+      "/assets/images/webs/hadrumetum/67ef6d20bce5df80a10bccb5cc462499.png",
+      "/assets/images/webs/hadrumetum/25d8b12ca9efdfd23ef395ab9fd3b984.png"
+    ],
+    "notes_on_image": "related textual formulas in 293 and 294",
+    "text": "Side A\nQuint.o\n\n(A human-like head in front of the feet of the demon)\nOn trouve: \nOcuria anox \n[oton] b[arnion] \nformione \n[efecebul]\n\nSide B \nAdiuro te qu[i]cunqu[e] \nex et demando tibi ex [oc die] \nex ac ora ex oc momento \nut crucietur Adbocata, \nper eum qui te resolvit \nvite temporibus deum \npelagicum aerium altis \n[adi]u[r]o ut hos h[a]b[i]a[s] equos \n..d.a. b. ei bite [co]mm[endo]\n.............\nη. ωωαηία..",
+    "translation": "Sichet 2000:\nI conjure you, demon, whoever you may be, and I ask you, this day, this hour, this moment, that Advocata be tortured by him who took your life, god of the sea, of the air. I conjure you to mistreat these horses... I entrust them to you.",
+    "notes": "The image represents the nekydaimon according to R. Gordon, see GORDON 2005,76. Demon sitting on a rock.\n\n(Sichet 2000)\nThis tablet relates, through formulas similar to those of the defixiones concerning circus horses, to Advocata. But Audollent speaks of her as Advocata, so it is more likely a woman than a circus charioteer\n\nGauckler calls Set, the demon god who is depicted on this tablet. However, he is called Iao in the earlier tablets\ncircus/charioteers\n\n(Audollent)\nLegi et descripsi; cf. Cat. Alaoui, H, 32, with a zincotype image in tab. XXVIII.\n\nAn opisthographical tablet, 0.11 m high and 0.088 m wide, was found with the preceding ones.\n\nA demon sitting on a cement structure outlined with oblique lines, holding a whip in his left hand. Before the demon's feet, a human protome.\n\nBecause of the similarity of the formulas between the defixations that pertain to circus horses, I have reported this, although Advocata (6 4), if I read it correctly, designates a woman rather than a driver. Gaucklero decided to call the figured demon god Set (Cat. Alaoui).",
+    "related_objects": [
+      {
+        "name": "DT 293"
+      },
+      {
+        "name": "DT 294"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "21877057",
+        "value": "405-6"
+      },
+      {
+        "source_id": "21948499",
+        "value": ""
+      },
+      {
+        "source_id": "21948508",
+        "value": ""
+      },
+      {
+        "source_id": "21877057",
+        "value": "360-1"
+      }
+    ]
+  },
+  {
+    "id": "dt-293",
+    "nodegoat_id": "ngLi7j788NSD8LyTyMk5vaiQmLZ",
+    "object_id": "21877177",
+    "name": "DT 293",
+    "alternate_names": "",
+    "location": "Necropolis of Hadrumetum",
+    "location_notes": "Necropolis 200m south of racetrack, either deposited into inhumation burials or rolled up and inserted into libation tubes. (Heintz 1998)\nNecropolis along the road connecting Sousse and Kairouan on the southern side of the road, some 500 meters away from the “Camp des Tirailleurs” and 300 meters away from the Punic necropolis.(Sánchez 2023)\n\nAudollent: His research focused primarily on the region\nlocated south of the road [Kairouan versus], approximately 500 meters from the Tirailleurs Camp, and 300 meters from the boundary of the Punic necropolis; and there, in cremation tombs, he collected a number of magical tablets; only one of them is of the type of love spells; the\nothers relate to racing horses.... They all come from two tombs: the first contained six (only five could be unrolled), the second five, rolled up according to custom.\n\nWe possess fourteen lead plates; two of them\nwere open, the other twelve rolled up. The\nlead is generally so oxidized that, despite all precautions, it is impossible to open them without breaking them. The two plates found open had a hole made by a large nail, still attached to the plate, as if someone had tried to hold them pressed against one of the faces of the tomb.\n\nI had eleven, not fourteen, leaden volumes at hand, which I mentioned above, and I saw no love ones.\n\nWe have no precise data on the age of these tombs. “They contained,” wrote General Goetschy to me, “no funerary furnishings. According to the lamps found in the tombs immediately adjacent to the lead-lined tombs, I suppose that those containing the first seven were from the beginning of the 1st century, and those containing the last five from the end of that same century or the beginning of the 11th.” \"Since we cannot, for various reasons, attribute the five imprecations cited above (276-280) to the end of the 2nd century or rather to the 3rd century, we must conclude that the tombs in question, if they truly date from the 1st century, had already existed for a long time when the idea arose to use them for magical operations.\"\n\nLes vestiges antiques de la ville d’Hadrumetum, d’après L. Maurin, « L’épitaphe de Claudius Chrestus », Africa 23, 2013.\n\nFigure 2 : Les vestiges portuaires selon le plan de A. Daux, d’après G. Haanezo, «Observations sur le plan d’Hadrumète par Daux », RA 1897, p. 21.",
+    "date": "",
+    "language": "",
+    "type": "",
+    "size": "",
+    "deity": "",
+    "key_features": [
+      "author: baitmo guy"
+    ],
+    "images": [
+      "/assets/images/webs/hadrumetum/22788ce65a025a5dc80faf608b68bf9a.png"
+    ],
+    "notes_on_image": "",
+    "text": "Ocuria\nanoc\noton\nbarnion\nformione\nefecebul\n\nAdiuro te demon quicunque es et deman-\ndo tibi ex anc die ex anc ora ex hoc momento \nut crucietur     ad diem illum: \nadiuro te per eum qui te [r]esolvit ex vite \ntemporibus deum pelagicum aerium \naltissimum laω οι οι ια\nταα τω τωε οορίύω α ηια\n                    ε\n\n[i]The lines below are upside down[/i]\nOcuria\nanoχ \noton barnion \nformione \nefecebul \nLynceus frangatur \nilli Peciolus descum\n\nSide B\nAdiuro te demon \nquicunque es et de-\nmando tibi ex hanc \ndie ex hanc ora ex oc \nmomento ut crucie-\ntur; adiuro te per eum \nqui te resolvit ex vite \ntemporibus deum pela-\ngicum aeium altissimu[m]",
+    "translation": "sichet\nA/ Up to line 6, these are magical formulas. Then: I conjure you, demon, whoever you may be, and I ask you this day, this hour, this moment, to torture this one, this day, I conjure you by him who took your life, the god of the sea, of the air, the highest god, Iaô (Greek letters follow). Reversed, it reads: May Lynceus and Peciolus be broken\n\nB/ I conjure you, demon, whoever you may be, and I ask you this day, this hour, this moment, let him be tortured. I conjure you by him who took your life, the god of the sea, of the air, the most high god Lao (Greek letters follow). Only one name comes after, Lynceus",
+    "notes": "Sichet 2000:\nNotes:\n\nA/ Lines 2 and 20: Audollent informs us that the magic word anox can be read on a silver tablet held by the Kircheriano Museum (cf. Ruggiero, Cataloguó del Museo Kircheriano, 1878, p. 81, n. 200). It is also found on tablet no. 74 (DT, no. 295, 5).\n\nLines 7 and 11: It should be corrected to dajemon.\n\nLine 8: Anc should be replaced by hac.\n\nLine 10: Vite is substituted for vitfaje.\n\nB/ Lines 3-4: Hanc and (h)oc should be restored.\n\nCommentary:\n\nThe name Lynceus is given for the first time in A 15; he is bewitched. He reappears in B 12, so that the demons may manifest themselves against him.\n\nThis inscription, like some of the previous ones, is also used to bewitch circus horses. Tablet no. 68 (DT. no. 289, all) designates a horse named Lynceus like this one, but we also find here a horse named Peciolus, which we will find again, in line 20, of the following tablet, Here again, lines 12-13 of A and 10-11 of B are a transcription ofHebrew.",
+    "related_objects": [],
+    "sources": [
+      {
+        "source_id": "21877057",
+        "value": "360-361"
+      },
+      {
+        "source_id": "21877072",
+        "value": ""
+      },
+      {
+        "source_id": "21877079",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "dt-294",
+    "nodegoat_id": "ngMj7E889MDEwMzYzNV60bjJnOC68",
+    "object_id": "21877178",
+    "name": "DT 294",
+    "alternate_names": "Sichet 73",
+    "location": "Necropolis of Hadrumetum",
+    "location_notes": "Necropolis 200m south of racetrack, either deposited into inhumation burials or rolled up and inserted into libation tubes. (Heintz 1998)\nNecropolis along the road connecting Sousse and Kairouan on the southern side of the road, some 500 meters away from the “Camp des Tirailleurs” and 300 meters away from the Punic necropolis.(Sánchez 2023)\n\nAudollent: His research focused primarily on the region\nlocated south of the road [Kairouan versus], approximately 500 meters from the Tirailleurs Camp, and 300 meters from the boundary of the Punic necropolis; and there, in cremation tombs, he collected a number of magical tablets; only one of them is of the type of love spells; the\nothers relate to racing horses.... They all come from two tombs: the first contained six (only five could be unrolled), the second five, rolled up according to custom.\n\nWe possess fourteen lead plates; two of them\nwere open, the other twelve rolled up. The\nlead is generally so oxidized that, despite all precautions, it is impossible to open them without breaking them. The two plates found open had a hole made by a large nail, still attached to the plate, as if someone had tried to hold them pressed against one of the faces of the tomb.\n\nI had eleven, not fourteen, leaden volumes at hand, which I mentioned above, and I saw no love ones.\n\nWe have no precise data on the age of these tombs. “They contained,” wrote General Goetschy to me, “no funerary furnishings. According to the lamps found in the tombs immediately adjacent to the lead-lined tombs, I suppose that those containing the first seven were from the beginning of the 1st century, and those containing the last five from the end of that same century or the beginning of the 11th.” \"Since we cannot, for various reasons, attribute the five imprecations cited above (276-280) to the end of the 2nd century or rather to the 3rd century, we must conclude that the tombs in question, if they truly date from the 1st century, had already existed for a long time when the idea arose to use them for magical operations.\"\n\nLes vestiges antiques de la ville d’Hadrumetum, d’après L. Maurin, « L’épitaphe de Claudius Chrestus », Africa 23, 2013.\n\nFigure 2 : Les vestiges portuaires selon le plan de A. Daux, d’après G. Haanezo, «Observations sur le plan d’Hadrumète par Daux », RA 1897, p. 21.",
+    "date": "",
+    "language": "Latin",
+    "type": "",
+    "size": "13cm H x 7cm W",
+    "deity": "",
+    "key_features": [
+      "author: baitmo guy"
+    ],
+    "images": [],
+    "notes_on_image": "",
+    "text": "Ocuria\nanox\naton \nbarnion \nformione \nefecebul \nAdiuro te dem[on] quiqun-\nq[u]e et demando ut ex hoc die \n[ex] hac hora ex hoc momento cru\n-cietur         . . b . infernu \n.. e ... obis; adiuro te per eum\n         i\n[qui te res]olvit ex vte tempori-\n[bus deu]m pelagicum aerium \naltissimum lαω οιουιαία \n[α ιω ιωε οορ]ιυoαηια \n\n[i]Lines below are arranged upside down[/i]\nProfugu[s] Ocuria \nPeciolus anox \nFrangrio oton\nRi.....  barnion\n         formione \n         efecebul",
+    "translation": "Translation:\n\nUp to line 6, these are magic words. Then: I conjure you, demon, whoever you are, and I ask you this day, this hour, this moment, that he be tortured... I conjure you by him who took your life, god of the sea, of the air, the most high god Profugus, Peciolus, Frangrio...",
+    "notes": "Folded when discovered. According to Audollent, it is mutilated on its left side. (Sichet 2000)\n\n\nNotes:\n\nLine 8: The word \"es\" is missing after \"quic\" (whom).\n\nLine 12: \"V(i)t(a)e\" should be corrected.\n\nLine 21: He is named Profugus, whom we already encountered in tablet no. 68 (DT. no. 289, a12).\n\nCommentary:\n\nThis defixio is similar to the previous one; in lines 18 to 21, we find the names of the bewitched horses\n\nIn lines 14 and 15, there is another transcription from Hebrew.",
+    "related_objects": [],
+    "sources": [
+      {
+        "source_id": "21877057",
+        "value": "360-361"
+      },
+      {
+        "source_id": "21877072",
+        "value": ""
+      },
+      {
+        "source_id": "21877079",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "dt-298",
+    "nodegoat_id": "ngQn8o283RHI3QdEdRZ03fnVrQE",
+    "object_id": "21877182",
+    "name": "DT 298",
+    "alternate_names": "Sichet 112",
+    "location": "Necropolis of Hadrumetum",
+    "location_notes": "Necropolis 200m south of racetrack, either deposited into inhumation burials or rolled up and inserted into libation tubes. (Heintz 1998)\nNecropolis along the road connecting Sousse and Kairouan on the southern side of the road, some 500 meters away from the “Camp des Tirailleurs” and 300 meters away from the Punic necropolis.(Sánchez 2023)\n\nAudollent: His research focused primarily on the region\nlocated south of the road [Kairouan versus], approximately 500 meters from the Tirailleurs Camp, and 300 meters from the boundary of the Punic necropolis; and there, in cremation tombs, he collected a number of magical tablets; only one of them is of the type of love spells; the\nothers relate to racing horses.... They all come from two tombs: the first contained six (only five could be unrolled), the second five, rolled up according to custom.\n\nWe possess fourteen lead plates; two of them\nwere open, the other twelve rolled up. The\nlead is generally so oxidized that, despite all precautions, it is impossible to open them without breaking them. The two plates found open had a hole made by a large nail, still attached to the plate, as if someone had tried to hold them pressed against one of the faces of the tomb.\n\nI had eleven, not fourteen, leaden volumes at hand, which I mentioned above, and I saw no love ones.\n\nWe have no precise data on the age of these tombs. “They contained,” wrote General Goetschy to me, “no funerary furnishings. According to the lamps found in the tombs immediately adjacent to the lead-lined tombs, I suppose that those containing the first seven were from the beginning of the 1st century, and those containing the last five from the end of that same century or the beginning of the 11th.” \"Since we cannot, for various reasons, attribute the five imprecations cited above (276-280) to the end of the 2nd century or rather to the 3rd century, we must conclude that the tombs in question, if they truly date from the 1st century, had already existed for a long time when the idea arose to use them for magical operations.\"\n\nLes vestiges antiques de la ville d’Hadrumetum, d’après L. Maurin, « L’épitaphe de Claudius Chrestus », Africa 23, 2013.\n\nFigure 2 : Les vestiges portuaires selon le plan de A. Daux, d’après G. Haanezo, «Observations sur le plan d’Hadrumète par Daux », RA 1897, p. 21.",
+    "date": "2nd-3rd c. CE",
+    "language": "",
+    "type": "",
+    "size": "",
+    "deity": "snake head demon",
+    "key_features": [
+      "drawings",
+      "author: baitmo guy"
+    ],
+    "images": [
+      "/assets/images/webs/hadrumetum/66185326fbb1dc1c926eff949252bffb.png",
+      "/assets/images/webs/hadrumetum/61fa84831c4810acec77ee2dacfa45ca.png",
+      "/assets/images/webs/hadrumetum/bb9d342769c6d9ea3eda1dd0f21560bf.png",
+      "/assets/images/webs/hadrumetum/bf8113ccd11a63df852496b7dbc06b5c.png",
+      "/assets/images/webs/hadrumetum/98889b4ef4c039d23b6bbb89ed582359.png",
+      "/assets/images/webs/hadrumetum/11619ec5cccc50d13bfef63a418de57a.png"
+    ],
+    "notes_on_image": "",
+    "text": "",
+    "translation": "",
+    "notes": "found in a grave dated to the middle of middle of 2nd c. AD, in the cemetery of Hadrumetum. (For dating see Reinach 1898, 355) - Nemeth snake",
+    "related_objects": [],
+    "sources": [
+      {
+        "source_id": "21877057",
+        "value": "360-361"
+      },
+      {
+        "source_id": "21877072",
+        "value": ""
+      },
+      {
+        "source_id": "21877079",
+        "value": ""
+      }
     ]
   }
 ]

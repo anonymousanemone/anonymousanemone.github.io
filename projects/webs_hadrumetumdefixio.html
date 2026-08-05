@@ -1,0 +1,215 @@
+---
+layout: defixio_base
+title: Tablet Catalogue
+---
+
+<div class="container my-5">
+
+  <div class="header mb-4">
+    <h1>Tablet Catalogue</h1>
+  </div>
+
+  <!-- OUTER TABS: choose tablet -->
+  <div class="tab-bar top-tab-bar">
+    {% for t in site.data.defixio_tabs %}
+      <div class="tab{% if forloop.first %} active{% endif %}" data-tablet="tablet-{{ forloop.index0 }}">
+        {{ t.name }}
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- FOLDER BODY -->
+  <div class="folder-body p-2">
+    {% for t in site.data.defixio_tabs %}
+      {% assign obj = site.data.defixio_database | where: "name", t.name | first %}
+      <div class="tablet-panel{% if forloop.first %} active{% endif %}" id="tablet-{{ forloop.index0 }}">
+
+        <!-- TOP CARD -->
+        <div class="p-3 mb-4">
+          <div class="row g-4">
+
+            <!-- IMAGES -->
+            <div class="col-md-5">
+              <div class="image-panel">
+                {% if obj.images.size > 0 %}
+                  <img class="main-image" src="{{ obj.images[0] }}" alt="{{ t.name }}">
+                  {% if obj.images.size > 1 %}
+                    <div class="thumbs">
+                      {% for img in obj.images %}
+                        <img src="{{ img }}" onclick="this.closest('.record-card').querySelector('.main-image').src=this.src">
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                {% else %}
+                  <p><em>No image available.</em></p>
+                {% endif %}
+              </div>
+            </div>
+
+            <!-- TEXT -->
+            <div class="col-md-7">
+              <div class="record-header">
+                <h2>{{ t.name }}</h2>
+                {% if obj and obj.alternate_names != "" %}
+                  <div class="alt-names">Also known as: {{ obj.alternate_names }}</div>
+                {% endif %}
+              </div>
+
+              <div class="description">
+                {% if obj.key_features.size > 0 %}
+                  <p><strong>Key features:</strong> {{ obj.key_features | join: ", " }}</p>
+                {% endif %}
+                {% unless obj %}
+                  <p><em>No information recorded for this tablet yet.</em></p>
+                {% endunless %}
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SIDE BOOKMARK TABS + CONTENT -->
+        {% assign has_overview = false %}
+        {% if obj %}
+          {% if obj.location != "" or obj.date != "" or obj.language != "" or obj.type != "" or obj.size != "" or obj.deity != "" or obj.notes_on_image != "" or obj.location_notes != "" or obj.notes != "" %}
+            {% assign has_overview = true %}
+          {% endif %}
+        {% endif %}
+        {% assign has_text = false %}
+        {% if obj %}
+          {% if obj.text != "" or obj.translation != "" %}
+            {% assign has_text = true %}
+          {% endif %}
+        {% endif %}
+        {% assign has_related = false %}
+        {% if obj.related_objects.size > 0 %}
+          {% assign has_related = true %}
+        {% endif %}
+        {% assign has_sources = false %}
+        {% if obj.sources.size > 0 %}
+          {% assign has_sources = true %}
+        {% endif %}
+
+        <div class="folder-content">
+
+          <div class="side-tab-bar">
+            <div class="side-tab active" data-tab="overview">Overview</div>
+            {% if has_text %}<div class="side-tab" data-tab="text">Text</div>{% endif %}
+            {% if has_related %}<div class="side-tab" data-tab="related">Related Objects</div>{% endif %}
+            {% if has_sources %}<div class="side-tab" data-tab="sources">Sources</div>{% endif %}
+          </div>
+
+          <div class="record-card side-card">
+
+            <div class="panel active" data-panel="overview">
+              {% if has_overview %}
+                <div class="overview-grid">
+                  {% if obj.location != "" %}<div class="label">Location</div><div>{{ obj.location }}</div>{% endif %}
+                  {% if obj.date != "" %}<div class="label">Date</div><div>{{ obj.date }}</div>{% endif %}
+                  {% if obj.language != "" %}<div class="label">Language</div><div>{{ obj.language }}</div>{% endif %}
+                  {% if obj.type != "" %}<div class="label">Type</div><div>{{ obj.type }}</div>{% endif %}
+                  {% if obj.size != "" %}<div class="label">Size</div><div>{{ obj.size }}</div>{% endif %}
+                  {% if obj.deity != "" %}<div class="label">Deity</div><div>{{ obj.deity }}</div>{% endif %}
+                </div>
+
+                {% if obj.notes_on_image != "" %}
+                  <div class="text-block">
+                    <h3>Notes on the Image</h3>
+                    <p>{{ obj.notes_on_image | newline_to_br }}</p>
+                  </div>
+                {% endif %}
+
+                {% if obj.location_notes != "" %}
+                  <div class="text-block">
+                    <h3>About the Find Site</h3>
+                    <p>{{ obj.location_notes | newline_to_br }}</p>
+                  </div>
+                {% endif %}
+
+                {% if obj.notes != "" %}
+                  <div class="text-block">
+                    <h3>Notes</h3>
+                    <p>{{ obj.notes | newline_to_br }}</p>
+                  </div>
+                {% endif %}
+              {% else %}
+                <p><em>No information recorded for this tablet yet.</em></p>
+              {% endif %}
+            </div>
+
+            {% if has_text %}
+              <div class="panel" data-panel="text">
+                {% if obj.text != "" %}
+                  <div class="text-block">
+                    <h3>Transliteration</h3>
+                    <pre>{{ obj.text }}</pre>
+                  </div>
+                {% endif %}
+                {% if obj.translation != "" %}
+                  <div class="text-block">
+                    <h3>Translation</h3>
+                    <p>{{ obj.translation | newline_to_br }}</p>
+                  </div>
+                {% endif %}
+              </div>
+            {% endif %}
+
+            {% if has_related %}
+              <div class="panel" data-panel="related">
+                <ul>
+                  {% for rel in obj.related_objects %}
+                    <li>{{ rel.name }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+
+            {% if has_sources %}
+              <div class="panel" data-panel="sources">
+                <ul>
+                  {% for src in obj.sources %}
+                    <li>Source {{ src.source_id }}{% if src.value != "" %}, {{ src.value }}{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+
+          </div>
+
+        </div>
+
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+/* -----------------------------
+   OUTER TABS (which tablet)
+----------------------------- */
+document.querySelectorAll('.top-tab-bar .tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.top-tab-bar .tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tablet-panel').forEach(p => p.classList.remove('active'));
+
+    tab.classList.add('active');
+    document.getElementById(tab.dataset.tablet).classList.add('active');
+  });
+});
+
+/* -----------------------------
+   SIDE BOOKMARK TABS (Overview / Text / Related Objects / Sources)
+----------------------------- */
+document.querySelectorAll('.side-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    const bar = tab.closest('.side-tab-bar');
+    const content = tab.closest('.folder-content');
+
+    bar.querySelectorAll('.side-tab').forEach(t => t.classList.remove('active'));
+    content.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+
+    tab.classList.add('active');
+    content.querySelector(`.panel[data-panel="${tab.dataset.tab}"]`).classList.add('active');
+  });
+});
+</script>
