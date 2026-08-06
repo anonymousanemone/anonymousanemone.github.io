@@ -102,7 +102,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 				| replace: "_", "​"
 				}}
 				{% assign pdf_page = sign.page_number | minus: 437 %}
-				<b><a href="{{ '/assets/pdf/gardiner_signlist.pdf' | relative_url }}#page={{ pdf_page }}" target="_blank" rel="noopener" class="page-number-link">[pg. {{ sign.page_number }}]</a></b>
+				<b><a href="{{ '/assets/pdf/gardiner_signlist.pdf' | relative_url }}#page={{ pdf_page }}" data-pdf-page="{{ pdf_page }}" data-page-label="{{ sign.page_number }}" target="_blank" rel="noopener" class="page-number-link">[pg. {{ sign.page_number }}]</a></b>
 			</div>
 
 		</div>
@@ -111,11 +111,101 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 	{% endfor %}
 </div>
 
+<!-- PDF PAGE PREVIEW MODAL: renders a single page instead of loading the full PDF -->
+<div class="modal fade" id="pdfPageModal" tabindex="-1" aria-labelledby="pdfPageModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="pdfPageModalLabel">Gardiner Sign List</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body text-center">
+				<div id="pdfPageSpinner" class="spinner-border" role="status">
+					<span class="visually-hidden">Loading…</span>
+				</div>
+				<canvas id="pdfPageCanvas" class="d-none"></canvas>
+				<p id="pdfPageError" class="text-danger d-none mb-0">Couldn't load that page. Try opening the full PDF instead.</p>
+			</div>
+			<div class="modal-footer">
+				<a id="pdfPageFullLink" href="#" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">Open full PDF ↗</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="section mb-4" id="credits">
 	<h5 class="mt-3 mb-3">Credits</h5>
 	<p>A.H. Gardiner (1957), <i>Egyptian Grammar: Being an Introduction to the Study of Hieroglyphs</i>. 3rd edition. Oxford: Griffith Institute, Ashmolean Museum.</p>
 	<p>Kilani Marwan, 2019, Djehuty - Font EgyptianHiero 4.02 (4.3.2019), https://github.com/MKilani/Djehuty</p>
 </div>
+
+<style>
+	#pdfPageCanvas {
+		max-width: 100%;
+		height: auto;
+	}
+</style>
+
+<!-- Renders a single PDF page on demand (via HTTP range requests) instead of downloading
+     the whole multi-MB PDF, which is what the native browser viewer would otherwise do. -->
+<script type="module">
+	import * as pdfjsLib from 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/legacy/build/pdf.min.mjs'
+	pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/legacy/build/pdf.worker.min.mjs'
+
+	const pdfUrl = '{{ "/assets/pdf/gardiner_signlist.pdf" | relative_url }}'
+	let pdfDocPromise = null
+	function getPdfDoc() {
+		if (!pdfDocPromise) {
+			// disableAutoFetch: only fetch the byte ranges needed for the requested page,
+			// relying on the server's Accept-Ranges support (GitHub Pages provides this).
+			pdfDocPromise = pdfjsLib.getDocument({ url: pdfUrl, disableAutoFetch: true }).promise
+		}
+		return pdfDocPromise
+	}
+
+	const modalEl = document.getElementById('pdfPageModal')
+	const modal = new bootstrap.Modal(modalEl)
+	const canvas = document.getElementById('pdfPageCanvas')
+	const spinner = document.getElementById('pdfPageSpinner')
+	const errorEl = document.getElementById('pdfPageError')
+	const titleEl = document.getElementById('pdfPageModalLabel')
+	const fullLink = document.getElementById('pdfPageFullLink')
+	let renderToken = 0
+
+	async function renderPage(pageNumber) {
+		const token = ++renderToken
+		canvas.classList.add('d-none')
+		errorEl.classList.add('d-none')
+		spinner.classList.remove('d-none')
+		try {
+			const pdf = await getPdfDoc()
+			const page = await pdf.getPage(pageNumber)
+			if (token !== renderToken) return
+			const viewport = page.getViewport({ scale: 2.5 })
+			canvas.width = viewport.width
+			canvas.height = viewport.height
+			await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise
+			if (token !== renderToken) return
+			spinner.classList.add('d-none')
+			canvas.classList.remove('d-none')
+		} catch (err) {
+			console.error('Failed to render PDF page', err)
+			if (token !== renderToken) return
+			spinner.classList.add('d-none')
+			errorEl.classList.remove('d-none')
+		}
+	}
+
+	document.addEventListener('click', function (event) {
+		const link = event.target.closest('.page-number-link')
+		if (!link) return
+		event.preventDefault()
+		titleEl.textContent = 'Gardiner Sign List — page ' + link.dataset.pageLabel
+		fullLink.href = link.href
+		modal.show()
+		renderPage(parseInt(link.dataset.pdfPage, 10))
+	})
+</script>
 
 <script>
 	document.addEventListener('DOMContentLoaded', function () {
