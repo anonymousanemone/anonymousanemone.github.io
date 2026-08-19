@@ -1,0 +1,18 @@
+<!--
+  emphasis_card.html — a narrow, centered "important" callout box. This
+  include handles only the box's formatting (centered row, column width,
+  bordered "section" styling); everything inside it — heading, text,
+  button, image, whatever — is written as plain HTML by the caller.
+
+  Optional:
+    width           Bootstrap column class for the card width (default "col-12 col-lg-8")
+    html            raw HTML string rendered inside the box
+-->
+
+<div class="row g-4 justify-content-center mb-4">
+    <div class="{{ include.width | default: "col-12 col-lg-8" }}">
+        <div class="section text-center">
+            {{ include.html | raw }}
+        </div>
+    </div>
+</div>

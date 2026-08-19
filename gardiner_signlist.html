@@ -10,33 +10,8 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 <!-- CATEGORY QUICK NAV -->
 {% assign index = site.data.gardiner_signlist.index %}
 
-<!-- Desktop: row of category letters, hover shows the category name -->
-<div class="section mb-4 d-none d-md-block" id="category-nav">
-	<div class="d-flex flex-row flex-wrap justify-content-center gap-2">
-		{% for category in index %}
-		{% assign category_name = category[0] %}
-		{% assign anchor_id = category_name | slugify %}
-		{% assign parts = category_name | split: ", " %}
-		{% if parts.size > 1 %}
-		{% assign badge = parts[0] %}
-		{% assign tooltip = parts[1] %}
-		{% else %}
-		{% assign badge = "" %}
-		{% assign words = category_name | split: " " %}
-		{% for word in words %}
-		{% assign first_char = word | slice: 0, 1 %}
-		{% assign badge = badge | append: first_char %}
-		{% endfor %}
-		{% assign tooltip = category_name %}
-		{% endif %}
-		<a href="#{{ anchor_id }}" class="category-letter-link" data-bs-toggle="tooltip"
-			data-bs-title="{{ tooltip }}">{{ badge }}</a>
-		{% endfor %}
-	</div>
-</div>
-
-<!-- Mobile: floating button that drops down a scrollable list of category names -->
-<div class="category-fab-wrapper d-md-none">
+<!-- Floating button that drops down a scrollable list of category names -->
+<div class="category-fab-wrapper">
 	<div class="category-fab-list collapse" id="category-fab-list">
 		<ul class="list-unstyled mb-0">
 			{% for category in index %}

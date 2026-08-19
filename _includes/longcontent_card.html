@@ -1,0 +1,24 @@
+<!--
+  longcontent_card.html — a single full-width bordered box for longer, freeform
+  writeups: a main heading, then any mix of subheadings/paragraphs/image rows
+  passed in as raw HTML. Think of it as one page of a document rather than a
+  grid of cards — use it when the content doesn't split cleanly into the
+  repeating label+image units notecard.html expects.
+
+  Required:
+    title           main heading shown at the top of the box
+
+  Optional:
+    content         raw HTML string rendered inside the box below the title
+                     (subtitles, paragraphs, image rows, etc. — write it directly)
+    width           Bootstrap column class for the box width (default "col-12")
+-->
+
+<div class="row g-4 justify-content-center mb-4">
+    <div class="{{ include.width | default: "col-12" }}">
+        <div class="section">
+            <h3 class="text-center mb-3">{{ include.title }}</h3>
+            {{ include.content | raw }}
+        </div>
+    </div>
+</div>
