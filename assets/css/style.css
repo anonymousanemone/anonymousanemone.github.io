@@ -315,10 +315,12 @@ html {
 }
 
 .translit {
-  /* font-family: "HGNTransliteration"; */
-  font-family: "Cascadia Code", sans-serif;
-  color: var(--red);
-  font-style: italic;
+	font-family: "HGNTransliteration";
+	/* font-family: "Cascadia Code", sans-serif; */
+	color: var(--red);
+	font-style: italic;
+	font-weight: bold;
+    font-size: large;
 }
 
 /* Gardiner sign list: in-text cross-reference links should read as plain text */
@@ -332,29 +334,7 @@ html {
 	color: inherit;
 }
 
-/* Gardiner sign list: category quick-nav (desktop letter bar) */
-.category-letter-link {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	width: 42px;
-	height: 42px;
-	border: 2px solid var(--darkbrown);
-	background-color: var(--yellow);
-	font-weight: bold;
-	text-decoration: none;
-	color: black;
-	box-shadow: 3px 3px 0 var(--darkbrown);
-	transition: all 0.1s ease-in-out;
-}
-
-.category-letter-link:hover {
-	background-color: var(--yellow);
-	transform: translate(1px, 1px);
-	box-shadow: 1px 1px 0 var(--darkbrown);
-}
-
-/* Gardiner sign list: category quick-nav (mobile floating button) */
+/* Gardiner sign list: category quick-nav (floating button) */
 .category-fab-wrapper {
 	position: fixed;
 	right: 20px;
@@ -403,4 +383,11 @@ html {
 
 .category-fab-list a:last-child {
 	border-bottom: none;
+}
+
+/* Desktop/mouse: reveal the list on hover instead of requiring a click */
+@media (hover: hover) and (pointer: fine) {
+	.category-fab-wrapper:hover .category-fab-list.collapse:not(.show) {
+		display: block;
+	}
 }

@@ -4,84 +4,100 @@ title: Early Chinese Coin Finds Database
 ---
 
 {% include project_summary.html
-    description = "A searchable, mapped record of pre-Qin to early Han coin discoveries across China — sites, contexts, typology, mint towns, and museum specimens, presented bilingually in English and Chinese."
+    description = "A searchable, mapped record of pre-Qin to early Han coin discoveries across China — sites, contexts, typology, mint towns, and museum specimens, presented bilingually in English and Chinese. No separate backend: every page queries Supabase directly."
     additional = '<div class="btn w-100 py-2 my-2"><a href="https://early-china-coinage.vercel.app/">View Site</a></div><div class="btn w-100 py-2 my-2"><a href="https://github.com/guyunong1998/early_china_coinage">View on Github</a></div>'
-    img1 = "/assets/images/webs/coins/screenshots/01_home.jpg"
+    img1 = "/assets/images/webs/coins/screenshots/01-home.jpg"
     img1_alt = "Homepage of the Early Chinese Coin Finds Database"
 %}
 
-{% include section_head.html title="A research tool, not just a dataset" %}
-
-<div class="row mb-4"><div class="col-12"><div class="section">
-    <p class="mb-0">Every record links a find site to its geographic location, archaeological context, coin typology, and bibliographic sources — queryable directly from Supabase, with a handful of stable reference datasets (mint-town dossiers, typology hierarchy) kept local for anything that rarely changes.</p>
-</div></div></div>
+<div class="row g-2 mb-4">
+    <div class="col-6 col-md-2"><div class="section h-100 text-center py-2">
+        <p class="mb-0"><strong>660,417</strong><br><small>Coins recorded</small></p>
+    </div></div>
+    <div class="col-6 col-md-2"><div class="section h-100 text-center py-2">
+        <p class="mb-0"><strong>1,496</strong><br><small>Find sites</small></p>
+    </div></div>
+    <div class="col-6 col-md-2"><div class="section h-100 text-center py-2">
+        <p class="mb-0"><strong>6,572</strong><br><small>Find records</small></p>
+    </div></div>
+    <div class="col-6 col-md-2"><div class="section h-100 text-center py-2">
+        <p class="mb-0"><strong>125</strong><br><small>Mint towns</small></p>
+    </div></div>
+    <div class="col-6 col-md-2"><div class="section h-100 text-center py-2">
+        <p class="mb-0"><strong>71</strong><br><small>Coin types</small></p>
+    </div></div>
+    <div class="col-6 col-md-2"><div class="section h-100 text-center py-2">
+        <p class="mb-0"><strong>1,161</strong><br><small>Sources</small></p>
+    </div></div>
+</div>
 
 {% include double_notes.html
-    tag = "Search"
-    title = "Full-text and faceted search"
-    text = "Every find site is searchable by name, province, coin type, inscription, or site code, with facet filters for region, period, site type, coin type, state, mint, and quantity — plus a live results map and a per-site coin-type pie chart. Sortable by name, quantity, region, find count, coin-type diversity, or state diversity, with a location-precision filter (site / county / city / all) that deliberately surfaces real gaps in geolocation precision rather than hiding them."
-    images_path = "/assets/images/webs/coins/screenshots/02_search"
+    title = "Search, Browse, Filter"
+    text = "Every find site is searchable by name, province, coin type, inscription, or site code, with live facet filters and a results map that clusters by count."
+    images_list = "/assets/images/webs/coins/screenshots/04-search-filtered.jpg"
     col-size = "col-12"
 %}
 
 {% include double_notes.html
-    tag = "Detail View"
-    title = "One page per archaeological find"
-    text = "Location, coin types found, excavation contexts, individual finds, a mint-origins map connecting the site to every mint it received coins from, and full bibliographic sources — all in one record."
-    images_path = "/assets/images/webs/coins/screenshots/03_site_detail"
+    title = "Find Site Pages"
+    text = "Location, a mint-origins map connecting the site to every mint it received coins from, and a tabbed breakdown of excavation contexts, individual finds, and citations."
+    images_list = "/assets/images/webs/coins/screenshots/05-site-detail.jpg,/assets/images/webs/coins/screenshots/06-site-tab-contexts.jpg,/assets/images/webs/coins/screenshots/07-site-tab-finds.jpg,/assets/images/webs/coins/screenshots/08-site-tab-references.jpg"
+    col-size = "col-6"
+%}
+
+{% include double_notes.html
+    title = "Mint Towns"
+    text = "Each mint town has its own page, with coordinates on a map, an issued-coin distribution map filterable by coin type, and citations."
+    images_list = "/assets/images/webs/coins/screenshots/09-mints-overview.jpg, /assets/images/webs/coins/screenshots/10-mint-detail.jpg"
+    col-size = "col-6"
+%}
+
+{% include double_notes.html
+    title = "Coin Typology"
+    text = "Coin types can be viewed from a navigable hierarchy tree or an expandable list."
+    images_list = "/assets/images/webs/coins/screenshots/11-coin-types-overview.jpg,/assets/images/webs/coins/screenshots/28-hierarchy-navigator.png"
     col-size = "col-12"
 %}
 
 {% include double_notes.html
-    tag = "Directory"
-    title = "Every documented coin-producing town"
-    text = "A searchable, sortable directory of mint towns — merging live database rows with hand-transcribed dossiers (location, description, images, citations) wherever the database doesn't carry a field yet, sortable by number of finds, coins, catalogued issues, or record completeness. Static reference data is visually distinguished (dashed border) from live, bilingual database data — never silently mixed."
-    images_path = "/assets/images/webs/coins/screenshots/04_mint_directory"
-    col-size = "col-12"
-%}
-
-{% include double_notes.html
-    tag = "Detail View"
-    title = "Location, coin output, and primary sources"
-    text = "Each mint's own page: coordinates on a detail map, an issued-coin distribution map (filterable by coin type), an image gallery for historical city plans, and full bilingual citations back to the original excavation reports."
-    images_path = "/assets/images/webs/coins/screenshots/05_mint_detail"
-    col-size = "col-12"
-%}
-
-{% include double_notes.html
-    tag = "Browse"
-    title = "The full typology, browsable end to end"
-    text = "Every documented coin type as a searchable card grid and a full expandable hierarchy tree (钱币/Coin and 钱范/Mould branches), each card showing obverse/reverse photography where available, sortable by hierarchy level, find count, coin count, or catalogued issues."
-    images_path = "/assets/images/webs/coins/screenshots/06_coin_types"
-    col-size = "col-12"
-%}
-
-{% include double_notes.html
-    tag = "Detail View"
-    title = "One typology node, fully cross-referenced"
-    text = "Obverse/reverse images, parent types, every issuing state and mint, every attested inscription, a collapsible coin-issue catalogue, related find sites, and this node's place in the overall hierarchy tree."
-    images_path = "/assets/images/webs/coins/screenshots/07_coin_type_detail"
+    title = "Coin Type Pages"
+    text = "Obverse/reverse images, every issuing state and mint, attested inscriptions, a coin-issue catalogue, and a referenceable hierarchy tree."
+    images_path = "/assets/images/webs/coins/screenshots/12-coin-type-detail"
     col-size = "col-12"
 %}
 
 {% include section_head.html title="Three Ways to See the Same Geography" %}
 
 <div class="row mb-4"><div class="col-12"><div class="section">
-    <p>Find Site, Mint Town, and Museum Collections all share one full-bleed map engine with Points / Density / Compare display modes — click-to-reveal explanations on every non-obvious control (View by, Filter by, Display) so the interface teaches itself.</p>
+    <p>Find Site, Mint Town, and Museum Collections all share one map engine with Points / Density / Compare display modes, filterable by coin type or mint. Click-to-reveal explanations on every non-obvious control allows newcomers to more easily access this tool.</p>
     {% include multi_images.html
-        img_list = "/assets/images/webs/coins/screenshots/08_map_findsite.jpg,/assets/images/webs/coins/screenshots/09_map_minttown.jpg,/assets/images/webs/coins/screenshots/10_map_museum.jpg"
-        col-size = "col-12 col-md-4"
+        img_list = "/assets/images/webs/coins/screenshots/13-viz-find-site-points.jpg,/assets/images/webs/coins/screenshots/14-viz-find-site-density.jpg,/assets/images/webs/coins/screenshots/16-viz-find-site-mint-filter.jpg,/assets/images/webs/coins/screenshots/17-viz-mint-town.jpg"
+        col-size = "col-12 col-md-6"
         alt_prefix = "Map visualization —"
     %}
 </div></div></div>
 
+<div class="row mb-4"><div class="col-12"><div class="section">
+    <p><strong>Preset map filters.</strong> Explore the most productive visualizations with ease — five hand-picked, already-filtered views deep-link straight into the map with that exact coin-type, mint, or comparison already applied.</p>
+    {% include multi_images.html
+        img_list = "/assets/images/webs/coins/screenshots/demo-spade-knife-round-compare.jpg,/assets/images/webs/coins/screenshots/demo-mint-compare-anyang-anyi.jpg,/assets/images/webs/coins/screenshots/demo-knife-density.jpg,/assets/images/webs/coins/screenshots/demo-spade-mint-towns.jpg,/assets/images/webs/coins/screenshots/demo-museum-fangzubu-jianzubu.jpg"
+        col-size = "col-12 col-md-4"
+        alt_prefix = "Preset map view —"
+    %}
+</div></div></div>
+
 {% include double_notes.html
-    tag = "Architecture"
-    title = "Server components, one remote datastore"
-    text = "No separate backend or API layer: React Server Components query Supabase directly at render time. A small set of local, rarely-changing reference files (mint dossiers, river overlays, specimen photography) supplements the database wherever it doesn't carry a field yet — and the UI always makes clear which is which. Every string in the UI is a translation-table lookup, never a hardcoded literal, so the entire site re-renders in Chinese with one toggle."
-    images_path = "/assets/images/webs/coins/screenshots/11_about"
-    col-size = "col-12"
+    title = "Mobile Views"
+    text = "The desktop nav collapses into a hamburger menu, full-bleed map pages hide the footer so the map gets the whole viewport, and floating filter panels become collapsible drawers instead of just shrinking in place."
+    images_list = "/assets/images/webs/coins/screenshots/23-mobile-home.jpg,/assets/images/webs/coins/screenshots/24-mobile-nav-open.jpg,/assets/images/webs/coins/screenshots/25-mobile-viz-find-site.jpg"
+    col-size = "col-6 col-md-4"
 %}
+
+{% include section_head.html title="Database" %}
+
+<div class="row mb-4"><div class="col-12"><div class="section text-center">
+    <img src="/assets/images/webs/coins/database_schema.png" alt="Entity-relationship diagram of the database schema" loading="lazy" decoding="async" class="img-fluid">
+</div></div></div>
 
 {% include section_head.html title="Stack" %}
 

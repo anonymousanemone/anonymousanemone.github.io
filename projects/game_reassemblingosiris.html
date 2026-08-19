@@ -35,6 +35,40 @@ wip: true
 
 {% include section_head.html title="Playtester's Guide" id="playtester" %}
 
+{% include emphasis_card.html
+        html = '
+        <h3>𓀃 PLEASE Give Us Your Feedback!</h3>
+        <p>We would love to know your thoughts! Whether you finished the entire playthrough or just have some initial comments, we want to hear it! Please fill out our feedback form for bugs, confusing moments, favorite bits, anything at all.</p>
+        <div class="btn w-100 py-2 my-2"><a href="https://docs.google.com/forms/d/14XhYh-J_x885HL4SkirqpWYPSWooRXMAMzkjA4Sx1Cg/viewform" target="_blank" rel="noopener">𓏞 Open Feedback Form 𓏞</a></div>'
+%}
+
+{% include longcontent_card.html title = "How to Save Your Transcript"
+        content = '
+        <h4 class="text-center">Saving the Transcript</h4>
+        <p class="text-center">At the start of the game(or any time via the “save transcript” command/button), you will be prompted to begin recording a transcript. Press SPACE to continue, enter a filename (the date is usually good), and click Save. You will see a confirmation once recording has started.</p>
+        <div class="d-flex flex-wrap justify-content-center mb-4">
+            <div class="col-12 col-md-4 p-2">
+                <img src="/assets/images/game/reassemblingosiris/save_transcript_prompt1.png" alt="Prompt to save a transcript" loading="lazy" decoding="async" class="img-fluid w-100">
+            </div>
+            <div class="col-12 col-md-4 p-2">
+                <img src="/assets/images/game/reassemblingosiris/save_transcript_prompt2.png" alt="Enter a filename for the transcript" loading="lazy" decoding="async" class="img-fluid w-100">
+            </div>
+            <div class="col-12 col-md-4 p-2">
+                <img src="/assets/images/game/reassemblingosiris/save_transcript_confirmed.png" alt="Transcript recording confirmed" loading="lazy" decoding="async" class="img-fluid w-100">
+            </div>
+        </div>
+
+        <h4 class="text-center">Downloading Your Transcript</h4>
+        <p class="text-center">To download your transcript, click Files in the left sidebar, and you will see your transcript listed under Transcripts. We would love if you can send that to us through the feedback form above!</p>
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="col-12 col-md-6 p-2">
+                <img src="/assets/images/game/reassemblingosiris/save_transcript_files.png" alt="Files panel showing saved transcripts" loading="lazy" decoding="async" class="img-fluid w-100">
+            </div>
+            <div class="col-12 col-md-6 p-2">
+                <img src="/assets/images/game/reassemblingosiris/save_transcript_download.png" alt="Transcript downloaded" loading="lazy" decoding="async" class="img-fluid w-100">
+            </div>
+        </div>'
+%}
 
 {% include section_head.html title="Ideas and Concepts" %}
 
@@ -121,4 +155,13 @@ wip: true
             </div>
         </div>'
 %}
+
+
+{% include longcontent_card.html title = "Release Log"
+        content = '
+        <ul class="mb-0">
+            <li><strong>Release 1</strong> — March 29, 2026</li>
+        </ul>'
+%}
+
 </div>
