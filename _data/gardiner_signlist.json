@@ -2970,7 +2970,7 @@
         "Z3"
       ],
       [
-        "𓈒𓈒𓈒",
+        "𓈓",
         "(N33)"
       ],
       [
@@ -5092,12 +5092,12 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "human eye with the markings of a falcon's head",
       "gardiner_number": "D10",
       "glyph": "𓂀",
-      "unicode": "U+13080",
-      "description": "human eye with the markings of a falcon's head",
-      "notes": "Ideo. or det. in [t]wḏꜢt[/t] 'the wḏꜢt-eye' (or wedjat eye), i.e. the sound (uninjured) eye of Horus.",
-      "page_number": 451
+      "notes": "Ideo. or det. in 𓅱𓍑𓄿_𓏏𓂀 var. 𓂀 [t]wḏꜢt[/t] 'the wḏꜢt-eye' (or wedjat eye), i.e. the sound (uninjured) eye of Horus.",
+      "page_number": 451,
+      "unicode": "U+13080"
     },
     {
       "category_group": "D, Parts of the human body",
@@ -5110,21 +5110,21 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "pupil of the eye",
       "gardiner_number": "D12",
       "glyph": "𓂂",
-      "unicode": "U+13082",
-      "description": "pupil of the eye",
-      "notes": "Det. in [t]ḏfḏ[/t] 'pupil' of eye. As part of the wḏꜢt-eye sign for 1/4 hekat-measure of corn. A similar, but smaller, sign appears to have been used for from 1 to 9 hekat. To be distinguished from the grain of sand 𓈒 <a href=\"#N33\">N 33</a>, and from the circle, see after 𓏳 <a href=\"#Z8\">Z 8</a>.",
-      "page_number": 451
+      "notes": "Det. in 𓆓𓆑𓆓𓂂 [t]ḏfḏ[/t] 'pupil' of eye. As part of the wḏꜢt-eye sign for 1/4 hekat-measure of corn. A similar, but smaller, sign appears to have been used for from 1 to 9 hekat. To be distinguished from the grain of sand 𓈒 <a href=\"#N33\">N 33</a>, and from the circle 𓈒, see after 𓏳 <a href=\"#Z8\">Z 8</a>.",
+      "page_number": 451,
+      "unicode": "U+13082"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "eye-brow (also part of the wedjat-eye)",
       "gardiner_number": "D13",
       "glyph": "𓂃",
-      "unicode": "U+13083",
-      "description": "eye-brow (also part of the wedjat-eye)",
-      "notes": "Sign for 1/8 hekat-measure of corn. Also doubled as det. for [t]inḥ[/t] 'eye-brow(s)'. Det. or phon. det. in some words connected with smd (śmd) 'eye-brow' itself not found until Greek times.",
-      "page_number": 451
+      "notes": "Sign for 1/8 hekat-measure of corn. Also doubled as det. for 𓇋𓆛𓈖𓎛𓂃𓂃 [t]inḥ[/t] 'eye-brow(s)'. Det. or phon. det. in some words connected with 𓋴𓅓𓂧𓂃[t]smd (śmd)[/t] 'eye-brow' itself not found until Greek times.",
+      "page_number": 451,
+      "unicode": "U+13083"
     },
     {
       "category_group": "D, Parts of the human body",
@@ -5155,30 +5155,30 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "markings of the wedjat-eye (nos. 𓂅 <a href='#D15'>D 15</a> and  𓂆 <a href='#D16'>D 16</a> together)",
       "gardiner_number": "D17",
       "glyph": "𓂇",
-      "unicode": "U+13087",
-      "description": "markings of the wedjat-eye (nos. 𓂅 <a href=\"#D15\">D 15</a> and 16 together)",
-      "notes": "Ideo. or det. in tit 'figure', 'image'.",
-      "page_number": 452
+      "notes": "Ideo. or det. in 𓏏𓇋𓏏𓂇𓍘 var. 𓂇𓏏 [t]tit[/t] 'figure', 'image'.",
+      "page_number": 452,
+      "unicode": "U+13087"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "ear",
       "gardiner_number": "D18",
       "glyph": "𓂈",
-      "unicode": "U+13088",
-      "description": "ear",
-      "notes": "Ideo. or det. in [t]msḏr[/t] 'ear', dual [t]msḏrwy[/t] 'the two ears'.",
-      "page_number": 452
+      "notes": "Ideo. or det. in 𓄟𓋴𓇥𓂋𓂈 [t]msḏr[/t] 'ear', dual 𓂈𓂈 [t]msḏrwy[/t] 'the two ears'.",
+      "page_number": 452,
+      "unicode": "U+13088"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "nose, eye and cheek",
       "gardiner_number": "D19",
       "glyph": "𓂉",
-      "unicode": "U+13089",
-      "description": "nose, eye and cheek",
-      "notes": "Ideo. or det. in [t]fnḏ[/t], later fnd, 'nose'. Det. nose, ex. 'nose', 'nostril'; smell, exx. tpi 'sniff'; sn 'smell'; face, in [t]ḫnt[/t] 'face'; joy, exx. [t]rš[/t](w) 'rejoice'; [t]ḫntš[/t] 'take pleasure'; soft, kind, ex. sfn 'be mild'; also in [t]bṯn[/t] 'be disobedient'; gfn 'rebuff'. From [t]ḫnt[/t] 'face' (see above), phon. det. and (seldom before Dyn XIX) phon. [t]ḫnt[/t], exx. [t]ḫnty[/t] 'in front of' (adj). Owing to similarity in hieratic sometimes appears in hieroglyphic for 𓐮 <a href=\"#(Aa32)\">Aa 32</a>, ex. sty 'red (?) Nubian (?) pigment'; also for 𓍕 <a href=\"#U31\">U 31</a>, ex. [t]ḫni[/t] for [t]ḫn[/t](r)i 'restrain'; the hieratic has been often transcribed wrongly in modern books. Confusion of two different stems has contributed to the confusion of signs in words like [t]ḫnrt[/t], varr. [t]ḫnt[/t] 'prison', 'harem', 'fortress', which are consequently hard to differentiate.",
-      "page_number": 452
+      "notes": "Ideo. or det. in 𓂉𓏤 O.K. var. 𓆑𓐩𓂉 [t]fnḏ[/t], later 𓆑𓈖𓂧𓂉 [t]fnd[/t], 'nose'. Det. nose, ex. 𓈙𓂋𓏏𓂉 'nose', 'nostril'; smell, exx. 𓏏𓊪𓇋𓂉 [t]tpi[/t] 'sniff'; 𓋴𓌢𓈖 [t]sn[/t] 'smell'; face, in 𓏃_𓈖𓏏𓂉 [t]ḫnt[/t] 'face'; joy, exx. 𓂋𓈙𓂉[t]rš(w)[/t] 'rejoice'; 𓏃_𓈖𓏏𓈙𓂉 [t]ḫntš[/t] 'take pleasure'; soft, kind, ex. 𓋴𓆑𓈖𓂉 [t]sfn[/t] 'be mild'; also in 𓃀𓍿𓈖𓂉 [t]bṯn[/t] 'be disobedient'; [t]gfn[/t] 'rebuff'. From [t]ḫnt[/t] 'face' (see above), phon. det. and (seldom before Dyn XIX) phon. [t]ḫnt[/t], exx. 𓏃_𓈖𓏏𓏭 var. 𓂉𓏏 [t]ḫnty[/t] 'in front of' (adj). Owing to similarity in hieratic sometimes appears in hieroglyphic for 𓐮 <a href=\"#(Aa32)\">Aa 32</a>, ex. 𓂉𓏏𓏭𓈒𓏥 for 𓐮𓏏𓏭𓈒𓏥 [t]sty[/t] 'red (?) Nubian (?) pigment'; also for 𓍕 <a href=\"#U31\">U 31</a>, ex. 𓐍𓈖𓇋𓂉𓂡 [t]ḫni[/t] for 𓐍𓈖𓂋𓇋𓍕𓂡 [t]ḫn(r)i[/t] 'restrain'; the hieratic has been often transcribed wrongly in modern books. Confusion of two different stems has contributed to the confusion of signs in words like 𓍕𓏏𓉐[t]ḫnrt[/t], varr. 𓏃_𓈖𓏏𓂉𓉐, 𓂉𓏏𓉐[t]ḫnt[/t] 'prison', 'harem', 'fortress', which are consequently hard to differentiate.",
+      "page_number": 452,
+      "unicode": "U+13089"
     },
     {
       "category_group": "D, Parts of the human body",
@@ -5191,66 +5191,66 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "mouth (Dyn. XII rarely verticle)",
       "gardiner_number": "D21",
       "glyph": "𓂋",
-      "unicode": "U+1308B",
-      "description": "mouth (Dyn. XII rarely verticle)",
-      "notes": "Ideo. in r ([t]rꜢ[/t]) 'mouth'. Hence phon. r. In group-writing with stroke value is r, ex. ibr 'stallion'.\nre: Monograms incorporating 𓂋 <a href=\"#D21\">D 21</a>: For 𓆵 see <a href=\"#M6\">M 6</a>. For 𓇔 see <a href=\"#M24\">M 24</a>. For 𓇖 see <a href=\"#M25\">M 25</a>.",
-      "page_number": 452
+      "notes": "Ideo. in 𓂋𓏤 [t]r (rꜢ)[/t] 'mouth'. Hence phon. [t]r[/t]. In group-writing 𓂋𓏤 is [t]r[/t], ex. 𓇋𓊸𓅡𓂋𓏤𓃗 [t]ibr[/t] 'stallion'. <br>(Monograms incorporating 𓂋 <a href=\"#D21\">D 21</a>): For 𓆵 see <a href=\"#M6\">M 6</a>. For 𓇔 see <a href=\"#M24\">M 24</a>. For 𓇖 see <a href=\"#M25\">M 25</a>.",
+      "page_number": 452,
+      "unicode": "U+1308B"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "mouth with two strokes attached",
       "gardiner_number": "D22",
       "glyph": "𓂌",
-      "unicode": "U+1308C",
-      "description": "mouth with two strokes attached",
-      "notes": "Ideo. in rwy 'two-thirds'.",
-      "page_number": 452
+      "notes": "Ideo. in 𓂌 [t]rwy[/t] 'two-thirds'.",
+      "page_number": 452,
+      "unicode": "U+1308C"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "mouth with three strokes attached",
       "gardiner_number": "D23",
       "glyph": "𓂍",
-      "unicode": "U+1308D",
-      "description": "mouth with three strokes attached",
-      "notes": "Ideo. in 'three-quarters', probable reading [t]ḫmt[/t] rw.",
-      "page_number": 452
+      "notes": "Ideo. in 𓂍 'three-quarters', probable reading [t]ḫmt rw[/t].",
+      "page_number": 452,
+      "unicode": "U+1308D"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "upper lip with teeth",
       "gardiner_number": "D24",
       "glyph": "𓂎",
-      "unicode": "U+1308E",
-      "description": "upper lip with teeth",
-      "notes": "Ideo. in spt, var. Pyr. śpt, 'lip', 'border' (of pool, etc). Occasionally used by mistake for 𓄭 <a href=\"#F42\">F 42</a>.",
-      "page_number": 453
+      "notes": "Ideo. in 𓂎𓏏𓏤 [t]spt[/t], var. Pyr. 𓋴𓊪𓏏_𓂎 [t]śpt[/t], 'lip', 'border' (of pool, etc). Occasionally used by mistake for 𓄭 <a href=\"#F42\">F 42</a>.",
+      "page_number": 453,
+      "unicode": "U+1308E"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "two lips with teeth",
       "gardiner_number": "D25",
       "glyph": "𓂏",
-      "unicode": "U+1308F",
-      "description": "two lips with teeth",
-      "notes": "Ideo. or det. in spty (śpty) 'lips'.",
-      "page_number": 453
+      "notes": "Ideo. or det. in 𓋴𓊪𓏏𓏭𓂏 var. 𓂏𓏏𓏭 [t]spty (śpty)[/t] 'lips'.",
+      "page_number": 453,
+      "unicode": "U+1308F"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "liquid issuing from lips",
       "gardiner_number": "D26",
       "glyph": "𓂐",
-      "unicode": "U+13090",
-      "description": "liquid issuing from lips",
-      "notes": "Det. spit, ex. psg 'spit'; vomit, exx. [t]bši[/t] 'vomit''[t]qꜢꜥ[/t], var. [t]qꜥ[/t], 'spew out'; blood, in snf 'blood'.",
-      "page_number": 453
+      "notes": "Det. spit, ex. 𓊪𓊃𓎼𓂐 [t]psg[/t] 'spit'; vomit, exx. 𓃀𓈙𓂐 [t]bši[/t] 'vomit'; 𓈎_𓄿𓂝𓂐 [t]qꜢꜥ[/t], var. 𓈎𓂝𓂐 [t]qꜥ[/t], 'spew out'; blood, in 𓊃𓈖𓆑𓂐 [t]snf[/t] 'blood'.",
+      "page_number": 453,
+      "unicode": "U+13090"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "breast",
       "gardiner_number": "D27",
       "glyph": "𓂑",
-      "unicode": "U+13091",
-      "description": "breast",
-      "notes": "Ideo. or det. in [t]mnḏ[/t], later var. mnd, 'breast'. Det. suckle, exx. snq 'suckle'; [t]mnꜥy[/t] 'tutor' (det. transferred from [t]mnꜥt[/t] 'nurse').",
-      "page_number": 453
+      "notes": "Ideo. or det. in 𓂑 var. Pyr. 𓏠𓈖𓆓𓂑 [t]mnḏ[/t], later var. 𓏠𓈖𓂧𓂑𓄹 [t]mnd[/t], 'breast'. Det. suckle, exx. 𓊃𓈖𓈎𓂑 [t]snq[/t] 'suckle'; 𓏠𓈖𓂝𓏭𓂑 [t]mnꜥy[/t] 'tutor' (det. transferred from [t]mnꜥt[/t] 'nurse').",
+      "page_number": 453,
+      "unicode": "U+13091"
     },
     {
       "category_group": "D, Parts of the human body",
@@ -5263,66 +5263,66 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "arms extended so as to embrace?",
       "gardiner_number": "D28",
       "glyph": "𓂓",
-      "unicode": "U+13093",
-      "description": "arms extended so as to embrace?",
-      "notes": "Ideo. in [t]kꜢ[/t] 'soul', 'spirit'. Phon. [t]kꜢ[/t], exx. [t]kꜢt[/t] 'work'; [t]ḥkꜢ[/t] 'magic'. In group-writing is phon. k.",
-      "page_number": 453
+      "notes": "Ideo. in 𓂓𓏤 [t]kꜢ[/t] 'soul', 'spirit'. Phon. [t]kꜢ[/t], exx. 𓂓𓏏𓀋 [t]kꜢt[/t] 'work'; 𓎛𓂓𓄿𓀁 [t]ḥkꜢ[/t] 'magic'. In group-writing is 𓂓𓏤 or 𓂓 is phon. [t]k[/t].",
+      "page_number": 453,
+      "unicode": "U+13093"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "combination of 𓂓 <a href=\"#D28\">D 28</a> and 𓊾 <a href=\"#R12\">R 12</a>",
       "gardiner_number": "D29",
       "glyph": "𓂔",
-      "unicode": "U+13094",
-      "description": "combination of 𓂓 <a href=\"#D28\">D 28</a> and 𓊾 <a href=\"#R12\">R 12</a>",
-      "notes": "In [t]kꜢ[/t] 'soul', regarded as divine nature.",
-      "page_number": 453
+      "notes": "In 𓂔 [t]kꜢ[/t] 'soul', regarded as divine nature.",
+      "page_number": 453,
+      "unicode": "U+13094"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "the sign 𓂓 <a href=\"#D28\">D 28</a> with an appendage",
       "gardiner_number": "D30",
       "glyph": "𓂕",
-      "unicode": "U+13095",
-      "description": "the sign 𓂓 <a href=\"#D28\">D 28</a> with an appendage",
-      "notes": "Det. in [t]Nḥb-kꜢw[/t] 'Uniter-of-attributes', name of a mythical serpent-deity.",
-      "page_number": 453
+      "notes": "Det. in 𓅘𓎛𓃀𓏴𓂓𓏥𓂕 [t]Nḥb-kꜢw[/t] 'Uniter-of-attributes', name of a mythical serpent-deity.",
+      "page_number": 453,
+      "unicode": "U+13095"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "combination of 𓂘 <a href=\"#D32\">D 32</a> and 𓍛 <a href=\"#U36\">U 36</a>",
       "gardiner_number": "D31",
       "glyph": "𓂖",
-      "unicode": "U+13096",
-      "description": "combination of 𓂘 <a href=\"#D32\">D 32</a> and 𓍛 <a href=\"#U36\">U 36</a>",
-      "notes": "In [t]ḥm-kꜢ[/t] 'servant of the ka', 'ka-priest'.",
-      "page_number": 453
+      "notes": "In 𓂖 var. 𓍛𓂓 [t]ḥm-kꜢ[/t] 'servant of the ka', 'ka-priest'.",
+      "page_number": 453,
+      "unicode": "U+13096"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "arms enclosing or embracing",
       "gardiner_number": "D32",
       "glyph": "𓂘",
-      "unicode": "U+13098",
-      "description": "arms enclosing or embracing",
-      "notes": "Det. envelop, embrace, exx. inq 'envelop'; [t]ḥpt[/t] 'embrace'; open arms in [t]pgꜢ[/t] 'unfold'.",
-      "page_number": 453
+      "notes": "Det. envelop, embrace, exx. 𓇋𓆛𓈖𓈎𓂘 [t]inq[/t] 'envelop'; 𓎛𓊪𓏏𓂘 [t]ḥpt[/t] 'embrace'; open arms in 𓊪𓎼𓄿𓂘 [t]pgꜢ[/t] 'unfold'.",
+      "page_number": 453,
+      "unicode": "U+13098"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "arms engaged in rowing",
       "gardiner_number": "D33",
       "glyph": "𓂙",
-      "unicode": "U+13099",
-      "description": "arms engaged in rowing",
-      "notes": "Ideo. in [t]ẖni[/t] 'row' and derivatives. Hence phon. [t]ẖn[/t], ex. [t]ẖnnw[/t] 'turmoil'.",
-      "page_number": 453
+      "notes": "Ideo. in 𓂙𓈖𓊛 [t]ẖni[/t] 'row' and derivatives. Hence phon. [t]ẖn[/t], ex. 𓂙_𓈖𓈖_𓏌_𓅱𓃩𓂡𓏥 [t]ẖnnw[/t] 'turmoil'.",
+      "page_number": 453,
+      "unicode": "U+13099"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "arms holding shield and battle-axe",
       "gardiner_number": "D34",
       "glyph": "𓂚",
-      "unicode": "U+1309A",
-      "description": "arms holding shield and battle-axe",
-      "notes": "Ideo. in [t]ꜥḥꜢ[/t] 'fight' and derivatives.",
-      "page_number": 453
+      "notes": "Ideo. in 𓂚𓄿𓀜 var. Pyr. 𓂝_𓎛𓄿 [t]ꜥḥꜢ[/t] 'fight' and derivatives.",
+      "page_number": 453,
+      "unicode": "U+1309A"
     },
     {
       "category_group": "D, Parts of the human body",
@@ -5335,120 +5335,120 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "arms in gesture of negation",
       "gardiner_number": "D35",
       "glyph": "𓂜",
-      "unicode": "U+1309C",
-      "description": "arms in gesture of negation",
-      "notes": "Ideo. in n and nn 'not'. Hence phon. n, exx. n 'to', 'for'; [t]nnšm[/t] 'spleen'. Ideo. also in iwty, var. iwti, 'which not'. Det. not know, in [t]ḫm[/t] 'be ignorant'; hence phon. det. [t]ḫm[/t], exx. [t]ḫm[/t] 'shrine'; also with metathesis [t]mḫ[/t], in [t]smḫ[/t] 'forget'.",
-      "page_number": 454
+      "notes": "Ideo. in 𓂜 [t]n[/t] and 𓂜𓈖 [t]nn[/t] 'not'. Hence phon. [t]n[/t], exx. 𓂜 [t]n[/t] 'to', 'for'; 𓂜𓈖𓈝𓅓𓄹 [t]nnšm[/t] 'spleen'. Ideo. also in 𓂜𓏏𓏭𓅪 var. 𓂜_𓅱𓏏 [t]iwty[/t], var. Pyr. 𓇋𓅱𓂜𓍘𓇋 [t]iwti[/t], 'which not'. Det. not know, in 𓐍_𓅓𓂜 [t]ḫm[/t] 'be ignorant'; hence phon. det. [t]ḫm[/t], exx. 𓐍𓊃𓅓𓂜𓉐 [t]ḫm[/t] 'shrine'; also with metathesis [t]mḫ[/t], in 𓋴𓅓_𓐍𓂜 [t]smḫ[/t] 'forget'.",
+      "page_number": 454,
+      "unicode": "U+1309C"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "forearm",
       "gardiner_number": "D36",
       "glyph": "𓂝",
-      "unicode": "U+1309D",
-      "description": "forearm",
-      "notes": "Ideo. in [t]ꜥ[/t] 'arm', 'hand'. Hence phon. [t]ꜥ[/t] . Also in hieratic, less often in hieroglyphic, as substitute for 𓂞 <a href=\"#D37\">D 37</a>, 𓂟 <a href=\"#D38\">D 38</a>, , 𓂠 <a href=\"#D39\">D 39</a>, 𓂡 <a href=\"#D40\">D 40</a>, 𓂢 <a href=\"#D41\">D 41</a>, 𓂣 <a href=\"#D42\">D 42</a>, 𓂤 <a href=\"#D43\">D 43</a>, 𓂥 <a href=\"#D44\">D 44</a>.\nFor 𓃁 see <a href=\"#D59\">D 59</a>. For 𓅖 see <a href=\"#G20\">G 20</a>. For 𓅴 see <a href=\"#G45\">G 45</a>. For 𓇘 see <a href=\"#M27\">M 27</a>. For 𓉦 see <a href=\"#O12\">O 12</a>. For 𓊣 see <a href=\"#P7\">P 7</a>. For 𓐤 see <a href=\"#Aa22\">Aa 22</a>.",
-      "page_number": 454
+      "notes": "Ideo. in 𓂝𓏤 [t]ꜥ[/t] 'arm', 'hand'. Hence phon. [t]ꜥ[/t] . Also in hieratic, less often in hieroglyphic, as substitute for 𓂞 <a href=\"#D37\">D 37</a>, 𓂟 <a href=\"#D38\">D 38</a>, , 𓂠 <a href=\"#D39\">D 39</a>, 𓂡 <a href=\"#D40\">D 40</a>, 𓂢 <a href=\"#D41\">D 41</a>, 𓂣 <a href=\"#D42\">D 42</a>, 𓂤 <a href=\"#D43\">D 43</a>, 𓂥 <a href=\"#D44\">D 44</a>.\nFor 𓃁 see <a href=\"#D59\">D 59</a>. For 𓅖 see <a href=\"#G20\">G 20</a>. <br> For 𓅴 see <a href=\"#G45\">G 45</a>. For 𓇘 see <a href=\"#M27\">M 27</a>. For 𓉦 see <a href=\"#O12\">O 12</a>. For 𓊣 see <a href=\"#P7\">P 7</a>. For 𓐤 see <a href=\"#Aa22\">Aa 22</a>.",
+      "page_number": 454,
+      "unicode": "U+1309D"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "forearm with hand holding 𓏙 <a href=\"#X8\">X 8</a>",
       "gardiner_number": "D37",
       "glyph": "𓂞",
-      "unicode": "U+1309E",
-      "description": "forearm with hand holding 𓏙 <a href=\"#X8\">X 8</a>",
-      "notes": "In Pyr. almost exclusively ideo. in imi 'give', imperative, whereas is there common both as (r)di and as imi. In M.K. and later is commoner than both in rdi and in di, but tends in the imperative imi to be replaced by 𓂟 <a href=\"#D38\">D 38</a>. In Dyn. XI sometimes replaced by 𓂡 <a href=\"#D40\">D 40</a> or 𓂥 <a href=\"#D44\">D 44</a>. Phon d (from di) in Ddw 'Busiris'; also mi or merely m (from imi), exx. Kmi 'Kemi', name of a queen; mk 'behold'.\nFor 𓅕 see <a href=\"#G19\">G 19</a>.",
-      "page_number": 454
+      "notes": "In Pyr. almost exclusively ideo. in 𓇋𓂞 var. 𓂞 [t]imi[/t] 'give', imperative, whereas 𓏙 is there common both as [t](r)di[/t] and as [t]imi[/t]. In M.K. and later 𓂞 is commoner than both in [t]rdi[/t] (𓂋𓂞) and in [t]di[/t] (𓂞), but tends in the imperative [t]imi[/t] to be replaced by 𓂟 <a href=\"#D38\">D 38</a>. In Dyn. XI sometimes replaced by 𓂡 <a href=\"#D40\">D 40</a> or 𓂥 <a href=\"#D44\">D 44</a>. Phon. [t]d[/t] (from [t]di[/t]) in 𓂞𓂞𓅱𓊖 [t]Ddw[/t] 'Busiris'; also [t]mi[/t] or merely [t]m[/t] (from [t]imi[/t]), exx. 𓎡_𓅓𓂞𓁐 var. 𓎡_𓅓𓇋𓁐 [t]Kmi[/t] 'Kemi', name of a queen; 𓅓𓂞𓎡 [t]mk[/t] 'behold'. <br> For 𓅕 see <a href=\"#G19\">G 19</a>.",
+      "page_number": 454,
+      "unicode": "U+1309E"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "forearm with hand holding a rounded loaf",
       "gardiner_number": "D38",
       "glyph": "𓂟",
-      "unicode": "U+1309F",
-      "description": "forearm with hand holding a rounded loaf",
-      "notes": "In M.K. and more frequently in Dyn. XVIII det. in imi 'give'. Hence phon. mi and more commonly m, exx. mki 'protect'; I͗tm \"Atum'.",
-      "page_number": 454
+      "notes": "In M.K. and more frequently in Dyn. XVIII det. in 𓇋𓅓_𓐝𓂟 [t]imi[/t] 'give'. Hence phon. [t]mi[/t] and more commonly [t]m[/t], exx. 𓅓_𓂟𓎡𓂡 [t]mki[/t] 'protect'; 𓇋_𓏏𓂟𓀭 [t]I͗tm[/t] \"Atum'.",
+      "page_number": 454,
+      "unicode": "U+1309F"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "forearm with hand holding bowl 𓏌 <a href=\"#W24\">W 24</a>",
       "gardiner_number": "D39",
       "glyph": "𓂠",
-      "unicode": "U+130A0",
-      "description": "forearm with hand holding bowl 𓏌 <a href=\"#W24\">W 24</a>",
-      "notes": "Det. offer, present, exx. [t]ḥnk[/t] 'present'; drp 'offer'. In Dyn. IX-XII occasionally as substitute for 𓂞 <a href=\"#D37\">D 37</a> or 𓂟 <a href=\"#D38\">D 38</a>, ex rdi 'who causes'; [t]Mkt-Rꜥ[/t] 'Mekera', the name of a man; also for 𓂝 <a href=\"#D36\">D 36</a> ex. [t]m-ꜥ[/t] 'in the hand of'.",
-      "page_number": 454
+      "notes": "Det. offer, present, exx. 𓎛_𓆰𓈖_𓎡𓂠[t]ḥnk[/t] 'present'; 𓂧𓂋_𓊪𓂠 [t]drp[/t] 'offer'. In Dyn. IX-XII occasionally as substitute for 𓂞 <a href=\"#D37\">D 37</a> or 𓂟 <a href=\"#D38\">D 38</a>, ex. 𓂋𓂠 [t]rdi[/t] 'who causes'; 𓇳𓅓𓂠𓎡𓏏 [t]Mkt-Rꜥ[/t] 'Mektra', the name of a man; also for 𓂝 <a href=\"#D36\">D 36</a> ex. 𓅓𓂠 [t]m-ꜥ[/t] 'in the hand of'.",
+      "page_number": 454,
+      "unicode": "U+130A0"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "forearm with hand holding stick",
       "gardiner_number": "D40",
       "glyph": "𓂡",
-      "unicode": "U+130A1",
-      "description": "forearm with hand holding stick",
-      "notes": "From M.K. on tends to replace 𓀜 <a href=\"#A24\">A 24</a>, exx. [t]nḫt[/t] 'strong'; [t]itḥ[/t] 'drag'. Also abbrev. for [t]ḫꜢi[/t] 'examine'. In Dyn XI sometimes replaces 𓂞 <a href=\"#D37\">D 37</a>, see there.",
-      "page_number": 455
+      "notes": "From M.K. on tends to replace 𓀜 <a href=\"#A24\">A 24</a>, exx. 𓈖𓆱𓐍𓏏_𓂡 var. 𓂡 [t]nḫt[/t] 'strong'; 𓇋_𓏏𓎛𓂡 [t]itḥ[/t] 'drag'. Also abbrev. for 𓆼𓄿𓂡 [t]ḫꜢi[/t] 'examine'. In Dyn XI sometimes replaces 𓂞 <a href=\"#D37\">D 37</a>, see there.",
+      "page_number": 455,
+      "unicode": "U+130A1"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "forearm with palm of hand down",
       "gardiner_number": "D41",
       "glyph": "𓂢",
-      "unicode": "U+130A2",
-      "description": "forearm with palm of hand down",
-      "notes": "Det. arm, exx. [t]gbꜢ[/t] 'arm'; rmn 'arm', 'shoulder'; [t]iꜢby[/t] 'left'; det. various actions involving movements of arms, exx. [t]ẖms[/t] 'bend', 'bow'; rqi 'incline'; [t]ḥsi[/t] 'sing'; cessation of movement, exx. [t]grḥ[/t] 'cease'; ni 'reject'. From this last, phon. or phon. det. ni exx. niw 'ostrich'; niw 'bowl'.",
-      "page_number": 455
+      "notes": "Det. arm, exx. 𓎼𓃀𓅡𓄿𓂢 [t]gbꜢ[/t] 'arm'; 𓂋𓏠𓈖𓂢 varr. 𓂋𓈖𓂢, 𓂢𓄹𓏤[t]rmn[/t] 'arm', 'shoulder'; 𓋁𓃀𓏭𓂢 [t]iꜢby[/t] 'left'; det. various actions involving movements of arms, exx. 𓄡𓅓𓋴𓂢 [t]ẖms[/t] 'bend', 'bow'; 𓂋𓈎𓂢 [t]rqi[/t] 'incline'; 𓎛𓎿𓋴𓂢 [t]ḥsi[/t] 'sing'; cessation of movement, exx. 𓎼𓂋𓎛𓂢 [t]grḥ[/t] 'cease'; 𓈖𓇋𓂢 [t]ni[/t] 'reject'. From this last, phon. or phon. det. [t]ni[/t] exx. 𓂢𓏲𓅦 [t]niw[/t] 'ostrich'; 𓂢𓏤𓎺 var. 𓈖𓇋𓅱𓂡𓏊 [t]niw[/t] 'bowl'.",
+      "page_number": 455,
+      "unicode": "U+130A2"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "forearm as last, but with upper arm straight",
       "gardiner_number": "D42",
       "glyph": "𓂣",
-      "unicode": "U+130A3",
-      "description": "forearm as last, but with upper arm straight",
-      "notes": "Ideo. or det. in [t]mḥ[/t] 'cubit'.",
-      "page_number": 455
+      "notes": "Ideo. or det. in 𓎔𓂣 var. 𓂣 [t]mḥ[/t] 'cubit'.",
+      "page_number": 455,
+      "unicode": "U+130A3"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "forearm with hand holding flagellum 𓌅 <a href=\"#S45\">S 45</a>",
       "gardiner_number": "D43",
       "glyph": "𓂤",
-      "unicode": "U+130A4",
-      "description": "forearm with hand holding flagellum 𓌅 <a href=\"#S45\">S 45</a>",
-      "notes": "Ideo. in [t]ḫwi[/t] 'protect'. Hence phon. [t]ḫw[/t], exx. [t]ḫww[/t] 'evil'; [t]sḫdw[/t] 'enrich'.",
-      "page_number": 455
+      "notes": "Ideo. in 𓐍𓂤𓅱𓏜 varr. Pyr. 𓐍𓐍𓐍𓅱, 𓐍𓅱 [t]ḫwi[/t] 'protect'. Hence phon. [t]ḫw[/t], exx. 𓐍𓂤𓅱𓅱_𓅪𓏥 [t]ḫww[/t] 'evil'; 𓋴_𓐍𓂤𓂧𓏛 [t]sḫdw[/t] 'enrich'.",
+      "page_number": 455,
+      "unicode": "U+130A4"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "forearm with handholding the aba scepter 𓌂 <a href=\"#S42\">S 42</a>",
       "gardiner_number": "D44",
       "glyph": "𓂥",
-      "unicode": "U+130A5",
-      "description": "forearm with handholding the aba scepter 𓌂 <a href=\"#S42\">S 42</a>",
-      "notes": "Det. in [t]ḫrp[/t] 'be at the head of'', 'control', 'administer', and derivatives.",
-      "page_number": 455
+      "notes": "Det. in 𓐍𓂋𓊪𓂥 abbrev. 𓌂 [t]ḫrp[/t] 'be at the head of'', 'control', 'administer', and derivatives.",
+      "page_number": 455,
+      "unicode": "U+130A5"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "arm with hand holding the nhbt-wand",
       "gardiner_number": "D45",
       "glyph": "𓂦",
-      "unicode": "U+130A6",
-      "description": "arm with hand holding the nhbt-wand",
-      "notes": "Ideo. or det. in [t]ḏsr[/t], var. Pyr. ḏśr, 'clear (a road)', 'be private', 'holy', and derivatives.",
-      "page_number": 455
+      "notes": "Ideo. or det. in 𓂦𓂋𓏜 var. 𓂦 [t]ḏsr[/t], var. Pyr. 𓆓𓋴𓂦𓂋 [t]ḏśr[/t], 'clear (a road)', 'be private', 'holy', and derivatives.",
+      "page_number": 455,
+      "unicode": "U+130A6"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "hand",
       "gardiner_number": "D46",
       "glyph": "𓂧",
-      "unicode": "U+130A7",
-      "description": "hand",
-      "notes": "Ideo. in [t]ḏrt[/t], occasional varr. [t]ḏꜢt[/t] 'hand'. Phon. d, from the old Semitic word yad 'hand', cf. Egypt. wdi 'put', 'push', 'emit (sound)'.",
-      "page_number": 455
+      "notes": "Ideo. in 𓂧𓏏𓏤 [t]ḏrt[/t], occasional varr. 𓇥𓂋_𓏏𓂩, 𓍑𓏏𓂩 [t]ḏꜢt[/t] 'hand'. Phon. [t]d[/t], from the old Semitic word [t]yad[/t] 'hand', cf. Egypt. 𓅱𓂧𓂡 [t]wdi[/t] 'put', 'push', 'emit (sound)'.",
+      "page_number": 455,
+      "unicode": "U+130A7"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "hand letting fall drops",
       "gardiner_number": "D46*",
       "glyph": "𓂨",
-      "unicode": "U+130A8",
-      "description": "hand letting fall drops",
-      "notes": "Ideo. in idt 'fragrance'.",
-      "page_number": 455
+      "notes": "Ideo. in 𓂨𓏏 var. 𓂨𓏏𓇲 [t]idt[/t] 'fragrance'. O.K. var. 𓇋𓂨𓏏.",
+      "page_number": 455,
+      "unicode": "U+130A8"
     },
     {
       "category_group": "D, Parts of the human body",
@@ -5461,129 +5461,129 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "hand without thumb",
       "gardiner_number": "D48",
       "glyph": "𓂪",
-      "unicode": "U+130AA",
-      "description": "hand without thumb",
-      "notes": "Ideo. in [t]šsp[/t] 'palm', more strictly 'a hand-breadth', a linear measure.",
-      "page_number": 456
+      "notes": "Ideo. in 𓂪 varr. 𓊏𓊪𓇹, 𓇹 [t]šsp[/t] 'palm', more strictly 'a hand-breadth', a linear measure.",
+      "page_number": 456,
+      "unicode": "U+130AA"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "fist",
       "gardiner_number": "D49",
       "glyph": "𓂬",
-      "unicode": "U+130AC",
-      "description": "fist",
-      "notes": "Det. grasp, in [t]Ꜣmm[/t] 'grasp'; [t]ḫfꜥ[/t] 'seize'.",
-      "page_number": 456
+      "notes": "Det. grasp, in 𓄿𓅓𓅓𓂬 [t]Ꜣmm[/t] 'grasp'; 𓐍𓆑𓂝𓂬 [t]ḫfꜥ[/t] 'seize'.",
+      "page_number": 456,
+      "unicode": "U+130AC"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "finger",
       "gardiner_number": "D50",
       "glyph": "𓂭",
-      "unicode": "U+130AD",
-      "description": "finger",
-      "notes": "Ideo. or det. in [t]ḏbꜥ[/t] 'finger' and related words. Hence phon. [t]ḏbꜥ[/t], ex. [t]ḏbꜥ[/t] '10,000'. The two fingers serve as det. accurate, exx. [t]ꜥqꜢ[/t] 'accurate'; mty (mtr?) 'precise'; also in derivatives of these stems. Apt to be confused in hieroglyphic texts with 𓌙 <a href=\"#T14\">T 14</a>, though quite distince in hieratic.",
-      "page_number": 456
+      "notes": "Ideo. or det. in 𓂭𓏤 var. Pyr. 𓆓𓃀𓂝𓂭 [t]ḏbꜥ[/t] 'finger' and related words. Hence phon. [t]ḏbꜥ[/t], ex. 𓂭 [t]ḏbꜥ[/t] '10,000'. The two fingers serve as det. accurate, exx. 𓂝𓈎𓄿𓂭𓂭𓏜 [t]ꜥḳꜢ[/t] 'accurate'; 𓂸𓏏𓂭𓂭 [t]mty (mtr?)[/t] 'precise'; also in derivatives of these stems. Apt to be confused in hieroglyphic texts with 𓌙 <a href=\"#T14\">T 14</a>, though quite distince in hieratic.",
+      "page_number": 456,
+      "unicode": "U+130AD"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "finger horizontally",
       "gardiner_number": "D51",
       "glyph": "𓂷",
-      "unicode": "U+130B7",
-      "description": "finger horizontally",
-      "notes": "Ideo. or det. in [t]ꜥnt[/t] 'nail'. Det. for obscure reasons in [t]ḫꜢi[/t] 'measure'; [t]ṯꜢi[/t] 'take', 'gird on'; dqr 'press'. From the last, phon. det. dqr in dqr(w) 'fruit'. As abbrev. appears also to represent [t]qꜢw[/t] 'grains(?)' in the medical papyri. In [t]nqꜥwt[/t] 'notched sycamore figs' either replaces a nail-like notching instrument or more probably expresses the general notion of scratching.",
-      "page_number": 456
+      "notes": "Ideo. or det. in 𓂝𓈖_𓏏𓂷 var. 𓂷𓏏𓏤 [t]ꜥnt[/t] 'nail'. Det. for obscure reasons in 𓆼𓄿𓂷𓂡 [t]ḫꜢi[/t] 'measure'; 𓅷𓄿𓂷𓂡 [t]ṯꜢi[/t] 'take', 'gird on'; 𓂧𓈎𓂋𓂷𓀜 [t]dqr[/t] 'press'. From the last, phon. det. [t]dḳr[/t] in 𓂧𓈎𓂋𓂷𓈓 abbrev. 𓂷𓈓 [t]dqr(w)[/t] 'fruit'. As abbrev. 𓂷𓈓 appears also to represent 𓈎_𓄿𓅱𓈒𓏥 [t]qꜢw[/t] 'grains(?)' in the medical papyri. In 𓈖𓈎_𓂝𓏲𓏏𓂷𓈓 [t]nqꜥwt[/t] 'notched sycamore figs' 𓂷 either replaces a nail-like notching instrument or more probably expresses the general notion of scratching.",
+      "page_number": 456,
+      "unicode": "U+130B7"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "phallus",
       "gardiner_number": "D52",
       "glyph": "𓂸",
-      "unicode": "U+130B8",
-      "description": "phallus",
-      "notes": "Det. male, exx. [t]ꜥꜢ[/t] 'ass'; [t]ṯꜢy[/t] 'male', 'man'; [t]kꜢ[/t] 'bull'. Phon. mt, exx. mtwt 'poison'; [t]ḫmt[/t] 'three'. In O.K. this sign is used of the organ and all that is characterized by it, while 𓂺 <a href=\"#D53\">D 53</a> expresses what issues from or is performed by it. In M.K. the use differs somewhat and is less consistent.",
-      "page_number": 456
+      "notes": "Det. male, exx. 𓉻𓂸𓃘 [t]ꜥꜢ[/t] 'ass'; 𓅷𓄿𓇋𓇋𓂸𓀀 [t]ṯꜢy[/t] 'male', 'man'; 𓂓𓂸𓃒 abbrev. 𓂸𓃒 [t]kꜢ[/t] 'bull'. Phon. [t]mt[/t], exx. 𓂸𓏏𓅱𓏏𓂺 [t]mtwt[/t] 'poison'; 𓐍𓂸_𓏏𓏥 [t]ḫmt[/t] 'three'. In O.K. this sign is used of the organ and all that is characterized by it, while 𓂺 <a href=\"#D53\">D 53</a> expresses what issues from or is performed by it. In M.K. the use differs somewhat and is less consistent.",
+      "page_number": 456,
+      "unicode": "U+130B8"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "phallus with liquid issuing from it",
       "gardiner_number": "D53",
       "glyph": "𓂺",
-      "unicode": "U+130BA",
-      "description": "phallus with liquid issuing from it",
-      "notes": "For the use of as contrasted with 𓂸 <a href=\"#D52\">D 52</a>, see the latter. Det. in [t]ḥnn[/t] 'phallus'; [t]wsš[/t] 'urinate'; mtwt 'poison'; sometimes also (contrary to O.K. usage) in [t]ṯꜢy[/t] 'male', 'man'; hi 'husband'; regularly (contrary to O.K. usage) in [t]m-bꜢḥ[/t] 'in the presence of'.\nFor 𓈞 as substitute for the female organ, see on <a href=\"#N41\">N 41</a>.",
-      "page_number": 456
+      "notes": "For the use of 𓂺 as contrasted with 𓂸 <a href=\"#D52\">D 52</a>, see the latter. Det. in 𓎛_𓆰𓈖𓈖𓂺 [t]ḥnn[/t] 'phallus'; 𓅱𓊃𓈙𓂺 [t]wsš[/t] 'urinate'; 𓂸𓏏𓅱𓏏𓂺 [t]mtwt[/t] 'poison'; sometimes also (contrary to O.K. usage) in 𓅷𓄿𓇋𓇋𓂺_𓀀 [t]ṯꜢy[/t] 'male', 'man'; 𓉔_𓇋𓂺_𓀀 [t]hi[/t] 'husband'; regularly (contrary to O.K. usage) in 𓅓𓃀𓅡𓄿𓎛𓂺𓏛 var. 𓅓𓂺𓏤 [t]m-bꜢḥ[/t] 'in the presence of'. <br>For 𓈞 as substitute for the female organ, see on <a href=\"#N41\">N 41</a>.",
+      "page_number": 456,
+      "unicode": "U+130BA"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "legs walking",
       "gardiner_number": "D54",
       "glyph": "𓂻",
-      "unicode": "U+130BB",
-      "description": "legs walking",
-      "notes": "Ideo. in iw 'come'. Det. movement, exx. [t]šm[/t] 'go'; tkn 'approach'; [t]ḫꜢḫ[/t] 'hasten'; also lack of movement, exx. [t]Ꜣb[/t] 'stop'; [t]sꜢi[/t] 'linger'. The group 'walk', 'step' reads nmtt. For 𓇍 see <a href=\"#M18\">M 18</a>. For see N40. For 𓊄 see <a href=\"#O35\">O 35</a>. For 𓌬 see <a href=\"#T32\">T 32</a>. For 𓎁 see <a href=\"#V15\">V 15</a>. For 𓏎 see <a href=\"#W25\">W 25</a>.",
-      "page_number": 457
+      "notes": "Ideo. in 𓂻_𓅱 [t]iw[/t] 'come'. Det. movement, exx. 𓈝𓅓_𓂻 [t]šm[/t] 'go'; 𓏏𓎡_𓈖𓂻[t]tkn[/t] 'approach'; 𓆼𓄿_𓐍𓂻 [t]ḫꜢḫ[/t] 'hasten'; also lack of movement, exx. 𓍋𓃀𓂻 [t]Ꜣb[/t] 'stop'; 𓊃𓅭𓄿𓀸𓂻 [t]sꜢi[/t] 'linger'. The group 𓂻_𓏏𓏤 'walk', 'step' (plur. 𓂻𓂻𓂻, 𓈖𓌰𓅓𓏏𓏏𓂻𓏥) reads [t]nmtt[/t]. <br>For 𓇍 see <a href=\"#M18\">M 18</a>. For see 𓈝 <a href=\"#N40\">N 40</a>. For 𓊄 see <a href=\"#O35\">O 35</a>. For 𓌬 see <a href=\"#T32\">T 32</a>. For 𓎁 see <a href=\"#V15\">V 15</a>. For 𓏎 see <a href=\"#W25\">W 25</a>.",
+      "page_number": 457,
+      "unicode": "U+130BB"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "legs walking backwards",
       "gardiner_number": "D55",
       "glyph": "𓂽",
-      "unicode": "U+130BD",
-      "description": "legs walking backwards",
-      "notes": "Det. backwards, exx. [t]ꜥnn[/t] 'turn back'; [t]sbhꜢ[/t] 'cause to retreat'; [t]ḫtḫt[/t] 'be reversed'.",
-      "page_number": 457
+      "notes": "Det. backwards, exx. 𓂝𓈖𓈖𓂽 [t]ꜥnn[/t] 'turn back'; 𓋴𓃀𓉔_𓄿𓂽 [t]sbhꜢ[/t] 'cause to retreat'; 𓆱𓐍𓏏𓆱𓐍𓏏𓂽 [t]ḫtḫt[/t] 'be reversed'.",
+      "page_number": 457,
+      "unicode": "U+130BD"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "leg",
       "gardiner_number": "D56",
       "glyph": "𓂾",
-      "unicode": "U+130BE",
-      "description": "leg",
-      "notes": "Ideo. or det. in rd 'foot'. Det. leg, foot, exx. mnt 'thigh'; pd 'knee'; [t]wꜥrt[/t] 'leg', 'shank'. From pd, phon. pds in pds 'box'. From [t]wꜥrt[/t], phon. or phon. det. [t]wꜥr[/t] in [t]wꜥrt[/t] 'district official'; also in [t]wꜥr[/t] 'flee'. From sbq 'leg', phon. det. of phon. sbq 'excellent', 'successful'. For some reason unkown, phon. [t]gḥ[/t] or [t]gḥs[/t] in [t]gḥs[/t] 'gazelle'. The group is used to determine various verbs expressing movement, exx. thi 'transgress'; [t]ḫnd[/t] 'tread'.",
-      "page_number": 457
+      "notes": "Ideo. or det. in 𓂋𓂧𓂾 var. 𓂾 [t]rd[/t] 'foot'. Det. leg, foot, exx. 𓏠𓈖𓏏𓂾𓇑[t]mnt[/t] 'thigh'; 𓊪𓂧𓂾 [t]pd[/t] 'knee'; 𓅱_𓂝𓂋𓏏𓂾 [t]wꜥrt[/t] 'leg', 'shank'. From [t]pd[/t], phon. [t]pds[/t] in 𓂾𓏤𓆱 varr. 𓂾𓋴𓆱, 𓊪𓂧𓋴𓂾𓆱, 𓊪𓂧𓊃 [t]pds[/t] 'box'. From [t]wꜥrt[/t], phon. or phon. det. [t]wꜥr[/t] in 𓅱_𓂝𓂋𓂾𓏏𓈇  abbrev. 𓂾𓏏𓈇 [t]wꜥrt[/t] 'district' and its derivative title 𓂾𓏏𓅱 [t]wꜥrtw[/t] 'district official'; also in 𓅱_𓂝𓂋𓂾𓂻 [t]wꜥr[/t] 'flee'. From 𓋴𓃀_𓈎𓂾 [t]sbḳ[/t] 'leg', phon. det. or phon. [t]sbḳ[/t] in 𓋴𓃀_𓈎𓂾𓏜 var. 𓂾𓏜 [t]sbḳ[/t] 'excellent', 'successful'. For some reason unkown, phon. [t]gḥ[/t] or [t]gḥs[/t] in 𓂾𓋴𓃴 var. 𓎼𓎛𓋴𓂾𓄛 [t]gḥs[/t] 'gazelle'. The group 𓂾𓂻 is used to determine various verbs expressing movement, exx. 𓏏𓉔𓂾𓂻 [t]thi[/t] 'transgress'; 𓐍𓈖𓂧𓂾𓂻 [t]ḫnd[/t] 'tread'.",
+      "page_number": 457,
+      "unicode": "U+130BE"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "combination of 𓂾 <a href=\"#D56\">D 56</a> and 𓌪 <a href=\"#T30\">T 30</a>",
       "gardiner_number": "D57",
       "glyph": "𓂿",
-      "unicode": "U+130BF",
-      "description": "combination of 𓂾 <a href=\"#D56\">D 56</a> and 𓌪 <a href=\"#T30\">T 30</a>",
-      "notes": "Det. mutilate, in [t]iꜢṯ[/t] 'be mutilated' and derivatives. Note abbrev. for [t]iꜢṯw[/t] 'place of execution'; [t]siꜢty[/t] 'cheat' (n.) appears from the var. to be a causative. Det also in nkn 'damage'.",
-      "page_number": 457
+      "notes": "Det. mutilate, in 𓇋𓄿_𓍿𓂿 [t]iꜢṯ[/t] 'be mutilated' and derivatives. Note abbrev. 𓂿𓉐𓏥 [t]iꜢṯw[/t] 'place of execution'; 𓂿𓏏𓏭𓀀 var. 𓋴𓇋𓄿𓏏𓂿 [t]siꜢty[/t] 'cheat' (n.) appears from the var. to be a causative. Det also in 𓈖𓎡𓈖𓂿 [t]nkn[/t] 'damage'.",
+      "page_number": 457,
+      "unicode": "U+130BF"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "foot",
       "gardiner_number": "D58",
       "glyph": "𓃀",
-      "unicode": "U+130C0",
-      "description": "foot",
-      "notes": "Cf. bw 'place', 'position'. Hence phon. b.",
-      "page_number": 457
+      "notes": "Cf. 𓃀𓅱 var. 𓃀𓏤 [t]bw[/t] 'place', 'position'. Hence phon. [t]b[/t].",
+      "page_number": 457,
+      "unicode": "U+130C0"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "combination of 𓃀 <a href=\"#D58\">D 58</a> and 𓂝 <a href=\"#D36\">D 36</a>",
       "gardiner_number": "D59",
       "glyph": "𓃁",
-      "unicode": "U+130C1",
-      "description": "combination of 𓃀 <a href=\"#D58\">D 58</a> and 𓂝 <a href=\"#D36\">D 36</a>",
-      "notes": "Phon. [t]ꜥb[/t], ex. [t]ꜥb[/t] 'horn'.",
-      "page_number": 458
+      "notes": "Phon. [t]ꜥb[/t], ex. 𓃁𓄏 [t]ꜥb[/t] 'horn'.",
+      "page_number": 458,
+      "unicode": "U+130C1"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "combination of 𓃀 <a href=\"#D58\">D 58</a> with a vase from which water flows (replaces earlier 𓀆 <a href=\"#A6\">A 6</a>)",
       "gardiner_number": "D60",
       "glyph": "𓃂",
-      "unicode": "U+130C2",
-      "description": "combination of 𓃀 <a href=\"#D58\">D 58</a> with a vase from which water flows (replaces earlier 𓀆 <a href=\"#A6\">A 6</a>)",
-      "notes": "Ideo. in [t]wꜥb[/t] 'pure', 'clean'.\nFor 𓋟 see <a href=\"#S13\">S 13</a>.",
-      "page_number": 458
+      "notes": "Ideo. in 𓃂 var. Pyr. 𓅱𓂝𓃂 [t]wꜥb[/t] 'pure', 'clean'. <br>For 𓋟 see <a href=\"#S13\">S 13</a>.",
+      "page_number": 458,
+      "unicode": "U+130C2"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "toes",
       "gardiner_number": "D61",
       "glyph": "𓃃",
-      "unicode": "U+130C3",
-      "description": "toes",
-      "notes": "Ideo. or det. in [t]sꜢḥ[/t] (śꜢḥ) 'toe'. Hence phon. or phon. det. [t]sꜢḥ[/t] (śꜢḥ), exx. [t]sꜢḥ[/t] 'approached'; [t]m-sꜢḥ[/t] 'in the neighborhood of'.",
-      "page_number": 458
+      "notes": "Ideo. or det. in 𓋴𓐟𓄿𓎛𓃃𓏤𓄹 var. 𓃃𓏤𓄹 [t]sꜢḥ (śꜢḥ)[/t] 'toe'. Hence phon. or phon. det. [t]sꜢḥ (śꜢḥ)[/t], exx. 𓋴𓐠𓄿𓎛𓃃𓂻 [t]sꜢḥ[/t] 'approached'; 𓅓𓃃𓏏 [t]m-sꜢḥ[/t] 'in the neighborhood of'.",
+      "page_number": 458,
+      "unicode": "U+130C3"
     },
     {
       "category_group": "D, Parts of the human body",
@@ -10834,12 +10834,12 @@
     },
     {
       "category_group": "Z, Strokes",
+      "description": "stroke 𓏤 <a href=\"#Z1\">Z 1</a> thrice repeated (with various writings, vertical etc.)",
       "gardiner_number": "Z2",
       "glyph": "𓏥",
-      "unicode": "U+133E5",
-      "description": "stroke 𓏤 <a href=\"#Z1\">Z 1</a> thrice repeated (with various writings, vertical etc.)",
-      "notes": "Det. plurality, common from Dyn. IX onwards, following an ideo. or det. to show that it should be understood three times, exx. after for rnpwt 'years' for O.K. ; also with [t]nḏsw[/t] 'poor men'. Examples occur already in Pyr., but very rarely, ex. mrw 'canals'; these suggest as origin of the use a contraction of plurals like into plus , but since are found as plur. det. from Dyn. VI onward (exx. [t]wꜢwt[/t] 'roads', [t]nḏsw[/t] 'poor men') the use of as plur. det. cannot be dissociated entirely from the employment of , , or in Pyr. as substitute for signs representing human figures which were regarded as magically dangerous; see on 𓏤 <a href=\"#Z1\">Z 1</a>; 𓏯 <a href=\"#Z5\">Z 5</a>; 𓈒 <a href=\"#N33\">N 33</a>. In. M.E. 𓏥 <a href=\"#Z2\">Z 2</a> is found also with purely phonetic signs, exx. wrw 'great ones'; nfrw 'beautiful', m. plur.; nfrt 'beautiful', f. plur. Sometimes it marks plural meaning in words that are not themselves plural, exx. sn 'their'; [t]ẖnyt[/t] 'sailors', a fem. collective; [t]ꜥšꜢ[/t] 'many'; such plural meaning was probably felt by the Egyptians in words denoting foodstuffs, materials, etc., though singular in form, exx. t 'bread'; iwf 'flesh'; [t]ḥḏ[/t] 'silver'; so too in fem. participles with neuter meaning, exx. [t]ḏddt[/t] 'what was said', '(things) said'. Lastly, is found with abstracts ending in w, whether these are really plurals or not, exx. [t]šmsw[/t] 'following'; [t]nḏsw[/t] 'poverty'; soo too with fem. infinitives, if such they be, ex. mswt 'birth'. For 𓏪 the same sign vertically written in hieratic, see under <a href=\"#Z3\">Z 3</a> (occurs also as phon. det. in [t]ḫmt[/t] 'think').\nFor 𓈒𓈒𓈒 see on <a href=\"#N33\">N 33</a>.",
-      "page_number": 536
+      "notes": "Det. plurality, common from Dyn. IX onwards, following an ideo. or det. to show that it should be understood three times, exx. after for [t]rnpwt[/t] 'years' for O.K. ; also with [t]nḏsw[/t] 'poor men'. Examples occur already in Pyr., but very rarely, ex. [t]mrw[/t] 'canals'; these suggest as origin of the use a contraction of plurals like into plus , but since are found as plur. det. from Dyn. VI onward (exx. [t]wꜢwt[/t] 'roads', [t]nḏsw[/t] 'poor men') the use of as plur. det. cannot be dissociated entirely from the employment of , , or in Pyr. as substitute for signs representing human figures which were regarded as magically dangerous; see on 𓏤 <a href=\"#Z1\">Z 1</a>; 𓏯 <a href=\"#Z5\">Z 5</a>; 𓈒 <a href=\"#N33\">N 33</a>. In. M.E. 𓏥 <a href=\"#Z2\">Z 2</a> is found also with purely phonetic signs, exx. [t]wrw[/t] 'great ones'; [t]nfrw[/t] 'beautiful', m. plur.; [t]nfrt[/t] 'beautiful', f. plur. Sometimes it marks plural meaning in words that are not themselves plural, exx. [t]sn[/t] 'their'; [t]ẖnyt[/t] 'sailors', a fem. collective; [t]ꜥšꜢ[/t] 'many'; such plural meaning was probably felt by the Egyptians in words denoting foodstuffs, materials, etc., though singular in form, exx. [t]t[/t] 'bread'; [t]iwf[/t] 'flesh'; [t]ḥḏ[/t] 'silver'; so too in fem. participles with neuter meaning, exx. [t]ḏddt[/t] 'what was said', '(things) said'. Lastly, is found with abstracts ending in [t]w[/t], whether these are really plurals or not, exx. [t]šmsw[/t] 'following'; [t]nḏsw[/t] 'poverty'; soo too with fem. infinitives, if such they be, ex. [t]mswt[/t] 'birth'. For 𓏪 the same sign vertically written in hieratic, see under <a href=\"#Z3\">Z 3</a> (occurs also as phon. det. in [t]ḫmt[/t] 'think').\nFor 𓈓 see on <a href=\"#N33\">N 33</a>.",
+      "page_number": 536,
+      "unicode": "U+133E5"
     },
     {
       "category_group": "Z, Strokes",
@@ -10852,39 +10852,39 @@
     },
     {
       "category_group": "Z, Strokes",
+      "description": "two diagonal strokes (less often written straight)",
       "gardiner_number": "Z4",
       "glyph": "𓏭",
-      "unicode": "U+133ED",
-      "description": "two diagonal strokes (less often written straight)",
-      "notes": "In Pyr. only as det. duality, exx. [t]ṯn[/t](i) 'you two' (cf. for the ending śni 'they two'); [t]ꜥw[/t](i), also [t]ꜥw[/t](y), 'the two arms'; and in O.K., ex. [t]pḥw[/t](i) 'end'. In some cases replaced human figures, these being deemed to be magically dangerous, exx. [t]Ꜣḫt[/t](i) 'the two glorious ones' for [t]sꜢt[/t](i) 'son and daughter'; t(w)twi 'the two images'. The last use survives in M.E. Šdty 'Crocodilopolite', where, however, the hieratic replaces, not dangerous singns, but signs difficult to draw; see below 𓏯 <a href=\"#Z5\">Z 5</a>. Elsewhere in M.E. is always phon. y, through its constant association earlier with words of dual form, i.e. ending in i (y); exx. are .fy, var. Pyr. . fi, 'his two'; imnty 'western'; [t]sḏmty[/t].fy 'who will hear'. Except in compounds like the last y is always final consonant; it has its distinct uses, and is seldom interchangeable with it.",
-      "page_number": 537
+      "notes": "In Pyr. only as det. duality, exx. [t]ṯn(i)[/t] 'you two' (cf. for the ending [t]śni[/t] 'they two'); [t]ꜥw(i)[/t], also [t]ꜥw(y)[/t], 'the two arms'; and in O.K., ex. [t]pḥw(i)[/t] 'end'. In some cases replaced human figures, these being deemed to be magically dangerous, exx. [t]Ꜣḫt(i)[/t] 'the two glorious ones' for [t]sꜢt(i)[/t] 'son and daughter'; [t]t(w)twi[/t] 'the two images'. The last use survives in M.E. [t]Šdty[/t] 'Crocodilopolite', where, however, the hieratic replaces, not dangerous singns, but signs difficult to draw; see below 𓏯 <a href=\"#Z5\">Z 5</a>. Elsewhere in M.E. is always phon. y, through its constant association earlier with words of dual form, i.e. ending in [t]i (y)[/t]; exx. are [t].fy[/t], var. Pyr. [t].fi[/t], 'his two'; [t]imnty[/t] 'western'; [t]sḏmty.fy[/t] 'who will hear'. Except in compounds like the last [t]y[/t] is always final consonant; it has its distinct uses, and is seldom interchangeable with it.",
+      "page_number": 537,
+      "unicode": "U+133ED"
     },
     {
       "category_group": "Z, Strokes",
+      "description": "diagonal stroke as made in hieratic",
       "gardiner_number": "Z5",
       "glyph": "𓏯",
-      "unicode": "U+133EF",
-      "description": "diagonal stroke as made in hieratic",
-      "notes": "Identical in origin with stroke being used in Pyr. as substitute for human figures, these being considered magically dangerous, ex. śmśw 'elder' with replacing . In M.E. hieratic used only to replace dets. that were difficult to draw, exx. [t]Ꜣt[/t] 'moment' with replacing . In hieratic texts of dyn. XVIII sometimes in personal names without preceding phon. signs for 𓁒 <a href=\"#B3\">B 3</a>, ex. I͗[t]ꜥḥ[/t]-ms(w) 'Ahmose'. Only very rarely to replace complicated or unusual signs in Dyn. XVIII hieroglyphic, ex. idt 'cow'. Hieratic as substituted for two dets. (see on 𓏭 <a href=\"#Z4\">Z 4</a>) is merely a doubling of .",
-      "page_number": 537
+      "notes": "Identical in origin with stroke being used in Pyr. as substitute for human figures, these being considered magically dangerous, ex. [t]śmśw[/t] 'elder' with replacing . In M.E. hieratic used only to replace dets. that were difficult to draw, exx. [t]Ꜣt[/t] 'moment' with replacing . In hieratic texts of dyn. XVIII sometimes in personal names without preceding phon. signs for 𓁒 <a href=\"#B3\">B 3</a>, ex. [t]I͗ꜥḥ-ms(w)[/t] 'Ahmose'. Only very rarely to replace complicated or unusual signs in Dyn. XVIII hieroglyphic, ex. [t]idt[/t] 'cow'. Hieratic as substituted for two dets. (see on 𓏭 <a href=\"#Z4\">Z 4</a>) is merely a doubling of .",
+      "page_number": 537,
+      "unicode": "U+133EF"
     },
     {
       "category_group": "Z, Strokes",
+      "description": "hieratic substitutes for 𓀏 <a href=\"#A13\">A 13</a> or 𓀐 <a href=\"#A14\">A 14</a>",
       "gardiner_number": "Z6",
       "glyph": "𓏱",
-      "unicode": "U+133F1",
-      "description": "hieratic substitutes for 𓀏 <a href=\"#A13\">A 13</a> or 𓀐 <a href=\"#A14\">A 14</a>",
-      "notes": "Det. death, enemy, exx. m(w)t 'die'; [t]ḫpt[/t] 'decease'; [t]ḫft[/t](y) 'enemy'. In hieroglyphic barely distinguishable from 𓄓 <a href=\"#F20\">F 20</a>.",
-      "page_number": 537
+      "notes": "Det. death, enemy, exx. [t]m(w)t[/t] 'die'; [t]ḫpt[/t] 'decease'; [t]ḫft(y)[/t] 'enemy'. In hieroglyphic barely distinguishable from 𓄓 <a href=\"#F20\">F 20</a>.",
+      "page_number": 537,
+      "unicode": "U+133F1"
     },
     {
       "category_group": "Z, Strokes",
+      "description": "hieroglyphic adaption of the hieratic abbreviated form of 𓅱 <a href=\"#G43\">G 43</a>",
       "gardiner_number": "Z7",
       "glyph": "𓏲",
-      "unicode": "U+133F2",
-      "description": "hieroglyphic adaption of the hieratic abbreviated form of 𓅱 <a href=\"#G43\">G 43</a>",
-      "notes": "The hieratic abbreviation of 𓅱 <a href=\"#G43\">G 43</a>, best transcribed by , occurs with increasing frequency from Dyn. IX onwards. In hieroglyphic w does not become really common until the reign of Akhenaten. Not to be confused with 𓍢 <a href=\"#V1\">V 1</a>.\nFor 𓆇 as hieroglyphic adaption of the more cursive hieratic form of 𓅭 <a href=\"#G39\">G 39</a>, see on <a href=\"#H8\">H 8</a>. For 𓍟 as hieroglyphic equivalent of the hieratic forms of 𓌘 <a href=\"#T13\">T 13</a> and 𓍞 <a href=\"#U39\">U 39</a>, see <a href=\"#U40\">U 40</a>.",
-      "page_number": 537
+      "notes": "The hieratic abbreviation of 𓅱 <a href=\"#G43\">G 43</a>, best transcribed by , occurs with increasing frequency from Dyn. IX onwards. In hieroglyphic [t]w[/t] does not become really common until the reign of Akhenaten. Not to be confused with 𓍢 <a href=\"#V1\">V 1</a>.\nFor 𓆇 as hieroglyphic adaption of the more cursive hieratic form of 𓅭 <a href=\"#G39\">G 39</a>, see on <a href=\"#H8\">H 8</a>. For 𓍟 as hieroglyphic equivalent of the hieratic forms of 𓌘 <a href=\"#T13\">T 13</a> and 𓍞 <a href=\"#U39\">U 39</a>, see <a href=\"#U40\">U 40</a>.",
+      "page_number": 537,
+      "unicode": "U+133F2"
     },
     {
       "category_group": "Z, Strokes",
@@ -10915,12 +10915,12 @@
     },
     {
       "category_group": "Z, Strokes",
+      "description": "two sticks crossed",
       "gardiner_number": "Z9",
       "glyph": "𓏴",
-      "unicode": "U+133F4",
-      "description": "two sticks crossed",
-      "notes": "Det. break, exx. [t]ḥḏi[/t] 'damage'; gmgm 'break'; divide, exx. wpi 'divide'; [t]psš[/t] 'divide'; [t]ḫbi[/t] 'lessen', 'subtract'; actions involving something crossed or encountered, exx. [t]ḏꜢi[/t] 'cross'; [t]wšb[/t] 'answer'; [t]Ꜣbḫ[/t] 'be united'; also in many words where the reason is not apparent, exx. nkt 'matter', 'trifle'; [t]tꜢš[/t] 'boundary'; wdi 'emit (sound)'. In [t]ḥsb[/t], var. O.K. ḥśb, 'reckon', lit. 'break up (numbers)' (𓏵 <a href=\"#Z10\">Z 10</a>), the prototype of , has become 𓐎 <a href=\"#Aa2\">Aa 2</a>; but in [t]ḥsb[/t] '1/4' the sign has survived as an ideo. Owing to its use as det. in certain stems, has acquired special phon. or semi-phon. values as follows: (1) [t]swꜢ[/t], in [t]swꜢi[/t] (śwꜢi) 'pass by', from [t]swꜢ[/t] ([t]zwꜢ[/t]) 'cut off'; (2) [t]sḏ[/t], in śḏt 'flame', from [t]sḏi[/t] 'break'; (3) [t]ḫbs[/t], in [t]ḫbsw[/t] 'ploughlands'; (4) [t]šbn[/t], in [t]šbn[/t] 'mixed', 'various'; (5) wp, in wp st 'specify it', a phrase serving to introduce details of accounts; (6) wr (reason unknown), exx. sw(r)i 'drink'; [t]ḫpr[/t]-wr, a medicament.",
-      "page_number": 538
+      "notes": "Det. break, exx. [t]ḥḏi[/t] 'damage'; [t]gmgm[/t] 'break'; divide, exx. [t]wpi[/t] 'divide'; [t]psš[/t] 'divide'; [t]ḫbi[/t] 'lessen', 'subtract'; actions involving something crossed or encountered, exx. [t]ḏꜢi[/t] 'cross'; [t]wšb[/t] 'answer'; [t]Ꜣbḫ[/t] 'be united'; also in many words where the reason is not apparent, exx. [t]nkt[/t] 'matter', 'trifle'; [t]tꜢš[/t] 'boundary'; [t]wdi[/t] 'emit (sound)'. In [t]ḥsb[/t], var. O.K. [t]ḥśb[/t], 'reckon', lit. 'break up (numbers)' (𓏵 <a href=\"#Z10\">Z 10</a>), the prototype of , has become 𓐎 <a href=\"#Aa2\">Aa 2</a>; but in [t]ḥsb[/t] '1/4' the sign has survived as an ideo. Owing to its use as det. in certain stems, has acquired special phon. or semi-phon. values as follows: (1) [t]swꜢ[/t], in [t]swꜢi (śwꜢi)[/t] 'pass by', from [t]swꜢ(zwꜢ)[/t] 'cut off'; (2) [t]sḏ[/t], in [t]śḏt[/t] 'flame', from [t]sḏi[/t] 'break'; (3) [t]ḫbs[/t], in [t]ḫbsw[/t] 'ploughlands'; (4) [t]šbn[/t], in [t]šbn[/t] 'mixed', 'various'; (5) [t]wp[/t], in [t]wp st[/t] 'specify it', a phrase serving to introduce details of accounts; (6) [t]wr[/t] (reason unknown), exx. [t]sw(r)i[/t] 'drink'; [t]ḫpr-wr[/t], a medicament.",
+      "page_number": 538,
+      "unicode": "U+133F4"
     },
     {
       "category_group": "Z, Strokes",
@@ -10933,48 +10933,48 @@
     },
     {
       "category_group": "Z, Strokes",
+      "description": "two planks crossed and joined",
       "gardiner_number": "Z11",
       "glyph": "𓏶",
-      "unicode": "U+133F6",
-      "description": "two planks crossed and joined",
-      "notes": "Ideo. (?) in imy 'who is in' and derivatives. Hence (?) phon. imi, ex. imi 'not be'. Since hieratic is often identical with 𓇬 <a href=\"#M42\">M 42</a>, dyn. XVIII hieroglyphic writes for in wnm 'eat'; so too in [t]wnḏwt[/t] 'subjects'.",
-      "page_number": 539
+      "notes": "Ideo. (?) in [t]imy[/t] 'who is in' and derivatives. Hence (?) phon. [t]imi[/t], ex. [t]imi[/t] 'not be'. Since hieratic is often identical with 𓇬 <a href=\"#M42\">M 42</a>, dyn. XVIII hieroglyphic writes for in [t]wnm[/t] 'eat'; so too in [t]wnḏwt[/t] 'subjects'.",
+      "page_number": 539,
+      "unicode": "U+133F6"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "human placenta ?",
       "gardiner_number": "Aa1",
       "glyph": "𓐍",
-      "unicode": "U+1340D",
-      "description": "human placenta ?",
-      "notes": "Cf. [t]ḫ[/t] 'placenta (?)'. Hence (?) phon. [t]ḫ[/t].",
-      "page_number": 539
+      "notes": "Cf. 𓐍𓀔 [t]ḫ[/t] 'placenta (?)'. Hence (?) phon. [t]ḫ[/t].",
+      "page_number": 539,
+      "unicode": "U+1340D"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "pustule or gland ?",
       "gardiner_number": "Aa2",
       "glyph": "𓐎",
-      "unicode": "U+1340E",
-      "description": "pustule or gland ?",
-      "notes": "Det. bodily growths or conditions, especially of a morbid kind, exx. wbnw 'wound'; [t]ḫꜢyt[/t] 'disease'; [t]wḫd[/t] 'suffer'; [t]ẖpꜢ[/t] 'navel' (whence phon. [t]ẖp[/t]([t]Ꜣ[/t]) in [t]ḫpw[/t] 'sculptured reliefs'); fat, distended, exx. [t]ḏdꜢ[/t] 'fat'; [t]šfꜢ[/t] 'swell'. Replaces a number of O.K. signs that have become obsolete:--(1) = Pyr 𓎫 <a href=\"#V38\">V 38</a>, as ideo. or det. in wt 'bandage'; wt 'embalmer'; [t]sdwḫ[/t] 'treat', 'embalm'. (2) = 𓏵 <a href=\"#Z10\">Z 10</a>, as det. in [t]ḥsb[/t] 'reckon'; everywhere else has survived as 𓏴 <a href=\"#Z9\">Z 9</a>. (3) = Pyr 𓄽 <a href=\"#F52\">F 52</a> or O.K. 𓈑 <a href=\"#N32\">N 32</a>, as det. excrement, in [t]ḥs[/t] 'excrement'; smell, in sty 'odor'; clay, in sin 'clay'. (4) = O.K. 𓎵 <a href=\"#W6\">W 6</a>, as ideo. or det. in [t]wḥꜢt[/t] 'cauldron'; hence phon. [t]wḥꜢ[/t] in [t]WḥꜢt[/t] 'Oasis'. (5) = 𓎶 <a href=\"#W7\">W 7</a>, as det. in [t]mꜢt[/t] 'granite'; [t]Ꜣbw[/t] 'Elephantine'. (6) = 𓎣 <a href=\"#V32\">V 32</a>, det. in gw, prob. for [t]gꜢwt[/t] 'bundles'; hence phon. det. [t]gꜢ[/t] in [t]gꜢw[/t] 'be narrow'. (7) = 𓇫 <a href=\"#M41\">M 41</a>, det. in [t]ꜥš[/t] 'cedar'.",
-      "page_number": 539
+      "notes": "Det. bodily growths or conditions, especially of a morbid kind, exx. 𓏲𓃀_𓈖𓏌𓏲𓐎 [t]wbnw[/t] 'wound'; 𓆼𓇋𓇋_𓏏𓐎𓅪𓏥 [t]ḫꜢyt[/t] 'disease'; 𓏲_𓐍𓂧𓐎𓏝 [t]wḫd[/t] 'suffer'; 𓄡𓊪𓅮𓄿_𓐎 [t]ẖpꜢ[/t] 'navel' (whence phon. [t]ẖp(Ꜣ)[/t] in 𓄡𓊪𓅱𓐎𓏥 var. 𓐎𓏥 [t]ḫpw[/t] 'sculptured reliefs'); fat, distended, exx. 𓆓𓂧𓄿𓐎 [t]ḏdꜢ[/t] 'fat'; 𓈙𓆑𓐎 [t]šfꜢ[/t] 'swell'. Replaces a number of O.K. signs that have become obsolete:--(1) 𓐎 = Pyr. 𓎫 <a href=\"#V38\">V 38</a>, as ideo. or det. in 𓐎𓏏𓋳𓀜 [t]wt[/t] 'bandage'; 𓅱𓏏𓐎 [t]wt[/t] 'embalmer'; 𓋴𓂧𓏲𓐍_𓐎𓏝 [t]sdwḫ[/t] 'treat', 'embalm'. (2) 𓐎 = O.K. 𓏵 <a href=\"#Z10\">Z 10</a>, as det. in 𓎛𓋴𓃀_𓐎𓏝 abbrev. 𓐎𓏝, 𓐎 [t]ḥsb[/t] 'reckon'; everywhere else 𓏵 has survived as 𓏴 <a href=\"#Z9\">Z 9</a>. (3) 𓐎 = Pyr. 𓄽 <a href=\"#F52\">F 52</a> or O.K. 𓈑 <a href=\"#N32\">N 32</a>, as det. excrement, in 𓎛𓋴𓐎𓏥 [t]ḥs[/t] 'excrement'; smell, in 𓋴_𓏏𓏭𓐎 [t]sty[/t] 'odor'; clay, in 𓋴𓇋_𓈖𓐎𓈇 [t]sin[/t] 'clay'. (4) 𓐎 = O.K. 𓎵 <a href=\"#W6\">W 6</a>, as ideo. or det. in 𓅱𓇉𓏏𓐎𓎺 var. 𓐎𓏏𓈔 [t]wḥꜢt[/t] 'cauldron'; hence phon. [t]wḥꜢ[/t] in 𓐎𓏏𓈉 var. O.K. 𓅱𓎛𓄿_𓏏𓈉 [t]WḥꜢt[/t] 'Oasis'. (5) 𓐎 = 𓎶 <a href=\"#W7\">W 7</a>, as det. in 𓌳𓏏𓐎 [t]mꜢt[/t] 'granite'; 𓍋𓐎𓃀𓈉 [t]Ꜣbw[/t] 'Elephantine'. (6) 𓐎 = 𓎣 <a href=\"#V32\">V 32</a>, det. in 𓎼𓅱𓐎𓏥 [t]gw[/t], prob. for 𓎼𓄿𓏏𓅱𓎣𓎣𓎣 [t]gꜢwt[/t] 'bundles'; hence phon. det. [t]gꜢ[/t] in 𓎼𓄿_𓐎𓅪 [t]gꜢw[/t] 'be narrow'. (7) 𓐎 = 𓇫 <a href=\"#M41\">M 41</a>, det. in 𓂝𓈙_𓐎 [t]ꜥš[/t] 'cedar'.",
+      "page_number": 539,
+      "unicode": "U+1340E"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "pustule or gland (?) 𓐎 <a href=\"#Aa2\">Aa 2</a> with liquid issuing from it",
       "gardiner_number": "Aa3",
       "glyph": "𓐏",
-      "unicode": "U+1340F",
-      "description": "pustule or gland (?) 𓐎 <a href=\"#Aa2\">Aa 2</a> with liquid issuing from it",
-      "notes": "Rarer alternative of in its medical or anatomical use, as det. when soft matter or a liquid is meant, exx. [t]wsšt[/t] 'urine'; [t]Ꜣs[/t] 'soft inner parts (?)'. Also det. in [t]sṯ[/t] 'odor'.",
-      "page_number": 540
+      "notes": "Rarer alternative of 𓐎 in its medical or anatomical use, as det. when soft matter or a liquid is meant, exx. 𓅱𓋴𓈙𓏏𓐏 [t]wsšt[/t] 'urine'; 𓄿𓋴𓐏𓈓 [t]Ꜣs[/t] 'soft inner parts (?)'. Also det. in 𓋴_𓍿𓐏 [t]sṯ[/t] 'odor'.",
+      "page_number": 540,
+      "unicode": "U+1340F"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "part of the steering gear of ships ?",
       "gardiner_number": "Aa5",
       "glyph": "𓐑",
-      "unicode": "U+13411",
-      "description": "part of the steering gear of ships ?",
-      "notes": "Ideo. or det. in Pyr. [t]ḥpt[/t] in phrase [t]iṯi[/t] [t]ḥpt[/t] 'take the [t]ḥpt[/t]', i.e. 'proceed by boat', r a place; cf. M.K. [t]ḏsr[/t] [t]ḥpwt[/t] 'direct the [t]ḥpwt[/t]' (plur.), i.e. 'sail'. From M.K. there is a word [t]ḥpt[/t] 'oar', but the writing in Pyr. makes it impossible to interpret that word as meaning 'oar' from the start. Hence phon. [t]ḥp[/t], exx. Ḥpy 'Hepy', one of the four sons of Horus; [t]ḥp[/t] 'Apis-bull'. The full stem may have been [t]ḥip[/t], cf. Pyr. [t]ḥip[/t] 'hasten'.",
-      "page_number": 540
+      "notes": "Ideo. or det. in Pyr. 𓐑𓏏𓏤 var. 𓎛𓊪𓏏𓐑𓏤 [t]ḥpt[/t] in phrase 𓎁𓐑𓏏𓏤 [t]iṯi ḥpt[/t] 'take the ḥpt', i.e. 'proceed by boat', [t]r[/t] a place; cf. M.K. 𓆓𓋴𓂋𓂦𓐑𓏏𓏤𓏪 [t]ḏsr ḥpwt[/t] 'direct the [t]ḥpwt[/t]' (plur.), i.e. 'sail'. From M.K. there is a word 𓐑𓏏𓊤 [t]ḥpt[/t] 'oar', but the writing 𓐑𓏏𓏤 in Pyr. makes it impossible to interpret that word as meaning 'oar' from the start. Hence phon. [t]ḥp[/t], exx. 𓎛𓐑𓊪𓇋𓇋𓀭 [t]Ḥpy[/t] 'Hepy', one of the four sons of Horus; 𓎛𓊪𓐑 [t]ḥp[/t] 'Apis-bull'. The full stem may have been [t]ḥip[/t], cf. Pyr. 𓎛𓇋𓊪𓐑𓂻 [t]ḥip[/t] 'hasten'.",
+      "page_number": 540,
+      "unicode": "U+13411"
     },
     {
       "category_group": "Aa, Unclassified",
@@ -10987,21 +10987,21 @@
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "doubtful (in Dyn. XVIII often reversed)",
       "gardiner_number": "Aa7",
       "glyph": "𓐓",
-      "unicode": "U+13413",
-      "description": "doubtful (in Dyn. XVIII often reversed)",
-      "notes": "Det. or phon. det. sqr (śqr) in 𓋴𓈎𓂋𓐓 [t]varr[/t]. 𓋴𓐓𓌈, 𓐓, 𓋴𓈎𓂋𓌪𓂝 [t]sqr (śqr)[/t] 'smite'.",
-      "page_number": 540
+      "notes": "Det. or phon. det. [t]sqr (śqr)[/t] in 𓋴𓈎𓂋𓐓 varr. 𓋴𓐓𓌈, 𓐓, 𓋴𓈎𓂋𓌪𓂝 [t]sqr (śqr)[/t] 'smite'.",
+      "page_number": 540,
+      "unicode": "U+13413"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "irrigation runnels as in 𓈈 <a href=\"#N24\">N 24</a> ?",
       "gardiner_number": "Aa8",
       "glyph": "𓐖",
-      "unicode": "U+13416",
-      "description": "irrigation runnels as in 𓈈 <a href=\"#N24\">N 24</a> ?",
-      "notes": "Ideo. or det. in 𓍑𓏏𓏏𓐖 var. 𓐖𓏏𓏏 [t]ḏꜢtt[/t] 'estate' in the title 𓄓𓏤𓉐𓏤𓈖𓍑𓏏𓏏𓐖 'steward of estate'; the meaning of [t]ḏꜢtt[/t] and the interpretation of 𓐖 [t]here[/t] depends on the not improbable identification of this title with 𓅓𓂋𓉐𓏤𓈖𓈈𓏏𓏤 (var. 𓈙𓏏𓏤) in another tomb of Dyn. XII; the words 𓐖𓏏𓊖 'estate' would in this case read [t]ḏꜢtt[/t]. Hence phon. det. in Dyn. XVIII 𓍑𓍑𓏌𓏏𓐖𓀀𓏥 [t]O[/t].K. 𓍑𓆓𓈒𓏏𓀀𓀀𓀀 [t]ḏꜢḏꜢt[/t] 'magistrates', 'assesors'. For an unknown reason, phon. qn, exx. 𓐖𓈖𓏛 [t]qn[/t] 'complete', 'be complete'; 𓐖𓈖𓎅 [t]qn[/t] 'mat'. In hieratic 𓐖 [t]sometimes[/t] stands not only for itself but also for certain other signs, whence confusion have resulted both in modern transcriptions and in actual hieroglyphic texts. Thus 𓐖 is found for (1) 𓈈 [t]N[/t] 24 in hierogl. 𓐖𓏏𓏤 [t]spꜢt[/t] 'district'; (2) for 𓎙 [t]V[/t] 26 in hieratic 𓐖𓆓𓈇𓏤 var. 𓐖𓈇 [t]ꜥḏ[/t] 'desert edge'. Possibly with some confusion with 𓊃 [t]O[/t] 34, 𓐖𓏏𓈉 is found used in Dyn. XVIII hieroglyphic for smt 'desert', 'necropolis', as a mediating var. 𓋴𓏏𓅓𓐖𓏏𓈅𓏤𓈉 [t]proves[/t]; for this reason the name of the Dyn. I king 𓍷𓐖𓏏𓏭 [t]vꜥr[/t]. 𓍷𓐖𓏏𓏭𓈉 is possibly to be read Zmty rather than ḪꜢsty.",
-      "page_number": 541
+      "notes": "Ideo. or det. in 𓍑𓏏𓏏𓐖 var. 𓐖𓏏𓏏 [t]ḏꜢtt[/t] 'estate' in the title 𓄓𓏤𓉐𓏤𓈖𓍑𓏏𓏏𓐖 'steward of estate'; the meaning of [t]ḏꜢtt[/t] and the interpretation of 𓐖 here depends on the not improbable identification of this title with 𓅓_𓂋𓉐𓏤𓈖𓈈𓏏𓏤 (var. 𓈙𓏏𓏤) in another tomb of Dyn. XII; the words 𓐖𓏏𓊖 'estate' would in this case read [t]ḏꜢtt[/t]. Hence phon. det. in Dyn. XVIII 𓍑𓍑𓏌𓏏𓐖𓀀𓏥 var. O.K. 𓍑𓆓𓈒𓏏_𓀀_𓀀_𓀀 [t]ḏꜢḏꜢt[/t] 'magistrates', 'assesors'. For an unknown reason, phon. [t]ḳn[/t], exx. 𓐖𓈖𓏜 [t]ḳn[/t] 'complete', 'be complete'; 𓐖𓈖𓎅 [t]ḳn[/t] 'mat'. In hieratic 𓐖 sometimes stands not only for itself but also for certain other signs, whence confusion have resulted both in modern transcriptions and in actual hieroglyphic texts. Thus 𓐖 is found for (1) 𓈈 <a href='#N24'>N 24</a> in hierogl. 𓐖𓏏𓏤 [t]spꜢt[/t] 'district'; (2) for 𓎙 <a href='#V26'>V 26</a> in hieratic 𓐖𓆓𓈇𓏤 var. 𓐖𓈇 [t]ꜥḏ[/t] 'desert edge'. Possibly with some confusion with 𓊃 <a href='#O34'>O 34</a>, 𓐖𓏏𓈉 is found used in Dyn. XVIII hieroglyphic for 𓊃𓏏𓈉 [t]smt[/t] 'desert', 'necropolis', as a mediating var. 𓋴_𓏏_𓅓𓐖𓏏𓈅𓏤𓈉 proves; for this reason the name of the Dyn. I king 𓍷(𓐖𓏏𓏭) var. 𓍷(𓐖𓏏𓏭_𓈉) is possibly to be read [t]Zmty[/t] rather than [t]ḪꜢsty[/t], the writing 𓍷(𓈈𓈈) on the Table of Abydus and the Οὐσαφαις of Manetho being probably due to mistaken interpretation of the hieratic.",
+      "page_number": 541,
+      "unicode": "U+13416"
     },
     {
       "category_group": "Aa, Unclassified",
@@ -11023,12 +11023,12 @@
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "doubtful (sometimes vertically)",
       "gardiner_number": "Aa11",
       "glyph": "𓐙",
-      "unicode": "U+13419",
-      "description": "doubtful (sometimes vertically)",
-      "notes": "For an unkown reason, phon. [t]mꜢꜥ[/t] in 𓌳𓐙𓂝𓏏𓆄 var. 𓐙𓏏𓏛 [t]mꜢꜥt[/t] 'truth' and the related words. Note specifically often the writing with 𓐙𓊤 [t]mꜢꜥ-ḫrw[/t] 'true of voice'. As a pedastal det. in 𓍿𓈖𓏏𓏏𓐙 [t]ṯntt[/t] 'raised platform', a unique writing (?).\nFor 𓌶, 𓌷, see <a href=\"#U4\">U 4</a>, <a href=\"#U5\">U 5</a>.",
-      "page_number": 541
+      "notes": "For an unkown reason, phon. [t]mꜢꜥ[/t] in 𓌳𓐙_𓂝𓏏𓆄 var. 𓐙𓏏𓏛 [t]mꜢꜥt[/t] 'truth' and the related words. Note specifically often the writing with 𓐙𓊤 [t]mꜢꜥ-ḫrw[/t] 'true of voice'. As a pedastal det. in 𓍿𓈖𓏏𓏏𓐙 [t]ṯntt[/t] 'raised platform', a unique writing (?).\nFor 𓌶, 𓌷, see <a href=\"#U4\">U 4</a>, <a href=\"#U5\">U 5</a>.",
+      "page_number": 541,
+      "unicode": "U+13419"
     },
     {
       "category_group": "Aa, Unclassified",
@@ -11041,12 +11041,12 @@
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "hardly the two ribs of an oryx as has been suggested",
       "gardiner_number": "Aa13",
       "glyph": "𓐛",
-      "unicode": "U+1341B",
-      "description": "hardly the two ribs of an oryx as has been suggested",
-      "notes": "Ideo. or det. in O.K. 𓇋𓅓𓐛 [t]im[/t], plur. 𓐛𓐛𓐛 [t]imw[/t], a part of the body. Hence (?) phon. im, exx. 𓇋𓅓𓐛𓂟 [t]imi[/t] 'give', imper.; 𓇋𓐛𓅓𓅱𓊛 [t]imw[/t] 'boat'; also, from Dyn. XVIII on, phon. m. Ideo. also in 𓐛 var. 𓐞 [t]gs[/t], var. Pyr. 𓎼𓋴𓐜, 𓐜𓏤 [t]g[/t]ś 'side', 'half'. Hence phon. gs, exx. 𓐛𓊃𓏊𓀜 var. 𓎼𓊃𓂝 [t]gs[/t] 'anoint'; 𓐛𓏤𓍘𓇋𓆱 [t]gsti[/t] 'palette'.",
-      "page_number": 542
+      "notes": "Ideo. or det. in O.K. 𓇋𓅓𓐜 [t]im[/t], plur. 𓐜𓐜𓐜 [t]imw[/t], a part of the body. Hence (?) phon. [t]im[/t], exx. 𓇋𓅓_𓐛𓂟 [t]imi[/t] 'give', imper.; 𓇋𓐛_𓅓𓅱𓊛 [t]imw[/t] 'boat'; also, from Dyn. XVIII on, phon. [t]m[/t]. Ideo. also in 𓐛 var. 𓐞 [t]gs[/t], var. Pyr. 𓎼𓋴𓐜, 𓐜𓏤 [t]gś[/t] 'side', 'half'. Hence phon. [t]gs[/t], exx. 𓐛𓊃𓏊𓀜 var. 𓎼𓊃𓂝 [t]gs[/t] 'anoint'; 𓐛𓏤𓍘𓇋𓆱 var. 𓎼𓐜𓍘𓇋 [t]gsti[/t] 'palette'.",
+      "page_number": 542,
+      "unicode": "U+1341B"
     },
     {
       "category_group": "Aa, Unclassified",
@@ -11068,57 +11068,57 @@
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "short form of 𓐛 <a href=\"#Aa13\">Aa 13</a>",
       "gardiner_number": "Aa16",
       "glyph": "𓐞",
-      "unicode": "U+1341E",
-      "description": "short form of 𓐛 <a href=\"#Aa13\">Aa 13</a>",
-      "notes": "Used only in 𓐞 var. 𓐞𓏤 [t]gs[/t] 'side', 'half' and as phon. gs.",
-      "page_number": 542
+      "notes": "Used only in 𓐞 var. 𓐞𓏤 [t]gs[/t] 'side', 'half' and as phon. [t]gs[/t].",
+      "page_number": 542,
+      "unicode": "U+1341E"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "back of something (O.K. and M.K. form)",
       "gardiner_number": "Aa17",
       "glyph": "𓐟",
-      "unicode": "U+1341F",
-      "description": "back of something (O.K. and M.K. form)",
-      "notes": "Ideo. in 𓐟 [t]sꜢ[/t] (śꜢ)[/t] 'back', Copitc soi. Hence phon. [t]sꜢ[/t] (śꜢ), exx. 𓋴𓐟𓄿𓅱𓏏𓊅𓊅𓊅 [t]sꜢwt[/t] 'walls'; 𓋴𓐟𓄿𓀁 [t]sꜢi[/t] 'be satiated'; 𓈙𓋴𓐟𓄿𓄃𓏛 [t]šsꜢ[/t] 'be skilled'.",
-      "page_number": 542
+      "notes": "Ideo. in 𓐟𓏤 [t]sꜢ (śꜢ)[/t] 'back', Copitc [t]soi[/t]. Hence phon. [t]sꜢ (śꜢ)[/t], exx. 𓋴𓐟_𓄿𓅱𓏏𓊅𓊅𓊅 [t]sꜢwt[/t] 'walls'; 𓋴𓐠𓄿𓀁 [t]sꜢi[/t] 'be satiated'; 𓈙𓋴𓐟_𓄿𓄃𓏜 [t]šsꜢ[/t] 'be skilled'.",
+      "page_number": 542,
+      "unicode": "U+1341F"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "Dyn. XII-XVIII form of last",
       "gardiner_number": "Aa18",
       "glyph": "𓐠",
-      "unicode": "U+13420",
-      "description": "Dyn. XII-XVIII form of last",
-      "notes": "Use as last. In group-writing 𓐠 [t]or[/t] 𓐠𓏤 is used for s.",
-      "page_number": 542
+      "notes": "Use as last. In group-writing 𓐠 or 𓐠𓏤 is used for [t]s[/t].",
+      "page_number": 542,
+      "unicode": "U+13420"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "doubtful (different from 𓎅 <a href=\"#V19\">V 19</a>)",
       "gardiner_number": "Aa19",
       "glyph": "𓐡",
-      "unicode": "U+13421",
-      "description": "doubtful (different from 𓎅 <a href=\"#V19\">V 19</a>)",
-      "notes": "For unkown reason, phon. det. [t]ḥr[/t], exx. 𓁷𓂋𓐡𓂡 [t]ḥr[/t] 'prepare'; 𓁷𓂋𓇋𓇋𓏏𓐡𓂡𓏥 [t]ḥryt[/t] 'dread'. Also det. in 𓅷𓄿𓂋𓐡𓂡 [t]ṯꜢr[/t] 'preserve (?)' and derivatives.",
-      "page_number": 542
+      "notes": "For unkown reason, phon. det. [t]ḥr[/t], exx. 𓁷𓂋𓐡𓂡 [t]ḥr[/t] 'prepare'; 𓁷𓂋𓇋𓇋_𓏏𓐡𓂡𓏥 [t]ḥryt[/t] 'dread'. Also det. in 𓅷𓄿𓂋𓐡𓂡 [t]ṯꜢr[/t] 'preserve (?)' and derivatives.",
+      "page_number": 542,
+      "unicode": "U+13421"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "doubtful",
       "gardiner_number": "Aa20",
       "glyph": "𓐢",
-      "unicode": "U+13422",
-      "description": "doubtful",
-      "notes": "For unknown reason, phon. [t]ꜥpr[/t] in 𓐢𓂋𓏛 var. 𓂝𓊪𓂋𓐢 [t]ꜥpr[/t] 'equip' and derivatives.",
-      "page_number": 542
+      "notes": "For unknown reason, phon. [t]ꜥpr[/t] in 𓐢_𓂋𓏛 var. 𓂝𓊪𓂋𓐢 [t]ꜥpr[/t] 'equip' and derivatives.",
+      "page_number": 542,
+      "unicode": "U+13422"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "a carpenter's tool ?",
       "gardiner_number": "Aa21",
       "glyph": "𓐣",
-      "unicode": "U+13423",
-      "description": "a carpenter's tool ?",
-      "notes": "Ideo. (?) or det. in 𓐣𓂝𓏛 [t]varr[/t]. 𓐤, 𓅱𓆓𓂝𓐣 [t]O[/t].K. 𓅱𓆓𓐣 [t]wḏꜥ[/t] 'sever', 'judge'. In M.K. coffins 𓐣 [t]or[/t] 𓐣𓀭 is sometimes used as a substitute for the god 𓃩 [t]Stẖ[/t] 'Seth'.",
-      "page_number": 542
+      "notes": "Ideo. (?) or det. in 𓐣𓂝𓏛 varr. 𓐤, 𓅱𓆓𓂝𓐣, O.K. 𓅱𓆓𓐣 [t]wḏꜥ[/t] 'sever', 'judge'. In M.K. coffins 𓐣 or 𓐣𓀭 is sometimes used as a substitute for the god 𓃩 [t]Stẖ[/t] 'Seth'.",
+      "page_number": 542,
+      "unicode": "U+13423"
     },
     {
       "category_group": "Aa, Unclassified",
@@ -11131,39 +11131,39 @@
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "doubtful",
       "gardiner_number": "Aa25",
       "glyph": "𓐧",
-      "unicode": "U+13427",
-      "description": "doubtful",
-      "notes": "Ideo. (?) in 𓐧𓀀 var. 𓄥𓄿 [t]smꜢ[/t], var. O.K. 𓋴𓐧 ś([t]mꜢ[/t]), title of a priest whose function consisted in clothing the god (Min, Horus, etc.).",
-      "page_number": 543
+      "notes": "Ideo. (?) in 𓐧𓀀 var. 𓄥𓄿 [t]smꜢ[/t], var. O.K. 𓋴𓐧 [t]ś(mꜢ)[/t], title of a priest whose function consisted in clothing the god (Min, Horus, etc.).",
+      "page_number": 543,
+      "unicode": "U+13427"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "doubtful",
       "gardiner_number": "Aa26",
       "glyph": "𓐨",
-      "unicode": "U+13428",
-      "description": "doubtful",
-      "notes": "Phon. det. sbi (śbi) in 𓋴𓃀𓇋𓐨𓀏 [t]sbi (śbi)[/t] 'rebel'. Often replaced by 𓌙 [t]T[/t] 14.",
-      "page_number": 543
+      "notes": "Phon. det. [t]sbi (śbi)[/t] in 𓋴𓃀𓇋𓐨𓀏 [t]sbi (śbi)[/t] 'rebel'. Often replaced by 𓌙 <a href='#T14'>T 14</a>.",
+      "page_number": 543,
+      "unicode": "U+13428"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "doubtful",
       "gardiner_number": "Aa27",
       "glyph": "𓐩",
-      "unicode": "U+13429",
-      "description": "doubtful",
-      "notes": "For an unknown reason, phon. [t]nḏ[/t], exx. 𓐩𓏌𓀁 [t]varr[/t]. 𓈖𓆓𓐩𓏌𓀁, 𓐩𓆓𓏌 [t]nḏ[/t] 'ask', 'inquire'; 𓐩𓏌𓐩𓏌 var. 𓈖𓆓𓈖𓆓𓐩𓏌𓀁 [t]nḏnḏ[/t] 'take counsel'. Except in 𓇋𓐩𓆓𓏛𓁷𓏤 [t]inḏ[/t] [t]ḥr[/t] 'hail to' 𓐩 is usually accompanied in M.E. by 𓏌 [t]W[/t] 24.",
-      "page_number": 543
+      "notes": "For an unknown reason, phon. [t]nḏ[/t], exx. 𓐩𓏌𓀁 varr. 𓈖𓆓𓐩𓏌𓀁, 𓐩𓆓𓏌 [t]nḏ[/t] 'ask', 'inquire'; 𓐩𓏌𓐩𓏌𓀁 var. 𓈖𓆓𓈖𓆓𓐩𓏌𓀁 [t]nḏnḏ[/t] 'take counsel'. Except in 𓇋𓐩𓆓𓏛𓁷𓏤 [t]inḏ[/t] [t]ḥr[/t] 'hail to' 𓐩 is usually accompanied in M.E. by 𓏌 <a href='#W24'>W 24</a>.",
+      "page_number": 543,
+      "unicode": "U+13429"
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "an instrument used by bricklayers ? (different from 𓇩 <a href=\"#M40\">M 40</a> and 𓊧 <a href=\"#P11\">P 11</a>)",
       "gardiner_number": "Aa28",
       "glyph": "𓐪",
-      "unicode": "U+1342A",
-      "description": "an instrument used by bricklayers ? (different from 𓇩 <a href=\"#M40\">M 40</a> and 𓊧 <a href=\"#P11\">P 11</a>)",
       "notes": "Ideo. (?) in 𓐪𓂧𓏌𓀨 var. 𓈎𓂧𓐪𓀨 [t]qd[/t] 'build', 'fashion (pots)' and related words.",
-      "page_number": 543
+      "page_number": 543,
+      "unicode": "U+1342A"
     },
     {
       "category_group": "Aa, Unclassified",
@@ -11176,12 +11176,12 @@
     },
     {
       "category_group": "Aa, Unclassified",
+      "description": "ornamental chevaux de frise on top of walls, cf. 𓉥 <a href=\"#O11\">O 11</a> (sometimes written horizontally)",
       "gardiner_number": "Aa30",
       "glyph": "𓐬",
-      "unicode": "U+1342C",
-      "description": "ornamental chevaux de frise on top of walls, cf. 𓉥 <a href=\"#O11\">O 11</a> (sometimes written horizontally)",
-      "notes": "Ideo. or det. in 𓌨𓎡𓂋𓐬 [t]ẖkr[/t] 'be adorned'; 𓐬𓅱𓏛𓈒𓈒𓈒 [t]ẖkrw[/t] 'ornament', 'adornment' and the related words.",
-      "page_number": 543
+      "notes": "Ideo. or det. in 𓄡𓎡𓂋𓐬 [t]ẖkr[/t] 'be adorned'; 𓐬𓅱_𓏛𓈓 [t]ẖkrw[/t] 'ornament', 'adornment' and the related words.",
+      "page_number": 543,
+      "unicode": "U+1342C"
     },
     {
       "category_group": "Aa, Unclassified",
