@@ -1,3 +1,4 @@
+/* ===== FONTS: Google Font imports + custom hieroglyph/transliteration faces ===== */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=VT323&display=swap');
 
@@ -23,6 +24,7 @@
     font-style: italic;
 }
 
+/* ===== THEME: color variables used throughout the site ===== */
 :root {
 	--yellow: #ffb703;
 	--orange: #e97700;
@@ -33,6 +35,11 @@
 	--bg-color: #fff9ea;
 	--bg-lines: #d8ceb3;
   }
+
+/* ===== BASE: page background, default typography, and bare element styling ===== */
+html {
+  scroll-behavior: auto !important;
+}
 
 body {
 	background: linear-gradient(var(--bg-lines) 2px, transparent 2px),
@@ -67,6 +74,7 @@ img {
 	padding: 5px;
 }
 
+/* ===== BUTTONS: shared retro button look (also used by the navbar and Gardiner page) ===== */
 .btn {
 	background-color: var(--yellow);
 	border: 2px solid var(--darkbrown);
@@ -89,6 +97,7 @@ img {
 	background-color: var(--yellow);
 }
 
+/* ===== CARDS & SECTIONS: bordered content boxes used across project/gallery pages ===== */
 .section {
 	border: 8px double var(--lightbrown);
 	/* border: 4px solid var(--darkbrown);
@@ -145,61 +154,11 @@ img {
 	box-shadow: 1px 1px 0 black; */
 }
 
-/* WIP page adjustments */
-.wip h5 {
-	background-color: var(--yellow);
-	font-weight: bold;
+.custom-tooltip {
+  --bs-tooltip-bg: rgba(0, 0, 0, 0.75);
 }
 
-/* 404 PAGE SETTING */
-
-.box_404 {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-}
-
-.box_404 h1 {
-	font-size: 4em;
-}
-
-/* GALLERY SETTINGS */
-
-.gallery {
-    column-count: 3;
-    column-gap: 1rem;
-}
-
-.gallery img {
-    width: 100%;
-    object-fit: contain;
-    margin-bottom: 1rem;
-    display: block;
-}
-
-.gallery .sticker{
-	max-height: 400px;
-}
-
-/* ADJUSTMENTS FOR SCREEN SIZE */
-
-@media (max-width: 768px) {
-	.gallery {
-		column-count: 2;
-	}
-}
-
-@media (max-width: 576px) {
-	.gallery {
-		column-count: 1;
-	}
-	.section {
-		padding: 5px 10px;
-	}
-}
-  
-/* NAVBAR SETTING */
-
+/* ===== NAVBAR: top site navigation ===== */
 .navbar {
 	gap: 20px;
 	background-color: #fff9ea;
@@ -224,7 +183,7 @@ img {
 	transform: translate(1px, 1px);
     box-shadow: 1px 1px 0 black;
 }
-  
+
 .nav-item {
 	min-width: 150px;
 	text-align: center;
@@ -235,9 +194,24 @@ img {
 	/* margin-top: 15px; */
 }
 
+/* ===== GALLERY: masonry-style image gallery page ===== */
+.gallery {
+    column-count: 3;
+    column-gap: 1rem;
+}
 
-/* FLIPBOOK FOR JUNK JOURNAL */
+.gallery img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    display: block;
+}
 
+.gallery .sticker{
+	max-height: 400px;
+}
+
+/* ===== FLIPBOOK: junk journal page image viewer and thumbnail strip ===== */
 .flip-container {
 	border: 4px solid var(--lightbrown);
 	display: flex;
@@ -245,7 +219,7 @@ img {
 	justify-content: center;
 	overflow: hidden;
 	background-color: var(--cream);
-	padding: 10px; 
+	padding: 10px;
   	aspect-ratio: 100 / 75;
 }
 
@@ -277,14 +251,31 @@ img {
 .thumbnail-bar img.active {
 	border-color: var(--yellow) !important;
 }
-  
+
 .thumbnail-bar .thumb-wrapper {
 	flex: 0 0 auto;
 	width: 20%;
 	max-width: 120px;
 }
 
-/* profile pic */
+/* ===== WIP PAGE: work-in-progress list styling ===== */
+.wip h5 {
+	background-color: var(--yellow);
+	font-weight: bold;
+}
+
+/* ===== 404 PAGE: centered error message box ===== */
+.box_404 {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.box_404 h1 {
+	font-size: 4em;
+}
+
+/* ===== PROFILE: full-height centered profile picture wrapper ===== */
 .image-center-wrapper {
 	display: flex;
 	justify-content: center;
@@ -296,32 +287,51 @@ img {
 	text-align: center;
   }
 
+/* ===== GARDINER SIGN LIST PAGE: quicklinks, glyph index, sign details, category nav, PDF preview ===== */
+.page-quicklinks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1em;
+}
+
+.page-quicklinks a.btn {
+	display: inline-block;
+	padding: 0.4em 0.9em;
+	font-size: 0.85rem;
+	text-decoration: none;
+}
+
+.page-quicklinks a.btn:hover {
+	text-decoration: none;
+}
+
+.subtle-link {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px dotted currentColor;
+}
+
+.subtle-link:hover {
+	border-bottom-style: solid;
+}
+
 .glyph-link a:hover {
 	background-color: none;
 }
 
-.custom-tooltip {
-  --bs-tooltip-bg: rgba(0, 0, 0, 0.75);
-}
-
-html {
-  scroll-behavior: auto !important;
-}
-
 /* Kilani Marwan, 2019, Djehuty - Font EgyptianHiero 4.02 (4.3.2019), https://github.com/MKilani/Djehuty */
 .hiero{
-    font-family:  "Cascadia Code", "EgyptianHiero2", sans-serif;
+    font-family:  "Cascadia Code", "EgyptianHiero";
     direction: ltr;
-	font-size: 1.2em;
 }
 
 .translit {
 	font-family: "HGNTransliteration";
 	/* font-family: "Cascadia Code", sans-serif; */
-	/* color: var(--red); */
+	color: var(--red);
 	font-style: italic;
 	font-weight: bold;
-    font-size: large;
 }
 
 /* Gardiner sign list: in-text cross-reference links should read as plain text */
@@ -334,6 +344,11 @@ html {
 #sign-details .page-number-link {
 	color: inherit;
 	text-decoration: underline dotted #aaaaaa;
+}
+
+#pdfPageCanvas {
+	max-width: 100%;
+	height: auto;
 }
 
 /* Gardiner sign list: category quick-nav (floating button) */
@@ -387,9 +402,25 @@ html {
 	border-bottom: none;
 }
 
-/* Desktop/mouse: reveal the list on hover instead of requiring a click */
-@media (hover: hover) and (pointer: fine) {
-	.category-fab-wrapper:hover .category-fab-list.collapse:not(.show) {
-		display: block;
+/* Desktop/mouse: reveal the list on hover instead of requiring a click.
+   Toggled via JS (hover-show class) so it can keep a 1s grace period
+   before hiding after the mouse leaves. */
+.category-fab-list.hover-show:not(.show) {
+	display: block;
+}
+
+/* ===== RESPONSIVE: screen-size adjustments for gallery and sections ===== */
+@media (max-width: 768px) {
+	.gallery {
+		column-count: 2;
+	}
+}
+
+@media (max-width: 576px) {
+	.gallery {
+		column-count: 1;
+	}
+	.section {
+		padding: 5px 10px;
 	}
 }
