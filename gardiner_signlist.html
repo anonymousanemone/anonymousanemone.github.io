@@ -10,7 +10,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 	<a class="btn" href="#A1">Jump to sign-list</a>
 	<a class="btn" href="#" data-bs-toggle="modal" data-bs-target="#creditsModal">Credits</a>
 	<a class="btn" href="https://github.com/anonymousanemone/anonymousanemone.github.io/raw/main/_data/gardiner_signlist.json" target="_blank" rel="noopener">Download JSON</a>
-	<a class="btn" href="https://github.com/anonymousanemone/anonymousanemone.github.io/blob/main/assets/pdf/gardiner_signlist.pdf" target="_blank" rel="noopener">View original PDF</a>
+	<a class="btn" href="https://github.com/anonymousanemone/anonymousanemone.github.io/blob/main/assets/pdf/gardiner_signlist.pdf" target="_blank" rel="noopener">View PDF</a>
 </div>
 
 <!-- CATEGORY QUICK NAV -->
@@ -93,22 +93,19 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 </div>
 
 <!-- PDF PAGE PREVIEW MODAL: renders a single page instead of loading the full PDF -->
-<div class="modal fade" id="pdfPageModal" tabindex="-1" aria-labelledby="pdfPageModalLabel" aria-hidden="true">
+<div class="modal fade" id="pdfPageModal" tabindex="-1" aria-hidden="true">
 	<div class="modal-dialog modal-lg modal-dialog-centered">
 		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="pdfPageModalLabel">Gardiner Sign-list</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			<div class="modal-header justify-content-between">
+				<button type="button" class="btn" id="pdfPageFullLink">Open full PDF ↗</button>
+				<button type="button" class="btn-close mx-1" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<div class="modal-body text-center">
-				<div id="pdfPageSpinner" class="spinner-border" role="status">
+			<div class="modal-body text-center p-0">
+				<div id="pdfPageSpinner" class="spinner-border p-2" role="status">
 					<span class="visually-hidden">Loading…</span>
 				</div>
 				<canvas id="pdfPageCanvas" class="d-none"></canvas>
-				<p id="pdfPageError" class="text-danger d-none mb-0">Couldn't load that page. Try opening the full PDF instead.</p>
-			</div>
-			<div class="modal-footer">
-				<a id="pdfPageFullLink" href="#" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">Open full PDF ↗</a>
+				<p id="pdfPageError" class="text-danger d-none mb-0 p-2">Couldn't load that page. Try opening the full PDF instead.</p>
 			</div>
 		</div>
 	</div>
@@ -116,31 +113,28 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 
 <div class="section mb-4" id="introduction">
 	<h5 class="mt-3 mb-3">Introduction</h5>
-	<div id="introduction-content">
-		<p>This is a digitized version of Gardiner's Sign-list, meant to look and navigate like the PDF (but loads faster and is searchable). It is one page, and can be searched with <b>cmd/ctrl + F</b>. Page numbers are annotated with each entry, and linked to the PDF page.</p>
-		<p>Signs can be searched by unicode or their Gardiner number. Sign entries are formatted as "D36" (with no space in between the letter and number), while signs referenced in descriptions is formatted as "D 36" (with a space). </p>
-		<p>The hieroglyphs are in the process of being manually typed up, and are rendered with Djehuty (see credits) for stacking glyphs. The glyphs will be completely searchable in reading order. You can download the most recent version of the JSON file used to render this webpage from Github. </p>
-	</div>
+	<p>This is a digitized version of Gardiner's Sign-list, meant to look and navigate like the PDF (but loads faster and is searchable). It is one page, and can be searched with <b>cmd/ctrl + F</b>. Page numbers are annotated with each entry, and linked to the PDF page.</p>
+	<p>Signs can be searched by unicode or their Gardiner number. Sign entries are formatted as "D36" (with no space in between the letter and number), while signs referenced in descriptions is formatted as "D 36" (with a space). </p>
+	<p>The hieroglyphs are in the process of being manually typed up, and are rendered with Djehuty (see credits) for stacking glyphs. The glyphs will be completely searchable in reading order. You can download the most recent version of the JSON file used to render this webpage from Github. </p>
 </div>
 
 <div class="section mb-4" id="credits">
 	<h5 class="mt-3 mb-3">Credits</h5>
 	<div id="credits-content">
 		<p>A.H. Gardiner (1957), <i>Egyptian Grammar: Being an Introduction to the Study of Hieroglyphs</i>. 3rd edition. Oxford: Griffith Institute, Ashmolean Museum.</p>
-		<p>Kilani Marwan, 2019, Djehuty - Font EgyptianHiero 4.02 (4.3.2019), https://github.com/MKilani/Djehuty</p>
+		<p>Kilani Marwan, 2019, Djehuty - Font EgyptianHiero 4.02 (4.3.2019), <a href="https://github.com/MKilani/Djehuty" class="subtle-link">https://github.com/MKilani/Djehuty</a></p>
 		<p>Data sourced from: University of Chicago, <a href="https://voices.uchicago.edu/ochre/project/%E2%80%A0gardiner-sign-list/" class="subtle-link">OCHRE Data Service</a>, <a href="https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&xsl=https://ochre.lib.uchicago.edu/xsl/Gardiner_signlist.xsl" class="subtle-link">Gardiner's Sign-list of Egyptian Hieroglyphs</a></p>
-		<p>Typed with Keyman https://help.keyman.com/keyboard/hieroglyphic/1.4.1/hieroglyphic</p>
-		<p>Hieroglyph Unicode Block (includes more than Gardiner signs) https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)</p>
+		<p>Typed with Keyman <a href="https://help.keyman.com/keyboard/hieroglyphic/1.4.1/hieroglyphic" class="subtle-link">https://help.keyman.com/keyboard/hieroglyphic/1.4.1/hieroglyphic</a></p>
+		<p>Hieroglyph Unicode Block (includes more than Gardiner signs) <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)" class="subtle-link">https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)</a></p>
 	</div>
 </div>
 
 <!-- INTRODUCTION / CREDITS MODALS: bodies are populated from the sections below via JS,
      so the text only has to live in one place. -->
-<div class="modal fade" id="introductionModal" tabindex="-1" aria-labelledby="introductionModalLabel" aria-hidden="true">
+<div class="modal fade" id="introductionModal" tabindex="-1" aria-hidden="true">
 	<div class="modal-dialog modal-lg modal-dialog-centered">
 		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="introductionModalLabel">Introduction</h5>
+			<div class="modal-header justify-content-end">
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body" id="introductionModalBody"></div>
@@ -148,11 +142,10 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 	</div>
 </div>
 
-<div class="modal fade" id="creditsModal" tabindex="-1" aria-labelledby="creditsModalLabel" aria-hidden="true">
+<div class="modal fade" id="creditsModal" tabindex="-1" aria-hidden="true">
 	<div class="modal-dialog modal-lg modal-dialog-centered">
 		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="creditsModalLabel">Credits</h5>
+			<div class="modal-header justify-content-end">
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body" id="creditsModalBody"></div>
@@ -182,9 +175,13 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 	const canvas = document.getElementById('pdfPageCanvas')
 	const spinner = document.getElementById('pdfPageSpinner')
 	const errorEl = document.getElementById('pdfPageError')
-	const titleEl = document.getElementById('pdfPageModalLabel')
 	const fullLink = document.getElementById('pdfPageFullLink')
 	let renderToken = 0
+	let fullPdfUrl = pdfUrl
+
+	fullLink.addEventListener('click', function () {
+		window.open(fullPdfUrl, '_blank', 'noopener')
+	})
 
 	async function renderPage(pageNumber) {
 		const token = ++renderToken
@@ -214,8 +211,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 		const link = event.target.closest('.page-number-link')
 		if (!link) return
 		event.preventDefault()
-		titleEl.textContent = 'Gardiner Sign-list — page ' + link.dataset.pageLabel
-		fullLink.href = link.href
+		fullPdfUrl = link.href
 		modal.show()
 		renderPage(parseInt(link.dataset.pdfPage, 10))
 	})
@@ -228,7 +224,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 
 		// Mirror the Introduction/Credits sections into their modals so the
 		// text only has to be written once.
-		;[['introduction-content', 'introductionModalBody'], ['credits-content', 'creditsModalBody']].forEach(function ([sourceId, targetId]) {
+		;[['introduction', 'introductionModalBody'], ['credits', 'creditsModalBody']].forEach(function ([sourceId, targetId]) {
 			const source = document.getElementById(sourceId)
 			const target = document.getElementById(targetId)
 			if (source && target) target.innerHTML = source.innerHTML
