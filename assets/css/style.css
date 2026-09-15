@@ -96,6 +96,10 @@ img {
 	border: 2px solid var(--darkbrown);
 }
 
+.btn:active {
+	background-color: var(--yellow);
+}
+
 .bt:after {
 	background-color: var(--yellow);
 }
