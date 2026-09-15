@@ -66,13 +66,21 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 					data-bs-title="{{ sign.category_group }}">
 					{{ sign.gardiner_number }}
 				</span>
-				<span class="display-5 hiero" data-bs-toggle="tooltip" data-bs-title="{{ sign.unicode }}">
+				<span class="display-5 hiero glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ sign.unicode }}">
 					{{ sign.glyph }}
 				</span>
 			</div>
 			<!-- Description -->
 			<div class="col-md-3 col-10 hiero">
 				<strong>{{ sign.description }}</strong>
+				{% if sign.variants %} 
+				<span class="variant-glyphs">
+					[{% for variant in sign.variants %}
+					<span class="variant-glyph hiero glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ variant[2] }}">
+						{{ variant[0] }}
+					</span>{{ variant[1] }}{% unless forloop.last %}, {% endunless %}{% endfor %}]
+				</span>
+				{% endif %}
 			</div>
 
 			<!-- Notes -->
@@ -124,8 +132,8 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 		<p>A.H. Gardiner (1957), <i>Egyptian Grammar: Being an Introduction to the Study of Hieroglyphs</i>. 3rd edition. Oxford: Griffith Institute, Ashmolean Museum.</p>
 		<p>Kilani Marwan, 2019, Djehuty - Font EgyptianHiero 4.02 (4.3.2019), <a href="https://github.com/MKilani/Djehuty" class="subtle-link">https://github.com/MKilani/Djehuty</a></p>
 		<p>Data sourced from: University of Chicago, <a href="https://voices.uchicago.edu/ochre/project/%E2%80%A0gardiner-sign-list/" class="subtle-link">OCHRE Data Service</a>, <a href="https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&xsl=https://ochre.lib.uchicago.edu/xsl/Gardiner_signlist.xsl" class="subtle-link">Gardiner's Sign-list of Egyptian Hieroglyphs</a></p>
-		<p>Typed with Keyman <a href="https://help.keyman.com/keyboard/hieroglyphic/1.4.1/hieroglyphic" class="subtle-link">https://help.keyman.com/keyboard/hieroglyphic/1.4.1/hieroglyphic</a></p>
-		<p>Hieroglyph Unicode Block (includes more than Gardiner signs) <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)" class="subtle-link">https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)</a></p>
+		<p>Typed with <a href="https://help.keyman.com/keyboard/hieroglyphic/1.4.1/hieroglyphic" class="subtle-link">Keyman Hieroglyphic Keyboard</a></p>
+		<p>Hieroglyph Unicode Block (includes more than Gardiner signs) <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)" class="subtle-link">on Wikipedia</a></p>
 	</div>
 </div>
 
@@ -221,6 +229,25 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 	document.addEventListener('DOMContentLoaded', function () {
 		const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 		tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el))
+
+		// Click-to-copy for glyphs (main glyph + variant glyphs): copies the glyph
+		// character to the clipboard and flashes "Copied!" in its existing tooltip.
+		document.querySelectorAll('.glyph-copy').forEach(function (el) {
+			const tooltip = bootstrap.Tooltip.getInstance(el)
+			if (!tooltip) return
+			el.addEventListener('click', function () {
+				const text = el.textContent.trim()
+				if (!text || !navigator.clipboard) return
+				navigator.clipboard.writeText(text).then(function () {
+					const originalTitle = el.getAttribute('data-bs-title')
+					clearTimeout(el._copyResetTimeout)
+					tooltip.setContent({ '.tooltip-inner': 'Copied!' })
+					el._copyResetTimeout = setTimeout(function () {
+						tooltip.setContent({ '.tooltip-inner': originalTitle })
+					}, 1200)
+				})
+			})
+		})
 
 		// Mirror the Introduction/Credits sections into their modals so the
 		// text only has to be written once.

@@ -377,6 +377,18 @@ img {
 	background-color: none;
 }
 
+.glyph-copy {
+	cursor: pointer;
+}
+
+.variant-glyphs {
+	color: var(--red);
+}
+
+.variant-glyphs .variant-glyph {
+	font-size: 1.2em;
+}
+
 /* Kilani Marwan, 2019, Djehuty - Font EgyptianHiero 4.02 (4.3.2019), https://github.com/MKilani/Djehuty */
 .hiero{
     font-family:  "Cascadia Code", "EgyptianHiero";
