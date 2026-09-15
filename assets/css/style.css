@@ -163,17 +163,20 @@ img {
 }
 
 #home-profile {
-	max-width: 1000px;
+	max-width: 1100px;
+	margin: 0 auto;
 }
 /* ===== STICKY NOTES: featured-project cards on the home page (built on the .card hard-shadow style) ===== */
 .sticky-note {
 	background-color: var(--yellow);
 	/* width: 220px; */
+	transform: rotate(var(--tilt, 0deg));
 }
 
-.sticky-note:nth-child(1) { transform: rotate(-4deg); }
-.sticky-note:nth-child(2) { transform: rotate(3deg); }
-.sticky-note:nth-child(3) { transform: rotate(-2deg); }
+.row > div:nth-child(1) .sticky-note { --tilt: -4deg; }
+.row > div:nth-child(2) .sticky-note { --tilt: 3deg; }
+.row > div:nth-child(3) .sticky-note { --tilt: -2deg; }
+.row > div:nth-child(4) .sticky-note { --tilt: 4deg; }
 
 .sticky-note:hover {
 	transform: rotate(0deg) scale(1.05);
