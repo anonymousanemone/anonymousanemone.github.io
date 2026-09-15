@@ -11,7 +11,7 @@
                       alt     (optional) alt text for the thumbnail, falls back to title
 -->
 
-<div class="row justify-content-start mt-3 g-3">
+<div class="row justify-content-start mt-3 g-4">
     {% for card in include.cards %}
     {% assign alt_text = card.alt | default: card.title %}
     <div class="col-md-6 col-lg-4">

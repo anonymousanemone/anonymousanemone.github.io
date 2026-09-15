@@ -101,6 +101,27 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 	{% endfor %}
 </div>
 
+<!-- ADDITIONAL UNICODE GLYPHS: signs in the Unicode block beyond Gardiner 1957-->
+<div class="section mb-4 hiero" id="stragglers">
+    <h5 class="mt-3 mb-3">Additional Unicode Glyphs (Not in Gardiner 1957)</h5>
+	<div class="d-flex flex-row flex-wrap">
+		{% assign stragglers = site.data.gardiner_signlist["sign list stragglers"] %}
+		{% for sign in stragglers %}
+		{% assign glyph = sign[0] %}
+		{% assign number = sign[1] %}
+		{% assign code = sign[2] %}
+		<div class="col-md-1 col-2 text-center mb-3">
+			<span class="small text-muted d-block glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ code }}">
+				{{ number }}
+			</span>
+			<span class="display-6 glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ code }}">
+				{{ glyph }}
+			</span>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
 <!-- NOME SIGNS -->
 <div class="section mb-4" id="nomes">
 	{% assign nomes = site.data.gardiner_signlist.Nomes %}
@@ -132,6 +153,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 	{% unless forloop.last %}<hr>{% endunless %}
 	{% endfor %}
 </div>
+
 
 <!-- PDF PAGE PREVIEW MODAL: renders a single page instead of loading the full PDF -->
 <div class="modal fade" id="pdfPageModal" tabindex="-1" aria-hidden="true">
