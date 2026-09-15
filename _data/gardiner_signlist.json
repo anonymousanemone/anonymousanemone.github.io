@@ -1298,7 +1298,7 @@
       "glyph": "𓂂",
       "unicode": "U+13082",
       "description": "pupil of the eye",
-      "notes": "Det. in 𓆓𓆑𓆓𓂂 [t]ḏfḏ[/t] 'pupil' of eye. As part of the wḏꜢt-eye sign for 1/4 hekat-measure of corn. A similar, but smaller, sign appears to have been used for from 1 to 9 hekat. To be distinguished from the grain of sand 𓈒 <a href='#N33'>N 33</a>, and from the circle 𓈒, see after 𓏳 <a href='#Z8'>Z 8</a>.",
+      "notes": "Det. in 𓆓𓆑𓆓𓂂 [t]ḏfḏ[/t] 'pupil' of eye. As part of the wḏꜢt-eye sign for 1/4 hekat-measure of corn. A similar, but smaller, sign appears to have been used for from 1 to 9 hekat. To be distinguished from the grain of sand 𓈒 <a href='#N33'>N 33</a>, and from the circle 𓃉, see after 𓏳 <a href='#Z8'>Z 8</a>.",
       "page_number": 451
     },
     {
@@ -6802,7 +6802,9 @@
         ["𓎏", "V20i", "U+1338F"],
         ["𓎐", "V20j", "U+13390"],
         ["𓎑", "V20k", "U+13391"],
-        ["𓎒", "V20l", "U+13392"]
+        ["𓎒", "V20l", "U+13392"],
+        ["𓎭", "V40", "U+133AD"],
+        ["𓎮", "V40a", "U+133AE"]
       ],
       "description": "the same without the cross-bar (cf. 𓎓 <a href='#V21'>V 21</a>)",
       "notes": "Cf. Syn. XIX [t]mḏwt[/t] 'stables'. Hence phon. [t]mḏ[/t] in [t]mḏw[/t] '10'.",
@@ -7435,6 +7437,27 @@
       "gardiner_number": "Z1",
       "glyph": "𓏤",
       "unicode": "U+133E4",
+      "variants": [
+        ["𓏺", "Z15", "U+133FA"],
+        ["𓏻", "Z15a", "U+133FB"],
+        ["𓏼", "Z15b", "U+133FC"],
+        ["𓏽", "Z15c", "U+133FD"],
+        ["𓏾", "Z15d", "U+133FE"],
+        ["𓏿", "Z15e", "U+133FF"],
+        ["𓐀", "Z15f", "U+13400"],
+        ["𓐁", "Z15g", "U+13401"],
+        ["𓐂", "Z15h", "U+13402"],
+        ["𓐃", "Z15i", "U+13403"],
+        ["𓐄", "Z16", "U+13404"],
+        ["𓐅", "Z16a", "U+13405"],
+        ["𓐆", "Z16b", "U+13406"],
+        ["𓐇", "Z16c", "U+13407"],
+        ["𓐈", "Z16d", "U+13408"],
+        ["𓐉", "Z16e", "U+13409"],
+        ["𓐊", "Z16f", "U+1340A"],
+        ["𓐋", "Z16g", "U+1340B"],
+        ["𓐌", "Z16h", "U+1340C"]
+      ],
       "description": "stroke (perhaps properly a wooden dowel)",
       "notes": "Ideo. or det. one, unity, exx. 𓌡𓂝𓏤 var. 𓏤 [t]wꜥ[/t] 'one', 𓐀 7 'seven', lit. 'seven units'. Following an ideogram 𓏤 denotes that this means the actual thing that it depicts, exx. 𓂋𓏤 [t]r[/t] 'mouth'; 𓈋𓏤 [t]ḏw[/t] 'mountain'; so too in duals and plurals, exx. 𓂝𓏤𓅱𓏭 [t]ꜥwy[/t] 'the two arms'; 𓇼_𓏤𓏥 [t]sbꜢw[/t] 'stars'; 𓈉𓏏𓏤𓏥 [t]ḫꜢswt[/t] 'countries'; in fem. nouns the fem. ending [t]t[/t] often intervenes, ex. 𓎿𓏏𓏤 [t]ḥst[/t] 'water-jar'. Such writings were often preceded in O.K. by phonetic signs; M.E. survivals of this practice are 𓊃𓀀𓏤 [t]s[/t] 'man'; 𓉔𓂋𓅱𓇳𓏤 [t]hrw[/t] 'day'. Ideo. with 𓏤 is occasionally followed by a det., ex. 𓇳𓏤𓀭 [t]Rꜥ[/t] 'Ra'. Misunderstanding of the function of 𓏤 often leads to its displacement, exx. 𓊃𓏤𓀀 for 𓊃𓀀𓏤 [t]s[/t] 'man'; 𓈙𓈅𓏤 for 𓈙𓏤𓈅 [t]š[/t] 'pool'. It is strange that 𓇾𓏤𓈅 is a later writing of [t]tꜢ[/t] 'earth', while 𓇾𓈇𓏤 (also found in Dyn. XVIII) is the usual writing in Dyn. XII; 𓂧_𓏇𓇋𓈇𓏤 [t]dmi[/t] 'town' is likewise difficult to explain, as also are many later exx. of the stroke. Already in Pyr. cases occur of ideo. with 𓏤 being together transferred to a phonetic use; so often in M.E., exx. 𓁷𓏤 [t]ḥr[/t] 'upon'; 𓅭𓏤 var. 𓅭𓏤𓀀 [t]sꜢ[/t] 'son'; so particularly in group-writing, exx. 𓂋𓏤 [t]r[/t]; 𓅷𓏤 [t]ṯ[/t]. Along similar lines 𓊖𓏏𓏤 as det. towns in place of 𓊖, ex. 𓇓_𓏏𓈖𓀔𓈖𓈖𓊖𓏏𓏤 [t]Nn-nsw[/t] 'Heracleopolis'. Occasionally in Dyn. XII 𓏤 serves merely to fill empty space, exx. 𓈖𓏤 [t]n[/t] 'for'; 𓍑𓄿_𓊛𓏤_𓈖𓀀 [t]ḏꜣ.n=i[/t] 'I ferried across'. In Pyr. 𓏤 was sometimes used (like 𓏰 and 𓈒) to replace human figures, these being regarded as magically dangerous; so in M.K. coffins, exx. for 𓇋𓏤 for𓂋𓇋𓀞 [t]i[/t] 'O'; 𓋴𓋴_𓈖𓃀𓈖𓆑𓏤 for 𓋴𓋴_𓈖𓃀𓈖𓆑𓀻 [t]Ssnb.n.f[/t], a man's name; extensions of this use appear to be the rare employment of 𓏤 as suffix 1st pers. sing. [t]=i[/t] 'I'; perhaps also the fairly common writing 𓊃𓏤 for 𓊃𓀀, 𓊃𓀀𓏤 or 𓊃𓏤𓀀 [t]s[/t] 'man.",
       "page_number": 535
@@ -7535,7 +7558,7 @@
         ["𓃑", "D67h", "U+130D1"]
       ],
       "description": "circle",
-      "notes": "Det. round, from O.K. onwards common in words from the stem [t]qd(i)[/t] 'go round', exx. 𓇋𓐪𓂧𓈒𓅱𓀨𓅱_𓀀𓏪[t]iqdw[/t] 'builders'; 𓐪𓂧𓈒𓏝 [t]qd[/t] 'character'. From Dyn. XI increasingly often replaced by 𓏌 <a href='W24'>W 24</a>",
+      "notes": "Det. round, from O.K. onwards common in words from the stem [t]qd(i)[/t] 'go round', exx. 𓇋𓐪𓂧𓈒𓅱𓀨𓅱_𓀀𓏪 [t]iqdw[/t] 'builders'; 𓐪𓂧𓈒𓏝 [t]qd[/t] 'character'. From Dyn. XI increasingly often replaced by 𓏌 <a href='W24'>W 24</a>",
       "page_number": 538
     },
     {
@@ -7544,7 +7567,7 @@
       "glyph": "𓇮",
       "unicode": "U+131EE",
       "description": "triangle?",
-      "notes": "Ideo. or det. in 𓋴𓊪𓂧𓇮 var. 𓇮𓏜 [t]spd (spd)[/t] 'sharp', unless it is there a thorn, as in 𓋴_𓂋𓏏𓇮 [t]srt[/t] 'thorn', see on 𓇮 <a href='#M44'>M 44</a>. In 𓏏𓏐_𓌉𓇮 [t]t-ḥḏ[/t] 'white bread' it signifies a loaf of triangular shape.",
+      "notes": "Ideo. or det. in 𓋴𓊪𓂧𓇮 var. 𓇮𓏜 [t]spd (śpd)[/t] 'sharp', unless it is there a thorn, as in 𓋴_𓂋𓏏𓇮 [t]srt[/t] 'thorn', see on 𓇮 <a href='#M44'>M 44</a>. In 𓏏𓏐_𓌉𓇮 [t]t-ḥḏ[/t] 'white bread' it signifies a loaf of triangular shape.",
       "page_number": 538
     },
     {
@@ -7830,5 +7853,491 @@
       "notes": "Use as last.",
       "page_number": 543
     }
-  ]
+  ],
+  "Nomes": {
+    "Upper Nile": [
+      {
+        "gardiner_number": "NU1",
+        "glyph": "𓈶",
+        "unicode": "U+13236",
+        "description": "Nome sign with land, bow, bread loaf and land",
+        "which_nome": "1st Nome of Upper Egypt, Ta-Seti",
+        "name_translit": "tꜣ-sty",
+        "name_translit_eng": "Ta-Seti",
+        "name_translate": "Land of the bow"
+      },
+      {
+        "gardiner_number": "NU2",
+        "glyph": "𓈷",
+        "unicode": "U+13237",
+        "description": "Nome sign with balance column and falcon",
+        "which_nome": "2nd Nome of Upper Egypt, Wetjes-Hor",
+        "name_translit": "wṯs-ḥrw",
+        "name_translit_eng": "Wetjes-Hor",
+        "name_translate": "Throne of Horus"
+      },
+      {
+        "gardiner_number": "NU3",
+        "glyph": "𓈸",
+        "unicode": "U+13238",
+        "description": "Nome sign with emblem of Nekhen",
+        "which_nome": "3rd Nome of Upper Egypt, Nekhen (nome)",
+        "name_translit": "nḫn",
+        "name_translit_eng": "Nekhen",
+        "name_translate": "Shrine"
+      },
+      {
+        "gardiner_number": "NU4",
+        "glyph": "𓈹",
+        "unicode": "U+13239",
+        "description": "Nome sign with Was-scepter",
+        "which_nome": "4th Nome of Upper Egypt",
+        "name_translit": "wꜣst",
+        "name_translit_eng": "Waset",
+        "name_translate": "Sceptre"
+      },
+      {
+        "gardiner_number": "NU5",
+        "glyph": "𓈺",
+        "unicode": "U+1323A",
+        "description": "Nome sign with two falcons",
+        "which_nome": "5th Nome of Upper Egypt, Herui",
+        "name_translit": "bjkwy/nṯrwy/ḥrwy",
+        "name_translit_eng": "Bikuy/Netjerui/Herui",
+        "name_translate": "Two falcons/Two gods/Two Horuses"
+      },
+      {
+        "gardiner_number": "NU6",
+        "glyph": "𓈻",
+        "unicode": "U+1323B",
+        "description": "Nome sign with crocodile with feather",
+        "which_nome": "6th Nome of Upper Egypt, Iqer",
+        "name_translit": "jqr/msḥ",
+        "name_translit_eng": "Iqer/Meseh",
+        "name_translate": "The crocodile"
+      },
+      {
+        "gardiner_number": "NU7",
+        "glyph": "𓈼",
+        "unicode": "U+1323C",
+        "description": "Nome sign with Sistrum",
+        "which_nome": "7th Nome of Upper Egypt",
+        "name_translit": "bꜣt/sšš",
+        "name_translit_eng": "Bat/Seshesh",
+        "name_translate": "Bat/Sistrum"
+      },
+      {
+        "gardiner_number": "NU8",
+        "glyph": "𓈽",
+        "unicode": "U+1323D",
+        "description": "Nome sign with Osiris fetish",
+        "which_nome": "8th Nome of Upper Egypt, the Thinite nome, Ta-wer",
+        "name_translit": "tꜣ-wr",
+        "name_translit_eng": "Ta-wer",
+        "name_translate": "Great land"
+      },
+      {
+        "gardiner_number": "NU9",
+        "glyph": "𓈾",
+        "unicode": "U+1323E",
+        "description": "Nome sign with emblem of Min",
+        "which_nome": "9th Nome of Upper Egypt",
+        "name_translit": "mnw",
+        "name_translit_eng": "Min",
+        "name_translate": "Min"
+      },
+      {
+        "gardiner_number": "NU10",
+        "glyph": "𓈿",
+        "unicode": "U+1323F",
+        "description": "Nome sign with cobra with feather",
+        "which_nome": "10th Nome of Upper Egypt, Wadjet",
+        "name_translit": "wꜣḏyt",
+        "name_translit_eng": "Wadjet",
+        "name_translate": "Wadjet"
+      },
+      {
+        "gardiner_number": "NU10a",
+        "glyph": "𓉀",
+        "unicode": "U+13240",
+        "description": "Nome sign with papyrus column, cobra, and bread loaf",
+        "which_nome": "10th Nome of Upper Egypt, Wadjet",
+        "name_translit": "wꜣḏyt",
+        "name_translit_eng": "Wadjet",
+        "name_translate": "Wadjet"
+      },
+      {
+        "gardiner_number": "NU11",
+        "glyph": "𓉁",
+        "unicode": "U+13241",
+        "description": "Nome sign with Set-animal",
+        "which_nome": "11th Nome of Upper Egypt",
+        "name_translit": "šꜣ",
+        "name_translit_eng": "Sha",
+        "name_translate": "Set-animal"
+      },
+      {
+        "gardiner_number": "NU11a",
+        "glyph": "𓉂",
+        "unicode": "U+13242",
+        "description": "Nome sign with wick, Red crown, ripples of water",
+        "which_nome": "11th Nome of Upper Egypt",
+        "name_translit": "šꜣ",
+        "name_translit_eng": "Sha",
+        "name_translate": "Set-animal"
+      },
+      {
+        "gardiner_number": "NU12",
+        "glyph": "𓉃",
+        "unicode": "U+13243",
+        "description": "Nome sign with mountain and viper",
+        "which_nome": "12th Nome of Upper Egypt",
+        "name_translit": "ḏw-ft",
+        "name_translit_eng": "Dju-fet",
+        "name_translate": "Viper mountain"
+      },
+      {
+        "gardiner_number": "NU13",
+        "glyph": "𓉄",
+        "unicode": "U+13244",
+        "description": "Nome sign with tree crossed by viper and simplified jars",
+        "which_nome": "13th Nome of Upper Egypt",
+        "name_translit": "ꜣtf ḫntt/nḏft-ḫntt",
+        "name_translit_eng": "Atef Khentet/ Nedjefet Khentet",
+        "name_translate": "Southern ꜣtf/nḏft-Tree"
+      },
+      {
+        "gardiner_number": "NU14",
+        "glyph": "𓉅",
+        "unicode": "U+13245",
+        "description": "Nome sign with tree crossed by viper, hindquarters of lion, bread loaf",
+        "which_nome": "14th Nome of Upper Egypt",
+        "name_translit": "ꜣtf-pḥt/nḏft-pḥt",
+        "name_translit_eng": "Atef Peht/Nedjfet Peht",
+        "name_translate": "Northern ꜣtf/nḏft-Tree"
+      },
+      {
+        "gardiner_number": "NU15",
+        "glyph": "𓉆",
+        "unicode": "U+13246",
+        "description": "Nome sign with hare",
+        "which_nome": "15th Nome of Upper Egypt, Wenet",
+        "name_translit": "wnt",
+        "name_translit_eng": "Wenet",
+        "name_translate": "Hare"
+      },
+      {
+        "gardiner_number": "NU16",
+        "glyph": "𓉇",
+        "unicode": "U+13247",
+        "description": "Nome sign with oryx",
+        "which_nome": "16th Nome of Upper Egypt, Ma-hedj",
+        "name_translit": "mꜣ-ḥḏ",
+        "name_translit_eng": "Ma-Ḥedj",
+        "name_translate": "Oryx"
+      },
+      {
+        "gardiner_number": "NU17",
+        "glyph": "𓉈",
+        "unicode": "U+13248",
+        "description": "Nome sign with jackal",
+        "which_nome": "17th Nome of Upper Egypt",
+        "name_translit": "jnpw(t)",
+        "name_translit_eng": "Anpu/Anput",
+        "name_translate": "Anubis/Anput"
+      },
+      {
+        "gardiner_number": "NU18",
+        "glyph": "𓉉",
+        "unicode": "U+13249",
+        "description": "Nome sign with falcon, wings spread",
+        "which_nome": "18th Nome of Upper Egypt",
+        "name_translit": "nmty",
+        "name_translit_eng": "Nemty",
+        "name_translate": "Nemty"
+      },
+      {
+        "gardiner_number": "NU18a",
+        "glyph": "𓉊",
+        "unicode": "U+1324A",
+        "description": "Nome sign with falcon on boat",
+        "which_nome": "18th Nome of Upper Egypt",
+        "name_translit": "nmty",
+        "name_translit_eng": "Nemty",
+        "name_translate": "Nemty"
+      },
+      {
+        "gardiner_number": "NU19",
+        "glyph": "𓉋",
+        "unicode": "U+1324B",
+        "description": "Nome sign with two Was-scepters and foot",
+        "which_nome": "19th Nome of Upper Egypt",
+        "name_translit": "wꜣbwy",
+        "name_translit_eng": "Wabwi/Wabui",
+        "name_translate": "Two scepters?"
+      },
+      {
+        "gardiner_number": "NU20",
+        "glyph": "𓉌",
+        "unicode": "U+1324C",
+        "description": "Nome sign with tree and simplified jars",
+        "which_nome": "20th Nome of Upper Egypt",
+        "name_translit": "nꜥrt-ḫntt",
+        "name_translit_eng": "Nart Khentet",
+        "name_translate": "Southern nꜥrt-tree"
+      },
+      {
+        "gardiner_number": "NU21",
+        "glyph": "𓉍",
+        "unicode": "U+1324D",
+        "description": "Nome sign with tree, hindquarters of a lion, and bread loaf",
+        "which_nome": "21st Nome of Upper Egypt",
+        "name_translit": "nꜥrt-pḥt",
+        "name_translit_eng": "Nart Peht",
+        "name_translate": "Northern nꜥrt-tree"
+      },
+      {
+        "gardiner_number": "NU22",
+        "glyph": "𓉎",
+        "unicode": "U+1324E",
+        "description": "Nome sign with knife",
+        "which_nome": "22nd Nome of Upper Egypt",
+        "name_translit": "mdnjt",
+        "name_translit_eng": "Mednit/Medenit",
+        "name_translate": "Knife"
+      },
+      {
+        "gardiner_number": "NU22a",
+        "glyph": "𓉏",
+        "unicode": "U+1324F",
+        "description": "Variant form of last",
+        "which_nome": "22nd Nome of Upper Egypt",
+        "name_translit": "mdnjt",
+        "name_translit_eng": "Mednit/Medenit",
+        "name_translate": "Knife"
+      }
+    ],
+    "Lower Nile": [
+      {
+        "gardiner_number": "NL1",
+        "glyph": "𓈠",
+        "unicode": "U+13220",
+        "description": "Nome sign with wall and mace",
+        "which_nome": "1st Nome of Lower Egypt, the Memphite nome Inebu-hedj",
+        "name_translit": "jnb-ḥḏ",
+        "name_translit_eng": "Inebu-hedj",
+        "name_translate": "White Walls"
+      },
+      {
+        "gardiner_number": "NL2",
+        "glyph": "𓈡",
+        "unicode": "U+13221",
+        "description": "Nome sign with cow thigh",
+        "which_nome": "2nd Nome of Lower Egypt",
+        "name_translit": "ḫpš",
+        "name_translit_eng": "Khepesh",
+        "name_translate": "Cow's thigh"
+      },
+      {
+        "gardiner_number": "NL3",
+        "glyph": "𓈢",
+        "unicode": "U+13222",
+        "description": "Nome sign with falcon and feather",
+        "which_nome": "3rd Nome of Lower Egypt",
+        "name_translit": "jmntt",
+        "name_translit_eng": "Imentet/Amentet",
+        "name_translate": "West"
+      },
+      {
+        "gardiner_number": "NL4",
+        "glyph": "𓈣",
+        "unicode": "U+13223",
+        "description": "Nome sign with shield, crossed arrows, and sedge",
+        "which_nome": "4th Nome of Lower Egypt",
+        "name_translit": "nt-rsj/nt-rsw",
+        "name_translit_eng": "Nit Resy/Nit Resu",
+        "name_translate": "Southern Neith"
+      },
+      {
+        "gardiner_number": "NL5",
+        "glyph": "𓈤",
+        "unicode": "U+13224",
+        "description": "Nome sign with shield, crossed arrows, and papyrus plant",
+        "which_nome": "5th Nome of Lower Egypt",
+        "name_translit": "nt-mḥtt",
+        "name_translit_eng": "Nit Meḥtet",
+        "name_translate": "Northern Neith"
+      },
+      {
+        "gardiner_number": "NL5a",
+        "glyph": "𓈥",
+        "unicode": "U+13225",
+        "description": "Nome sign with shield, crossed arrows, and whip upon bread loaf",
+        "which_nome": "5th Nome of Lower Egypt",
+        "name_translit": "nt-mḥtt",
+        "name_translit_eng": "Nit Meḥtet",
+        "name_translate": "Northern Neith"
+      },
+      {
+        "gardiner_number": "NL6",
+        "glyph": "𓈦",
+        "unicode": "U+13226",
+        "description": "Nome sign with mountain and bull",
+        "which_nome": "6th Nome of Lower Egypt, Khaset",
+        "name_translit": "ḫꜣsww",
+        "name_translit_eng": "Khasuu",
+        "name_translate": "Mountain bull"
+      },
+      {
+        "gardiner_number": "NL7",
+        "glyph": "𓈧",
+        "unicode": "U+13227",
+        "description": "Nome sign with harpoon and West-emblem",
+        "which_nome": "7th Nome of Lower Egypt",
+        "name_translit": "ḥww-(gs)-jmnty",
+        "name_translit_eng": "Huu-(ges)-Imenti",
+        "name_translate": "West harpoon"
+      },
+      {
+        "gardiner_number": "NL8",
+        "glyph": "𓈨",
+        "unicode": "U+13228",
+        "description": "Nome sign with harpoon and East-emblem",
+        "which_nome": "8th Nome of Lower Egypt",
+        "name_translit": "ḥww-(gs)-jꜣbty",
+        "name_translit_eng": "Huu-(ges)-Iabty",
+        "name_translate": "East harpoon"
+      },
+      {
+        "gardiner_number": "NL9",
+        "glyph": "𓈩",
+        "unicode": "U+13229",
+        "description": "Nome sign with Andjety",
+        "which_nome": "9th Nome of Lower Egypt",
+        "name_translit": "ꜥnḏty",
+        "name_translit_eng": "Andjety",
+        "name_translate": "Andjety"
+      },
+      {
+        "gardiner_number": "NL10",
+        "glyph": "𓈪",
+        "unicode": "U+1322A",
+        "description": "Nome sign with bull and crocodile skin",
+        "which_nome": "10th Nome of Lower Egypt",
+        "name_translit": "km-wr/kꜣ-km",
+        "name_translit_eng": "Kem-Wer/Ka-kem",
+        "name_translate": "Black bull"
+      },
+      {
+        "gardiner_number": "NL11",
+        "glyph": "𓈫",
+        "unicode": "U+1322B",
+        "description": "Nome sign with bull and pustule",
+        "which_nome": "11th Nome of Lower Egypt",
+        "name_translit": "(kꜣ)-ḥsb",
+        "name_translit_eng": "(Ka)-Heseb",
+        "name_translate": "Heseb bull"
+      },
+      {
+        "gardiner_number": "NL12",
+        "glyph": "𓈬",
+        "unicode": "U+1322C",
+        "description": "Nome sign with bull and calf",
+        "which_nome": "12th Nome of Lower Egypt",
+        "name_translit": "ṯb-kꜣ/ṯb-nṯr",
+        "name_translit_eng": "Tjeb-Ka/Tjeb-Netjer",
+        "name_translate": "Calf and Cow"
+      },
+      {
+        "gardiner_number": "NL13",
+        "glyph": "𓈭",
+        "unicode": "U+1322D",
+        "description": "Nome sign with shuttle and crook",
+        "which_nome": "13th Nome of Lower Egypt, the Heliopolite nome, Heqat-Adj",
+        "name_translit": "ḥqꜣ-ꜥḏ",
+        "name_translit_eng": "Heka-Adj",
+        "name_translate": "Prospering Sceptre"
+      },
+      {
+        "gardiner_number": "NL14",
+        "glyph": "𓈮",
+        "unicode": "U+1322E",
+        "description": "Nome sign with simplified jars and East-emblem",
+        "which_nome": "14th Nome of Lower Egypt",
+        "name_translit": "ḫnty-jꜣbty",
+        "name_translit_eng": "Khenti-Iabti",
+        "name_translate": "Foremost of the East"
+      },
+      {
+        "gardiner_number": "NL15",
+        "glyph": "𓈯",
+        "unicode": "U+1322F",
+        "description": "Nome sign with ibis",
+        "which_nome": "15th Nome of Lower Egypt",
+        "name_translit": "ḏḥwty",
+        "name_translit_eng": "Djeḥuti",
+        "name_translate": "Thoth"
+      },
+      {
+        "gardiner_number": "NL16",
+        "glyph": "𓈰",
+        "unicode": "U+13230",
+        "description": "Nome sign with fish",
+        "which_nome": "16th Nome of Lower Egypt",
+        "name_translit": "ḥꜣt-mḥyt",
+        "name_translit_eng": "Hatmehyt",
+        "name_translate": "Fish/ Foremost of the Fish"
+      },
+      {
+        "gardiner_number": "NL17",
+        "glyph": "𓈱",
+        "unicode": "U+13231",
+        "description": "Nome sign with tusk, hand, bread loaf, and crossroads",
+        "which_nome": "17th Nome of Lower Egypt",
+        "name_translit": "bḥdt/smꜣ-bḥdt",
+        "name_translit_eng": "Behdet/Sema-Behdet",
+        "name_translate": "Throne/ Uniting the throne?"
+      },
+      {
+        "gardiner_number": "NL17a",
+        "glyph": "𓈲",
+        "unicode": "U+13232",
+        "description": "Nome sign with lungs, tusk, hand, bread loaf, and crossroads",
+        "which_nome": "17th Nome of Lower Egypt",
+        "name_translit": "bḥdt/smꜣ-bḥdt",
+        "name_translit_eng": "Behdet/Sema-Behdet",
+        "name_translate": "Throne/ Uniting the throne?"
+      },
+      {
+        "gardiner_number": "NL18",
+        "glyph": "𓈳",
+        "unicode": "U+13233",
+        "description": "Nome sign with child wearing white crown and cow’s head",
+        "which_nome": "18th Nome of Lower Egypt",
+        "name_translit": "jmty-ḫnty",
+        "name_translit_eng": "Imty Khenti",
+        "name_translate": "Southern Prince"
+      },
+      {
+        "gardiner_number": "NL19",
+        "glyph": "𓈴",
+        "unicode": "U+13234",
+        "description": "Nome sign with child wearing white crown and hindquarters of lion",
+        "which_nome": "19th Nome of Lower Egypt",
+        "name_translit": "jmty-pḥw",
+        "name_translit_eng": "Imty Pehu",
+        "name_translate": "Northern Prince"
+      },
+      {
+        "gardiner_number": "NL20",
+        "glyph": "𓈵",
+        "unicode": "U+13235",
+        "description": "Nome sign with thorn and Sopdu",
+        "which_nome": "20th Nome of Lower Egypt",
+        "name_translit": "spdw",
+        "name_translit_eng": "Sopdu",
+        "name_translate": "Sopdu"
+      }
+    ]
+  }
 }

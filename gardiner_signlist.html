@@ -25,6 +25,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 			{% assign anchor_id = category_name | slugify %}
 			<li><a href="#{{ anchor_id }}">{{ category_name }}</a></li>
 			{% endfor %}
+			<li><a href="#nomes">Nomes</a></li>
 		</ul>
 	</div>
 	<button type="button" class="category-fab" id="category-fab-toggle" aria-expanded="false"
@@ -100,6 +101,38 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 	{% endfor %}
 </div>
 
+<!-- NOME SIGNS -->
+<div class="section mb-4" id="nomes">
+	{% assign nomes = site.data.gardiner_signlist.Nomes %}
+	{% for region in nomes %}
+	{% assign region_name = region[0] %}
+	{% assign signs = region[1] %}
+	{% assign anchor_id = region_name | slugify %}
+	<h5 class="mt-3 mb-3" id="{{ anchor_id }}">{{ region_name }}</h5>
+	<div class="row">
+		{% for sign in signs %}
+		<div class="col-md-6 col-12 mb-3">
+			<div class="row align-items-start nome-entry hiero h-100">
+				<div class="col-3 col-md-2 text-center">
+					<span class="small text-muted d-block glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ sign.unicode }}">
+						{{ sign.gardiner_number }}
+					</span>
+					<span class="display-6 hiero glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ sign.unicode }}">
+						{{ sign.glyph }}
+					</span>
+				</div>
+				<div class="col-9 col-md-10">
+					<strong>{{ sign.description }}</strong>
+					<div class="small text-muted">{{ sign.unicode }} &middot; {{ sign.name_translate }} (<span class="translit">{{ sign.name_translit }}</span> / {{ sign.name_translit_eng }}) &mdash; {{ sign.which_nome }}</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	{% unless forloop.last %}<hr>{% endunless %}
+	{% endfor %}
+</div>
+
 <!-- PDF PAGE PREVIEW MODAL: renders a single page instead of loading the full PDF -->
 <div class="modal fade" id="pdfPageModal" tabindex="-1" aria-hidden="true">
 	<div class="modal-dialog modal-lg modal-dialog-centered">
@@ -134,6 +167,7 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 		<p>Data sourced from: University of Chicago, <a href="https://voices.uchicago.edu/ochre/project/%E2%80%A0gardiner-sign-list/" class="subtle-link">OCHRE Data Service</a>, <a href="https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&xsl=https://ochre.lib.uchicago.edu/xsl/Gardiner_signlist.xsl" class="subtle-link">Gardiner's Sign-list of Egyptian Hieroglyphs</a></p>
 		<p>Typed with <a href="https://help.keyman.com/keyboard/hieroglyphic/1.4.1/hieroglyphic" class="subtle-link">Keyman Hieroglyphic Keyboard</a></p>
 		<p>Hieroglyph Unicode Block (includes more than Gardiner signs) <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)" class="subtle-link">on Wikipedia</a></p>
+		<p>Upper/Lower Egypt nome signs from Wikipedia, <a href="https://en.wikipedia.org/wiki/List_of_Egyptian_hieroglyphs" class="subtle-link">List of Egyptian hieroglyphs</a>, <a href="https://en.wikipedia.org/wiki/Nome_(Egypt)#" class="subtle-link">Nomes of Egypt</a></p>
 	</div>
 </div>
 

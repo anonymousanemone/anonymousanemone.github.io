@@ -418,6 +418,13 @@ img {
 	height: auto;
 }
 
+/* Gardiner sign list: abbreviated Upper/Lower Egypt nome-sign entries */
+.nome-entry {
+	border: 2px dashed var(--lightbrown);
+	margin: 0;
+	padding: 8px 5px;
+}
+
 /* Gardiner sign list: category quick-nav (floating button) */
 .category-fab-wrapper {
 	position: fixed;
