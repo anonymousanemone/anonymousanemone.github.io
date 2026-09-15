@@ -43,10 +43,10 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 		{% for sign in signs %}
 		{% assign glyph = sign[0] %}
 		{% assign number = sign[1] %}
-		<div class="col-md-1 col-2 text-center mb-3">
+		<div class="col-md-1 col-2 text-center mb-2">
 			<a href="#{{ number }}" class="glyph-link d-block text-decoration-none">
 				<div class="small text-muted">{{ number }}</div>
-				<div class="display-6">{{ glyph }}</div>
+				<div class="display-6 pt-2">{{ glyph }}</div>
 			</a>
 		</div>
 		{% endfor %}
@@ -67,9 +67,9 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 					data-bs-title="{{ sign.category_group }}">
 					{{ sign.gardiner_number }}
 				</span>
-				<span class="display-5 hiero glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ sign.unicode }}">
+				<div class="display-6 hiero glyph-copy pt-2" data-bs-toggle="tooltip" data-bs-title="{{ sign.unicode }}">
 					{{ sign.glyph }}
-				</span>
+				</div>
 			</div>
 			<!-- Description -->
 			<div class="col-md-3 col-10 hiero">
@@ -110,13 +110,13 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 		{% assign glyph = sign[0] %}
 		{% assign number = sign[1] %}
 		{% assign code = sign[2] %}
-		<div class="col-md-1 col-2 text-center mb-3">
+		<div class="col-md-1 col-2 text-center mb-2">
 			<span class="small text-muted d-block glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ code }}">
 				{{ number }}
 			</span>
-			<span class="display-6 glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ code }}">
+			<div class="display-6 glyph-copy pt-2" data-bs-toggle="tooltip" data-bs-title="{{ code }}">
 				{{ glyph }}
-			</span>
+			</div>
 		</div>
 		{% endfor %}
 	</div>
@@ -134,15 +134,15 @@ https://ochre.lib.uchicago.edu/ochre?uuid=911a2cdf-45c2-4975-9547-2bba1406564d&x
 		{% for sign in signs %}
 		<div class="col-md-6 col-12 mb-3">
 			<div class="row align-items-start nome-entry hiero h-100">
-				<div class="col-3 col-md-2 text-center">
+				<div class="col-3 col-lg-2 text-center">
 					<span class="small text-muted d-block glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ sign.unicode }}">
 						{{ sign.gardiner_number }}
 					</span>
-					<span class="display-6 hiero glyph-copy" data-bs-toggle="tooltip" data-bs-title="{{ sign.unicode }}">
+					<div class="display-6 hiero glyph-copy pt-2" data-bs-toggle="tooltip" data-bs-title="{{ sign.unicode }}">
 						{{ sign.glyph }}
-					</span>
+					</div>
 				</div>
-				<div class="col-9 col-md-10">
+				<div class="col-9 col-lg-10">
 					<strong>{{ sign.description }}</strong>
 					<div class="small text-muted">{{ sign.unicode }} &middot; {{ sign.name_translate }} (<span class="translit">{{ sign.name_translit }}</span> / {{ sign.name_translit_eng }}) &mdash; {{ sign.which_nome }}</div>
 				</div>

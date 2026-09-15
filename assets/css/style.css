@@ -8,6 +8,7 @@
     src: url("EgyptianHiero4.03.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
+	size-adjust: 130%;
 }
 
 @font-face {
@@ -22,6 +23,7 @@
     src: url("HGNTransliteration-Unicode.ttf") format('truetype');
     font-weight: normal;
     font-style: italic;
+	size-adjust: 130%;
 }
 
 /* ===== THEME: color variables used throughout the site ===== */
@@ -524,3 +526,4 @@ img {
 		padding: 5px 10px;
 	}
 }
+
