@@ -1246,12 +1246,12 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "eye with painted lower lid",
       "gardiner_number": "D7",
       "glyph": "𓁼",
-      "unicode": "U+1307C",
-      "description": "eye with painted lower lid",
-      "notes": "Det. adorn, exx. 𓄟𓋴𓆓_𓏏𓅐𓁼𓈒_𓈒𓈒[t]msḏmt[/t] 'eye paint'; 𓂝𓈖𓁼 [t]ꜥn (ꜥin)[/t] 'beautiful'. From the latter, phon. det. [t]ꜥn[/t], ex. 𓂝𓈖_𓏌𓅱𓁼 [t]ꜥnw (ꜥinw)[/t] 'ꜥAinu', a place-name, see 𓁘 <a href='#B8'>B 8</a>. The use as det. see etc., ex. 𓊪𓏏𓆳𓁼 [t]ptr[/t] 'behold', is abnormal.",
-      "page_number": 451
+      "notes": "Det. adorn, exx. 𓄟𓋴𓆓_𓏏𓅐𓁼𓈓 [t]msḏmt[/t] 'eye paint'; 𓂝𓈖𓁼 [t]ꜥn (ꜥin)[/t] 'beautiful'. From the latter, phon. det. [t]ꜥn[/t], ex. 𓂝𓈖_𓏌𓅱𓁼 [t]ꜥnw (ꜥinw)[/t] 'ꜥAinu', a place-name, see 𓁘 <a href='#B8'>B 8</a>. The use as det. see etc., ex. 𓊪𓏏𓆳𓁼 [t]ptr[/t] 'behold', is abnormal.",
+      "page_number": 451,
+      "unicode": "U+1307C"
     },
     {
       "category_group": "D, Parts of the human body",
@@ -1267,21 +1267,21 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "eye with flowing tears",
       "gardiner_number": "D9",
       "glyph": "𓁿",
-      "unicode": "U+1307F",
-      "description": "eye with flowing tears",
-      "notes": "Ideo. or det. in m𓅓𓁿 var. 𓁿 [t]rmi[/t] 'weep', 'beweep'.",
-      "page_number": 451
+      "notes": "Ideo. or det. in 𓂋𓅓𓁿 var. 𓁿 [t]rmi[/t] 'weep', 'beweep'.",
+      "page_number": 451,
+      "unicode": "U+1307F"
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "human eye with the markings of a falcon's head",
       "gardiner_number": "D10",
       "glyph": "𓂀",
-      "unicode": "U+13080",
-      "description": "human eye with the markings of a falcon's head",
-      "notes": "Ideo. or det. in 𓅱𓍑𓄿_𓏏𓂀 var. 𓂀 [t]wḏꜢt[/t] 'the wḏꜢt-eye' (or wedjat eye), i.e. the sound (uninjured) eye of Horus.",
-      "page_number": 451
+      "notes": "Ideo. or det. in 𓅱𓍑𓄿_𓏏𓂀 var. 𓂀 [t]wḏꜢt[/t] 'the [t]wḏꜢt-eye[/t]' (or wedjat eye), i.e. the sound (uninjured) eye of Horus.",
+      "page_number": 451,
+      "unicode": "U+13080"
     },
     {
       "category_group": "D, Parts of the human body",
@@ -1303,12 +1303,12 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "eye-brow (also part of the wedjat-eye)",
       "gardiner_number": "D13",
       "glyph": "𓂃",
-      "unicode": "U+13083",
-      "description": "eye-brow (also part of the wedjat-eye)",
-      "notes": "Sign for 1/8 hekat-measure of corn. Also doubled as det. for 𓇋𓆛𓈖𓎛𓂃𓂃 [t]inḥ[/t] 'eye-brow(s)'. Det. or phon. det. in some words connected with 𓋴𓅓𓂧𓂃[t]smd (śmd)[/t] 'eye-brow' itself not found until Greek times.",
-      "page_number": 451
+      "notes": "Sign for 1/8 hekat-measure of corn. Also doubled as det. for 𓇋𓆛𓈖𓎛𓂃𓂃 [t]inḥ[/t] 'eye-brow(s)'. Det. or phon. det. in some words connected with 𓋴𓅓𓂧𓂃 [t]smd (śmd)[/t] 'eye-brow' itself not found until Greek times.",
+      "page_number": 451,
+      "unicode": "U+13083"
     },
     {
       "category_group": "D, Parts of the human body",
@@ -1537,12 +1537,12 @@
     },
     {
       "category_group": "D, Parts of the human body",
+      "description": "forearm",
       "gardiner_number": "D36",
       "glyph": "𓂝",
-      "unicode": "U+1309D",
-      "description": "forearm",
-      "notes": "Ideo. in 𓂝𓏤 [t]ꜥ[/t] 'arm', 'hand'. Hence phon. [t]ꜥ[/t] . Also in hieratic, less often in hieroglyphic, as substitute for 𓂞 <a href='#D37'>D 37</a>, 𓂟 <a href='#D38'>D 38</a>, , 𓂠 <a href='#D39'>D 39</a>, 𓂡 <a href='#D40'>D 40</a>, 𓂢 <a href='#D41'>D 41</a>, 𓂣 <a href='#D42'>D 42</a>, 𓂤 <a href='#D43'>D 43</a>, 𓂥 <a href='#D44'>D 44</a>.\nFor 𓃁 see <a href='#D59'>D 59</a>. For 𓅖 see <a href='#G20'>G 20</a>. <br> For 𓅴 see <a href='#G45'>G 45</a>. For 𓇘 see <a href='#M27'>M 27</a>. For 𓉦 see <a href='#O12'>O 12</a>. For 𓊣 see <a href='#P7'>P 7</a>. For 𓐤 see <a href='#Aa22'>Aa 22</a>.",
-      "page_number": 454
+      "notes": "Ideo. in 𓂝𓏤 [t]ꜥ[/t] 'arm', 'hand'. Hence phon. [t]ꜥ[/t] . Also in hieratic, less often in hieroglyphic, as substitute for 𓂞 <a href='#D37'>D 37</a>, 𓂟 <a href='#D38'>D 38</a>, , 𓂠 <a href='#D39'>D 39</a>, 𓂡 <a href='#D40'>D 40</a>, 𓂢 <a href='#D41'>D 41</a>, 𓂣 <a href='#D42'>D 42</a>, 𓂤 <a href='#D43'>D 43</a>, 𓂥 <a href='#D44'>D 44</a>. <br>For 𓃁 see <a href='#D59'>D 59</a>. For 𓅖 see <a href='#G20'>G 20</a>. For 𓅴 see <a href='#G45'>G 45</a>. For 𓇘 see <a href='#M27'>M 27</a>. For 𓉦 see <a href='#O12'>O 12</a>. For 𓊣 see <a href='#P7'>P 7</a>. For 𓐤 see <a href='#Aa22'>Aa 22</a>.",
+      "page_number": 454,
+      "unicode": "U+1309D"
     },
     {
       "category_group": "D, Parts of the human body",
