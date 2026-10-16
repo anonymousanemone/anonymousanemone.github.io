@@ -2705,7 +2705,7 @@
       "description": "falcon with flagellum 𓌅 <a href='#S45'>S 45</a>",
       "gardiner_number": "G6",
       "glyph": "𓅄",
-      "notes": "Det. in 𓃀𓇋𓎡𓅄 [t]bik[/t] 'falcon'.",
+      "notes": "Det. in 𓃀_𓇋_𓎡𓅄 [t]bik[/t] 'falcon'.",
       "page_number": 468,
       "unicode": "U+13144",
       "variants": [
@@ -2717,7 +2717,7 @@
       "description": "falcon of Horus on the standard 𓊾 <a href='#R12'>R 12</a>",
       "gardiner_number": "G7",
       "glyph": "𓅆",
-      "notes": "Det. in the O.K. writing [t]Ḥrw[/t] 'Horus'. Hence, in O.K. and later often archaistically det. of gods, ex. [t]I͗mn[/t] 'Amun', or of the king, ex [t]nsw[/t] 'king'. So too regularly in hieratic, while hieroglphic prefers 𓀭 <a href='#A40'>A 40</a>. Also ideo. in pronouns of 1st pers. sing. when the king is speaking, exx. i, wi, 'I', 'me'.",
+      "notes": "Det. in the O.K. writing 𓎛𓁷𓂋𓅆 [t]Ḥrw[/t] 'Horus'. Hence, in O.K. and later often archaistically det. of gods, ex. 𓇋𓏠𓈖𓅆 [t]I͗mn[/t] 'Amun', or of the king, ex 𓇓_𓏏𓈖𓅆 [t]nsw[/t] 'king'. So too regularly in hieratic, while hieroglphic prefers 𓀭 <a href='#A40'>A 40</a>. Also ideo. in pronouns of 1st pers. sing. when the king is speaking, exx. 𓅆 [t]i[/t], 𓅱𓅆 [t]wi[/t] 'I', 'me'.",
       "page_number": 468,
       "unicode": "U+13146",
       "variants": [
@@ -2727,12 +2727,12 @@
     },
     {
       "category_group": "G, Birds",
+      "description": "falcon in boat",
       "gardiner_number": "G7*",
       "glyph": "𓅇",
-      "unicode": "U+13147",
-      "description": "falcon in boat",
-      "notes": "Ideo. for the god of the XIIth nome of Upper Egypt, whose name has been inferred from somewhat complicated data to read [t]ꜥnty[/t] '[t]ꜥAnty[/t]', meaning perhaps literally 'he with the claw(s)'. This god occurs also in other parts of Upper Egypt, particularly in the XVIIIth nome, where his name was possibly read differently. Closely connected was also a biune god [t]ꜥntywy[/t] '[t]ꜥAntywey[/t]' worshipped in the Xth nome and elsewhere, whom the Greeks equated with their mythical giant Antaeus.",
-      "page_number": 468
+      "notes": "Ideo. for the god of the XIIth nome of Upper Egypt, whose name 𓅇𓏏𓏭 has been inferred from somewhat complicated data to read [t]ꜥnty[/t] 'ꜥAnty', meaning perhaps literally 'he with the claw(s)'. This god occurs also in other parts of Upper Egypt, particularly in the XVIIIth nome, where his name was possibly read differently. Closely connected was also a biune god [t]ꜥntywy[/t] 'ꜥAntywey' worshipped in the Xth nome and elsewhere, whom the Greeks equated with their mythical giant Antaeus.",
+      "page_number": 468,
+      "unicode": "U+13147"
     },
     {
       "category_group": "G, Birds",
@@ -2745,114 +2745,114 @@
     },
     {
       "category_group": "G, Birds",
+      "description": "falcon of Horus on he sign for gold 𓋞 <a href='#S12'>S 12</a>",
       "gardiner_number": "G8",
       "glyph": "𓅉",
-      "unicode": "U+13149",
-      "description": "falcon of Horus on he sign for gold 𓋞 <a href='#S12'>S 12</a>",
-      "notes": "In title of the king Ḥr (or bik?) n nbw 'Horus (or falcon?) of gold'.",
-      "page_number": 468
+      "notes": "In title of the king 𓅉 [t]Ḥr[/t] (or [t]bik[/t]?) n nbw 'Horus (or falcon?) of gold'.",
+      "page_number": 468,
+      "unicode": "U+13149"
     },
     {
       "category_group": "G, Birds",
+      "description": "falcon of Horus bearing the sun 𓇳 <a href='#N5'>N 5</a> on head",
       "gardiner_number": "G9",
       "glyph": "𓅊",
-      "unicode": "U+1314A",
-      "description": "falcon of Horus bearing the sun 𓇳 <a href='#N5'>N 5</a> on head",
-      "notes": "In [t]Rꜥ-Ḥr-Ꜣḫty[/t] '(the composite god) Re-Harakhti'.",
-      "page_number": 468
+      "notes": "In 𓅊𓈌 [t]Rꜥ-Ḥr-Ꜣḫty[/t] '(the composite god) Re-Harakhti'.",
+      "page_number": 468,
+      "unicode": "U+1314A"
     },
     {
       "category_group": "G, Birds",
+      "description": "falcon on a special sared bark",
       "gardiner_number": "G10",
       "glyph": "𓅋",
-      "unicode": "U+1314B",
-      "description": "falcon on a special sared bark",
-      "notes": "Det. in Skr (Zkr) '(the god) Sokar'. Also det. in [t]ḥnw[/t] 'the ḥnw-bark (of Sokar)'.",
-      "page_number": 468
+      "notes": "Det. in 𓊃𓎡𓂋𓅋 [t]Skr (Zkr)[/t] '(the god) Sokar'. Also det. in 𓎛𓌼𓈖𓏌_𓅱𓅋 [t]ḥnw[/t] 'the ḥnw-bark (of Sokar)'.",
+      "page_number": 468,
+      "unicode": "U+1314B"
     },
     {
       "category_group": "G, Birds",
+      "description": "archaic image of a falcon",
       "gardiner_number": "G11",
       "glyph": "𓅌",
+      "notes": "Det. in 𓂝𓈙𓅓𓅌 [t]ꜥšm[/t] (also [t]ꜥẖm[/t], [t]ꜥḫm[/t]) 'divine image'; also in 𓍲𓈖𓃀_𓏏𓅌 [t]šnbt[/t] 'breast'.",
+      "page_number": 468,
       "unicode": "U+1314C",
       "variants": [
         ["𓅍", "G11a", "U+1314D"]
-      ],
-      "description": "archaic image of a falcon",
-      "notes": "Det. in [t]ꜥšm[/t] (also [t]ꜥẖm[/t], [t]ꜥḫm[/t]) 'divine image'; also in [t]šnbt[/t] 'breast'.",
-      "page_number": 468
+      ]
     },
     {
       "category_group": "G, Birds",
+      "description": "archaic image of falcon with flagellum 𓌅 <a href='#S45'>S 45</a>",
       "gardiner_number": "G12",
       "glyph": "𓅎",
-      "unicode": "U+1314E",
-      "description": "archaic image of falcon with flagellum 𓌅 <a href='#S45'>S 45</a>",
-      "notes": "Like 𓅌 <a href='#G11'>G 11</a>, det. in [t]Ꜣḫm[/t] 'divine image'.",
-      "page_number": 468
+      "notes": "Like 𓅌 <a href='#G11'>G 11</a>, det. in 𓂝𓐍𓐝𓅎 [t]ꜥḫm[/t] 'divine image'.",
+      "page_number": 468,
+      "unicode": "U+1314E"
     },
     {
       "category_group": "G, Birds",
+      "description": "archaic image of falcon with the double plumes 𓋛 <a href='#S9'>S 9</a>",
       "gardiner_number": "G13",
       "glyph": "𓅏",
-      "unicode": "U+1314F",
-      "description": "archaic image of falcon with the double plumes 𓋛 <a href='#S9'>S 9</a>",
-      "notes": "Ideo. in Ḥr [t]Nḫn[/t](y) '(the god) Horus of Nekhen', i.e. of Hieraconpolis. Det. in Spdw (Śpdw) '(the god) Sopd'.",
-      "page_number": 469
+      "notes": "Ideo. in 𓅏𓊔𓊖 var. Pyr. 𓅃𓊔𓊖𓇋𓇋 [t]Ḥr Nḫn(y)[/t] '(the god) Horus of Nekhen', i.e. of Hieraconpolis. Det. in 𓇮𓅱𓅏 [t]Spdw (Śpdw)[/t] '(the god) Sopd'.",
+      "page_number": 469,
+      "unicode": "U+1314F"
     },
     {
       "category_group": "G, Birds",
+      "description": "vulture",
       "gardiner_number": "G14",
       "glyph": "𓅐",
-      "unicode": "U+13150",
-      "description": "vulture",
-      "notes": "Det. in Pyr. nrt 'vulture'; hence phon. det. nr, ex. nrw 'terror'. For obscure reason in mwt 'mother', Copt. maau; hence phon. mt, exx. [t]ꜥḫmt[/t] 'river-bank', mtn 'road'.",
-      "page_number": 469
+      "notes": "Det. in Pyr. 𓈖𓂋𓅐𓏏 [t]nrt[/t] 'vulture'; hence phon. det. [t]nr[/t], ex. 𓈖𓂋_𓅱𓅐𓀜𓏪 [t]nrw[/t] 'terror'. For obscure reason in 𓅐𓏏𓁑 [t]mwt[/t] 'mother'; hence phon. [t]mt[/t], exx. 𓂝𓐍𓅐_𓏏𓈇 [t]ꜥḫmt[/t] 'river-bank', 𓅐_𓏏𓈖𓈐 [t]mtn[/t] 'road'.",
+      "page_number": 469,
+      "unicode": "U+13150"
     },
     {
       "category_group": "G, Birds",
+      "description": "vulture with flagellum 𓌅 <a href='#S45'>S 45</a> (Dyn. XVIII)",
       "gardiner_number": "G15",
       "glyph": "𓅑",
-      "unicode": "U+13151",
-      "description": "vulture with flagellum 𓌅 <a href='#S45'>S 45</a> (Dyn. XVIII)",
-      "notes": "Ideo. in Mwt '(the goddess) Mut'.",
-      "page_number": 469
+      "notes": "Ideo. in 𓏏𓅑 [t]Mwt[/t] '(the goddess) Mut'.",
+      "page_number": 469,
+      "unicode": "U+13151"
     },
     {
       "category_group": "G, Birds",
+      "description": "the vulture-goddess Nekhbet and the cobra-goddess Wadjet on baskets 𓎟 <a href='#V30'>V 30</a>",
       "gardiner_number": "G16",
       "glyph": "𓅒",
-      "unicode": "U+13152",
-      "description": "the vulture-goddess Nekhbet and the cobra-goddess Wadjet on baskets 𓎟 <a href='#V30'>V 30</a>",
-      "notes": "In nbty 'Two-Ladies', title of the king.",
-      "page_number": 469
+      "notes": "In 𓅒 [t]nbty[/t] 'Two-Ladies', title of the king.",
+      "page_number": 469,
+      "unicode": "U+13152"
     },
     {
       "category_group": "G, Birds",
+      "description": "owl",
       "gardiner_number": "G17",
       "glyph": "𓅓",
-      "unicode": "U+13153",
-      "description": "owl",
-      "notes": "Phon. m.",
-      "page_number": 469
+      "notes": "Phon. [t]m[/t].",
+      "page_number": 469,
+      "unicode": "U+13153"
     },
     {
       "category_group": "G, Birds",
+      "description": "two owls as monogram",
       "gardiner_number": "G18",
       "glyph": "𓅔",
-      "unicode": "U+13154",
-      "description": "two owls as monogram",
-      "notes": "Phon. mm ex, tmm 'not having been'. In Dyn. XVIII seems to be used for im 'therein'.",
-      "page_number": 469
+      "notes": "Phon. [t]mm[/t] ex, 𓏏𓍃𓅔 [t]tmm[/t] 'not having been'. In Dyn. XVIII 𓅔 seems to be used for 𓇋𓅓 [t]im[/t] 'therein'.",
+      "page_number": 469,
+      "unicode": "U+13154"
     },
     {
       "category_group": "G, Birds",
+      "description": "combination of 𓅓 <a href='#G17'>G 17</a> and 𓂞 <a href='#D37'>D 37</a> (Dyn. XVIII)",
       "gardiner_number": "G19",
       "glyph": "𓅕",
-      "unicode": "U+13155",
-      "description": "combination of 𓅓 <a href='#G17'>G 17</a> and 𓂞 <a href='#D37'>D 37</a> (Dyn. XVIII)",
-      "notes": "Phon. m (originally mi), ex. mhy 'be neglectful'. See 𓁸 <a href='#D3'>D 3</a> and 𓂟 <a href='#D38'>D 38</a>.",
-      "page_number": 469
+      "notes": "Phon. [t]m[/t] (originally [t]mi[/t]), ex. 𓅕𓉔𓏭𓅪 [t]mhy[/t] 'be neglectful'. See 𓁸 <a href='#D3'>D 3</a> and 𓂟 <a href='#D38'>D 38</a>.",
+      "page_number": 469,
+      "unicode": "U+13155"
     },
     {
       "category_group": "G, Birds",
@@ -2868,30 +2868,30 @@
     },
     {
       "category_group": "G, Birds",
+      "description": "Sennar guinea-fowl",
       "gardiner_number": "G21",
       "glyph": "𓅘",
-      "unicode": "U+13158",
-      "description": "Sennar guinea-fowl",
-      "notes": "Ideo. in [t]nḥ[/t] 'the [t]nḥ-bird'. Phon. [t]nḥ[/t], exx. [t]nḥi[/t] 'pray'; [t]nḥḥ[/t] 'eternity'. Some sculptors assimilate this sign to 𓄿 <a href='#G1'>G 1</a> or 𓅱 <a href='#G43'>G 43</a>.",
-      "page_number": 469
+      "notes": "Ideo. in 𓅘𓏤𓅭 [t]nḥ[/t] 'the nḥ-bird'. Phon. [t]nḥ[/t], exx. 𓈖𓅘𓎛𓀁 [t]nḥi[/t] 'pray'; 𓅘𓎛𓎛𓇳 [t]nḥḥ[/t] 'eternity'. Some sculptors assimilate this sign to 𓄿 <a href='#G1'>G 1</a> or 𓅱 <a href='#G43'>G 43</a>.",
+      "page_number": 469,
+      "unicode": "U+13158"
     },
     {
       "category_group": "G, Birds",
+      "description": "hoopoe",
       "gardiner_number": "G22",
       "glyph": "𓅙",
-      "unicode": "U+13159",
-      "description": "hoopoe",
-      "notes": "Phon. [t]ḏb[/t] in [t]ḏbt[/t], var. N.K. dbt, 'brick'.",
-      "page_number": 469
+      "notes": "Phon. [t]ḏb[/t] in 𓅙𓃀_𓏏𓊌 [t]ḏbt[/t], var. Pyr. 𓆓𓃀𓏏𓊌 var. N.K. 𓂧_𓃀_𓏏𓊌 [t]dbt[/t], 'brick'.",
+      "page_number": 469,
+      "unicode": "U+13159"
     },
     {
       "category_group": "G, Birds",
+      "description": "lapwing",
       "gardiner_number": "G23",
       "glyph": "𓅚",
-      "unicode": "U+1315A",
-      "description": "lapwing",
-      "notes": "Phon. or phon. det. [t]rḫ[/t](y)t in [t]rḫyt[/t] 'common folk'.",
-      "page_number": 470
+      "notes": "Phon. or phon. det. [t]rḫ(y)t[/t] in 𓂋𓐍𓇋𓇋_𓏏_𓅚_𓀀𓁐𓏥 var. 𓅚_𓏏𓏥 [t]rḫyt[/t] 'common folk'.",
+      "page_number": 470,
+      "unicode": "U+1315A"
     },
     {
       "category_group": "G, Birds",
@@ -2904,24 +2904,24 @@
     },
     {
       "category_group": "G, Birds",
+      "description": "crested ibis",
       "gardiner_number": "G25",
       "glyph": "𓅜",
-      "unicode": "U+1315C",
-      "description": "crested ibis",
-      "notes": "Ideo. or semi-ideo. in [t]Ꜣḫ[/t] 'spirit', 'spirit-like nature'. Hence semi-phon. [t]Ꜣḫ[/t] 'be glorious', 'beneficial' and derivatives.",
-      "page_number": 470
+      "notes": "Ideo. or semi-ideo. in 𓅜𓏤 var. 𓄿𓐍 [t]Ꜣḫ[/t] 'spirit', 'spirit-like nature'. Hence semi-phon. [t]Ꜣḫ[/t] in 𓅜𓐍 [t]Ꜣḫ[/t] 'be glorious', 'beneficial' and derivatives.",
+      "page_number": 470,
+      "unicode": "U+1315C"
     },
     {
       "category_group": "G, Birds",
+      "description": "sacred ibis on the standard 𓊾 <a href='#R12'>R 12</a>",
       "gardiner_number": "G26",
       "glyph": "𓅝",
+      "notes": "Det. in 𓉔𓃀𓅝 [t]hb[/t] 'ibis'. Det in 𓅝_𓏏𓏭𓀭 varr. 𓁟, 𓆓𓎛𓅱_𓏏𓏭 [t]Ḏḥwty[/t] '(the god) Thoth'.",
+      "page_number": 470,
       "unicode": "U+1315D",
       "variants": [
         ["𓅞", "G26a", "U+1315E"]
-      ],
-      "description": "sacred ibis on the standard 𓊾 <a href='#R12'>R 12</a>",
-      "notes": "Det. in hb 'ibis'. Det in Ḏḥwty '(the god) Thoth'.",
-      "page_number": 470
+      ]
     },
     {
       "category_group": "G, Birds",
@@ -2934,30 +2934,30 @@
     },
     {
       "category_group": "G, Birds",
+      "description": "flamingo",
       "gardiner_number": "G27",
       "glyph": "𓅟",
-      "unicode": "U+1315F",
-      "description": "flamingo",
-      "notes": "Det. in [t]dšr[/t] 'flamingo'. Hence semi-phon. [t]dšr[/t] in [t]dšr[/t] 'red' and derivatives.",
-      "page_number": 470
+      "notes": "Det. in 𓂧𓈙𓂋𓅟 [t]dšr[/t] 'flamingo'. Hence semi-phon. [t]dšr[/t] in 𓂧𓈙𓂋𓅟 var. 𓅟𓂋 [t]dšr[/t] 'red' and derivatives.",
+      "page_number": 470,
+      "unicode": "U+1315F"
     },
     {
       "category_group": "G, Birds",
+      "description": "black ibis",
       "gardiner_number": "G28",
       "glyph": "𓅠",
-      "unicode": "U+13160",
-      "description": "black ibis",
-      "notes": "Cf. O.K. gmt 'the gmt-bird'. Hence, phon. gm, exx. gmi 'to find'; [t]gmḥ[/t] 'look at'.",
-      "page_number": 470
+      "notes": "Cf. O.K. 𓎼𓅓𓏏 [t]gmt[/t] 'the gmt-bird'. Hence, phon. [t]gm[/t], exx. 𓅠𓅓 [t]gmi[/t] 'to find'; 𓅠𓅓𓎛𓁺 [t]gmḥ[/t] 'look at'.",
+      "page_number": 470,
+      "unicode": "U+13160"
     },
     {
       "category_group": "G, Birds",
+      "description": "jabiru",
       "gardiner_number": "G29",
       "glyph": "𓅡",
-      "unicode": "U+13161",
-      "description": "jabiru",
       "notes": "Ideo. in [t]bꜢ[/t] 'soul (in bird form)'. Hence phon. [t]bꜢ[/t], exx. [t]bꜢk[/t] 'servant'; [t]ḫbꜢ[/t] 'destroy'. In group writing with single stroke, after minature or is used for b.",
-      "page_number": 470
+      "page_number": 470,
+      "unicode": "U+13161"
     },
     {
       "category_group": "G, Birds",
