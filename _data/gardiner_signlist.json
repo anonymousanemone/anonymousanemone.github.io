@@ -7247,24 +7247,24 @@
     },
     {
       "category_group": "W, Vessels of stone and earthenware",
+      "description": "bowl",
       "gardiner_number": "W24",
       "glyph": "𓏌",
+      "notes": "Phon. [t]nw[/t], exx. 𓏌𓏤 [t]nw (nyw)[/t] 'of', m. plur.; 𓏌𓏏𓇯 [t]Nwt[/t] '(the goddess) Nut', probably so to be read in spite of an obscure Pyr. var. 𓏌𓏌𓏏𓇯; 𓎛_𓆰𓈖𓏌𓅱𓏊 [t]ḥnw[/t] 'vessel'. Initial [t]nw[/t] is preferably written 𓈖𓍇_𓏌𓅱 or 𓍇𓏌_𓅱, see on <a href='#U19'>U 19</a>; final [t]nw[/t] is sometimes written 𓏌𓏌𓏌, exx. 𓏠𓏌𓏌𓏌 [t]mnw[/t] 'monument'; 𓌙𓏌𓏌𓏌𓈀[t]Ṯḥnw[/t] 'Libya'. Great difficulty is caused by 𓏌𓏌𓏌𓇯𓈗 'primeval waters', which may have existed in two distince forms (1) [t]niw[/t] or [t]nww[/t] or [t]nw[/t], (2) [t]nnw[/t] or [t]nwnw[/t]; for (1) see Pyr. var. 𓈖_𓇋𓅱 and a Dyn. XVIII enigmatic equivalent 𓈖_𓅱𓅱; for (2) see Pyr. var. 𓈖𓈖_𓏌𓏌𓏌_𓅱, also the female counterpart 𓈖𓇒𓏏𓇯 [t]nnt[/t] 'the lower heaven', further the personal name 𓏌𓏌𓏌𓀔 presumably to be read [t]Nnw[/t] on accound of 𓈖𓈖𓀔 [t]nn(i)[/t] 'child'. Phon. also [t]in[/t] (cf. 𓏎 <a href='#W25'>W 25</a>) in 𓏌𓎡 var. Pyr. 𓇋_𓈖𓎡  [t]ink[/t] 'I'. Phon. det. in 𓍑𓍑𓏌𓏏𓐖𓀀𓏥 varr. Pyr. 𓍑𓍑_𓏏𓂂, 𓍑𓆓𓂂𓏏 [t]ḏꜢḏꜢt[/t] 'council'; whether the former writing has anything to do with 𓍑𓄿𓍑𓄿𓅱𓏊 [t]ḏꜢḏꜢw[/t] 'pot' is doubtful. So too from M.K. 𓐪𓂧𓏌 replaces O.K. 𓐫𓂧𓂂 in such words as 𓐪𓂧𓏌𓀨 var. Pyr. 𓐪𓊅𓂧𓂂 [t]qd[/t] 'build'; 𓐪𓂧𓏌𓏛 var. O.K. 𓐫𓂧𓂂 [t]qd[/t] 'form'; the only phon. det. here is due to the stem meaning of [t]qdi[/t] 'go round', while the later may be connected with [t]qd[/t] 'fashion' pots. From M.K. onwards inexplically accompanies 𓐟 <a href='#Aa17'>Aa 17</a>, exx. [t]nḏ[/t] 'protect'; [t]nḏ[/t] 'ask'; and is found also in [t]Nḫbt[/t] '(the goddess) Nekhbet'. The writing for [t]m-ẖnw[/t] 'in', lit. 'in the interior (of)' has been explained as a rebus m(w) [t]ẖ(r) nw[/t] 'water under pot'. Lastly, W 24 occurs as occasional alternative to or as det. pot; hieratic often fails to distinguish these signs.",
+      "page_number": 531,
       "unicode": "U+133CC",
       "variants": [
         ["𓏍", "W24a", "U+133CD"]
-      ],
-      "description": "bowl",
-      "notes": "Phon. nw, exx. nw (nyw) 'of', m. plur.; Nwt '(the goddess) Nut', probably so to be read (in spite of an obscure Pyr. var.) [t]ḥnw[/t] 'vessel'. For 𓍇 preferred writing of initial nw see on <a href='#U19'>U 19</a>; final nw is sometimes written , exx. mnw 'monument'; Ṯḥnw 'Libya'. Great difficulty is caused by 'primeval waters', which may have existed in two distince forms (1) niw or nww or nw, (2) nnw or nwnw. Phon. also in (cf. 𓏎 <a href='#W25'>W 25</a>) in ink 'I'. Phon. det. in [t]ḏꜢḏꜢt[/t] 'council'; whether the former writing has anything to do with [t]ḏꜢḏꜢw[/t] 'pot' is doubtful. So too from M.K. used in such words as qd 'build'; qd 'form'; the only phon. det. here is due to the stem meaning of qdi 'go round', while the later may be connected with qd 'fashion' pots. From M.K. onwards inexplically accompanies 𓐟 <a href='#Aa17'>Aa 17</a>, exx. [t]nḏ[/t] 'protect'; [t]nḏ[/t] 'ask'; and is found also in [t]Nḫbt[/t] '(the goddess) Nekhbet'. The writing for [t]m-ẖnw[/t] 'in', lit. 'in the interior (of)' has been explained as a rebus m(w) [t]ẖ[/t](r) nw 'water under pot'. Lastly, W24 occurs as occasional alternative to or as det. pot; hieratic often fails to distinguish these signs.",
-      "page_number": 531
+      ]
     },
     {
       "category_group": "W, Vessels of stone and earthenware",
+      "description": "combination of 𓏌 <a href='#W24'>W 24</a> and 𓂻 <a href='#D54'>D 54</a>",
       "gardiner_number": "W25",
       "glyph": "𓏎",
-      "unicode": "U+133CE",
-      "description": "combination of 𓏌 <a href='#W24'>W 24</a> and 𓂻 <a href='#D54'>D 54</a>",
-      "notes": "In ini 'bring', 'fetch'.",
-      "page_number": 531
+      "notes": "In 𓏎𓈖 var. Pyr. 𓇋𓏎𓈖 [t]ini[/t] 'bring', 'fetch'.",
+      "page_number": 531,
+      "unicode": "U+133CE"
     },
     {
       "category_group": "X, Loaves and cakes",
@@ -7492,15 +7492,15 @@
     },
     {
       "category_group": "Z, Strokes",
+      "description": "two diagonal strokes (less often written straight)",
       "gardiner_number": "Z4",
       "glyph": "𓏭",
+      "notes": "In Pyr. only as det. duality, exx. 𓍿𓈖𓏭 [t]ṯn(i)[/t] 'you two' (cf. for the ending 𓋴𓈖𓇋 [t]śni[/t] 'they two'); 𓂝𓏭 varr. 𓂝_𓅱, 𓂝𓏭𓅱 [t]ꜥw(i)[/t], also 𓂝𓏭𓇋𓇋 [t]ꜥw(y)[/t], 'the two arms'; and in O.K., ex. 𓄖𓏮𓅱 [t]pḥw(i)[/t] 'end'. In some cases 𓏭 replaced human figures, these being deemed to be magically dangerous, exx. 𓅜𓏏𓏭 [t]Ꜣḫt(i)[/t] 'the two glorious ones' for 𓅭𓅭_𓏏𓏏𓏭[t]sꜢt(i)[/t] 'son and daughter'; 𓏏𓏏𓅱𓇋𓏮 [t]t(w)twi[/t] 'the two images'. The last use survives in M.E. 𓄞𓏏𓏭𓏭 [t]Šdty[/t] 'Crocodilopolite', where, however, the hieratic 𓏭 replaces, not dangerous singns, but signs difficult to draw; see below 𓏯 <a href='#Z5'>Z 5</a>. Elsewhere in M.E. 𓏭 is always phon. [t]y[/t], through its constant association earlier with words of dual form, i.e. ending in [t]i (y)[/t]; exx. are 𓆑𓏭 [t].fy[/t], var. Pyr. 𓆑𓇋 [t].fi[/t], 'his two'; 𓋀𓏏𓏭_𓈉 [t]imnty[/t] 'western'; 𓄔_𓅓_𓏏𓏭_𓆑𓏭 [t]sḏmty.fy[/t] 'who will hear'. Except in compounds like the last 𓏭 [t]y[/t] is always final consonant; it has its distinct uses, and 𓇋𓇋 is seldom interchangeable with it.",
+      "page_number": 537,
       "unicode": "U+133ED",
       "variants": [
         ["𓏮", "Z4a", "U+133EE"]
-      ],
-      "description": "two diagonal strokes (less often written straight)",
-      "notes": "In Pyr. only as det. duality, exx. 𓍿𓈖𓏭 [t]ṯn(i)[/t] 'you two' (cf. for the ending 𓋴𓈖𓇋 [t]śni[/t] 'they two'); 𓂝𓏭 varr. 𓂝_𓅱, 𓂝𓏭𓅱 [t]ꜥw(i)[/t], also 𓂝𓏭𓇋𓇋 [t]ꜥw(y)[/t], 'the two arms'; and in O.K., ex. 𓄖𓏮𓅱 [t]pḥw(i)[/t] 'end'. In some cases 𓏭 replaced human figures, these being deemed to be magically dangerous, exx. 𓅜𓏏𓏭 [t]Ꜣḫt(i)[/t] 'the two glorious ones' for 𓅭𓅭_𓏏𓏏𓏭[t]sꜢt(i)[/t] 'son and daughter'; 𓏏𓏏𓅱𓇋𓏮 [t]t(w)twi[/t] 'the two images'. The last use survives in M.E. 𓄞𓏏𓏭𓏭 [t]Šdty[/t] 'Crocodilopolite', where, however, the hieratic 𓏭 replaces, not dangerous singns, but signs difficult to draw; see below 𓏯 <a href='#Z5'>Z 5</a>. Elsewhere in M.E. 𓏭 is always phon. [t]y[/t], through its constant association earlier with words of dual form, i.e. ending in [t]i (y)[/t]; exx. are 𓆑𓏭 [t].fy[/t], var. Pyr. 𓆑𓇋 [t].fi[/t], 'his two'; 𓋀𓏏𓏭_𓈉 [t]imnty[/t] 'western'; 𓄔_𓅓_𓏏𓏭_𓆑𓏭[t]sḏmty.fy[/t] 'who will hear'. Except in compounds like the last 𓏭 [t]y[/t] is always final consonant; it has its distinct uses, and 𓇋𓇋 is seldom interchangeable with it.",
-      "page_number": 537
+      ]
     },
     {
       "category_group": "Z, Strokes",
